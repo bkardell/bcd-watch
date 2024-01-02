@@ -6,7 +6,7 @@ on:
   push:
     branches: ["main"]
   workflow_run:
-    workflows: ["Manual workflow"]
+    workflows: ["Manual workflow", "Node.js Cron Job"]
     types:
       - completed
 

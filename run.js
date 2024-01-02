@@ -1,9 +1,9 @@
 var fs = require('fs')
- 
+var runAt = new Date().toUTCString()
 var result = `<!DOCTYPE HTML>
 <html>
 	<body>
-		<h1>HELLO WORLD</h1>
+		<h1>Last Run at ${runAt}</h1>
 	</body>
 </html>`
 

@@ -1,0 +1,22 @@
+{
+  "name": "bcd-watch",
+  "version": "0.9.0",
+  "description": "A ultility to watch for changes to bcd data",
+  "main": "summarize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "17.x"
+  },
+  "devDependencies": {
+    "feed": "^2.0.4"
+  },
+  "repository": {
+    "url": "https://github.com/bkardell/bcd-watch"
+  },
+  "author": "bkardell",
+  "dependencies": {
+    "jsdom": "^20.0.1"
+  }
+}

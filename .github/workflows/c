@@ -1,0 +1,23 @@
+name: Node.js Cron Job
+on:
+  schedule:
+    # Runs at the 0th minute of every 4th hour
+    - cron: '0 */4 * * *'
+jobs:
+  node-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '19.x'
+      - name: Install dependencies
+        run: npm install
+      - name: Run Node.js script
+        run: node run.js
+      - name: Commit output file
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update the data"
+          file_pattern: out/index.html

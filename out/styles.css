@@ -3,7 +3,7 @@ html {
 }
 body {
 	max-width: max-content;
-	margin-inline: 2rem;
+	margin-inline: auto;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Noah;
@@ -38,8 +38,13 @@ ol {
 	margin-inline: 0;
 	list-style: none;
 }
+
+h4 + ol {
+	margin-left: 2rem;
+}
+
 details ol {
-	columns: 2;
+	/* columns: 2; */
 }
 li {
 	padding-block: 0.125em;

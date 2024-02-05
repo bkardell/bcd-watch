@@ -1,7 +1,7 @@
 name: Node.js Cron Job
 on:
   schedule:
-    # Runs at the 0th minute of every 4th hour
+    # Runs at noon every Monday
     - cron: '0 12 * * 1'
 jobs:
   node-job:

@@ -1,8 +1,8 @@
 name: Node.js Cron Job
 on:
   schedule:
-    # Runs at noon every Monday
-    - cron: '0 12 * * 1'
+    # Runs at the 0th minute of every 4th hour
+    - cron: '0 */4 * * *'
 jobs:
   node-job:
     runs-on: ubuntu-latest
@@ -20,4 +20,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update log file"
-          file_pattern: out/index.html
+          file_pattern: out/*.html store/*.json

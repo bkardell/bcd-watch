@@ -66,7 +66,7 @@ function run(o,l) {
         file: 'toDate.html',
         blurb: 'Weekly summary of changes to BCD data',
         content: markup,
-        pubDate: toDate // I guess always use the to date?
+        pubDate: toDate, // I guess always use the to date?
         image: ""
       }]
   }, "weekly")

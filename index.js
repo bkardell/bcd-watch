@@ -10,7 +10,8 @@
   output_path = './out'
   flatten = require('./flatten.js').flatten,
   delta = require('./delta.js').delta,
-  formatter = require('./format')
+  formatter = require('./format'),
+  RSS = requires('./feed-creator.js')
 
 
 function run(o,l) {
@@ -24,26 +25,51 @@ function run(o,l) {
 
   let data = delta(flattenedA, flattenedB)
 
+  let fromDate = new Date(inputA.__meta.timestamp)
+  let toDate =  new Date(inputB.__meta.timestamp)
+  
   // TODO: this is messy, should probably reconsider
   // how it is stored and recalled, but at least for now
   // this keeps the old thing working 
   data.__meta = [{
-      older: { releaseDate: new Date(inputA.__meta.timestamp) },
-      newer: { releaseDate: new Date(inputB.__meta.timestamp) }
+      older: { releaseDate: fromDate },
+      newer: { releaseDate: toDate }
   }]
   data.addedFeatures = data.added
   data.removedFeatures = data.removed
 
 
   let out = formatter.formatSummary(data, flattenedB)
-  //console.log(data.addedImplementations)
-  console.log(out)
+  let title = `BCD Changes Report, ${fromDate} - ${toDate}`
+  
+  // console.log(out)
+  markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + out + `\n</body>\n</html>`,
+      
+  
+  // current...
   fs.writeFileSync(
       output_path + '/index.html',
-      `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>BCD Changes Report, ${new Date()}</title>\n</head>\n<body>\n` + out + `\n</body>\n</html>`,
+      markup,
       'utf8'
   )
-  // console.log(flattenedB[data.added[0]])
+
+  // archived
+  fs.writeFileSync(
+      output_path + '/toDate.html',
+      markup,
+     'utf8'
+  )
+
+  RSS({
+      items: [{ 
+        title: title,
+        file: 'toDate.html',
+        blurb: 'Weekly summary of changes to BCD data',
+        content: markup,
+        pubDate: toDate // I guess always use the to date?
+        image: ""
+      }]
+  }, "weekly")
 }
 
 exports.run = run

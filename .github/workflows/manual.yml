@@ -24,6 +24,6 @@ jobs:
       - name: Commit output file
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update log file"
-          file_pattern: out/index.html
+          commit_message: "Updated after latest run"
+          file_pattern: out/*.* store/*.json
 

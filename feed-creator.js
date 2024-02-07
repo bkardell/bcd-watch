@@ -7,8 +7,8 @@ module.exports = function (meta, filename="feed") {
     let feed = new Feed({
       title: 'bcd-watch rss feed',
       description: 'A feed that summarizes changes to BCD weekly',
-      id: 'https://bkardell.github.io/bcd-watch',
-      link: 'bkardell.github.io/bcd-watch',
+      id: 'https://bkardell.com/bcd-watch',
+      link: 'https://bkardell.com/bcd-watch',
       image: 'https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg',
       // favicon: 'http://example.com/favicon.ico',
       updated: new Date(),
@@ -32,8 +32,8 @@ module.exports = function (meta, filename="feed") {
 
       feed.addItem({
         title: item.title,
-        id: `https://bkardell.com/blog/${item.file}`,
-        link: `https://bkardell.com/blog/${item.file}`,
+        id: `https://bkardell.com/bcd-watch/${item.file}`,
+        link: `https://bkardell.com/bcd-watch/${item.file}`,
         description: item.blurb,
         content: `${item.content}`,
         date: new Date(item.pubDate),

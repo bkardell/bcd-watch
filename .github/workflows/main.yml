@@ -20,4 +20,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Update log file"
-          file_pattern: out/*.html store/*.json
+          file_pattern: out/*.* store/*.json

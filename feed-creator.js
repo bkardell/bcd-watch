@@ -1,5 +1,5 @@
 const fs = require('fs'),
-      path = './output/',
+      path = './out/',
       Feed = require('feed').Feed
 
 module.exports = function (meta, filename="feed") {

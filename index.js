@@ -11,7 +11,7 @@
   flatten = require('./flatten.js').flatten,
   delta = require('./delta.js').delta,
   formatter = require('./format'),
-  RSS = requires('./feed-creator.js')
+  RSS = require('./feed-creator.js')
 
 
 function run(o,l) {

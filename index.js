@@ -14,15 +14,19 @@
   RSS = require('./feed-creator.js')
 
 
+function shortDate(date) {
+  let dateParts = date.toDateString().split(' ')
+  dateParts.shift()
+  return dateParts.join('-')
+}
+
 function run(o,l) {
   let inputA = JSON.parse(fs.readFileSync(`${store_path}/${o}`))
   let inputB = JSON.parse(fs.readFileSync(`${store_path}/${l}`))
 
   let flattenedA = flatten(inputA)
   let flattenedB = flatten(inputB)
-  //console.log(JSON.stringify(flattenedA,null,2))
-
-
+  
   let data = delta(flattenedA, flattenedB)
 
   let fromDate = new Date(inputA.__meta.timestamp)
@@ -53,9 +57,11 @@ function run(o,l) {
       'utf8'
   )
 
+  let name = shortDate(toDate)
+
   // archived
   fs.writeFileSync(
-      output_path + '/toDate.html',
+      output_path + `/${name}.html`,
       markup,
      'utf8'
   )
@@ -63,9 +69,9 @@ function run(o,l) {
   RSS({
       items: [{ 
         title: title,
-        file: 'toDate.html',
+        file: `${name}.html`,
         blurb: 'Weekly summary of changes to BCD data',
-        content: markup,
+        content: out,
         pubDate: toDate, // I guess always use the to date?
         image: ""
       }]

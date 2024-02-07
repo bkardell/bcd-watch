@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "17.x"
+    "node": "19.x"
   },
   "devDependencies": {
     "feed": "^2.0.4"

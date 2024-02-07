@@ -4,7 +4,7 @@
         <title>bcd-watch rss feed</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 07 Feb 2024 14:43:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Feb 2024 16:00:48 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -16,19 +16,11 @@
         <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[BCD Changes Report, Tue Jan 02 2024 13:31:41 GMT+0000 (Coordinated Universal Time) - Tue Jan 30 2024 16:03:39 GMT+0000 (Coordinated Universal Time)]]></title>
-            <link>https://bkardell.com/bcd-watch/toDate.html</link>
-            <guid>https://bkardell.com/bcd-watch/toDate.html</guid>
+            <link>https://bkardell.com/bcd-watch/Jan-30-2024.html</link>
+            <guid>https://bkardell.com/bcd-watch/Jan-30-2024.html</guid>
             <pubDate>Tue, 30 Jan 2024 16:03:39 GMT</pubDate>
             <description><![CDATA[Weekly summary of changes to BCD data]]></description>
-            <content:encoded><![CDATA[<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<link type="text/css" href="styles.css" rel="stylesheet">
-<title>BCD Changes Report, Tue Jan 02 2024 13:31:41 GMT+0000 (Coordinated Universal Time) - Tue Jan 30 2024 16:03:39 GMT+0000 (Coordinated Universal Time)</title>
-</head>
-<body>
-
+            <content:encoded><![CDATA[
 	<div>
 		<tt>Summary of BCD changes from Tue Jan 02 2024 13:31:41 GMT+0000 (Coordinated Universal Time) to Tue Jan 30 2024 16:03:39 GMT+0000 (Coordinated Universal Time)</tt>
 	</div>
@@ -63,9 +55,7 @@
 	 	<ol class="removed implementations">
 	 		
 	 	</ol>
-	 
-</body>
-</html>]]></content:encoded>
+	 ]]></content:encoded>
         </item>
     </channel>
 </rss>

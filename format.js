@@ -70,7 +70,15 @@ function formatSummary(delta, data) {
  				retVal += `<h4>${topic}</h4><ol>`
  				lastTopic = topic
  			}
- 			retVal +=  `<li><a href="${feature.mdn_url || feature.spec_url}">${formatFeatureStr(feature.key, topic)}</a> <span class="browsers">Added to <strong>${feature.addedImplementations.length}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>`
+ 			retVal +=  `<li>`;
+ 			if (feature.mdn_url || feature.spec_url) {
+	 			retVal += `<a href="${feature.mdn_url || feature.spec_url}">`;
+	 		}
+ 			retVal += `${formatFeatureStr(feature.key, topic)}`;
+ 			if (feature.mdn_url || feature.spec_url) {
+	 			retVal += `</a>`;
+ 			}
+ 			retVal += `<span class="browsers">Added to <strong>${feature.addedImplementations.length}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>`;
  			return retVal;
  		}).join('')}
  		</li></ol>

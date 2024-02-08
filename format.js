@@ -27,7 +27,7 @@ function formatSummary(delta, data) {
 	 				retVal += `<h4>${topic}</h4><ol>`
 	 				lastTopic = topic
 	 			}
-	 			retVal += `<li>${formatFeatureStr(feature, topic)}</li>`
+	 			retVal += `<li>${formatFeatureStr(feature, topic).trim()}</li>\n`
 	 			return retVal
 	 		}).join('')}
 	 	</ol>
@@ -46,7 +46,7 @@ function formatSummary(delta, data) {
 	 				retVal += `<h4>${topic}</h4><ol>`
 	 				lastTopic = topic
 	 			}
-	 			retVal += `<li>${formatFeatureStr(feature, topic)}</li>`
+	 			retVal += `<li>${formatFeatureStr(feature, topic).trim()}</li>\n`
 	 			return retVal
 	 		}).join('')}
 	 	</ol>
@@ -78,16 +78,16 @@ function formatSummary(delta, data) {
  			if (feature.mdn_url || feature.spec_url) {
 	 			retVal += `</a>`;
  			}
- 			retVal += `<span class="browsers">Added to <strong>${feature.addedImplementations.length}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>`;
+ 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.length}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
  			return retVal;
  		}).join('')}
- 		</li></ol>
+ 		</ol>
 
 		<h3>Removed (${delta.removedImplementations.length})</h3>
 
 	 	<ol class="removed implementations">
 	 		${delta.removedImplementations.map((feature) => {
-	 			return `<li><a href="${''}">${formatFeatureStr(feature.name)}</a> implementation removed in: ${feature.implementationsRemoved };</li>`
+	 			return `<li><a href="${''}">${formatFeatureStr(feature.name)}</a> implementation removed in: ${feature.implementationsRemoved };</li>\n`
 	 		}).join('')}
 	 	</ol>
 	 `

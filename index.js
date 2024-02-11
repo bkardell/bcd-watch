@@ -5,13 +5,13 @@
   does some processing, produces a flattened delta
   and outputs out/index.html
  */
-  let fs = require('fs'),
-  store_path = './store',
-  output_path = './out'
-  flatten = require('./flatten.js').flatten,
-  delta = require('./delta.js').delta,
-  formatter = require('./format'),
-  RSS = require('./feed-creator.js')
+let fs = require('fs'),
+store_path = './store',
+output_path = './out'
+flatten = require('./flatten.js').flatten,
+delta = require('./delta.js').delta,
+formatter = require('./format'),
+RSS = require('./feed-creator.js')
 
 
 function shortDate(date) {

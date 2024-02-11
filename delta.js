@@ -53,7 +53,7 @@ function deltaSupport(key, past, cur, out) {
 		if (!past.support[browser].version_added && cur.support[browser].version_added) {
 			//out.addedImplementations.push(key)
             cur.key = key
-			added.push(cur)
+			added.push(browser)
 			if (!changed){ out.addedImplementations.push(cur) }
 			changed = true
 		} else if (past.support[browser].version_added && !cur.support[browser].version_added) {

@@ -78,7 +78,7 @@ function formatSummary(delta, data) {
  			if (feature.mdn_url || feature.spec_url) {
 	 			retVal += `</a>`;
  			}
- 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.length}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
+ 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
  			return retVal;
  		}).join('')}
  		</ol>

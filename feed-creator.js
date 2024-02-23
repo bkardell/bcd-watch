@@ -15,6 +15,7 @@ module.exports = function (meta, filename="feed") {
       copyright: 'All rights reserved 2024, Brian Kardell',
       generator: 'awesome mix', // optional, default = 'Feed for Node.js'
       feedLinks: {
+        rss: 'https://bkardell.com/bcd-watch/feed.rss',
         json: 'https://bkardell.com/bcd-watch/feed.json',
         atom: 'https://bkardell.com/bcd-watch/feed.atom',
       }, 

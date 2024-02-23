@@ -15,7 +15,6 @@ function formatSummary(delta, data) {
 	</div>
 	<h2>Added Features: ${delta.addedFeatures.length}</h2>
 	 <details>
-	 	<ol>
 
 	 		${delta.addedFeatures.map((feature) => {
 	 			let retVal = ''
@@ -35,7 +34,6 @@ function formatSummary(delta, data) {
 
 	 <h2>Removed Features: ${delta.removedFeatures.length}</h2>
 	 <details>
-	 	<ol>
 	 		${delta.removedFeatures.map((feature) => {
 	 			let retVal = ''
 	 			let topic = feature.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")

@@ -4,7 +4,7 @@
         <title>bcd-watch rss feed</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Tue, 20 Feb 2024 16:22:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Feb 2024 20:19:28 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -26,7 +26,6 @@
 	</div>
 	<h2>Added Features: 121</h2>
 	 <details>
-	 	<ol>
 
 	 		<h4>api</h4><ol><li>Permissions ➞ permission_screen-wake-lock</li>
 <li>VisualViewport ➞ scrollend_event</li>
@@ -155,7 +154,6 @@
 
 	 <h2>Removed Features: 92</h2>
 	 <details>
-	 	<ol>
 	 		</ol><h4>api</h4><ol><li>WebGL2RenderingContext ➞ blendFuncSeparate ➞ SharedArrayBuffer_as_param</li>
 <li>WebGL2RenderingContext ➞ bufferSubData ➞ SharedArrayBuffer_as_param</li>
 <li>WebGL2RenderingContext ➞ clearBufferfv ➞ SharedArrayBuffer_as_param</li>

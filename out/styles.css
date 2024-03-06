@@ -4,25 +4,31 @@ html {
 body {
 	max-width: max-content;
 	margin-inline: auto;
+	padding-inline: 0.5em;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Noah;
-	max-width: max-content;
-	margin: 0;
+	margin-block: 1em 0;
+}
+h1 {
+	font-size: 2.75em;
+	line-height: 1.1;
+}
+h1 + p {
+	font-size: 1.25em;
 }
 h2 {
-	border-block: 1px solid #AAAAAAAA;
-	border-block-start: 2px solid #AAAAAA;
 	padding-block: 0.25em 0.125em;
-	margin-block: 1em 0.5em;
-	border-top-right-radius: 0.5em;
-	background: linear-gradient(270deg, #AAA1, #AAA4 0.5em, #AAAA);
+	margin-block-end: 0.5em;
 	padding-inline: 0.5em;
 	margin-inline: -0.5em 0;
-	text-shadow: 0 0 2px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;
-}
-h3 {
-	margin-block-start: 1em;
+	border-image-outset: 0 0 0 1em;
+	border-image-slice: 0 fill;
+	border-image-width: 0;
+	border-image-repeat: stretch;
+	mix-blend-mode: multiply;
+	border-image-source: linear-gradient(90deg,#445 10em,#889);
+	color: #FFF
 }
 ol + h3 {
 	margin-block-start: 2em;
@@ -30,28 +36,137 @@ ol + h3 {
 h4 {
 	display: block;
 	width: 100%;
+	max-width: 100%;
+	text-transform: uppercase;
 	padding-block: 0.33em 0.25em;
-	padding-inline: 1em;
+	margin-block: 1em 0;
+	padding-inline: 0;
+	border-image-outset: 0 0 0 1em;
+	border-image-slice: 0 fill;
+	border-image-width: 0;
+	border-image-repeat: stretch;
+	mix-blend-mode: multiply;
+	border-image-source: linear-gradient(90deg,#BBC 10em,#CCD);
 }
+
+time {
+	text-wrap: nowrap;
+}
+
+summary {
+	font-style: italic;
+	cursor: pointer;
+}
+details li {
+	padding-block: 0.25em;
+	padding-inline: 0.25em;
+	margin-inline-start: 1em;
+}
+details.added li::marker {
+	content: "➕";
+}
+details.removed li::marker {
+	content: "🗑";
+}
+
+label {
+	cursor: pointer;
+}
+
 ol {
 	padding: 0;
 	margin-inline: 0;
+	margin-block: 0;
 	list-style: none;
 }
-
-h4 + ol {
-	margin-left: 2rem;
+li + li {
+	border-top: 1px dotted #AAA;
 }
 
-details ol {
-	/* columns: 2; */
+section {
+	display: grid;
+	grid-template-columns: auto auto max-content;
 }
-li {
-	padding-block: 0.125em;
+section :is(h4, ol, li) {
+	grid-column: 1 / -1;
+	margin-inline: 0;
 }
-li > span {
-	padding-inline: 1em;
+
+section :is(ol, li) {
+	display: grid;
+	grid-template-columns: subgrid;
+	gap: 0 1em;
 }
+section li {
+	padding-block: 0.15em;
+}
+section li:hover {
+	background: #EEE;
+}
+section li:hover a[href] {
+	background: #FFD;
+	border-radius: 0 0.67em 0.67em 0;
+}
+section ol li > b {
+	margin-inline: 0.75em;
+}
+section span.engines {
+	align-self: start;
+	background-color: #FFF;
+}
+section span.browsers strong {
+	text-transform: capitalize;
+}
+
+@media (max-width: 699px) {
+	section li {
+		grid-template-rows: auto auto auto;
+	}
+	section li > :first-child {
+		grid-column: 1;
+		grid-row: 1 / -1;
+	}
+	section li span {
+		grid-column: 2;
+	}
+}
+
+@media (max-width: 499px) {
+	section li {
+		padding-block: 0.5em;
+	}
+	section li span {
+		grid-column: 1 / -1;
+	}
+	section li > :first-child {
+		grid-row: 1;
+	}
+	section li span.engines {
+		grid-row: 3;
+		max-width: max-content;
+	}
+	section li span.browsers {
+		grid-row: 2;
+	}
+}
+
+@supports (grid-template-columns: subgrid) {
+	ol li > b {
+		display: none;
+	}
+}
+
+[class^="ni"] {
+	--niColor: hsl(120deg, 20%, 80%);
+	--niLength: 1%;
+	background: linear-gradient(135deg, var(--niColor) 0%, var(--niColor) calc(var(--niLength) * 33%), transparent 0);
+	padding-inline: 1ch;
+}
+
+.ni1 {--niLength: 1;}
+.ni2 {--niLength: 2;}
+.ni3 {--niLength: 4; --niColor: hsl(120deg, 70%, 30%); color: #FFF; font-weight: 750;}
+
 ol.implementations li > span > strong {
 	text-transform: capitalize;
 }
@@ -90,42 +205,6 @@ ol.implementations li > span > strong {
 		padding-inline-start: 0.5em;
 	}
 }
-
-@supports (grid-template-columns: subgrid) {
-	li > span {
-		padding-inline: 0;
-	}
-	.implementations > li {
-		margin-block: 0.5em;
-	}
-	.implementations {
-		display: grid;
-		grid-template-columns: auto auto auto auto;
-		gap: 0 1em;
-	}
-	.implementations ol {
-		display: grid;
-		grid-template-columns: subgrid;
-		grid-column: 1 / -1;
-		margin-inline-start: 2ch;
-	} 
-	.implementations li {
-		display: grid;
-		grid-column: span 4;
-		grid-template-columns: subgrid;
-	}
-}
-
-[class^="ni"] {
-	--niColor: hsl(120deg, 30%, 75%);
-	--niLength: 1%;
-	background: linear-gradient(135deg, var(--niColor) 0%, var(--niColor) calc(var(--niLength) * 33%), transparent 0);
-	padding-inline: 1ch;
-}
-
-.ni1 {--niLength: 1;}
-.ni2 {--niLength: 2;}
-.ni3 {--niLength: 4; --niColor: hsl(120deg, 70%, 35%); color: #FFF; font-weight: 750;}
 
 footer {
 	border-block-start: 1px solid #AAAAAAAA;

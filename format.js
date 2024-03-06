@@ -9,13 +9,17 @@ function formatFeatureStr(str, topic) {
 }
 
 function formatSummary(delta, data) {
+	
+	let rTS = new Date(Date.parse(delta.__meta[0].newer.releaseDate)); // 'reportTimeStamp'
+	let reportDate = `${rTS.toDateString()}`;
 	let out = `
+	<h1>BCD Changes Report, <time>${reportDate}</time></h1>
 	<div>
-		<tt>Summary of BCD changes from ${delta.__meta[0].older.releaseDate} to ${delta.__meta[0].newer.releaseDate}</tt>
+		<p>Summary of BCD changes from <time>${delta.__meta[0].older.releaseDate}</time> to <time>${delta.__meta[0].newer.releaseDate}</time></p>
 	</div>
 	<h2>Added Features: ${delta.addedFeatures.length}</h2>
-	 <details>
-
+	 <details class="added features">
+	 		<summary>Expand to see the full list</summary>
 	 		${delta.addedFeatures.map((feature) => {
 	 			let retVal = ''
 	 			let topic = feature.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
@@ -33,7 +37,8 @@ function formatSummary(delta, data) {
 	 </details>
 
 	 <h2>Removed Features: ${delta.removedFeatures.length}</h2>
-	 <details>
+	 <details class="removed features">
+	 		<summary>Expand to see the full list</summary>
 	 		${delta.removedFeatures.map((feature) => {
 	 			let retVal = ''
 	 			let topic = feature.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
@@ -52,12 +57,12 @@ function formatSummary(delta, data) {
 
 	 <h2>Implementation Status Changes: +${delta.addedImplementations.length}, -${delta.removedImplementations.length}</h2>
 
-		<h3>Added (${delta.addedImplementations.length})</h3>
-		<label>Only Show Completed in All 3 <input type="checkbox" id="filter"></label>
+		<h3>Added (${delta.addedImplementations.length})</h3>`;
+		out += `<label>Only Show Completed in All 3 <input type="checkbox" id="filter"></label>
 		<script>filter.onchange = () => { 
 			document.body.classList.toggle('filtered')
-		}</script>
-		<ol  class="added implementations"><li>
+		}</script><section>`;
+		out += `<ol class="added implementations"><li>
  		${delta.addedImplementations.map((feature) => {
  			let retVal = ''
  			let topic = feature.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
@@ -71,12 +76,19 @@ function formatSummary(delta, data) {
  			retVal +=  `<li>`;
  			if (feature.mdn_url || feature.spec_url) {
 	 			retVal += `<a href="${feature.mdn_url || feature.spec_url}">`;
+	 		} else {
+	 			retVal += '<span>';
 	 		}
  			retVal += `${formatFeatureStr(feature.key, topic)}`;
  			if (feature.mdn_url || feature.spec_url) {
 	 			retVal += `</a>`;
- 			}
- 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
+ 			} else {
+	 			retVal += '</span>';
+	 		}
+ 			retVal += ' <b>↠</b> ';
+ 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> `;
+ 			retVal += ' <b>↠</b> ';
+ 			retVal += ` <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
  			return retVal;
  		}).join('')}
  		</ol>
@@ -88,6 +100,7 @@ function formatSummary(delta, data) {
 	 			return `<li><a href="${''}">${formatFeatureStr(feature.name)}</a> implementation removed in: ${feature.implementationsRemoved };</li>\n`
 	 		}).join('')}
 	 	</ol>
+	 	</section>
 	 `
 
 	 return out

@@ -92,14 +92,16 @@ function formatSummary(delta, data) {
  			return retVal;
  		}).join('')}
  		</ol>
+	 	</section>
 
 		<h3>Removed (${delta.removedImplementations.length})</h3>
 
-	 	<ol class="removed implementations">
-	 		${delta.removedImplementations.map((feature) => {
-	 			return `<li><a href="${''}">${formatFeatureStr(feature.name)}</a> implementation removed in: ${feature.implementationsRemoved };</li>\n`
-	 		}).join('')}
-	 	</ol>
+		<section class="removed implementations">
+			<ol class="removed implementations">
+				${delta.removedImplementations.map((feature) => {
+					return `<li><a href="${''}">${formatFeatureStr(feature.name)}</a> implementation removed in: ${feature.implementationsRemoved };</li>\n`
+				}).join('')}
+			</ol>
 	 	</section>
 	 `
 
@@ -108,7 +110,7 @@ function formatSummary(delta, data) {
 
 function formatCompleted(data) {
 	let out = `<h1>${delta.length} New Universal Implementations Reported!</h2>
-	<section class="added implementations">
+	<section class="universal implementations">
 		<ol>
 			${delta.map((feature) => {
 				return `<li>${feature.name}</li>`

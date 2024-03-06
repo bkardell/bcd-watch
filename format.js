@@ -86,7 +86,7 @@ function formatSummary(delta, data) {
 	 			retVal += '</span>';
 	 		}
  			retVal += ' <b>↠</b> ';
- 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> `;
+ 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(', ')}</strong></span> `;
  			retVal += ' <b>↠</b> ';
  			retVal += ` <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
  			return retVal;

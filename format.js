@@ -61,8 +61,8 @@ function formatSummary(delta, data) {
 		out += `<label>Only Show Completed in All 3 <input type="checkbox" id="filter"></label>
 		<script>filter.onchange = () => { 
 			document.body.classList.toggle('filtered')
-		}</script><section>`;
-		out += `<ol class="added implementations"><li>
+		}</script><section class="added implementations">`;
+		out += `<ol><li>
  		${delta.addedImplementations.map((feature) => {
  			let retVal = ''
  			let topic = feature.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
@@ -108,14 +108,13 @@ function formatSummary(delta, data) {
 
 function formatCompleted(data) {
 	let out = `<h1>${delta.length} New Universal Implementations Reported!</h2>
-
- 	<ol class="added implementations">
- 		${delta.map((feature) => {
- 			return `<li>${feature.name}</li>`
- 		}).join('')}
- 	</ol>
-
-	 
+	<section class="added implementations">
+		<ol>
+			${delta.map((feature) => {
+				return `<li>${feature.name}</li>`
+			}).join('')}
+		</ol>
+	</section>
 	 `
 
 	 return out

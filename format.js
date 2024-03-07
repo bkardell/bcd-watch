@@ -15,7 +15,9 @@ function formatSummary(delta, data) {
 	let out = `
 	<h1>BCD Changes Report, <time>${reportDate}</time></h1>
 	<div>
-		<p>Summary of BCD changes from <time>${delta.__meta[0].older.releaseDate}</time> to <time>${delta.__meta[0].newer.releaseDate}</time></p>
+		<p>Summary of BCD changes <br>
+		<span>from <time>${delta.__meta[0].older.releaseDate}</time></span><br>
+		<span>to <time>${delta.__meta[0].newer.releaseDate}</time></span></p>
 	</div>
 	<h2>Added Features: ${delta.addedFeatures.length}</h2>
 	 <details class="added features">
@@ -58,10 +60,7 @@ function formatSummary(delta, data) {
 	 <h2>Implementation Status Changes: +${delta.addedImplementations.length}, -${delta.removedImplementations.length}</h2>
 
 		<h3>Added (${delta.addedImplementations.length})</h3>`;
-		out += `<label>Only Show Completed in All 3 <input type="checkbox" id="filter"></label>
-		<script>filter.onchange = () => { 
-			document.body.classList.toggle('filtered')
-		}</script><section class="added implementations">`;
+		out += `<section class="added implementations">`;
 		out += `<ol><li>
  		${delta.addedImplementations.map((feature) => {
  			let retVal = ''
@@ -92,18 +91,20 @@ function formatSummary(delta, data) {
  			return retVal;
  		}).join('')}
  		</ol>
-	 	</section>
+	 	</section>`
+	 	
+	 	if (delta.removedImplementations.length > 0) {
+			out += `<h3>Removed (${delta.removedImplementations.length})</h3>
 
-		<h3>Removed (${delta.removedImplementations.length})</h3>
-
-		<section class="removed implementations">
-			<ol class="removed implementations">
-				${delta.removedImplementations.map((feature) => {
-					return `<li><a href="${''}">${formatFeatureStr(feature.name)}</a> implementation removed in: ${feature.implementationsRemoved };</li>\n`
-				}).join('')}
-			</ol>
-	 	</section>
-	 `
+			<section class="removed implementations">
+				<ol class="removed implementations">
+					${delta.removedImplementations.map((feature) => {
+						return `<li><a href="${''}">${formatFeatureStr(feature.name)}</a> implementation removed in: ${feature.implementationsRemoved };</li>\n`
+					}).join('')}
+				</ol>
+			</section>
+		 `
+		}
 
 	 return out
 }

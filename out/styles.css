@@ -5,30 +5,60 @@ body {
 	max-width: max-content;
 	margin-inline: auto;
 	padding-inline: 0.5em;
+	padding-block-end: max(5em,20vh);
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Noah;
 	margin-block: 1em 0;
-}
-h1 {
-	font-size: 2.75em;
-	line-height: 1.1;
-}
-h1 + p {
-	font-size: 1.25em;
-}
-h2 {
-	padding-block: 0.25em 0.125em;
-	margin-block-end: 0.5em;
-	padding-inline: 0.5em;
-	margin-inline: -0.5em 0;
-	border-image-outset: 0 0 0 1em;
+	padding-block: 0.33em 0.25em;
+	border-image-outset: 0 0 0 2ch;
 	border-image-slice: 0 fill;
 	border-image-width: 0;
 	border-image-repeat: stretch;
 	mix-blend-mode: multiply;
+}
+h1 {
+	margin-block: 0.5em 0.4em;
+	padding-block: 0.5em 0.4em;
+	font-size: 2.75em;
+	line-height: 1.1;
+	border-image-source: linear-gradient(90deg,#BBC 10em,#CCD);
+	border-image-outset: 0 50vw;
+}
+h1 + div > p {
+	display: grid;
+	gap: 0 0.5ch;
+	grid-template-columns: max-content auto;
+	grid-template-rows: auto auto;
+	width: max-content;
+	max-width: 90%;
+	margin-block: 0 2em;
+	font-size: 1.1em;
+	font-style: italic;
+}
+h1 + div > p > span {
+	justify-self: end;
+}
+h1 + div > p span:first-of-type {
+	grid-area: 1 / 2 / span 1 / span 1;
+}
+h1 + div > p span:last-of-type {
+	grid-area: 2 / 2 / span 1 / span 1;
+}
+
+h2 {
+	padding-block: 0.25em 0.125em;
+	margin-block-end: 0.5em;
 	border-image-source: linear-gradient(90deg,#445 10em,#889);
 	color: #FFF
+}
+h3 {
+	border-image-source: linear-gradient(90deg,#ACA 10em,hsl(120deg, 70%, 30%) 90%);
+	border-image-outset: 0 0 0 1.5ch;
+}
+h3:has(+ .removed) {
+	margin-block-start: 3em;
+	border-image-source: linear-gradient(90deg,#755 10em,#977);
 }
 ol + h3 {
 	margin-block-start: 2em;
@@ -37,16 +67,12 @@ h4 {
 	display: block;
 	width: 100%;
 	max-width: 100%;
-	text-transform: uppercase;
-	padding-block: 0.33em 0.25em;
 	margin-block: 1em 0;
+	padding-block: 0.33em 0.25em;
 	padding-inline: 0;
-	border-image-outset: 0 0 0 1em;
-	border-image-slice: 0 fill;
-	border-image-width: 0;
-	border-image-repeat: stretch;
-	mix-blend-mode: multiply;
 	border-image-source: linear-gradient(90deg,#BBC 10em,#CCD);
+	border-image-outset: 0 0 0 1ch;
+	text-transform: uppercase;
 }
 
 time {
@@ -128,6 +154,12 @@ section span.browsers strong {
 	}
 	section li span {
 		grid-column: 2;
+	}
+	h1 + div > p {
+		display: block;
+	}
+	time {
+		text-wrap: wrap;
 	}
 }
 

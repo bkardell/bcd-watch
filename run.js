@@ -20,8 +20,11 @@ let version = curReleasePathParts.pop()
 
 // there is always a .json if we swap in the version
 let jsonURL = `https://github.com/mdn/browser-compat-data/releases/download/${version}/data.json`
+console.log(`url: `, jsonURL)
 let resp = await fetch(jsonURL)  
 let data = await resp.json()
+
+console.log(`we have the new one:`, data)
 
 // we have the new one!
 let updatedDate = new Date(data.__meta.timestamp || Date.now())

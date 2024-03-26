@@ -4,7 +4,7 @@
         <title>bcd-watch rss feed</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 13 Mar 2024 08:21:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Mar 2024 20:18:29 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -15,153 +15,276 @@
         <copyright>All rights reserved 2024, Brian Kardell</copyright>
         <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[BCD Changes Report, Wed Mar 06 2024 15:31:11 GMT+0000 (Coordinated Universal Time) - Wed Mar 13 2024 06:22:37 GMT+0000 (Coordinated Universal Time)]]></title>
-            <link>https://bkardell.com/bcd-watch/Mar-13-2024.html</link>
-            <guid>https://bkardell.com/bcd-watch/Mar-13-2024.html</guid>
-            <pubDate>Wed, 13 Mar 2024 06:22:37 GMT</pubDate>
+            <title><![CDATA[BCD Changes Report, Wed Mar 13 2024 06:22:37 GMT+0000 (Coordinated Universal Time) - Tue Mar 26 2024 18:49:11 GMT+0000 (Coordinated Universal Time)]]></title>
+            <link>https://bkardell.com/bcd-watch/Mar-26-2024.html</link>
+            <guid>https://bkardell.com/bcd-watch/Mar-26-2024.html</guid>
+            <pubDate>Tue, 26 Mar 2024 18:49:11 GMT</pubDate>
             <description><![CDATA[Weekly summary of changes to BCD data]]></description>
             <content:encoded><![CDATA[
+	<h1>BCD Changes Report, <time>Tue Mar 26 2024</time></h1>
 	<div>
-		<tt>Summary of BCD changes from Wed Mar 06 2024 15:31:11 GMT+0000 (Coordinated Universal Time) to Wed Mar 13 2024 06:22:37 GMT+0000 (Coordinated Universal Time)</tt>
+		<p>Summary of BCD changes <br>
+		<span>from <time>Wed Mar 13 2024 06:22:37 GMT+0000 (Coordinated Universal Time)</time></span><br>
+		<span>to <time>Tue Mar 26 2024 18:49:11 GMT+0000 (Coordinated Universal Time)</time></span></p>
 	</div>
-	<h2>Added Features: 52</h2>
-	 <details>
-
-	 		<h4>webextensions</h4><ol><li>api ➞ alarms</li>
-<li>api ➞ browserSettings</li>
-<li>api ➞ browsingData</li>
-<li>api ➞ captivePortal</li>
-<li>api ➞ clipboard</li>
-<li>api ➞ commands</li>
-<li>api ➞ contextualIdentities ➞ ContextualIdentity</li>
-<li>api ➞ contextualIdentities</li>
-<li>api ➞ declarativeNetRequest</li>
-<li>api ➞ devtools</li>
-<li>api ➞ devtools ➞ inspectedWindow</li>
-<li>api ➞ devtools ➞ network</li>
-<li>api ➞ devtools ➞ panels</li>
-<li>api ➞ downloads</li>
-<li>api ➞ events</li>
-<li>api ➞ extension</li>
-<li>api ➞ extensionTypes</li>
-<li>api ➞ find</li>
-<li>api ➞ history</li>
-<li>api ➞ i18n</li>
-<li>api ➞ identity</li>
-<li>api ➞ idle</li>
-<li>api ➞ management</li>
-<li>api ➞ menus</li>
-<li>api ➞ notifications</li>
-<li>api ➞ omnibox</li>
-<li>api ➞ pageAction</li>
-<li>api ➞ permissions</li>
-<li>api ➞ pkcs11</li>
-<li>api ➞ privacy</li>
-<li>api ➞ privacy ➞ network</li>
-<li>api ➞ privacy ➞ services</li>
-<li>api ➞ privacy ➞ websites</li>
-<li>api ➞ proxy</li>
-<li>api ➞ runtime</li>
-<li>api ➞ runtime ➞ onPerformanceWarning</li>
-<li>api ➞ search</li>
-<li>api ➞ sessions</li>
-<li>api ➞ sidebarAction</li>
-<li>api ➞ storage</li>
-<li>api ➞ tabs ➞ Tab ➞ attention</li>
-<li>api ➞ tabs ➞ Tab ➞ pendingUrl</li>
-<li>api ➞ tabs</li>
-<li>api ➞ tabs ➞ query ➞ queryInfo</li>
-<li>api ➞ tabs ➞ query ➞ queryInfo ➞ attention</li>
-<li>api ➞ theme</li>
-<li>api ➞ topSites</li>
-<li>api ➞ types</li>
-<li>api ➞ webNavigation</li>
-<li>api ➞ webRequest</li>
-<li>api ➞ windows</li>
-<li>manifest ➞ content_scripts ➞ world</li>
+	<h2>Added Features: 111</h2>
+	 <details class="added features">
+	 		<summary>Expand to see the full list</summary>
+	 		<h4>api</h4><ol><li>ML</li>
+<li>ML ➞ createContext</li>
+<li>MLActivation</li>
+<li>MLContext</li>
+<li>MLContext ➞ compute</li>
+<li>MLGraph</li>
+<li>MLGraphBuilder ➞ MLGraphBuilder</li>
+<li>MLGraphBuilder</li>
+<li>MLGraphBuilder ➞ abs</li>
+<li>MLGraphBuilder ➞ add</li>
+<li>MLGraphBuilder ➞ argMax</li>
+<li>MLGraphBuilder ➞ argMin</li>
+<li>MLGraphBuilder ➞ averagePool2d</li>
+<li>MLGraphBuilder ➞ batchNormalization</li>
+<li>MLGraphBuilder ➞ build</li>
+<li>MLGraphBuilder ➞ cast</li>
+<li>MLGraphBuilder ➞ ceil</li>
+<li>MLGraphBuilder ➞ clamp</li>
+<li>MLGraphBuilder ➞ concat</li>
+<li>MLGraphBuilder ➞ constant</li>
+<li>MLGraphBuilder ➞ conv2d</li>
+<li>MLGraphBuilder ➞ convTranspose2d</li>
+<li>MLGraphBuilder ➞ cos</li>
+<li>MLGraphBuilder ➞ div</li>
+<li>MLGraphBuilder ➞ elu</li>
+<li>MLGraphBuilder ➞ equal</li>
+<li>MLGraphBuilder ➞ erf</li>
+<li>MLGraphBuilder ➞ exp</li>
+<li>MLGraphBuilder ➞ expand</li>
+<li>MLGraphBuilder ➞ floor</li>
+<li>MLGraphBuilder ➞ gather</li>
+<li>MLGraphBuilder ➞ gemm</li>
+<li>MLGraphBuilder ➞ greater</li>
+<li>MLGraphBuilder ➞ greaterOrEqual</li>
+<li>MLGraphBuilder ➞ gru</li>
+<li>MLGraphBuilder ➞ gruCell</li>
+<li>MLGraphBuilder ➞ hardSigmoid</li>
+<li>MLGraphBuilder ➞ hardSwish</li>
+<li>MLGraphBuilder ➞ identity</li>
+<li>MLGraphBuilder ➞ input</li>
+<li>MLGraphBuilder ➞ instanceNormalization</li>
+<li>MLGraphBuilder ➞ l2Pool2d</li>
+<li>MLGraphBuilder ➞ layerNormalization</li>
+<li>MLGraphBuilder ➞ leakyRelu</li>
+<li>MLGraphBuilder ➞ lesser</li>
+<li>MLGraphBuilder ➞ lesserOrEqual</li>
+<li>MLGraphBuilder ➞ linear</li>
+<li>MLGraphBuilder ➞ log</li>
+<li>MLGraphBuilder ➞ lstm</li>
+<li>MLGraphBuilder ➞ lstmCell</li>
+<li>MLGraphBuilder ➞ matmul</li>
+<li>MLGraphBuilder ➞ max</li>
+<li>MLGraphBuilder ➞ maxPool2d</li>
+<li>MLGraphBuilder ➞ min</li>
+<li>MLGraphBuilder ➞ mul</li>
+<li>MLGraphBuilder ➞ neg</li>
+<li>MLGraphBuilder ➞ not</li>
+<li>MLGraphBuilder ➞ pad</li>
+<li>MLGraphBuilder ➞ pow</li>
+<li>MLGraphBuilder ➞ prelu</li>
+<li>MLGraphBuilder ➞ reciprocal</li>
+<li>MLGraphBuilder ➞ reduceL1</li>
+<li>MLGraphBuilder ➞ reduceL2</li>
+<li>MLGraphBuilder ➞ reduceLogSum</li>
+<li>MLGraphBuilder ➞ reduceLogSumExp</li>
+<li>MLGraphBuilder ➞ reduceMax</li>
+<li>MLGraphBuilder ➞ reduceMean</li>
+<li>MLGraphBuilder ➞ reduceMin</li>
+<li>MLGraphBuilder ➞ reduceProduct</li>
+<li>MLGraphBuilder ➞ reduceSum</li>
+<li>MLGraphBuilder ➞ reduceSumSquare</li>
+<li>MLGraphBuilder ➞ relu</li>
+<li>MLGraphBuilder ➞ resample2d</li>
+<li>MLGraphBuilder ➞ reshape</li>
+<li>MLGraphBuilder ➞ sigmoid</li>
+<li>MLGraphBuilder ➞ sin</li>
+<li>MLGraphBuilder ➞ slice</li>
+<li>MLGraphBuilder ➞ softmax</li>
+<li>MLGraphBuilder ➞ softplus</li>
+<li>MLGraphBuilder ➞ softsign</li>
+<li>MLGraphBuilder ➞ split</li>
+<li>MLGraphBuilder ➞ sqrt</li>
+<li>MLGraphBuilder ➞ sub</li>
+<li>MLGraphBuilder ➞ tan</li>
+<li>MLGraphBuilder ➞ tanh</li>
+<li>MLGraphBuilder ➞ transpose</li>
+<li>MLGraphBuilder ➞ triangular</li>
+<li>MLGraphBuilder ➞ where</li>
+<li>MLOperand</li>
+<li>MLOperand ➞ dataType</li>
+<li>MLOperand ➞ shape</li>
+<li>Navigator ➞ ml</li>
+<li>NotRestoredReasonDetails</li>
+<li>NotRestoredReasonDetails ➞ reason</li>
+<li>NotRestoredReasonDetails ➞ toJSON</li>
+<li>NotRestoredReasons</li>
+<li>NotRestoredReasons ➞ children</li>
+<li>NotRestoredReasons ➞ id</li>
+<li>NotRestoredReasons ➞ name</li>
+<li>NotRestoredReasons ➞ reasons</li>
+<li>NotRestoredReasons ➞ src</li>
+<li>NotRestoredReasons ➞ toJSON</li>
+<li>NotRestoredReasons ➞ url</li>
+<li>PerformanceNavigationTiming ➞ notRestoredReasons</li>
+<li>WorkerNavigator ➞ ml</li>
+</ol><h4>javascript</h4><ol><li>builtins ➞ Intl ➞ RelativeTimeFormat ➞ RelativeTimeFormat ➞ locales_parameter</li>
+<li>builtins ➞ Intl ➞ RelativeTimeFormat ➞ RelativeTimeFormat ➞ options_parameter ➞ options_localeMatcher_parameter</li>
+<li>builtins ➞ Intl ➞ RelativeTimeFormat ➞ RelativeTimeFormat ➞ options_parameter ➞ options_numberingSystem_parameter</li>
+<li>builtins ➞ Intl ➞ RelativeTimeFormat ➞ RelativeTimeFormat ➞ options_parameter ➞ options_numeric_parameter</li>
+</ol><h4>webextensions</h4><ol><li>api ➞ runtime ➞ OnPerformanceWarningCategory</li>
+<li>api ➞ runtime ➞ OnPerformanceWarningSeverity</li>
 
 	 	</ol>
 	 </details>
 
-	 <h2>Removed Features: 1</h2>
-	 <details>
-	 		</ol><h4>html</h4><ol><li>global_attributes ➞ contextmenu</li>
-
-	 	</ol>
-	 </details>
-
-	 <h2>Implementation Status Changes: +55, -0</h2>
-
-		<h3>Added (55)</h3>
-		<label>Only Show Completed in All 3 <input type="checkbox" id="filter"></label>
-		<script>filter.onchange = () => { 
-			document.body.classList.toggle('filtered')
-		}</script>
-		<ol  class="added implementations"><li>
- 		</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/@starting-style"> at-rules ➞ starting-style</a> <span class="browsers">Added to <strong>safari</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark"> types ➞ color ➞ light-dark</a> <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>webextensions</h4><ol><li> api ➞ tabs ➞ Tab ➞ lastAccessed <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms"> api ➞ alarms</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings"> api ➞ browserSettings</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData"> api ➞ browsingData</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal"> api ➞ captivePortal</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/clipboard"> api ➞ clipboard</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/commands"> api ➞ commands</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/ContextualIdentity"> api ➞ contextualIdentities ➞ ContextualIdentity</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities"> api ➞ contextualIdentities</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest"> api ➞ declarativeNetRequest</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools"> api ➞ devtools</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow"> api ➞ devtools ➞ inspectedWindow</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network"> api ➞ devtools ➞ network</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels"> api ➞ devtools ➞ panels</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads"> api ➞ downloads</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events"> api ➞ events</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension"> api ➞ extension</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes"> api ➞ extensionTypes</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/find"> api ➞ find</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/history"> api ➞ history</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n"> api ➞ i18n</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/identity"> api ➞ identity</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/idle"> api ➞ idle</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/management"> api ➞ management</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/menus"> api ➞ menus</a> <span class="browsers">Added to <strong>chrome,safari</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/notifications"> api ➞ notifications</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox"> api ➞ omnibox</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction"> api ➞ pageAction</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions"> api ➞ permissions</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11"> api ➞ pkcs11</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/privacy"> api ➞ privacy</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/privacy/network"> api ➞ privacy ➞ network</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/privacy/services"> api ➞ privacy ➞ services</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/privacy/websites"> api ➞ privacy ➞ websites</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/proxy"> api ➞ proxy</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime"> api ➞ runtime</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onPerformanceWarning"> api ➞ runtime ➞ onPerformanceWarning</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/search"> api ➞ search</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sessions"> api ➞ sessions</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction"> api ➞ sidebarAction</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage"> api ➞ storage</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> api ➞ tabs ➞ Tab ➞ attention <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li> api ➞ tabs ➞ Tab ➞ pendingUrl <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs"> api ➞ tabs</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> api ➞ tabs ➞ query ➞ queryInfo <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> api ➞ tabs ➞ query ➞ queryInfo ➞ attention <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/theme"> api ➞ theme</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/topSites"> api ➞ topSites</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/types"> api ➞ types</a> <span class="browsers">Added to <strong>firefox,chrome</strong></span> <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation"> api ➞ webNavigation</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webRequest"> api ➞ webRequest</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows"> api ➞ windows</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> manifest ➞ content_scripts ➞ world <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-
- 		</ol>
-
-		<h3>Removed (0)</h3>
-
-	 	<ol class="removed implementations">
+	 <h2>Removed Features: 0</h2>
+	 <details class="removed features">
+	 		<summary>Expand to see the full list</summary>
 	 		
 	 	</ol>
-	 ]]></content:encoded>
+	 </details>
+
+	 <h2>Implementation Status Changes: +127, -0</h2>
+
+		<h3>Added (127)</h3><section class="added implementations"><ol><li>
+ 		</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/EncodedVideoChunk"> EncodedVideoChunk ➞ EncodedVideoChunk</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk"> EncodedVideoChunk</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/byteLength"> EncodedVideoChunk ➞ byteLength</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/copyTo"> EncodedVideoChunk ➞ copyTo</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/duration"> EncodedVideoChunk ➞ duration</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/timestamp"> EncodedVideoChunk ➞ timestamp</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/type"> EncodedVideoChunk ➞ type</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><span> HTMLElement ➞ togglePopover ➞ returns_boolean</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoColorSpace/VideoColorSpace"> VideoColorSpace ➞ VideoColorSpace</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoColorSpace"> VideoColorSpace</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoColorSpace/fullRange"> VideoColorSpace ➞ fullRange</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoColorSpace/matrix"> VideoColorSpace ➞ matrix</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoColorSpace/primaries"> VideoColorSpace ➞ primaries</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoColorSpace/toJSON"> VideoColorSpace ➞ toJSON</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoColorSpace/transfer"> VideoColorSpace ➞ transfer</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder/VideoDecoder"> VideoDecoder ➞ VideoDecoder</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder"> VideoDecoder</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder/close"> VideoDecoder ➞ close</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder/configure"> VideoDecoder ➞ configure</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder/decode"> VideoDecoder ➞ decode</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder/decodeQueueSize"> VideoDecoder ➞ decodeQueueSize</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/#eventdef-videodecoder-dequeue"> VideoDecoder ➞ dequeue_event</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder/flush"> VideoDecoder ➞ flush</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/#dom-videodecoder-isconfigsupported"> VideoDecoder ➞ isConfigSupported_static</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder/reset"> VideoDecoder ➞ reset</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoDecoder/state"> VideoDecoder ➞ state</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoEncoder/VideoEncoder"> VideoEncoder ➞ VideoEncoder</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoEncoder"> VideoEncoder</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoEncoder/close"> VideoEncoder ➞ close</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoEncoder/configure"> VideoEncoder ➞ configure</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/#eventdef-videencoder-dequeue"> VideoEncoder ➞ dequeue_event</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoEncoder/encode"> VideoEncoder ➞ encode</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoEncoder/encodeQueueSize"> VideoEncoder ➞ encodeQueueSize</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/#dom-videoencoder-flush"> VideoEncoder ➞ flush</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/#dom-videoencoder-isconfigsupported"> VideoEncoder ➞ isConfigSupported_static</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoEncoder/reset"> VideoEncoder ➞ reset</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoEncoder/state"> VideoEncoder ➞ state</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/VideoFrame"> VideoFrame ➞ VideoFrame</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame"> VideoFrame</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/allocationSize"> VideoFrame ➞ allocationSize</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/clone"> VideoFrame ➞ clone</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/close"> VideoFrame ➞ close</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/codedHeight"> VideoFrame ➞ codedHeight</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/codedRect"> VideoFrame ➞ codedRect</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/codedWidth"> VideoFrame ➞ codedWidth</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/colorSpace"> VideoFrame ➞ colorSpace</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/#dom-videoframe-copyto"> VideoFrame ➞ copyTo</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/displayHeight"> VideoFrame ➞ displayHeight</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/displayWidth"> VideoFrame ➞ displayWidth</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/duration"> VideoFrame ➞ duration</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/format"> VideoFrame ➞ format</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/timestamp"> VideoFrame ➞ timestamp</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/VideoFrame/visibleRect"> VideoFrame ➞ visibleRect</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>html</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/Manifest/categories"> manifest ➞ categories</a> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+</ol><h4>webextensions</h4><ol><li><span> api ➞ scripting ➞ executeScript ➞ InjectionResult ➞ error</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+</ol><h4>api</h4><ol><li><a href="https://www.w3.org/TR/webnn/#api-ml"> ML</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-ml-createcontext"> ML ➞ createContext</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlactivation"> MLActivation</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlcontext"> MLContext</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlcontext-compute"> MLContext ➞ compute</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraph"> MLGraph</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-constructor"> MLGraphBuilder ➞ MLGraphBuilder</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder"> MLGraphBuilder</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-argminmax"> MLGraphBuilder ➞ argMax</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-argminmax"> MLGraphBuilder ➞ argMin</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-batchnorm"> MLGraphBuilder ➞ batchNormalization</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-build"> MLGraphBuilder ➞ build</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-cast"> MLGraphBuilder ➞ cast</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-equal"> MLGraphBuilder ➞ equal</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-erf"> MLGraphBuilder ➞ erf</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-expand"> MLGraphBuilder ➞ expand</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-gather"> MLGraphBuilder ➞ gather</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-greater"> MLGraphBuilder ➞ greater</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-greaterorequal"> MLGraphBuilder ➞ greaterOrEqual</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-gru"> MLGraphBuilder ➞ gru</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-grucell"> MLGraphBuilder ➞ gruCell</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-hard-sigmoid"> MLGraphBuilder ➞ hardSigmoid</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-identity"> MLGraphBuilder ➞ identity</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-instancenorm"> MLGraphBuilder ➞ instanceNormalization</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-pool2d-l2"> MLGraphBuilder ➞ l2Pool2d</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-layernorm"> MLGraphBuilder ➞ layerNormalization</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-lesser"> MLGraphBuilder ➞ lesser</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-lesserorequal"> MLGraphBuilder ➞ lesserOrEqual</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-linear"> MLGraphBuilder ➞ linear</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-lstm"> MLGraphBuilder ➞ lstm</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-lstmcell"> MLGraphBuilder ➞ lstmCell</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-matmul"> MLGraphBuilder ➞ matmul</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-not"> MLGraphBuilder ➞ not</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reciprocal"> MLGraphBuilder ➞ reciprocal</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel1"> MLGraphBuilder ➞ reduceL1</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel2"> MLGraphBuilder ➞ reduceL2</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducelogsum"> MLGraphBuilder ➞ reduceLogSum</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducelogsumexp"> MLGraphBuilder ➞ reduceLogSumExp</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemax"> MLGraphBuilder ➞ reduceMax</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemean"> MLGraphBuilder ➞ reduceMean</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemin"> MLGraphBuilder ➞ reduceMin</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reduceproduct"> MLGraphBuilder ➞ reduceProduct</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducesum"> MLGraphBuilder ➞ reduceSum</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducesumsquare"> MLGraphBuilder ➞ reduceSumSquare</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-softplus-method"> MLGraphBuilder ➞ softplus</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-softsign-method"> MLGraphBuilder ➞ softsign</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-tan"> MLGraphBuilder ➞ tan</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-triangular"> MLGraphBuilder ➞ triangular</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-where"> MLGraphBuilder ➞ where</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mloperand"> MLOperand</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mloperand-datatype"> MLOperand ➞ dataType</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-mloperand-shape"> MLOperand ➞ shape</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-navigator-ml"> Navigator ➞ ml</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasonDetails"> NotRestoredReasonDetails</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasonDetails/reason"> NotRestoredReasonDetails ➞ reason</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasonDetails/toJSON"> NotRestoredReasonDetails ➞ toJSON</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasons"> NotRestoredReasons</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/children"> NotRestoredReasons ➞ children</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/id"> NotRestoredReasons ➞ id</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/name"> NotRestoredReasons ➞ name</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/reasons"> NotRestoredReasons ➞ reasons</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/src"> NotRestoredReasons ➞ src</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/toJSON"> NotRestoredReasons ➞ toJSON</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/url"> NotRestoredReasons ➞ url</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/notRestoredReasons"> PerformanceNavigationTiming ➞ notRestoredReasons</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://www.w3.org/TR/webnn/#api-navigator-ml"> WorkerNavigator ➞ ml</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+</ol><h4>javascript</h4><ol><li><span> builtins ➞ Intl ➞ RelativeTimeFormat ➞ RelativeTimeFormat ➞ locales_parameter</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><span> builtins ➞ Intl ➞ RelativeTimeFormat ➞ RelativeTimeFormat ➞ options_parameter ➞ options_localeMatcher_parameter</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><span> builtins ➞ Intl ➞ RelativeTimeFormat ➞ RelativeTimeFormat ➞ options_parameter ➞ options_numberingSystem_parameter</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><span> builtins ➞ Intl ➞ RelativeTimeFormat ➞ RelativeTimeFormat ➞ options_parameter ➞ options_numeric_parameter</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>webextensions</h4><ol><li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnPerformanceWarningCategory"> api ➞ runtime ➞ OnPerformanceWarningCategory</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnPerformanceWarningSeverity"> api ➞ runtime ➞ OnPerformanceWarningSeverity</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+
+ 		</ol>
+	 	</section>]]></content:encoded>
         </item>
     </channel>
 </rss>

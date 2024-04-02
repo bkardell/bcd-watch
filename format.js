@@ -93,14 +93,34 @@ function formatSummary(delta, data) {
 	 return out
 }
 
-function formatCompleted(data) {
-	let out = `<h1>${delta.length} New Universal Implementations Reported!</h2>
+function formatCompleted(delta, data) {
+	let complete = delta.addedImplementations.filter(feature => { return feature.totalImplementations === 3 })
 
- 	<ol class="added implementations">
- 		${delta.map((feature) => {
- 			return `<li>${feature.name}</li>`
+	let out = `<h1>${complete.length} New Universal Implementations Reported!</h2>
+		<ol  class="added implementations"><li>
+ 		${complete.map((feature) => {
+ 			let retVal = ''
+ 			let topic = feature.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+ 			if (topic !== lastTopic) {
+ 				if (lastTopic) {
+ 					retVal += "</ol>"
+ 				}
+ 				retVal += `<h4>${topic}</h4><ol>`
+ 				lastTopic = topic
+ 			}
+ 			retVal +=  `<li>`;
+ 			if (feature.mdn_url || feature.spec_url) {
+	 			retVal += `<a href="${feature.mdn_url || feature.spec_url}">`;
+	 		}
+ 			retVal += `${formatFeatureStr(feature.key, topic)}`;
+ 			if (feature.mdn_url || feature.spec_url) {
+	 			retVal += `</a>`;
+ 			}
+ 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
+ 			return retVal;
  		}).join('')}
- 	</ol>
+ 		</ol>
+
 
 	 
 	 `

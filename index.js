@@ -46,7 +46,6 @@ function run(o,l) {
   let out = formatter.formatSummary(data, flattenedB)
   let title = `BCD Changes Report, ${fromDate} - ${toDate}`
   
-  // console.log(out)
   markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + out + `\n</body>\n</html>`,
       
   
@@ -76,6 +75,29 @@ function run(o,l) {
         image: ""
       }]
   }, "weekly")
+
+  let outComplete = formatter.formatCompleted(data, flattenedB)
+
+  title =  `BCD Completion Report, ${fromDate} - ${toDate}`
+  markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + outComplete + `\n</body>\n</html>`,
+  
+  fs.writeFileSync(
+      output_path + `/${name}-completed.html`,
+      markup,
+     'utf8'
+  )
+
+  RSS({
+      items: [{ 
+        title: title,
+        file: `${name}-completed.html`,
+        blurb: 'Weekly summary of things reaching complete status in BCD data',
+        content: outComplete,
+        pubDate: toDate, // I guess always use the to date?
+        image: ""
+      }]
+  }, "weekly")
+
 }
 
 exports.run = run

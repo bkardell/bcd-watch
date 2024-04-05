@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bkardell.com/bcd-watch</id>
+    <title>bcd-watch rss feed</title>
+    <updated>2024-04-05T17:41:45.608Z</updated>
+    <generator>awesome mix</generator>
+    <author>
+        <name>Brian Kardell</name>
+        <email>bkardell@gmail.com</email>
+        <uri>https://bkardell.com</uri>
+    </author>
+    <link rel="alternate" href="https://bkardell.com/bcd-watch"/>
+    <link rel="self" href="https://bkardell.com/bcd-watch/feed.atom"/>
+    <subtitle>A feed that summarizes changes to BCD weekly</subtitle>
+    <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
+    <rights>All rights reserved 2024, Brian Kardell</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD Completion Report, Tue Mar 26 2024 18:49:11 GMT+0000 (Coordinated Universal Time) - Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time)]]></title>
+        <id>https://bkardell.com/bcd-watch/Apr-03-2024-completed.html</id>
+        <link href="https://bkardell.com/bcd-watch/Apr-03-2024-completed.html">
+        </link>
+        <updated>2024-04-03T04:41:10.214Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of things reaching complete status in BCD data]]></summary>
+        <content type="html"><![CDATA[<h1>10 New Universal Implementations Reported!</h2>
+		<ol  class="added implementations"><li>
+ 		</ol><h4>api</h4><ol><li><a href="https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-length"> CSSKeyframesRule ➞ length</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsehtmlunsafe"> Document ➞ parseHTMLUnsafe_static</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-sethtmlunsafe"> Element ➞ setHTMLUnsafe</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> Permissions ➞ permission_notifications <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> Permissions ➞ permission_push <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/ShadowRoot/clonable"> ShadowRoot ➞ clonable</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-sethtmlunsafe"> ShadowRoot ➞ setHTMLUnsafe</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> URLSearchParams ➞ delete ➞ value_parameter <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> URLSearchParams ➞ has ➞ value_parameter <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-align/#align-justify-content"> properties ➞ align-content ➞ block_context</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+
+ 		</ol>
+	 ]]></content>
+    </entry>
+</feed>

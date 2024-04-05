@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>bcd-watch rss feed</title>
+        <link>https://bkardell.com/bcd-watch</link>
+        <description>A feed that summarizes changes to BCD weekly</description>
+        <lastBuildDate>Fri, 05 Apr 2024 17:41:45 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>awesome mix</generator>
+        <image>
+            <title>bcd-watch rss feed</title>
+            <url>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</url>
+            <link>https://bkardell.com/bcd-watch</link>
+        </image>
+        <copyright>All rights reserved 2024, Brian Kardell</copyright>
+        <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Completion Report, Tue Mar 26 2024 18:49:11 GMT+0000 (Coordinated Universal Time) - Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time)]]></title>
+            <link>https://bkardell.com/bcd-watch/Apr-03-2024-completed.html</link>
+            <guid>https://bkardell.com/bcd-watch/Apr-03-2024-completed.html</guid>
+            <pubDate>Wed, 03 Apr 2024 04:41:10 GMT</pubDate>
+            <description><![CDATA[Weekly summary of things reaching complete status in BCD data]]></description>
+            <content:encoded><![CDATA[<h1>10 New Universal Implementations Reported!</h2>
+		<ol  class="added implementations"><li>
+ 		</ol><h4>api</h4><ol><li><a href="https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-length"> CSSKeyframesRule ➞ length</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsehtmlunsafe"> Document ➞ parseHTMLUnsafe_static</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-sethtmlunsafe"> Element ➞ setHTMLUnsafe</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> Permissions ➞ permission_notifications <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> Permissions ➞ permission_push <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/ShadowRoot/clonable"> ShadowRoot ➞ clonable</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-sethtmlunsafe"> ShadowRoot ➞ setHTMLUnsafe</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> URLSearchParams ➞ delete ➞ value_parameter <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> URLSearchParams ➞ has ➞ value_parameter <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-align/#align-justify-content"> properties ➞ align-content ➞ block_context</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+
+ 		</ol>
+	 ]]></content:encoded>
+        </item>
+    </channel>
+</rss>

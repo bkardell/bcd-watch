@@ -1,0 +1,22 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "bcd-watch rss feed",
+    "home_page_url": "https://bkardell.com/bcd-watch",
+    "feed_url": "https://bkardell.com/bcd-watch/feed.json",
+    "description": "A feed that summarizes changes to BCD weekly",
+    "icon": "https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg",
+    "author": {
+        "name": "Brian Kardell",
+        "url": "https://bkardell.com"
+    },
+    "items": [
+        {
+            "id": "https://bkardell.com/bcd-watch/Apr-03-2024-completed.html",
+            "content_html": "<h1>10 New Universal Implementations Reported!</h2>\n\t\t<ol  class=\"added implementations\"><li>\n \t\t</ol><h4>api</h4><ol><li><a href=\"https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-length\"> CSSKeyframesRule ➞ length</a> <span class=\"browsers\">Added to <strong>chrome</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n<li><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsehtmlunsafe\"> Document ➞ parseHTMLUnsafe_static</a> <span class=\"browsers\">Added to <strong>chrome</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n<li><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-sethtmlunsafe\"> Element ➞ setHTMLUnsafe</a> <span class=\"browsers\">Added to <strong>chrome</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n<li> Permissions ➞ permission_notifications <span class=\"browsers\">Added to <strong>safari</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n<li> Permissions ➞ permission_push <span class=\"browsers\">Added to <strong>safari</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n<li><a href=\"https://developer.mozilla.org/docs/Web/API/ShadowRoot/clonable\"> ShadowRoot ➞ clonable</a> <span class=\"browsers\">Added to <strong>chrome</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n<li><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-sethtmlunsafe\"> ShadowRoot ➞ setHTMLUnsafe</a> <span class=\"browsers\">Added to <strong>chrome</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n<li> URLSearchParams ➞ delete ➞ value_parameter <span class=\"browsers\">Added to <strong>chrome</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n<li> URLSearchParams ➞ has ➞ value_parameter <span class=\"browsers\">Added to <strong>chrome</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n</ol><h4>css</h4><ol><li><a href=\"https://drafts.csswg.org/css-align/#align-justify-content\"> properties ➞ align-content ➞ block_context</a> <span class=\"browsers\">Added to <strong>firefox,chrome,safari</strong></span> <span class=\"ni3 engines\">Now in <strong>3</strong> of 3 engines</span></li>\n\n \t\t</ol>\n\t ",
+            "url": "https://bkardell.com/bcd-watch/Apr-03-2024-completed.html",
+            "title": "BCD Completion Report, Tue Mar 26 2024 18:49:11 GMT+0000 (Coordinated Universal Time) - Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time)",
+            "summary": "Weekly summary of things reaching complete status in BCD data",
+            "date_modified": "2024-04-03T04:41:10.214Z"
+        }
+    ]
+}

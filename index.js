@@ -96,7 +96,7 @@ function run(o,l) {
         pubDate: toDate, // I guess always use the to date?
         image: ""
       }]
-  }, "weekly")
+  }, "weekly-completed")
 
 }
 

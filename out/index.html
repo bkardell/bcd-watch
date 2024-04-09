@@ -4,68 +4,107 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link type="text/css" href="styles.css" rel="stylesheet">
-<title>BCD Changes Report, Tue Mar 26 2024 18:49:11 GMT+0000 (Coordinated Universal Time) - Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time)</title>
+<title>BCD Changes Report, Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time) - Tue Apr 09 2024 12:00:38 GMT+0000 (Coordinated Universal Time)</title>
 </head>
 <body>
 
-	<h1>BCD Changes Report, <time>Wed Apr 03 2024</time></h1>
+	<h1>BCD Changes Report, <time>Tue Apr 09 2024</time></h1>
 	<div>
 		<p>Summary of BCD changes <br>
-		<span>from <time>Tue Mar 26 2024 18:49:11 GMT+0000 (Coordinated Universal Time)</time></span><br>
-		<span>to <time>Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time)</time></span></p>
+		<span>from <time>Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time)</time></span><br>
+		<span>to <time>Tue Apr 09 2024 12:00:38 GMT+0000 (Coordinated Universal Time)</time></span></p>
 	</div>
-	<h2>Added Features: 11</h2>
+	<h2>Added Features: 20</h2>
 	 <details class="added features">
 	 		<summary>Expand to see the full list</summary>
-	 		<h4>api</h4><ol><li>HTMLIFrameElement ➞ adAuctionHeaders</li>
-<li>HTMLIFrameElement ➞ sharedStorageWritable</li>
-<li>HTMLImageElement ➞ sharedStorageWritable</li>
-<li>HTMLTemplateElement ➞ shadowRootDelegatesFocus</li>
-<li>Permissions ➞ permission_bluetooth</li>
-<li>RTCIceCandidate ➞ relayProtocol</li>
-<li>RTCIceCandidate ➞ url</li>
-<li>Request ➞ targetAddressSpace</li>
-</ol><h4>css</h4><ol><li>properties ➞ align-content ➞ block_context</li>
-</ol><h4>html</h4><ol><li>elements ➞ script ➞ type ➞ speculationrules ➞ source_optional</li>
-</ol><h4>http</h4><ol><li>headers ➞ Permissions-Policy ➞ bluetooth</li>
+	 		<h4>api</h4><ol><li>HTMLTemplateElement ➞ shadowRootClonable</li>
+<li>RTCStatsReport ➞ type_media-source ➞ frames</li>
+<li>RTCStatsReport ➞ type_media-source ➞ framesPerSecond</li>
+<li>RTCStatsReport ➞ type_media-source ➞ height</li>
+<li>RTCStatsReport ➞ type_media-source ➞ width</li>
+<li>console ➞ dir_static ➞ options_colors_parameter</li>
+<li>console ➞ dir_static ➞ options_depth_parameter</li>
+<li>console ➞ dir_static ➞ options_showHidden_parameter</li>
+</ol><h4>html</h4><ol><li>elements ➞ link ➞ rel ➞ preload ➞ as-fetch</li>
+<li>elements ➞ link ➞ rel ➞ preload ➞ as-font</li>
+<li>elements ➞ link ➞ rel ➞ preload ➞ as-image</li>
+<li>elements ➞ link ➞ rel ➞ preload ➞ as-script</li>
+<li>elements ➞ link ➞ rel ➞ preload ➞ as-style</li>
+<li>elements ➞ link ➞ rel ➞ preload ➞ as-track</li>
+<li>elements ➞ template ➞ shadowrootclonable</li>
+</ol><h4>javascript</h4><ol><li>builtins ➞ JSON ➞ isRawJSON</li>
+<li>builtins ➞ JSON ➞ rawJSON</li>
+</ol><h4>webextensions</h4><ol><li>api ➞ devtools ➞ panels ➞ ExtensionSidebarPane ➞ setHeight</li>
+<li>api ➞ devtools ➞ panels ➞ ExtensionSidebarPane ➞ setPage</li>
+<li>api ➞ windows ➞ onBoundsChanged</li>
 
 	 	</ol>
 	 </details>
 
-	 <h2>Removed Features: 0</h2>
+	 <h2>Removed Features: 5</h2>
 	 <details class="removed features">
 	 		<summary>Expand to see the full list</summary>
-	 		
+	 		</ol><h4>html</h4><ol><li>global_attributes ➞ itemid</li>
+<li>global_attributes ➞ itemprop</li>
+<li>global_attributes ➞ itemref</li>
+<li>global_attributes ➞ itemscope</li>
+<li>global_attributes ➞ itemtype</li>
+
 	 	</ol>
 	 </details>
 
-	 <h2>Implementation Status Changes: +24, -0</h2>
+	 <h2>Implementation Status Changes: +49, -0</h2>
 
-		<h3>Added (24)</h3><section class="added implementations"><ol><li>
- 		</ol><h4>api</h4><ol><li><a href="https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-length"> CSSKeyframesRule ➞ length</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsehtmlunsafe"> Document ➞ parseHTMLUnsafe_static</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://dom.spec.whatwg.org/#dom-shadowrootinit-clonable"> Element ➞ attachShadow ➞ init_clonable_parameter</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-sethtmlunsafe"> Element ➞ setHTMLUnsafe</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> Permissions ➞ permission_notifications</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> Permissions ➞ permission_push</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator"> ReadableStream ➞ @@asyncIterator</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://streams.spec.whatwg.org/#readablestream"> ReadableStream ➞ values</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ShadowRoot/clonable"> ShadowRoot ➞ clonable</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-sethtmlunsafe"> ShadowRoot ➞ setHTMLUnsafe</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> URLSearchParams ➞ delete ➞ value_parameter</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> URLSearchParams ➞ has ➞ value_parameter</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>html</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/rel/preload"> elements ➞ link ➞ rel ➞ preload</a> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-</ol><h4>api</h4><ol><li><a href="https://wicg.github.io/turtledove/#dom-htmliframeelement-adauctionheaders"> HTMLIFrameElement ➞ adAuctionHeaders</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://wicg.github.io/shared-storage/#ref-for-dom-htmlsharedstoragewritableelementutils-sharedstoragewritable"> HTMLIFrameElement ➞ sharedStorageWritable</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://wicg.github.io/shared-storage/#ref-for-dom-htmlsharedstoragewritableelementutils-sharedstoragewritable"> HTMLImageElement ➞ sharedStorageWritable</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootdelegatesfocus"> HTMLTemplateElement ➞ shadowRootDelegatesFocus</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><span> Permissions ➞ permission_bluetooth</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/relayProtocol"> RTCIceCandidate ➞ relayProtocol</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/url"> RTCIceCandidate ➞ url</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://wicg.github.io/private-network-access/#dom-request-targetaddressspace"> Request ➞ targetAddressSpace</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-align/#align-justify-content"> properties ➞ align-content ➞ block_context</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>html</h4><ol><li><span> elements ➞ script ➞ type ➞ speculationrules ➞ source_optional</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-</ol><h4>http</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/bluetooth"> headers ➞ Permissions-Policy ➞ bluetooth</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+		<h3>Added (49)</h3><section class="added implementations"><ol><li>
+ 		</ol><h4>api</h4><ol><li><a href="https://w3c.github.io/aria/#dom-ariamixin-ariabraillelabel"> Element ➞ ariaBrailleLabel</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/aria/#dom-ariamixin-ariabrailleroledescription"> Element ➞ ariaBrailleRoleDescription</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/aria/#dom-ariamixin-ariabraillelabel"> ElementInternals ➞ ariaBrailleLabel</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/aria/#dom-ariamixin-ariabrailleroledescription"> ElementInternals ➞ ariaBrailleRoleDescription</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetAction"> HTMLButtonElement ➞ popoverTargetAction</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetElement"> HTMLButtonElement ➞ popoverTargetElement</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/beforetoggle_event"> HTMLElement ➞ beforetoggle_event</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/hidePopover"> HTMLElement ➞ hidePopover</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/popover"> HTMLElement ➞ popover</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/showPopover"> HTMLElement ➞ showPopover</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/togglePopover"> HTMLElement ➞ togglePopover</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><span> HTMLElement ➞ togglePopover ➞ returns_boolean</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/toggle_event"> HTMLElement ➞ toggle_event</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLInputElement/popoverTargetAction"> HTMLInputElement ➞ popoverTargetAction</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLInputElement/popoverTargetElement"> HTMLInputElement ➞ popoverTargetElement</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCDtlsTransport/iceTransport"> RTCDtlsTransport ➞ iceTransport</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport"> RTCIceTransport</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport/gatheringState"> RTCIceTransport ➞ gatheringState</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport/gatheringstatechange_event"> RTCIceTransport ➞ gatheringstatechange_event</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport/state"> RTCIceTransport ➞ state</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport/statechange_event"> RTCIceTransport ➞ statechange_event</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>css</h4><ol><li><span> selectors ➞ backdrop ➞ popover</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/:popover-open"> selectors ➞ popover-open</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>html</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/button#popovertarget"> elements ➞ button ➞ popovertarget</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/button#popovertargetaction"> elements ➞ button ➞ popovertargetaction</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/input#popovertarget"> elements ➞ input ➞ popovertarget</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/input#popovertargetaction"> elements ➞ input ➞ popovertargetaction</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Global_attributes/popover"> global_attributes ➞ popover</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>javascript</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments/@@iterator"> builtins ➞ Intl ➞ Segments ➞ @@iterator</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments"> builtins ➞ Intl ➞ Segments</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments/containing"> builtins ➞ Intl ➞ Segments ➞ containing</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>webassembly</h4><ol><li><a href="https://github.com/WebAssembly/multi-memory/blob/main/proposals/multi-memory/Overview.md"> multiMemory</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+</ol><h4>api</h4><ol><li><a href="https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootclonable"> HTMLTemplateElement ➞ shadowRootClonable</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/frames"> RTCStatsReport ➞ type_media-source ➞ frames</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/framesPerSecond"> RTCStatsReport ➞ type_media-source ➞ framesPerSecond</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/height"> RTCStatsReport ➞ type_media-source ➞ height</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/width"> RTCStatsReport ➞ type_media-source ➞ width</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+</ol><h4>html</h4><ol><li><span> elements ➞ link ➞ rel ➞ preload ➞ as-fetch</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><span> elements ➞ link ➞ rel ➞ preload ➞ as-font</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><span> elements ➞ link ➞ rel ➞ preload ➞ as-image</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><span> elements ➞ link ➞ rel ➞ preload ➞ as-script</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><span> elements ➞ link ➞ rel ➞ preload ➞ as-style</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><span> elements ➞ link ➞ rel ➞ preload ➞ as-track</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><span> elements ➞ template ➞ shadowrootclonable</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+</ol><h4>javascript</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON"> builtins ➞ JSON ➞ isRawJSON</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON"> builtins ➞ JSON ➞ rawJSON</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+</ol><h4>webextensions</h4><ol><li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setHeight"> api ➞ devtools ➞ panels ➞ ExtensionSidebarPane ➞ setHeight</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setPage"> api ➞ devtools ➞ panels ➞ ExtensionSidebarPane ➞ setPage</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/onBoundsChanged"> api ➞ windows ➞ onBoundsChanged</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
 
  		</ol>
 	 	</section>

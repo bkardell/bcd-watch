@@ -4,7 +4,7 @@
         <title>bcd-watch rss feed</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Fri, 05 Apr 2024 17:41:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Apr 2024 12:33:31 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -15,23 +15,40 @@
         <copyright>All rights reserved 2024, Brian Kardell</copyright>
         <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[BCD Completion Report, Tue Mar 26 2024 18:49:11 GMT+0000 (Coordinated Universal Time) - Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time)]]></title>
-            <link>https://bkardell.com/bcd-watch/Apr-03-2024-completed.html</link>
-            <guid>https://bkardell.com/bcd-watch/Apr-03-2024-completed.html</guid>
-            <pubDate>Wed, 03 Apr 2024 04:41:10 GMT</pubDate>
+            <title><![CDATA[BCD Completion Report, Wed Apr 03 2024 04:41:10 GMT+0000 (Coordinated Universal Time) - Tue Apr 09 2024 12:00:38 GMT+0000 (Coordinated Universal Time)]]></title>
+            <link>https://bkardell.com/bcd-watch/Apr-09-2024-completed.html</link>
+            <guid>https://bkardell.com/bcd-watch/Apr-09-2024-completed.html</guid>
+            <pubDate>Tue, 09 Apr 2024 12:00:38 GMT</pubDate>
             <description><![CDATA[Weekly summary of things reaching complete status in BCD data]]></description>
-            <content:encoded><![CDATA[<h1>10 New Universal Implementations Reported!</h2>
+            <content:encoded><![CDATA[<h1>27 New Universal Implementations Reported!</h2>
 		<ol  class="added implementations"><li>
- 		</ol><h4>api</h4><ol><li><a href="https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-length"> CSSKeyframesRule ➞ length</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsehtmlunsafe"> Document ➞ parseHTMLUnsafe_static</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-sethtmlunsafe"> Element ➞ setHTMLUnsafe</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> Permissions ➞ permission_notifications <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> Permissions ➞ permission_push <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ShadowRoot/clonable"> ShadowRoot ➞ clonable</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-sethtmlunsafe"> ShadowRoot ➞ setHTMLUnsafe</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> URLSearchParams ➞ delete ➞ value_parameter <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> URLSearchParams ➞ has ➞ value_parameter <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-align/#align-justify-content"> properties ➞ align-content ➞ block_context</a> <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+ 		</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetAction"> HTMLButtonElement ➞ popoverTargetAction</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetElement"> HTMLButtonElement ➞ popoverTargetElement</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/beforetoggle_event"> HTMLElement ➞ beforetoggle_event</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/hidePopover"> HTMLElement ➞ hidePopover</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/popover"> HTMLElement ➞ popover</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/showPopover"> HTMLElement ➞ showPopover</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/togglePopover"> HTMLElement ➞ togglePopover</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> HTMLElement ➞ togglePopover ➞ returns_boolean <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/toggle_event"> HTMLElement ➞ toggle_event</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLInputElement/popoverTargetAction"> HTMLInputElement ➞ popoverTargetAction</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLInputElement/popoverTargetElement"> HTMLInputElement ➞ popoverTargetElement</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCDtlsTransport/iceTransport"> RTCDtlsTransport ➞ iceTransport</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport"> RTCIceTransport</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport/gatheringState"> RTCIceTransport ➞ gatheringState</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport/gatheringstatechange_event"> RTCIceTransport ➞ gatheringstatechange_event</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport/state"> RTCIceTransport ➞ state</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceTransport/statechange_event"> RTCIceTransport ➞ statechange_event</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>css</h4><ol><li> selectors ➞ backdrop ➞ popover <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/:popover-open"> selectors ➞ popover-open</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>html</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/button#popovertarget"> elements ➞ button ➞ popovertarget</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/button#popovertargetaction"> elements ➞ button ➞ popovertargetaction</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/input#popovertarget"> elements ➞ input ➞ popovertarget</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/input#popovertargetaction"> elements ➞ input ➞ popovertargetaction</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Global_attributes/popover"> global_attributes ➞ popover</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>javascript</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments/@@iterator"> builtins ➞ Intl ➞ Segments ➞ @@iterator</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments"> builtins ➞ Intl ➞ Segments</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments/containing"> builtins ➞ Intl ➞ Segments ➞ containing</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
 
  		</ol>
 	 ]]></content:encoded>

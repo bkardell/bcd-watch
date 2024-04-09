@@ -112,7 +112,13 @@ function formatSummary(delta, data) {
 function formatCompleted(delta, data) {
 	let complete = delta.addedImplementations.filter(feature => { return feature.totalImplementations === 3 })
 
-	let out = `<h1>${complete.length} New Universal Implementations Reported!</h2>
+	let out = `<h1>BCD Universal Implementations Report</h1>
+		<div>
+			<p>${complete.length} new universal implementations <br>
+			<span>from <time>${delta.__meta[0].older.releaseDate}</time></span><br>
+			<span>to <time>${delta.__meta[0].newer.releaseDate}</time></span></p>
+		</div>
+		<section>
 		<ol  class="added implementations"><li>
  		${complete.map((feature) => {
  			let retVal = ''
@@ -136,6 +142,7 @@ function formatCompleted(delta, data) {
  			return retVal;
  		}).join('')}
  		</ol>
+		</section>
 	 `
 
 	 return out

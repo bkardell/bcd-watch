@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch rss feed</title>
-    <updated>2024-04-16T16:23:11.403Z</updated>
+    <updated>2024-04-23T12:34:46.860Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,42 +15,29 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD Completion Report, Tue Apr 09 2024 12:00:38 GMT+0000 (Coordinated Universal Time) - Tue Apr 16 2024 16:18:55 GMT+0000 (Coordinated Universal Time)]]></title>
-        <id>https://bkardell.com/bcd-watch/Apr-16-2024-completed.html</id>
-        <link href="https://bkardell.com/bcd-watch/Apr-16-2024-completed.html">
+        <title type="html"><![CDATA[BCD Completion Report, Tue Apr 16 2024 16:18:55 GMT+0000 (Coordinated Universal Time) - Tue Apr 23 2024 09:26:28 GMT+0000 (Coordinated Universal Time)]]></title>
+        <id>https://bkardell.com/bcd-watch/Apr-23-2024-completed.html</id>
+        <link href="https://bkardell.com/bcd-watch/Apr-23-2024-completed.html">
         </link>
-        <updated>2024-04-16T16:18:55.210Z</updated>
+        <updated>2024-04-23T09:26:28.908Z</updated>
         <summary type="html"><![CDATA[Weekly summary of things reaching complete status in BCD data]]></summary>
-        <content type="html"><![CDATA[<h1>28 New Universal Implementations Reported!</h2>
+        <content type="html"><![CDATA[<h1>15 New Universal Implementations Reported!</h2>
 		<ol  class="added implementations"><li>
- 		</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/CSSImportRule/supportsText"> CSSImportRule ➞ supportsText</a> <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLAnchorElement ➞ referrerPolicy ➞ no-referrer-when-downgrade <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLAnchorElement ➞ referrerPolicy ➞ origin-when-cross-origin <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLAnchorElement ➞ referrerPolicy ➞ unsafe-url <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLAreaElement ➞ referrerPolicy ➞ no-referrer-when-downgrade <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLAreaElement ➞ referrerPolicy ➞ origin-when-cross-origin <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLAreaElement ➞ referrerPolicy ➞ unsafe-url <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLIFrameElement ➞ referrerPolicy ➞ no-referrer-when-downgrade <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLIFrameElement ➞ referrerPolicy ➞ origin-when-cross-origin <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLIFrameElement ➞ referrerPolicy ➞ unsafe-url <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLImageElement ➞ referrerPolicy ➞ no-referrer-when-downgrade <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLImageElement ➞ referrerPolicy ➞ origin-when-cross-origin <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLImageElement ➞ referrerPolicy ➞ unsafe-url <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLLinkElement ➞ referrerPolicy ➞ no-referrer-when-downgrade <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLLinkElement ➞ referrerPolicy ➞ origin-when-cross-origin <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLLinkElement ➞ referrerPolicy ➞ unsafe-url <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLScriptElement ➞ referrerPolicy ➞ no-referrer-when-downgrade <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLScriptElement ➞ referrerPolicy ➞ origin-when-cross-origin <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> HTMLScriptElement ➞ referrerPolicy ➞ unsafe-url <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> IntersectionObserver ➞ IntersectionObserver ➞ options_root_parameter_Document <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> OffscreenCanvas ➞ getContext ➞ webgl2_context <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> OffscreenCanvas ➞ getContext ➞ webgl_context <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://w3c.github.io/webrtc-pc/#dom-rtcrtpcontributingsource-audiolevel"> RTCRtpReceiver ➞ getContributingSources ➞ audioLevel</a> <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/transition-behavior"> properties ➞ transition-behavior</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>api</h4><ol><li> Headers ➞ iterate_combined_duplicates <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> Headers ➞ iterate_lexicographically <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>webextensions</h4><ol><li> api ➞ commands ➞ Command ➞ description <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li> api ➞ commands ➞ Command ➞ shortcut <span class="browsers">Added to <strong>firefox,chrome,safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+ 		</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/IDBFactory/databases"> IDBFactory ➞ databases</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/IDBTransaction/durability"> IDBTransaction ➞ durability</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/address"> RTCIceCandidate ➞ address</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/component"> RTCIceCandidate ➞ component</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/foundation"> RTCIceCandidate ➞ foundation</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/port"> RTCIceCandidate ➞ port</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/priority"> RTCIceCandidate ➞ priority</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/protocol"> RTCIceCandidate ➞ protocol</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedAddress"> RTCIceCandidate ➞ relatedAddress</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedPort"> RTCIceCandidate ➞ relatedPort</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/tcpType"> RTCIceCandidate ➞ tcpType</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/type"> RTCIceCandidate ➞ type</a> <span class="browsers">Added to <strong>firefox</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> Worker ➞ Worker ➞ options_type_parameter <span class="browsers">Added to <strong>safari</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>css</h4><ol><li> types ➞ calc-constant ➞ e <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li> types ➞ calc-constant ➞ pi <span class="browsers">Added to <strong>chrome</strong></span> <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
 
  		</ol>
 	 ]]></content>

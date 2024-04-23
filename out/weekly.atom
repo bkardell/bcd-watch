@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch rss feed</title>
-    <updated>2024-04-16T16:23:11.398Z</updated>
+    <updated>2024-04-23T12:34:46.856Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,121 +15,415 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD Changes Report, Tue Apr 09 2024 12:00:38 GMT+0000 (Coordinated Universal Time) - Tue Apr 16 2024 16:18:55 GMT+0000 (Coordinated Universal Time)]]></title>
-        <id>https://bkardell.com/bcd-watch/Apr-16-2024.html</id>
-        <link href="https://bkardell.com/bcd-watch/Apr-16-2024.html">
+        <title type="html"><![CDATA[BCD Changes Report, Tue Apr 16 2024 16:18:55 GMT+0000 (Coordinated Universal Time) - Tue Apr 23 2024 09:26:28 GMT+0000 (Coordinated Universal Time)]]></title>
+        <id>https://bkardell.com/bcd-watch/Apr-23-2024.html</id>
+        <link href="https://bkardell.com/bcd-watch/Apr-23-2024.html">
         </link>
-        <updated>2024-04-16T16:18:55.210Z</updated>
+        <updated>2024-04-23T09:26:28.908Z</updated>
         <summary type="html"><![CDATA[Weekly summary of changes to BCD data]]></summary>
         <content type="html"><![CDATA[
-	<h1>BCD Changes Report, <time>Tue Apr 16 2024</time></h1>
+	<h1>BCD Changes Report, <time>Tue Apr 23 2024</time></h1>
 	<div>
 		<p>Summary of BCD changes <br>
-		<span>from <time>Tue Apr 09 2024 12:00:38 GMT+0000 (Coordinated Universal Time)</time></span><br>
-		<span>to <time>Tue Apr 16 2024 16:18:55 GMT+0000 (Coordinated Universal Time)</time></span></p>
+		<span>from <time>Tue Apr 16 2024 16:18:55 GMT+0000 (Coordinated Universal Time)</time></span><br>
+		<span>to <time>Tue Apr 23 2024 09:26:28 GMT+0000 (Coordinated Universal Time)</time></span></p>
 	</div>
-	<h2>Added Features: 14</h2>
+	<h2>Added Features: 179</h2>
 	 <details class="added features">
 	 		<summary>Expand to see the full list</summary>
-	 		<h4>api</h4><ol><li>Headers ➞ iterate_combined_duplicates</li>
-<li>Headers ➞ iterate_lexicographically</li>
-<li>PerformanceScriptTiming ➞ sourceCharPosition</li>
-<li>PerformanceScriptTiming ➞ sourceURL</li>
-</ol><h4>css</h4><ol><li>properties ➞ content-visibility ➞ is_transitionable</li>
-</ol><h4>javascript</h4><ol><li>builtins ➞ JSON ➞ parse ➞ reviver_parameter_context_argument</li>
-<li>statements ➞ import ➞ import_assertions ➞ type_css</li>
-<li>statements ➞ import ➞ import_attributes ➞ type_css</li>
-</ol><h4>webextensions</h4><ol><li>api ➞ commands ➞ Command ➞ description</li>
-<li>api ➞ commands ➞ Command ➞ shortcut</li>
-<li>api ➞ commands ➞ update ➞ description</li>
-<li>api ➞ commands ➞ update ➞ name</li>
-<li>api ➞ commands ➞ update ➞ shortcut</li>
-<li>api ➞ proxy ➞ ProxyInfo ➞ proxyAuthorizationHeader</li>
+	 		<h4>api</h4><ol><li>CSSPositionTryDescriptors</li>
+<li>CSSPositionTryDescriptors ➞ align-self</li>
+<li>CSSPositionTryDescriptors ➞ alignSelf</li>
+<li>CSSPositionTryDescriptors ➞ block-size</li>
+<li>CSSPositionTryDescriptors ➞ blockSize</li>
+<li>CSSPositionTryDescriptors ➞ bottom</li>
+<li>CSSPositionTryDescriptors ➞ height</li>
+<li>CSSPositionTryDescriptors ➞ inline-size</li>
+<li>CSSPositionTryDescriptors ➞ inlineSize</li>
+<li>CSSPositionTryDescriptors ➞ inset</li>
+<li>CSSPositionTryDescriptors ➞ inset-area</li>
+<li>CSSPositionTryDescriptors ➞ inset-block</li>
+<li>CSSPositionTryDescriptors ➞ inset-block-end</li>
+<li>CSSPositionTryDescriptors ➞ inset-block-start</li>
+<li>CSSPositionTryDescriptors ➞ inset-inline</li>
+<li>CSSPositionTryDescriptors ➞ inset-inline-end</li>
+<li>CSSPositionTryDescriptors ➞ inset-inline-start</li>
+<li>CSSPositionTryDescriptors ➞ insetArea</li>
+<li>CSSPositionTryDescriptors ➞ insetBlock</li>
+<li>CSSPositionTryDescriptors ➞ insetBlockEnd</li>
+<li>CSSPositionTryDescriptors ➞ insetBlockStart</li>
+<li>CSSPositionTryDescriptors ➞ insetInline</li>
+<li>CSSPositionTryDescriptors ➞ insetInlineEnd</li>
+<li>CSSPositionTryDescriptors ➞ insetInlineStart</li>
+<li>CSSPositionTryDescriptors ➞ justify-self</li>
+<li>CSSPositionTryDescriptors ➞ justifySelf</li>
+<li>CSSPositionTryDescriptors ➞ left</li>
+<li>CSSPositionTryDescriptors ➞ margin</li>
+<li>CSSPositionTryDescriptors ➞ margin-block</li>
+<li>CSSPositionTryDescriptors ➞ margin-block-end</li>
+<li>CSSPositionTryDescriptors ➞ margin-block-start</li>
+<li>CSSPositionTryDescriptors ➞ margin-bottom</li>
+<li>CSSPositionTryDescriptors ➞ margin-inline</li>
+<li>CSSPositionTryDescriptors ➞ margin-inline-end</li>
+<li>CSSPositionTryDescriptors ➞ margin-inline-start</li>
+<li>CSSPositionTryDescriptors ➞ margin-left</li>
+<li>CSSPositionTryDescriptors ➞ margin-right</li>
+<li>CSSPositionTryDescriptors ➞ margin-top</li>
+<li>CSSPositionTryDescriptors ➞ marginBlock</li>
+<li>CSSPositionTryDescriptors ➞ marginBlockEnd</li>
+<li>CSSPositionTryDescriptors ➞ marginBlockStart</li>
+<li>CSSPositionTryDescriptors ➞ marginBottom</li>
+<li>CSSPositionTryDescriptors ➞ marginInline</li>
+<li>CSSPositionTryDescriptors ➞ marginInlineEnd</li>
+<li>CSSPositionTryDescriptors ➞ marginInlineStart</li>
+<li>CSSPositionTryDescriptors ➞ marginLeft</li>
+<li>CSSPositionTryDescriptors ➞ marginRight</li>
+<li>CSSPositionTryDescriptors ➞ marginTop</li>
+<li>CSSPositionTryDescriptors ➞ max-block-size</li>
+<li>CSSPositionTryDescriptors ➞ max-height</li>
+<li>CSSPositionTryDescriptors ➞ max-inline-size</li>
+<li>CSSPositionTryDescriptors ➞ max-width</li>
+<li>CSSPositionTryDescriptors ➞ maxBlockSize</li>
+<li>CSSPositionTryDescriptors ➞ maxHeight</li>
+<li>CSSPositionTryDescriptors ➞ maxInlineSize</li>
+<li>CSSPositionTryDescriptors ➞ maxWidth</li>
+<li>CSSPositionTryDescriptors ➞ min-block-size</li>
+<li>CSSPositionTryDescriptors ➞ min-height</li>
+<li>CSSPositionTryDescriptors ➞ min-inline-size</li>
+<li>CSSPositionTryDescriptors ➞ min-width</li>
+<li>CSSPositionTryDescriptors ➞ minBlockSize</li>
+<li>CSSPositionTryDescriptors ➞ minHeight</li>
+<li>CSSPositionTryDescriptors ➞ minInlineSize</li>
+<li>CSSPositionTryDescriptors ➞ minWidth</li>
+<li>CSSPositionTryDescriptors ➞ place-self</li>
+<li>CSSPositionTryDescriptors ➞ placeSelf</li>
+<li>CSSPositionTryDescriptors ➞ position-anchor</li>
+<li>CSSPositionTryDescriptors ➞ positionAnchor</li>
+<li>CSSPositionTryDescriptors ➞ right</li>
+<li>CSSPositionTryDescriptors ➞ top</li>
+<li>CSSPositionTryDescriptors ➞ width</li>
+<li>CSSPositionTryRule</li>
+<li>CSSPositionTryRule ➞ name</li>
+<li>CSSPositionTryRule ➞ style</li>
+<li>Element ➞ currentCSSZoom</li>
+<li>Element ➞ getHTML</li>
+<li>HTMLElement ➞ anchorElement</li>
+<li>PerformanceScriptTiming ➞ sourceFunctionName</li>
+<li>RTCRtpReceiver ➞ jitterBufferTarget</li>
+<li>ShadowRoot ➞ getHTML</li>
+<li>TextEvent</li>
+<li>TextEvent ➞ data</li>
+<li>TextEvent ➞ initTextEvent</li>
+<li>URL ➞ parse_static</li>
+<li>WebSocketError ➞ WebSocketError</li>
+<li>WebSocketError</li>
+<li>WebSocketError ➞ closeCode</li>
+<li>WebSocketError ➞ reason</li>
+<li>WebSocketStream ➞ WebSocketStream</li>
+<li>WebSocketStream</li>
+<li>WebSocketStream ➞ close</li>
+<li>WebSocketStream ➞ closed</li>
+<li>WebSocketStream ➞ opened</li>
+<li>WebSocketStream ➞ url</li>
+</ol><h4>css</h4><ol><li>at-rules ➞ position-try</li>
+<li>properties ➞ align-items ➞ anchor-center</li>
+<li>properties ➞ align-self ➞ anchor-center</li>
+<li>properties ➞ anchor-name</li>
+<li>properties ➞ anchor-name ➞ none</li>
+<li>properties ➞ block-size ➞ anchor-size</li>
+<li>properties ➞ bottom ➞ anchor</li>
+<li>properties ➞ height ➞ anchor-size</li>
+<li>properties ➞ inline-size ➞ anchor-size</li>
+<li>properties ➞ inset ➞ anchor</li>
+<li>properties ➞ inset-area</li>
+<li>properties ➞ inset-area ➞ block-end</li>
+<li>properties ➞ inset-area ➞ block-start</li>
+<li>properties ➞ inset-area ➞ bottom</li>
+<li>properties ➞ inset-area ➞ center</li>
+<li>properties ➞ inset-area ➞ end</li>
+<li>properties ➞ inset-area ➞ inline-end</li>
+<li>properties ➞ inset-area ➞ inline-start</li>
+<li>properties ➞ inset-area ➞ left</li>
+<li>properties ➞ inset-area ➞ none</li>
+<li>properties ➞ inset-area ➞ right</li>
+<li>properties ➞ inset-area ➞ self-end</li>
+<li>properties ➞ inset-area ➞ self-start</li>
+<li>properties ➞ inset-area ➞ span-all</li>
+<li>properties ➞ inset-area ➞ span-block-end</li>
+<li>properties ➞ inset-area ➞ span-block-start</li>
+<li>properties ➞ inset-area ➞ span-bottom</li>
+<li>properties ➞ inset-area ➞ span-end</li>
+<li>properties ➞ inset-area ➞ span-inline-end</li>
+<li>properties ➞ inset-area ➞ span-inline-start</li>
+<li>properties ➞ inset-area ➞ span-start</li>
+<li>properties ➞ inset-area ➞ span-top</li>
+<li>properties ➞ inset-area ➞ span-x-end</li>
+<li>properties ➞ inset-area ➞ span-x-start</li>
+<li>properties ➞ inset-area ➞ span-y-end</li>
+<li>properties ➞ inset-area ➞ span-y-start</li>
+<li>properties ➞ inset-area ➞ start</li>
+<li>properties ➞ inset-area ➞ top</li>
+<li>properties ➞ inset-area ➞ x-end</li>
+<li>properties ➞ inset-area ➞ x-self-end</li>
+<li>properties ➞ inset-area ➞ x-self-start</li>
+<li>properties ➞ inset-area ➞ x-start</li>
+<li>properties ➞ inset-area ➞ y-end</li>
+<li>properties ➞ inset-area ➞ y-self-end</li>
+<li>properties ➞ inset-area ➞ y-self-start</li>
+<li>properties ➞ inset-area ➞ y-start</li>
+<li>properties ➞ inset-block ➞ anchor</li>
+<li>properties ➞ inset-block-end ➞ anchor</li>
+<li>properties ➞ inset-block-start ➞ anchor</li>
+<li>properties ➞ inset-inline ➞ anchor</li>
+<li>properties ➞ inset-inline-end ➞ anchor</li>
+<li>properties ➞ inset-inline-start ➞ anchor</li>
+<li>properties ➞ justify-items ➞ anchor-center</li>
+<li>properties ➞ justify-self ➞ anchor-center</li>
+<li>properties ➞ left ➞ anchor</li>
+<li>properties ➞ max-block-size ➞ anchor-size</li>
+<li>properties ➞ max-height ➞ anchor-size</li>
+<li>properties ➞ max-inline-size ➞ anchor-size</li>
+<li>properties ➞ max-width ➞ anchor-size</li>
+<li>properties ➞ min-block-size ➞ anchor-size</li>
+<li>properties ➞ min-height ➞ anchor-size</li>
+<li>properties ➞ min-inline-size ➞ anchor-size</li>
+<li>properties ➞ min-width ➞ anchor-size</li>
+<li>properties ➞ position-anchor</li>
+<li>properties ➞ position-try</li>
+<li>properties ➞ position-try-options</li>
+<li>properties ➞ position-try-options ➞ flip-block</li>
+<li>properties ➞ position-try-options ➞ flip-inline</li>
+<li>properties ➞ position-try-options ➞ flip-start</li>
+<li>properties ➞ position-try-options ➞ none</li>
+<li>properties ➞ position-try-order</li>
+<li>properties ➞ position-try-order ➞ most-block-size</li>
+<li>properties ➞ position-try-order ➞ most-height</li>
+<li>properties ➞ position-try-order ➞ most-inline-size</li>
+<li>properties ➞ position-try-order ➞ most-width</li>
+<li>properties ➞ position-try-order ➞ normal</li>
+<li>properties ➞ position-visibility</li>
+<li>properties ➞ position-visibility ➞ always</li>
+<li>properties ➞ position-visibility ➞ anchors-visible</li>
+<li>properties ➞ position-visibility ➞ no-overflow</li>
+<li>properties ➞ right ➞ anchor</li>
+<li>properties ➞ top ➞ anchor</li>
+<li>properties ➞ width ➞ anchor-size</li>
+<li>types ➞ anchor</li>
+<li>types ➞ anchor-size</li>
 
 	 	</ol>
 	 </details>
 
-	 <h2>Removed Features: 21</h2>
+	 <h2>Removed Features: 1</h2>
 	 <details class="removed features">
 	 		<summary>Expand to see the full list</summary>
-	 		</ol><h4>api</h4><ol><li>Headers ➞ lexicographical_sorting</li>
-</ol><h4>css</h4><ol><li>properties ➞ content-visibility ➞ transitionable</li>
-</ol><h4>javascript</h4><ol><li>builtins ➞ ArrayBuffer ➞ ArrayBuffer ➞ new_required</li>
-<li>builtins ➞ DataView ➞ DataView ➞ new_required</li>
-<li>builtins ➞ Float32Array ➞ Float32Array ➞ new_required</li>
-<li>builtins ➞ Float64Array ➞ Float64Array ➞ new_required</li>
-<li>builtins ➞ Int16Array ➞ Int16Array ➞ new_required</li>
-<li>builtins ➞ Int32Array ➞ Int32Array ➞ new_required</li>
-<li>builtins ➞ Int8Array ➞ Int8Array ➞ new_required</li>
-<li>builtins ➞ Map ➞ Map ➞ new_required</li>
-<li>builtins ➞ Set ➞ Set ➞ new_required</li>
-<li>builtins ➞ TypedArray ➞ new_required</li>
-<li>builtins ➞ Uint16Array ➞ Uint16Array ➞ new_required</li>
-<li>builtins ➞ Uint32Array ➞ Uint32Array ➞ new_required</li>
-<li>builtins ➞ Uint8Array ➞ Uint8Array ➞ new_required</li>
-<li>builtins ➞ Uint8ClampedArray ➞ Uint8ClampedArray ➞ new_required</li>
-<li>builtins ➞ WeakMap ➞ WeakMap ➞ new_required</li>
-</ol><h4>webextensions</h4><ol><li>api ➞ commands ➞ Command ➞ tab</li>
-<li>api ➞ commands ➞ update ➞ details ➞ description</li>
-<li>api ➞ commands ➞ update ➞ details ➞ name</li>
-<li>api ➞ commands ➞ update ➞ details ➞ shortcut</li>
+	 		<li>properties ➞ -webkit-hyphenate-character</li>
 
 	 	</ol>
 	 </details>
 
-	 <h2>Implementation Status Changes: +50, -0</h2>
+	 <h2>Implementation Status Changes: +199, -0</h2>
 
-		<h3>Added (50)</h3><section class="added implementations"><ol><li>
- 		</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/CSSImportRule/supportsText"> CSSImportRule ➞ supportsText</a> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/CSSStartingStyleRule"> CSSStartingStyleRule</a> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><span> HTMLAnchorElement ➞ referrerPolicy ➞ no-referrer-when-downgrade</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLAnchorElement ➞ referrerPolicy ➞ origin-when-cross-origin</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLAnchorElement ➞ referrerPolicy ➞ unsafe-url</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLAreaElement ➞ referrerPolicy ➞ no-referrer-when-downgrade</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLAreaElement ➞ referrerPolicy ➞ origin-when-cross-origin</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLAreaElement ➞ referrerPolicy ➞ unsafe-url</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLIFrameElement ➞ referrerPolicy ➞ no-referrer-when-downgrade</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLIFrameElement ➞ referrerPolicy ➞ origin-when-cross-origin</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLIFrameElement ➞ referrerPolicy ➞ unsafe-url</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLImageElement ➞ referrerPolicy ➞ no-referrer-when-downgrade</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLImageElement ➞ referrerPolicy ➞ origin-when-cross-origin</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLImageElement ➞ referrerPolicy ➞ unsafe-url</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLLinkElement ➞ referrerPolicy ➞ no-referrer-when-downgrade</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLLinkElement ➞ referrerPolicy ➞ origin-when-cross-origin</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLLinkElement ➞ referrerPolicy ➞ unsafe-url</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLScriptElement ➞ referrerPolicy ➞ no-referrer-when-downgrade</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLScriptElement ➞ referrerPolicy ➞ origin-when-cross-origin</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> HTMLScriptElement ➞ referrerPolicy ➞ unsafe-url</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootdelegatesfocus"> HTMLTemplateElement ➞ shadowRootDelegatesFocus</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><span> IntersectionObserver ➞ IntersectionObserver ➞ options_root_parameter_Document</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> OffscreenCanvas ➞ getContext ➞ webgl2_context</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> OffscreenCanvas ➞ getContext ➞ webgl_context</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://w3c.github.io/webrtc-pc/#dom-rtcrtpcontributingsource-audiolevel"> RTCRtpReceiver ➞ getContributingSources ➞ audioLevel</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-text-4/#text-wrap-style"> properties ➞ text-wrap-style</a> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-auto"> properties ➞ text-wrap-style ➞ auto</a> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-balance"> properties ➞ text-wrap-style ➞ balance</a> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-stable"> properties ➞ text-wrap-style ➞ stable</a> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><span> properties ➞ transition ➞ transition-behavior</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/transition-behavior"> properties ➞ transition-behavior</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-</ol><h4>http</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Encoding#zstd"> headers ➞ Content-Encoding ➞ zstd</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-</ol><h4>javascript</h4><ol><li><span> statements ➞ import ➞ import_attributes</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><span> statements ➞ import ➞ import_attributes ➞ type_json</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-</ol><h4>webextensions</h4><ol><li><span> api ➞ commands ➞ onCommand ➞ tab</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-<li><span> api ➞ runtime ➞ MessageSender ➞ origin</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
-</ol><h4>api</h4><ol><li><span> Headers ➞ iterate_combined_duplicates</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> Headers ➞ iterate_lexicographically</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/sourceCharPosition"> PerformanceScriptTiming ➞ sourceCharPosition</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/sourceURL"> PerformanceScriptTiming ➞ sourceURL</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-contain-3/#content-visibility-animation"> properties ➞ content-visibility ➞ is_transitionable</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-</ol><h4>javascript</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#the_reviver_parameter"> builtins ➞ JSON ➞ parse ➞ reviver_parameter_context_argument</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><span> statements ➞ import ➞ import_assertions ➞ type_css</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><span> statements ➞ import ➞ import_attributes ➞ type_css</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-</ol><h4>webextensions</h4><ol><li><span> api ➞ commands ➞ Command ➞ description</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> api ➞ commands ➞ Command ➞ shortcut</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome, safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
-<li><span> api ➞ commands ➞ update ➞ description</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><span> api ➞ commands ➞ update ➞ name</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><span> api ➞ commands ➞ update ➞ shortcut</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
-<li><span> api ➞ proxy ➞ ProxyInfo ➞ proxyAuthorizationHeader</span> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+		<h3>Added (199)</h3><section class="added implementations"><ol><li>
+ 		</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isContextLost"> CanvasRenderingContext2D ➞ isContextLost</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/webglcontextlost_event"> HTMLCanvasElement ➞ contextlost_event</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/contextrestored_event"> HTMLCanvasElement ➞ contextrestored_event</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/IDBFactory/databases"> IDBFactory ➞ databases</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/IDBTransaction/durability"> IDBTransaction ➞ durability</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-iscontextlost"> OffscreenCanvasRenderingContext2D ➞ isContextLost</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/address"> RTCIceCandidate ➞ address</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/component"> RTCIceCandidate ➞ component</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/foundation"> RTCIceCandidate ➞ foundation</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/port"> RTCIceCandidate ➞ port</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/priority"> RTCIceCandidate ➞ priority</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/protocol"> RTCIceCandidate ➞ protocol</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedAddress"> RTCIceCandidate ➞ relatedAddress</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedPort"> RTCIceCandidate ➞ relatedPort</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/tcpType"> RTCIceCandidate ➞ tcpType</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/type"> RTCIceCandidate ➞ type</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/selection-api/#dom-selection-direction"> Selection ➞ direction</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><span> Worker ➞ Worker ➞ options_type_parameter</span> <b>↠</b>  <span class="browsers">Added to <strong>safari</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>css</h4><ol><li><span> types ➞ calc-constant ➞ e</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+<li><span> types ➞ calc-constant ➞ pi</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni3 engines">Now in <strong>3</strong> of 3 engines</span></li>
+</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors"> CSSPositionTryDescriptors</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-align-self"> CSSPositionTryDescriptors ➞ align-self</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-alignself"> CSSPositionTryDescriptors ➞ alignSelf</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-block-size"> CSSPositionTryDescriptors ➞ block-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-blocksize"> CSSPositionTryDescriptors ➞ blockSize</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-bottom"> CSSPositionTryDescriptors ➞ bottom</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-height"> CSSPositionTryDescriptors ➞ height</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inline-size"> CSSPositionTryDescriptors ➞ inline-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inlinesize"> CSSPositionTryDescriptors ➞ inlineSize</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inset"> CSSPositionTryDescriptors ➞ inset</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inset-area"> CSSPositionTryDescriptors ➞ inset-area</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inset-block"> CSSPositionTryDescriptors ➞ inset-block</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inset-block-end"> CSSPositionTryDescriptors ➞ inset-block-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inset-block-start"> CSSPositionTryDescriptors ➞ inset-block-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inset-inline"> CSSPositionTryDescriptors ➞ inset-inline</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inset-inline-end"> CSSPositionTryDescriptors ➞ inset-inline-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-inset-inline-start"> CSSPositionTryDescriptors ➞ inset-inline-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-insetarea"> CSSPositionTryDescriptors ➞ insetArea</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-insetblock"> CSSPositionTryDescriptors ➞ insetBlock</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-insetblockend"> CSSPositionTryDescriptors ➞ insetBlockEnd</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-insetblockstart"> CSSPositionTryDescriptors ➞ insetBlockStart</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-insetinline"> CSSPositionTryDescriptors ➞ insetInline</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-insetinlineend"> CSSPositionTryDescriptors ➞ insetInlineEnd</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-insetinlinestart"> CSSPositionTryDescriptors ➞ insetInlineStart</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-justify-self"> CSSPositionTryDescriptors ➞ justify-self</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-justifyself"> CSSPositionTryDescriptors ➞ justifySelf</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-left"> CSSPositionTryDescriptors ➞ left</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin"> CSSPositionTryDescriptors ➞ margin</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-block"> CSSPositionTryDescriptors ➞ margin-block</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-block-end"> CSSPositionTryDescriptors ➞ margin-block-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-block-start"> CSSPositionTryDescriptors ➞ margin-block-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-bottom"> CSSPositionTryDescriptors ➞ margin-bottom</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-inline"> CSSPositionTryDescriptors ➞ margin-inline</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-inline-end"> CSSPositionTryDescriptors ➞ margin-inline-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-inline-start"> CSSPositionTryDescriptors ➞ margin-inline-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-left"> CSSPositionTryDescriptors ➞ margin-left</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-right"> CSSPositionTryDescriptors ➞ margin-right</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margin-top"> CSSPositionTryDescriptors ➞ margin-top</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-marginblock"> CSSPositionTryDescriptors ➞ marginBlock</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-marginblockend"> CSSPositionTryDescriptors ➞ marginBlockEnd</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-marginblockstart"> CSSPositionTryDescriptors ➞ marginBlockStart</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-marginbottom"> CSSPositionTryDescriptors ➞ marginBottom</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margininline"> CSSPositionTryDescriptors ➞ marginInline</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margininlineend"> CSSPositionTryDescriptors ➞ marginInlineEnd</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margininlinestart"> CSSPositionTryDescriptors ➞ marginInlineStart</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-marginleft"> CSSPositionTryDescriptors ➞ marginLeft</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-marginright"> CSSPositionTryDescriptors ➞ marginRight</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-margintop"> CSSPositionTryDescriptors ➞ marginTop</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-max-block-size"> CSSPositionTryDescriptors ➞ max-block-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-max-height"> CSSPositionTryDescriptors ➞ max-height</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-max-inline-size"> CSSPositionTryDescriptors ➞ max-inline-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-max-width"> CSSPositionTryDescriptors ➞ max-width</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-maxblocksize"> CSSPositionTryDescriptors ➞ maxBlockSize</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-maxheight"> CSSPositionTryDescriptors ➞ maxHeight</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-maxinlinesize"> CSSPositionTryDescriptors ➞ maxInlineSize</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-maxwidth"> CSSPositionTryDescriptors ➞ maxWidth</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-min-block-size"> CSSPositionTryDescriptors ➞ min-block-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-min-height"> CSSPositionTryDescriptors ➞ min-height</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-min-inline-size"> CSSPositionTryDescriptors ➞ min-inline-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-min-width"> CSSPositionTryDescriptors ➞ min-width</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-minblocksize"> CSSPositionTryDescriptors ➞ minBlockSize</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-minheight"> CSSPositionTryDescriptors ➞ minHeight</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-mininlinesize"> CSSPositionTryDescriptors ➞ minInlineSize</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-minwidth"> CSSPositionTryDescriptors ➞ minWidth</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-place-self"> CSSPositionTryDescriptors ➞ place-self</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-placeself"> CSSPositionTryDescriptors ➞ placeSelf</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-position-anchor"> CSSPositionTryDescriptors ➞ position-anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-positionanchor"> CSSPositionTryDescriptors ➞ positionAnchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-right"> CSSPositionTryDescriptors ➞ right</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-top"> CSSPositionTryDescriptors ➞ top</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#dom-csspositiontrydescriptors-width"> CSSPositionTryDescriptors ➞ width</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule"> CSSPositionTryRule</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/name"> CSSPositionTryRule ➞ name</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/style"> CSSPositionTryRule ➞ style</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/cssom-view/#dom-element-currentcsszoom"> Element ➞ currentCSSZoom</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-gethtml"> Element ➞ getHTML</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLElement/anchorElement"> HTMLElement ➞ anchorElement</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/sourceFunctionName"> PerformanceScriptTiming ➞ sourceFunctionName</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/webrtc-pc/#dom-rtcrtpreceiver-jitterbuffertarget"> RTCRtpReceiver ➞ jitterBufferTarget</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox, chrome</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-gethtml"> ShadowRoot ➞ getHTML</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/uievents/#legacy-textevent-events"> TextEvent</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/uievents/#dom-textevent-data"> TextEvent ➞ data</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"> TextEvent ➞ initTextEvent</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome, safari</strong></span>  <b>↠</b>  <span class="ni2 engines">Now in <strong>2</strong> of 3 engines</span></li>
+<li><a href="https://url.spec.whatwg.org/#dom-url-parse"> URL ➞ parse_static</a> <b>↠</b>  <span class="browsers">Added to <strong>firefox</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketError ➞ WebSocketError</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketError</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketError ➞ closeCode</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketError ➞ reason</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketStream ➞ WebSocketStream</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketStream</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketStream ➞ close</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketStream ➞ closed</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketStream ➞ opened</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><span> WebSocketStream ➞ url</span> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/@position-try"> at-rules ➞ position-try</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"> properties ➞ align-items ➞ anchor-center</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"> properties ➞ align-self ➞ anchor-center</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/anchor-name"> properties ➞ anchor-name</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-name-none"> properties ➞ anchor-name ➞ none</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ block-size ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ bottom ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ height ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ inline-size ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ inset ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/inset-area"> properties ➞ inset-area</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-block-end"> properties ➞ inset-area ➞ block-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-block-start"> properties ➞ inset-area ➞ block-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-bottom"> properties ➞ inset-area ➞ bottom</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-center"> properties ➞ inset-area ➞ center</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-end"> properties ➞ inset-area ➞ end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-inline-end"> properties ➞ inset-area ➞ inline-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-inline-start"> properties ➞ inset-area ➞ inline-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-left"> properties ➞ inset-area ➞ left</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-none"> properties ➞ inset-area ➞ none</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-right"> properties ➞ inset-area ➞ right</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-self-end"> properties ➞ inset-area ➞ self-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-self-start"> properties ➞ inset-area ➞ self-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-all"> properties ➞ inset-area ➞ span-all</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-block-end"> properties ➞ inset-area ➞ span-block-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-block-start"> properties ➞ inset-area ➞ span-block-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-bottom"> properties ➞ inset-area ➞ span-bottom</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-end"> properties ➞ inset-area ➞ span-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-inline-end"> properties ➞ inset-area ➞ span-inline-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-inline-start"> properties ➞ inset-area ➞ span-inline-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-start"> properties ➞ inset-area ➞ span-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-top"> properties ➞ inset-area ➞ span-top</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-x-end"> properties ➞ inset-area ➞ span-x-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-x-start"> properties ➞ inset-area ➞ span-x-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-y-end"> properties ➞ inset-area ➞ span-y-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-span-y-start"> properties ➞ inset-area ➞ span-y-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-start"> properties ➞ inset-area ➞ start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-top"> properties ➞ inset-area ➞ top</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-x-end"> properties ➞ inset-area ➞ x-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-x-self-end"> properties ➞ inset-area ➞ x-self-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-x-self-start"> properties ➞ inset-area ➞ x-self-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-x-start"> properties ➞ inset-area ➞ x-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-y-end"> properties ➞ inset-area ➞ y-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-y-self-end"> properties ➞ inset-area ➞ y-self-end</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-y-self-start"> properties ➞ inset-area ➞ y-self-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-inset-area-y-start"> properties ➞ inset-area ➞ y-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ inset-block ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ inset-block-end ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ inset-block-start ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ inset-inline ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ inset-inline-end ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ inset-inline-start ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"> properties ➞ justify-items ➞ anchor-center</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"> properties ➞ justify-self ➞ anchor-center</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ left ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ max-block-size ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ max-height ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ max-inline-size ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ max-width ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ min-block-size ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ min-height ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ min-inline-size ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ min-width ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/position-anchor"> properties ➞ position-anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/position-try"> properties ➞ position-try</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/position-try-options"> properties ➞ position-try-options</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-options-flip-block"> properties ➞ position-try-options ➞ flip-block</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-options-flip-inline"> properties ➞ position-try-options ➞ flip-inline</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-options-flip-start"> properties ➞ position-try-options ➞ flip-start</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-options-none"> properties ➞ position-try-options ➞ none</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/position-try-order"> properties ➞ position-try-order</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-order-most-block-size"> properties ➞ position-try-order ➞ most-block-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-order-most-height"> properties ➞ position-try-order ➞ most-height</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-order-most-inline-size"> properties ➞ position-try-order ➞ most-inline-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-order-most-width"> properties ➞ position-try-order ➞ most-width</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-order-normal"> properties ➞ position-try-order ➞ normal</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/position-visibility"> properties ➞ position-visibility</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-always"> properties ➞ position-visibility ➞ always</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchors-visible"> properties ➞ position-visibility ➞ anchors-visible</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-no-overflow"> properties ➞ position-visibility ➞ no-overflow</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ right ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-pos"> properties ➞ top ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"> properties ➞ width ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/anchor"> types ➞ anchor</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/anchor-size"> types ➞ anchor-size</a> <b>↠</b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b>↠</b>  <span class="ni1 engines">Now in <strong>1</strong> of 3 engines</span></li>
 
  		</ol>
 	 	</section>]]></content>

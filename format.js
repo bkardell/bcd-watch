@@ -84,10 +84,10 @@ function formatSummary(delta, data) {
  			} else {
 	 			retVal += '</span>';
 	 		}
- 			retVal += ' <b>↠</b> ';
+ 			retVal += ' <b> ∦ </b> ';
  			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(', ')}</strong></span> `;
- 			retVal += ' <b>↠</b> ';
- 			retVal += ` <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
+ 			retVal += ' <b> ∦ </b> ';
+ 			retVal += ` <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations} of 3</strong> engines</span></li>\n`;
  			return retVal;
  		}).join('')}
  		</ol>
@@ -112,7 +112,13 @@ function formatSummary(delta, data) {
 function formatCompleted(delta, data) {
 	let complete = delta.addedImplementations.filter(feature => { return feature.totalImplementations === 3 })
 
-	let out = `<h1>${complete.length} New Universal Implementations Reported!</h2>
+	let out = `<h1>BCD Universal Implementations Report</h1>
+		<div>
+			<p>${complete.length} new universal implementations <br>
+			<span>from <time>${delta.__meta[0].older.releaseDate}</time></span><br>
+			<span>to <time>${delta.__meta[0].newer.releaseDate}</time></span></p>
+		</div>
+		<section>
 		<ol  class="added implementations"><li>
  		${complete.map((feature) => {
  			let retVal = ''
@@ -132,10 +138,11 @@ function formatCompleted(delta, data) {
  			if (feature.mdn_url || feature.spec_url) {
 	 			retVal += `</a>`;
  			}
- 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
+ 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations} of 3</strong> engines</span></li>\n`;
  			return retVal;
  		}).join('')}
  		</ol>
+		</section>
 	 `
 
 	 return out

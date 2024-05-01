@@ -111,8 +111,10 @@ function formatSummary(delta, data) {
 
 function formatCompleted(delta, data) {
 	let complete = delta.addedImplementations.filter(feature => { return feature.totalImplementations === 3 })
+	let rTS = new Date(Date.parse(delta.__meta[0].newer.releaseDate)); // 'reportTimeStamp'
+	let reportDate = `${rTS.toDateString()}`;
 
-	let out = `<h1>BCD Universal Implementations Report</h1>
+	let out = `<h1>BCD New Baselines Report, <time>${reportDate}</time></h1>
 		<div>
 			<p>${complete.length} new universal implementations <br>
 			<span>from <time>${delta.__meta[0].older.releaseDate}</time></span><br>

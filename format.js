@@ -84,10 +84,10 @@ function formatSummary(delta, data) {
  			} else {
 	 			retVal += '</span>';
 	 		}
- 			retVal += ' <b>↠</b> ';
+ 			retVal += ' <b> ∦ </b> ';
  			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(', ')}</strong></span> `;
- 			retVal += ' <b>↠</b> ';
- 			retVal += ` <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
+ 			retVal += ' <b> ∦ </b> ';
+ 			retVal += ` <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations} of 3</strong> engines</span></li>\n`;
  			return retVal;
  		}).join('')}
  		</ol>
@@ -138,7 +138,7 @@ function formatCompleted(delta, data) {
  			if (feature.mdn_url || feature.spec_url) {
 	 			retVal += `</a>`;
  			}
- 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations}</strong> of 3 engines</span></li>\n`;
+ 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations} of 3</strong> engines</span></li>\n`;
  			return retVal;
  		}).join('')}
  		</ol>

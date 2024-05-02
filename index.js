@@ -44,7 +44,7 @@ function run(o,l) {
 
 
   let out = formatter.formatSummary(data, flattenedB)
-  let title = `BCD Changes Report, ${fromDate} - ${toDate}`
+  let title = `BCD Changes Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
   
 
   markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<meta name="viewport" content="width=device-width, initial-scale=1" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + out + `\n</body>\n</html>`,
@@ -78,7 +78,7 @@ function run(o,l) {
 
   let outComplete = formatter.formatCompleted(data, flattenedB)
 
-  title =  `BCD Completion Report, ${fromDate} - ${toDate}`
+  title =  `BCD New Baselines Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
   markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + outComplete + `\n</body>\n</html>`,
   
   fs.writeFileSync(

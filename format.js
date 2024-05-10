@@ -114,38 +114,40 @@ function formatCompleted(delta, data) {
 	let rTS = new Date(Date.parse(delta.__meta[0].newer.releaseDate)); // 'reportTimeStamp'
 	let reportDate = `${rTS.toDateString()}`;
 
-	let out = `<h1>BCD New Baselines Report, <time>${reportDate}</time></h1>
+	let out = `<h1>BCD Baselines Report, <time>${reportDate}</time></h1>
 		<div>
-			<p>${complete.length} new universal implementations <br>
+			<p><i>Summary of <a href="https://web.dev/baseline/">Baseline</a> changes</i><br>
 			<span>from <time>${delta.__meta[0].older.releaseDate}</time></span><br>
 			<span>to <time>${delta.__meta[0].newer.releaseDate}</time></span></p>
 		</div>
-		<section>
-		<ol  class="added implementations"><li>
- 		${complete.map((feature) => {
- 			let retVal = ''
- 			let topic = feature.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
- 			if (topic !== lastTopic) {
- 				if (lastTopic) {
- 					retVal += "</ol>"
- 				}
- 				retVal += `<h4>${topic}</h4><ol>`
- 				lastTopic = topic
- 			}
- 			retVal +=  `<li>`;
- 			if (feature.mdn_url || feature.spec_url) {
-	 			retVal += `<a href="${feature.mdn_url || feature.spec_url}">`;
-	 		}
- 			retVal += `${formatFeatureStr(feature.key, topic)}`;
- 			if (feature.mdn_url || feature.spec_url) {
-	 			retVal += `</a>`;
- 			}
- 			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations} of 3</strong> engines</span></li>\n`;
- 			return retVal;
- 		}).join('')}
- 		</ol>
-		</section>
-	 `
+		<p>${complete.length>0?complete.length:'No'} new Baseline implementation${complete.length== 1?'':'s'}${complete.length==0?' to report 🙁':''}</p>`;
+		if (complete.length > 0) {
+			out += `
+			<ol  class="added implementations"><li>
+			${complete.map((feature) => {
+				let retVal = ''
+				let topic = feature.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+				if (topic !== lastTopic) {
+					if (lastTopic) {
+						retVal += "</ol>"
+					}
+					retVal += `<h4>${topic}</h4><ol>`
+					lastTopic = topic
+				}
+				retVal +=  `<li>`;
+				if (feature.mdn_url || feature.spec_url) {
+					retVal += `<a href="${feature.mdn_url || feature.spec_url}">`;
+				}
+				retVal += `${formatFeatureStr(feature.key, topic)}`;
+				if (feature.mdn_url || feature.spec_url) {
+					retVal += `</a>`;
+				}
+				retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(',')}</strong></span> <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations} of 3</strong> engines</span></li>\n`;
+				return retVal;
+			}).join('')}
+			</ol>
+		 `;
+		}
 
 	 return out
 }

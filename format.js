@@ -114,7 +114,7 @@ function formatCompleted(delta, data) {
 	let rTS = new Date(Date.parse(delta.__meta[0].newer.releaseDate)); // 'reportTimeStamp'
 	let reportDate = `${rTS.toDateString()}`;
 
-	let out = `<h1>BCD Baselines Report, <time>${reportDate}</time></h1>
+	let out = `<h1>BCD New Baselines Report, <time>${reportDate}</time></h1>
 		<div>
 			<p><i>Summary of <a href="https://web.dev/baseline/">Baseline</a> changes</i><br>
 			<span>from <time>${delta.__meta[0].older.releaseDate}</time></span><br>

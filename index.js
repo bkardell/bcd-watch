@@ -78,7 +78,7 @@ function run(o,l) {
 
   let outComplete = formatter.formatCompleted(data, flattenedB)
 
-  title =  `BCD New Baselines Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
+  title =  `BCD Baselines Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
   markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + outComplete + `\n</body>\n</html>`,
   
   fs.writeFileSync(
@@ -91,7 +91,7 @@ function run(o,l) {
       items: [{ 
         title: title,
         file: `${name}-completed.html`,
-        blurb: 'Weekly summary of things reaching complete status in BCD data',
+        blurb: 'Weekly summary of things reaching "complete" status in BCD data',
         content: outComplete,
         pubDate: toDate, // I guess always use the to date?
         image: ""

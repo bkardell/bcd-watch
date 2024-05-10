@@ -91,7 +91,7 @@ function run(o,l) {
       items: [{ 
         title: title,
         file: `${name}-completed.html`,
-        blurb: 'Weekly summary of things reaching complete status in BCD data',
+        blurb: 'Weekly summary of things reaching "complete" status in BCD data',
         content: outComplete,
         pubDate: toDate, // I guess always use the to date?
         image: ""

@@ -19,7 +19,9 @@ function formatSummary(delta, data) {
 		<span>from <time>${delta.__meta[0].older.releaseDate}</time></span><br>
 		<span>to <time>${delta.__meta[0].newer.releaseDate}</time></span></p>
 	</div>
-	<h2>Added Features: ${delta.addedFeatures.length}</h2>
+	<h2>Added Features: ${delta.addedFeatures.length}</h2>`
+	 	if (delta.addedFeatures.length > 0) {
+	 	out += `
 	 <details class="added features">
 	 		<summary>Expand to see the full list</summary>
 	 		${delta.addedFeatures.map((feature) => {
@@ -36,8 +38,11 @@ function formatSummary(delta, data) {
 	 			return retVal
 	 		}).join('')}
 	 	</ol>
-	 </details>
+	 </details>`
+	 }
 
+	 	if (delta.removedFeatures.length > 0) {
+	 out += `
 	 <h2>Removed Features: ${delta.removedFeatures.length}</h2>
 	 <details class="removed features">
 	 		<summary>Expand to see the full list</summary>
@@ -55,9 +60,10 @@ function formatSummary(delta, data) {
 	 			return retVal
 	 		}).join('')}
 	 	</ol>
-	 </details>
+	 </details>`
+	 }
 
-	 <h2>Implementation Status Changes: +${delta.addedImplementations.length}, -${delta.removedImplementations.length}</h2>
+	 out += `<h2>Implementation Status Changes: +${delta.addedImplementations.length}, -${delta.removedImplementations.length}</h2>
 
 		<h3>Added (${delta.addedImplementations.length})</h3>`;
 		out += `<section class="added implementations">`;

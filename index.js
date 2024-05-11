@@ -74,7 +74,12 @@ function run(o,l) {
         pubDate: toDate, // I guess always use the to date?
         image: ""
       }]
-  }, "weekly")
+    },
+		{
+			title: `BCD changes (weekly)`,
+			filename: "weekly"
+		}
+  )
 
   let outComplete = formatter.formatCompleted(data, flattenedB)
 
@@ -91,12 +96,17 @@ function run(o,l) {
       items: [{ 
         title: title,
         file: `${name}-completed.html`,
-        blurb: 'Weekly summary of things reaching "complete" status in BCD data',
+        blurb: 'Weekly summary of new Baseline items in BCD data',
         content: outComplete,
         pubDate: toDate, // I guess always use the to date?
         image: ""
       }]
-  }, "weekly-completed")
+  	},
+		{
+			title: `New baselines (weekly)`,
+			filename: "weekly-completed"
+		}
+	)
 
 }
 

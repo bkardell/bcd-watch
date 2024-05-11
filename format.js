@@ -149,7 +149,7 @@ function formatCompleted(delta, data) {
 				if (feature.mdn_url || feature.spec_url) {
 					retVal += `</a>`;
 				}
-				retVal += ` <b><br></b> `;
+				retVal += ` <b>&nbsp;➞&nbsp;</b> `;
 				retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(', ')}</strong></span> `;
 				retVal += ` <b></b> `;
 				retVal += ` </li>\n`;

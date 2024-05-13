@@ -47,18 +47,19 @@ function deltaSupport(key, past, cur, out) {
 	let changed = false
     
     browsers.forEach(browser => {
+    	browsername = browser.charAt(0).toUpperCase() + browser.slice(1);
         if(cur.support[browser].version_added) {
             total++
         }
 		if (!past.support[browser].version_added && cur.support[browser].version_added) {
 			//out.addedImplementations.push(key)
             cur.key = key
-			added.push(browser)
+			added.push(browsername)
 			if (!changed){ out.addedImplementations.push(cur) }
 			changed = true
 		} else if (past.support[browser].version_added && !cur.support[browser].version_added) {
 			//out.removedImplementations.push(key)
-			removed.push(browser)
+			removed.push(browsername)
 			changed = true
 		}
 	})

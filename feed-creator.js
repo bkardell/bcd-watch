@@ -2,15 +2,16 @@ const fs = require('fs'),
       path = './out/',
       Feed = require('feed').Feed
 
-module.exports = function (meta, filename="feed") {
+module.exports = function (meta, data) {
     let css = `` //fs.readFileSync('./templates/main.css')
+    let feedtitle = meta.data;
     let feed = new Feed({
-      title: 'bcd-watch rss feed',
+      title: `bcd-watch: ${data.title}`,
       description: 'A feed that summarizes changes to BCD weekly',
       id: 'https://bkardell.com/bcd-watch',
       link: 'https://bkardell.com/bcd-watch',
       image: 'https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg',
-      // favicon: 'http://example.com/favicon.ico',
+      // favicon: 'https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg',
       updated: new Date(),
       copyright: 'All rights reserved 2024, Brian Kardell',
       generator: 'awesome mix', // optional, default = 'Feed for Node.js'
@@ -44,7 +45,7 @@ module.exports = function (meta, filename="feed") {
     })
 
 
-    fs.writeFileSync(path + `${filename}.rss`, feed.rss2(), 'utf8');
-    fs.writeFileSync(path + `${filename}.atom`, feed.atom1(), 'utf8');
-    fs.writeFileSync(path + `${filename}.json`, feed.json1(), 'utf8');
+    fs.writeFileSync(path + `${data.filename}.rss`, feed.rss2(), 'utf8');
+    fs.writeFileSync(path + `${data.filename}.atom`, feed.atom1(), 'utf8');
+    fs.writeFileSync(path + `${data.filename}.json`, feed.json1(), 'utf8');
 }

@@ -67,7 +67,7 @@ function formatSummary(delta, data) {
 
 		<h3>Added (${delta.addedImplementations.length})</h3>`;
 		out += `<section class="added implementations">`;
-		out += `<ol><li>
+		out += `
  		${delta.addedImplementations.map((feature) => {
  			let retVal = ''
  			let topic = feature.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")

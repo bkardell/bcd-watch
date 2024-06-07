@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: New baselines (weekly)</title>
-    <updated>2024-05-28T12:35:57.381Z</updated>
+    <updated>2024-06-07T20:19:49.043Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,24 +15,42 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Tue May 14 2024 - Tue May 28 2024]]></title>
-        <id>https://bkardell.com/bcd-watch/May-28-2024-completed.html</id>
-        <link href="https://bkardell.com/bcd-watch/May-28-2024-completed.html">
+        <title type="html"><![CDATA[BCD New Baselines Report, Tue May 28 2024 - Fri Jun 07 2024]]></title>
+        <id>https://bkardell.com/bcd-watch/Jun-07-2024-completed.html</id>
+        <link href="https://bkardell.com/bcd-watch/Jun-07-2024-completed.html">
         </link>
-        <updated>2024-05-28T12:28:46.067Z</updated>
+        <updated>2024-06-07T19:05:08.012Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<h1>BCD New Baselines Report, <time>Tue May 28 2024</time></h1>
+        <content type="html"><![CDATA[<h1>BCD New Baselines Report, <time>Fri Jun 07 2024</time></h1>
 		<div>
 			<p><strong>Summary of <a href="https://web.dev/baseline/">Baseline</a> changes</strong><br>
-			<span>from <time>Tue May 14 2024 18:33:28 GMT+0000 (Coordinated Universal Time)</time></span><br>
-			<span>to <time>Tue May 28 2024 12:28:46 GMT+0000 (Coordinated Universal Time)</time></span></p>
+			<span>from <time>Tue May 28 2024 12:28:46 GMT+0000 (Coordinated Universal Time)</time></span><br>
+			<span>to <time>Fri Jun 07 2024 19:05:08 GMT+0000 (Coordinated Universal Time)</time></span></p>
 		</div>
-		<p>3 new Baseline implementations</p>
+		<p>21 new Baseline implementations</p>
 			<section class="added implementations">
 			<ol><li>
-			</ol><h4>css</h4><ol><li><a href="https://svgwg.org/svg2-draft/paths.html#TheDProperty"> properties ➞ d</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#delegatesfocus"> Element ➞ attachShadow ➞ options_delegatesFocus_parameter</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions"> Element ➞ checkVisibility ➞ options_opacityProperty_parameter</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+			</ol><h4>api</h4><ol><li> Request ➞ cache ➞ only-if-cached <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
+<li> Response ➞ Response ➞ accept_readablestream <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_aes</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_hkdf</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_hmac</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-drawingBufferColorSpace"> WebGL2RenderingContext ➞ drawingBufferColorSpace</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace"> WebGLRenderingContext ➞ drawingBufferColorSpace</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+</ol><h4>css</h4><ol><li> properties ➞ content ➞ alt_text <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/CSS/white-space-collapse"> properties ➞ white-space-collapse</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li> types ➞ overflow ➞ overlay <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+</ol><h4>html</h4><ol><li> elements ➞ base ➞ href ➞ forbid_data_javascript_urls <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/deviceId"> MediaStreamTrack ➞ applyConstraints ➞ deviceId_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/echoCancellation"> MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/facingMode"> MediaStreamTrack ➞ applyConstraints ➞ facingMode_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/frameRate"> MediaStreamTrack ➞ applyConstraints ➞ frameRate_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/groupId"> MediaStreamTrack ➞ applyConstraints ➞ groupId_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/height"> MediaStreamTrack ➞ applyConstraints ➞ height_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/latency"> MediaStreamTrack ➞ applyConstraints ➞ latency_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/width"> MediaStreamTrack ➞ applyConstraints ➞ width_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+</ol><h4>html</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/input#required"> elements ➞ input ➞ required</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/size"> elements ➞ input ➞ size</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
 
 			</ol>
 			</section>

@@ -130,7 +130,6 @@ function formatCompleted(delta, data) {
 		if (complete.length > 0) {
 			out += `
 			<section class="added implementations">
-			<ol><li>
 			${complete.map((feature) => {
 				let retVal = ''
 				let topic = feature.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")

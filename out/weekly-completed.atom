@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: New baselines (weekly)</title>
-    <updated>2024-06-07T20:19:49.043Z</updated>
+    <updated>2024-06-18T12:37:20.158Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,42 +15,62 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Tue May 28 2024 - Fri Jun 07 2024]]></title>
-        <id>https://bkardell.com/bcd-watch/Jun-07-2024-completed.html</id>
-        <link href="https://bkardell.com/bcd-watch/Jun-07-2024-completed.html">
+        <title type="html"><![CDATA[BCD New Baselines Report, Fri Jun 07 2024 - Tue Jun 18 2024]]></title>
+        <id>https://bkardell.com/bcd-watch/Jun-18-2024-completed.html</id>
+        <link href="https://bkardell.com/bcd-watch/Jun-18-2024-completed.html">
         </link>
-        <updated>2024-06-07T19:05:08.012Z</updated>
+        <updated>2024-06-18T10:25:45.927Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<h1>BCD New Baselines Report, <time>Fri Jun 07 2024</time></h1>
+        <content type="html"><![CDATA[<h1>BCD New Baselines Report, <time>Tue Jun 18 2024</time></h1>
 		<div>
 			<p><strong>Summary of <a href="https://web.dev/baseline/">Baseline</a> changes</strong><br>
-			<span>from <time>Tue May 28 2024 12:28:46 GMT+0000 (Coordinated Universal Time)</time></span><br>
-			<span>to <time>Fri Jun 07 2024 19:05:08 GMT+0000 (Coordinated Universal Time)</time></span></p>
+			<span>from <time>Fri Jun 07 2024 19:05:08 GMT+0000 (Coordinated Universal Time)</time></span><br>
+			<span>to <time>Tue Jun 18 2024 10:25:45 GMT+0000 (Coordinated Universal Time)</time></span></p>
 		</div>
-		<p>21 new Baseline implementations</p>
+		<p>42 new Baseline implementations</p>
 			<section class="added implementations">
-			<ol><li>
-			</ol><h4>api</h4><ol><li> Request ➞ cache ➞ only-if-cached <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
-<li> Response ➞ Response ➞ accept_readablestream <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_aes</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_hkdf</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_hmac</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-drawingBufferColorSpace"> WebGL2RenderingContext ➞ drawingBufferColorSpace</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace"> WebGLRenderingContext ➞ drawingBufferColorSpace</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
-</ol><h4>css</h4><ol><li> properties ➞ content ➞ alt_text <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/white-space-collapse"> properties ➞ white-space-collapse</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
-<li> types ➞ overflow ➞ overlay <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-</ol><h4>html</h4><ol><li> elements ➞ base ➞ href ➞ forbid_data_javascript_urls <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
-</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/deviceId"> MediaStreamTrack ➞ applyConstraints ➞ deviceId_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/echoCancellation"> MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/facingMode"> MediaStreamTrack ➞ applyConstraints ➞ facingMode_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/frameRate"> MediaStreamTrack ➞ applyConstraints ➞ frameRate_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/groupId"> MediaStreamTrack ➞ applyConstraints ➞ groupId_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/height"> MediaStreamTrack ➞ applyConstraints ➞ height_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/latency"> MediaStreamTrack ➞ applyConstraints ➞ latency_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/width"> MediaStreamTrack ➞ applyConstraints ➞ width_constraint</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-</ol><h4>html</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/input#required"> elements ➞ input ➞ required</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/size"> elements ➞ input ➞ size</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+			</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent/ContentVisibilityAutoStateChangeEvent"> ContentVisibilityAutoStateChangeEvent ➞ ContentVisibilityAutoStateChangeEvent</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent"> ContentVisibilityAutoStateChangeEvent</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent/skipped"> ContentVisibilityAutoStateChangeEvent ➞ skipped</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-gethtml"> Element ➞ getHTML</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://html.spec.whatwg.org/multipage/canvas.html#dom-canvasrenderingcontext2dsettings-willreadfrequently"> HTMLCanvasElement ➞ getContext ➞ 2d_context ➞ options_willReadFrequently_parameter</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootClonable"> HTMLTemplateElement ➞ shadowRootClonable</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootDelegatesFocus"> HTMLTemplateElement ➞ shadowRootDelegatesFocus</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootSerializable"> HTMLTemplateElement ➞ shadowRootSerializable</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/getParameters"> RTCRtpReceiver ➞ getParameters</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/getParameters#codecs"> RTCRtpReceiver ➞ getParameters ➞ return_object_property_codecs</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiver/setCodecPreferences"> RTCRtpTransceiver ➞ setCodecPreferences</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-gethtml"> ShadowRoot ➞ getHTML</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://dom.spec.whatwg.org/#dom-shadowroot-serializable"> ShadowRoot ➞ serializable</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/URL/parse_static"> URL ➞ parse_static</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
+</ol><h4>css</h4><ol><li> properties ➞ align-content ➞ flex_context ➞ safe_unsafe <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li> properties ➞ align-items ➞ flex_context ➞ safe_unsafe <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li> properties ➞ align-self ➞ flex_context ➞ safe_unsafe <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-auto"> properties ➞ content-visibility ➞ auto</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-hidden"> properties ➞ content-visibility ➞ hidden</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-visible"> properties ➞ content-visibility ➞ visible</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-from-font"> properties ➞ font-size-adjust ➞ from-font</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-none"> properties ➞ font-size-adjust ➞ none</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b></b>  </li>
+<li> properties ➞ font-size-adjust ➞ two-values <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b></b>  </li>
+<li> properties ➞ justify-content ➞ flex_context ➞ safe_unsafe <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li> properties ➞ offset-path ➞ basic_shape <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li> properties ➞ offset-path ➞ coord_box <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-color-5/#relative-color-function"> types ➞ color ➞ color ➞ relative_syntax</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-color-5/#relative-HSL"> types ➞ color ➞ hsl ➞ relative_syntax</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-color-5/#relative-HWB"> types ➞ color ➞ hwb ➞ relative_syntax</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-color-5/#relative-Lab"> types ➞ color ➞ lab ➞ relative_syntax</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-color-5/#relative-LCH"> types ➞ color ➞ lch ➞ relative_syntax</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-color-5/#relative-Oklab"> types ➞ color ➞ oklab ➞ relative_syntax</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-color-5/#relative-Oklch"> types ➞ color ➞ oklch ➞ relative_syntax</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
+<li> types ➞ calc ➞ color_component <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+</ol><h4>html</h4><ol><li> elements ➞ form ➞ autocomplete ➞ one-time-code <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li> elements ➞ img ➞ usemap ➞ case_sensitive <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/autocomplete"> elements ➞ input ➞ autocomplete</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/select#autocomplete"> elements ➞ select ➞ autocomplete</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li> elements ➞ textarea ➞ autocomplete ➞ one-time-code <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+</ol><h4>http</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/Security/Mixed_content"> mixed-content</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://www.w3.org/TR/mixed-content/#category-blockable"> mixed-content ➞ blockable_mixed_content</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+</ol><h4>svg</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/textLength"> elements ➞ textPath ➞ textLength</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
 
 			</ol>
 			</section>

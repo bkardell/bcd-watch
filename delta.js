@@ -26,6 +26,16 @@ const unimplemented = {
         }
     }
 
+function sort(a, b) {
+    if (!a.key || !b.key) { console.log(a,'\n', b)}
+   let one = a.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+   let two = b.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+   
+   if (one < two) { return -1; }
+   if (two > one) { return +1; }
+   return 0;  
+}
+
 function union(setA, setB) {
   const _union = new Set(setA);
   for (const elem of setB) {
@@ -90,6 +100,7 @@ function delta (bcdObjA, bcdObjB) {
         if (inA && !inB) {
             out.removed.push(key)
         } else if (!inA && inB) {
+            //console.log("added ", key)
             out.added.push(key)
         }
         let hasChanges = deltaSupport(key, past, cur, out)
@@ -97,6 +108,9 @@ function delta (bcdObjA, bcdObjB) {
         	out.changed[key] = cur[key]
         }
     }
+
+    out.addedImplementations.sort(sort)
+
     return out
 }
 

@@ -4,7 +4,7 @@
         <title>bcd-watch: BCD changes (weekly)</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Tue, 18 Jun 2024 12:37:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jun 2024 01:24:27 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -15,196 +15,166 @@
         <copyright>All rights reserved 2024, Brian Kardell</copyright>
         <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[BCD Changes Report, Fri Jun 07 2024 - Tue Jun 18 2024]]></title>
-            <link>https://bkardell.com/bcd-watch/Jun-18-2024.html</link>
-            <guid>https://bkardell.com/bcd-watch/Jun-18-2024.html</guid>
-            <pubDate>Tue, 18 Jun 2024 10:25:45 GMT</pubDate>
+            <title><![CDATA[BCD Changes Report, Tue Jun 18 2024 - Tue Jun 25 2024]]></title>
+            <link>https://bkardell.com/bcd-watch/Jun-25-2024.html</link>
+            <guid>https://bkardell.com/bcd-watch/Jun-25-2024.html</guid>
+            <pubDate>Tue, 25 Jun 2024 20:30:19 GMT</pubDate>
             <description><![CDATA[Weekly summary of changes to BCD data]]></description>
             <content:encoded><![CDATA[
-	<h1>BCD Changes Report, <time>Tue Jun 18 2024</time></h1>
+	<h1>BCD Changes Report, <time>Tue Jun 25 2024</time></h1>
 	<div>
 		<p><strong>Summary of BCD changes</strong> <br>
-		<span>from <time>Fri Jun 07 2024 19:05:08 GMT+0000 (Coordinated Universal Time)</time></span><br>
-		<span>to <time>Tue Jun 18 2024 10:25:45 GMT+0000 (Coordinated Universal Time)</time></span></p>
+		<span>from <time>Tue Jun 18 2024 10:25:45 GMT+0000 (Coordinated Universal Time)</time></span><br>
+		<span>to <time>Tue Jun 25 2024 20:30:19 GMT+0000 (Coordinated Universal Time)</time></span></p>
 	</div>
-	<h2>Added Features: 47</h2>
+	<h2>Added Features: 23</h2>
 	 <details class="added features">
 	 		<summary>Expand to see the full list</summary>
-	 		<h4>api</h4><ol><li>Blob ➞ bytes</li>
-<li>CSSViewTransitionRule</li>
-<li>CSSViewTransitionRule ➞ navigation</li>
-<li>CSSViewTransitionRule ➞ types</li>
-<li>ChapterInformation</li>
-<li>ChapterInformation ➞ artwork</li>
-<li>ChapterInformation ➞ startTime</li>
-<li>ChapterInformation ➞ title</li>
-<li>GPUAdapter ➞ info</li>
-<li>GamepadHapticActuator ➞ effects</li>
-<li>GeolocationCoordinates ➞ toJSON</li>
-<li>GeolocationPosition ➞ toJSON</li>
-<li>MediaMetadata ➞ chapterInfo</li>
-<li>PushMessageData ➞ bytes</li>
-<li>RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame</li>
-<li>RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame</li>
-<li>Request ➞ bytes</li>
-<li>Response ➞ bytes</li>
-<li>VideoTrackGenerator ➞ VideoTrackGenerator</li>
-<li>VideoTrackGenerator</li>
-<li>VideoTrackGenerator ➞ muted</li>
-<li>VideoTrackGenerator ➞ track</li>
-<li>VideoTrackGenerator ➞ writable</li>
-<li>WebGLObject</li>
-</ol><h4>css</h4><ol><li>selectors ➞ active-view-transition</li>
-<li>selectors ➞ active-view-transition-type</li>
-<li>types ➞ calc ➞ color_component</li>
-</ol><h4>html</h4><ol><li>elements ➞ form ➞ autocomplete ➞ new-password</li>
-<li>elements ➞ form ➞ autocomplete ➞ one-time-code</li>
-<li>elements ➞ form ➞ autocomplete ➞ webauthn</li>
-<li>elements ➞ img ➞ usemap ➞ case_sensitive</li>
-<li>elements ➞ input ➞ autocomplete</li>
-<li>elements ➞ select ➞ autocomplete</li>
-<li>elements ➞ textarea ➞ autocomplete ➞ new-password</li>
-<li>elements ➞ textarea ➞ autocomplete ➞ one-time-code</li>
-<li>elements ➞ textarea ➞ autocomplete ➞ webauthn</li>
-</ol><h4>http</h4><ol><li>headers ➞ Permissions-Policy ➞ cross-origin-isolated</li>
-<li>mixed-content</li>
-<li>mixed-content ➞ allow_file_urls</li>
-<li>mixed-content ➞ allow_localhost_url</li>
-<li>mixed-content ➞ allow_loopback_url</li>
-<li>mixed-content ➞ auto_upgrade_images</li>
-<li>mixed-content ➞ auto_upgrade_video_audio</li>
-<li>mixed-content ➞ block_mixed_downloads</li>
-<li>mixed-content ➞ blockable_mixed_content</li>
-<li>mixed-content ➞ private_network_access</li>
-</ol><h4>svg</h4><ol><li>elements ➞ textPath ➞ textLength</li>
+	 		<h4>api</h4><ol><li>AudioEncoder ➞ configure ➞ bitrateMode</li>
+<li>AudioEncoder ➞ configure ➞ opus</li>
+<li>AudioEncoder ➞ configure ➞ opus ➞ opus_application</li>
+<li>AudioEncoder ➞ configure ➞ opus ➞ opus_signal</li>
+<li>HTMLElement ➞ contentEditable ➞ plaintext-only</li>
+<li>SharedWorker ➞ SharedWorker ➞ options_type_parameter</li>
+<li>WorkerGlobalScope ➞ rejectionhandled_event</li>
+<li>WorkerGlobalScope ➞ unhandledrejection_event</li>
+</ol><h4>css</h4><ol><li>properties ➞ align-content ➞ multicol_context</li>
+<li>properties ➞ overflow-clip-margin ➞ border-box</li>
+<li>properties ➞ overflow-clip-margin ➞ content-box</li>
+<li>properties ➞ overflow-clip-margin ➞ padding-box</li>
+</ol><h4>html</h4><ol><li>global_attributes ➞ title ➞ multi-line_titles</li>
+</ol><h4>http</h4><ol><li>headers ➞ Content-Security-Policy ➞ form-action ➞ blocks_redirects</li>
+<li>status ➞ 408</li>
+</ol><h4>mathml</h4><ol><li>elements ➞ annotation</li>
+<li>elements ➞ annotation-xml</li>
+<li>elements ➞ mprescripts</li>
+</ol><h4>webextensions</h4><ol><li>api ➞ browserAction</li>
+<li>api ➞ runtime ➞ getContext</li>
+<li>manifest ➞ background ➞ preferred_environment</li>
+<li>manifest ➞ content_scripts ➞ css_origin</li>
+<li>manifest ➞ optional_permissions ➞ menus</li>
 
 	 	</ol>
 	 </details>
-	 <h2>Removed Features: 9</h2>
+	 <h2>Removed Features: 3</h2>
 	 <details class="removed features">
 	 		<summary>Expand to see the full list</summary>
-	 		</ol><h4>api</h4><ol><li>HTMLTextAreaElement ➞ autocapitalize</li>
-</ol><h4>html</h4><ol><li>elements ➞ img ➞ usemap ➞ caseless_usemap</li>
-<li>elements ➞ input ➞ x-moz-errormessage</li>
-<li>elements ➞ meta ➞ http-equiv ➞ set-cookie</li>
-<li>global_attributes ➞ autocomplete</li>
-<li>global_attributes ➞ autocomplete ➞ new-password</li>
-<li>global_attributes ➞ autocomplete ➞ one-time-code</li>
-<li>global_attributes ➞ autocomplete ➞ webauthn</li>
-</ol><h4>svg</h4><ol><li>global_attributes ➞ textLength</li>
+	 		</ol><h4>api</h4><ol><li>MouseEvent ➞ region</li>
+</ol><h4>html</h4><ol><li>global_attributes ➞ title ➞ multi-line-support</li>
+</ol><h4>http</h4><ol><li>headers ➞ Accept-CH-Lifetime</li>
 
 	 	</ol>
 	 </details><h2>Implementation Status Changes: +108, -0</h2>
 
 		<h3>Added (108)</h3><section class="added implementations">
- 		</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent/ContentVisibilityAutoStateChangeEvent"> ContentVisibilityAutoStateChangeEvent ➞ ContentVisibilityAutoStateChangeEvent</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent"> ContentVisibilityAutoStateChangeEvent</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent/skipped"> ContentVisibilityAutoStateChangeEvent ➞ skipped</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/Document/startViewTransition"> Document ➞ startViewTransition</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-gethtml"> Element ➞ getHTML</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/canvas.html#dom-canvasrenderingcontext2dsettings-willreadfrequently"> HTMLCanvasElement ➞ getContext ➞ 2d_context ➞ options_willReadFrequently_parameter</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootClonable"> HTMLTemplateElement ➞ shadowRootClonable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootDelegatesFocus"> HTMLTemplateElement ➞ shadowRootDelegatesFocus</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootSerializable"> HTMLTemplateElement ➞ shadowRootSerializable</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/encrypted-media/#dom-mediakeys-getstatusforpolicy"> MediaKeys ➞ getStatusForPolicy</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaSource/canConstructInDedicatedWorker_static"> MediaSource ➞ canConstructInDedicatedWorker_static</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaSource/handle"> MediaSource ➞ handle</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaSourceHandle"> MediaSourceHandle</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor/MediaStreamTrackProcessor"> MediaStreamTrackProcessor ➞ MediaStreamTrackProcessor</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor"> MediaStreamTrackProcessor</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor/readable"> MediaStreamTrackProcessor ➞ readable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/getParameters"> RTCRtpReceiver ➞ getParameters</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/getParameters#codecs"> RTCRtpReceiver ➞ getParameters ➞ return_object_property_codecs</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiver/setCodecPreferences"> RTCRtpTransceiver ➞ setCodecPreferences</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-gethtml"> ShadowRoot ➞ getHTML</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://dom.spec.whatwg.org/#dom-shadowroot-serializable"> ShadowRoot ➞ serializable</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/URL/parse_static"> URL ➞ parse_static</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition"> ViewTransition</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/finished"> ViewTransition ➞ finished</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/ready"> ViewTransition ➞ ready</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/skipTransition"> ViewTransition ➞ skipTransition</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/updateCallbackDone"> ViewTransition ➞ updateCallbackDone</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/@container"> at-rules ➞ container ➞ style_queries_for_custom_properties</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> properties ➞ align-content ➞ flex_context ➞ safe_unsafe</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ align-items ➞ flex_context ➞ safe_unsafe</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ align-self ➞ flex_context ➞ safe_unsafe</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-auto"> properties ➞ content-visibility ➞ auto</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-hidden"> properties ➞ content-visibility ➞ hidden</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain-3/#content-visibility-animation"> properties ➞ content-visibility ➞ is_transitionable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-visible"> properties ➞ content-visibility ➞ visible</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-display-4/#display-animation"> properties ➞ display ➞ is_transitionable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-display-4/#display-animation"> properties ➞ display ➞ keyframe_animatable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/font-size-adjust"> properties ➞ font-size-adjust</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-from-font"> properties ➞ font-size-adjust ➞ from-font</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-none"> properties ➞ font-size-adjust ➞ none</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ font-size-adjust ➞ two-values</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ justify-content ➞ flex_context ➞ safe_unsafe</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ offset-path ➞ basic_shape</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ offset-path ➞ coord_box</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/view-transition-name"> properties ➞ view-transition-name</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions/#valdef-view-transition-name-none"> properties ➞ view-transition-name ➞ none</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition"> selectors ➞ view-transition</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition-group"> selectors ➞ view-transition-group</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition-image-pair"> selectors ➞ view-transition-image-pair</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition-new"> selectors ➞ view-transition-new</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition-old"> selectors ➞ view-transition-old</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-color-function"> types ➞ color ➞ color ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-HSL"> types ➞ color ➞ hsl ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-HWB"> types ➞ color ➞ hwb ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-Lab"> types ➞ color ➞ lab ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-LCH"> types ➞ color ➞ lch ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-Oklab"> types ➞ color ➞ oklab ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-Oklch"> types ➞ color ➞ oklch ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-RGB"> types ➞ color ➞ rgb ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>html</h4><ol><li><a href="https://html.spec.whatwg.org/multipage/webappapis.html#normalizing-a-module-integrity-map"> elements ➞ script ➞ type ➞ importmap ➞ integrity</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Global_attributes/inputmode"> global_attributes ➞ inputmode</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/Blob/bytes"> Blob ➞ bytes</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions-2/#cssviewtransitionrule"> CSSViewTransitionRule</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-navigation"> CSSViewTransitionRule ➞ navigation</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-types"> CSSViewTransitionRule ➞ types</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#chapterinformation"> ChapterInformation</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#dom-chapterinformation-artwork"> ChapterInformation ➞ artwork</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#dom-chapterinformation-starttime"> ChapterInformation ➞ startTime</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#dom-chapterinformation-title"> ChapterInformation ➞ title</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://gpuweb.github.io/gpuweb/#dom-gpuadapter-info"> GPUAdapter ➞ info</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/gamepad/#dom-gamepadhapticactuator-effects"> GamepadHapticActuator ➞ effects</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/geolocation-api/#tojson-method-0"> GeolocationCoordinates ➞ toJSON</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/geolocation-api/#tojson-method"> GeolocationPosition ➞ toJSON</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#dom-mediametadata-chapterinfo"> MediaMetadata ➞ chapterInfo</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/PushMessageData/bytes"> PushMessageData ➞ bytes</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor"> RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor"> RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/Request/bytes"> Request ➞ bytes</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/Response/bytes"> Response ➞ bytes</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#dom-videotrackgenerator-videotrackgenerator"> VideoTrackGenerator ➞ VideoTrackGenerator</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#videotrackgenerator"> VideoTrackGenerator</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#dom-videotrackgenerator-muted"> VideoTrackGenerator ➞ muted</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#dom-videotrackgenerator-track"> VideoTrackGenerator ➞ track</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#dom-videotrackgenerator-writable"> VideoTrackGenerator ➞ writable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/WebGLObject"> WebGLObject</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-pseudo"> selectors ➞ active-view-transition</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-type-pseudo"> selectors ➞ active-view-transition-type</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> types ➞ calc ➞ color_component</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-</ol><h4>html</h4><ol><li><span> elements ➞ form ➞ autocomplete ➞ new-password</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> elements ➞ form ➞ autocomplete ➞ one-time-code</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill-processing-model:attr-fe-autocomplete-webauthn"> elements ➞ form ➞ autocomplete ➞ webauthn</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> elements ➞ img ➞ usemap ➞ case_sensitive</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/autocomplete"> elements ➞ input ➞ autocomplete</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/select#autocomplete"> elements ➞ select ➞ autocomplete</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> elements ➞ textarea ➞ autocomplete ➞ new-password</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> elements ➞ textarea ➞ autocomplete ➞ one-time-code</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill-processing-model:attr-fe-autocomplete-webauthn"> elements ➞ textarea ➞ autocomplete ➞ webauthn</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>http</h4><ol><li><a href="https://html.spec.whatwg.org/multipage/infrastructure.html#cross-origin-isolated-feature"> headers ➞ Permissions-Policy ➞ cross-origin-isolated</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/Security/Mixed_content"> mixed-content</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#intro"> mixed-content ➞ allow_file_urls</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#intro"> mixed-content ➞ allow_localhost_url</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#intro"> mixed-content ➞ allow_loopback_url</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#category-upgradeable"> mixed-content ➞ auto_upgrade_images</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#category-upgradeable"> mixed-content ➞ auto_upgrade_video_audio</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#mixed-download"> mixed-content ➞ block_mixed_downloads</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#category-blockable"> mixed-content ➞ blockable_mixed_content</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://wicg.github.io/private-network-access/#intro"> mixed-content ➞ private_network_access</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>svg</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/textLength"> elements ➞ textPath ➞ textLength</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+ 		</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/revert-layer"> types ➞ global_keywords ➞ revert-layer</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+</ol><h4>http</h4><ol><li><span> headers ➞ Access-Control-Allow-Headers ➞ wildcard</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> headers ➞ Access-Control-Allow-Methods ➞ wildcard</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> headers ➞ Authorization ➞ Digest ➞ SHA-256</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+</ol><h4>webextensions</h4><ol><li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/ColorArray"> api ➞ action ➞ ColorArray</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/ImageDataType"> api ➞ action ➞ ImageDataType</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/disable"> api ➞ action ➞ disable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/enable"> api ➞ action ➞ enable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeBackgroundColor"> api ➞ action ➞ getBadgeBackgroundColor</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ getBadgeBackgroundColor ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeText"> api ➞ action ➞ getBadgeText</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ getBadgeText ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/getPopup"> api ➞ action ➞ getPopup</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ getPopup ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/getTitle"> api ➞ action ➞ getTitle</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ getTitle ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/isEnabled"> api ➞ action ➞ isEnabled</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ isEnabled ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ onClicked ➞ OnClickData</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/onClicked"> api ➞ action ➞ onClicked</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ onClicked ➞ tab</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeBackgroundColor"> api ➞ action ➞ setBadgeBackgroundColor</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setBadgeBackgroundColor ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeText"> api ➞ action ➞ setBadgeText</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setBadgeText ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setBadgeText ➞ null</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setIcon"> api ➞ action ➞ setIcon</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setIcon ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setIcon ➞ imageData</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setIcon ➞ null</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setPopup"> api ➞ action ➞ setPopup</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setPopup ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setPopup ➞ null</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setTitle"> api ➞ action ➞ setTitle</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setTitle ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ action ➞ setTitle ➞ null</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ getBadgeBackgroundColor ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ getBadgeText ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ getPopup ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ getTitle ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/isEnabled"> api ➞ browserAction ➞ isEnabled</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ isEnabled ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ setBadgeBackgroundColor ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ setBadgeBackgroundColor ➞ null</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ setBadgeText ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ setBadgeText ➞ null</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ setIcon ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ setPopup ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ browserAction ➞ setTitle ➞ details_windowId_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/onChanged"> api ➞ cookies ➞ onChanged</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ cookies ➞ sameSiteStatus ➞ lax</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ cookies ➞ sameSiteStatus ➞ no_restriction</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ cookies ➞ sameSiteStatus ➞ strict</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ declarativeNetRequest ➞ ResourceType ➞ other</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ extensionTypes ➞ CSSOrigin</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode"> api ➞ i18n ➞ LanguageCode</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ menus ➞ ContextType ➞ action</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ menus ➞ ContextType ➞ tab</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ menus ➞ OnClickData ➞ linkText</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ menus ➞ create ➞ command</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ menus ➞ create ➞ icons</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ pageAction ➞ onClicked ➞ OnClickData</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ runtime ➞ Port ➞ error</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onConnectExternal"> api ➞ runtime ➞ onConnectExternal</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ scripting ➞ insertCSS ➞ origin</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ scripting ➞ removeCSS ➞ origin</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ tabs ➞ Tab ➞ isArticle</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ tabs ➞ Tab ➞ isInReaderMode</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ tabs ➞ create ➞ muted</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ tabs ➞ create ➞ selected</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ tabs ➞ duplicate ➞ duplicateProperties</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ tabs ➞ insertCSS ➞ cssOrigin</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onReplaced"> api ➞ tabs ➞ onReplaced</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> api ➞ tabs ➞ sendMessage ➞ options ➞ frameId</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> api ➞ tabs ➞ update ➞ highlighted_value</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ commands ➞ _execute_action</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ commands ➞ _execute_browser_action</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ commands ➞ _execute_page_action</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ content_scripts ➞ world</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito"> manifest ➞ incognito</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ incognito ➞ not_allowed</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ incognito ➞ spanning</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ incognito ➞ split</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ optional_permissions ➞ contextMenus</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><span> manifest ➞ optional_permissions ➞ storage</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+</ol><h4>api</h4><ol><li><a href="https://w3c.github.io/webcodecs/#dom-audioencoderconfig-bitratemode"> AudioEncoder ➞ configure ➞ bitrateMode</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/opus_codec_registration.html#dom-audioencoderconfig-opus"> AudioEncoder ➞ configure ➞ opus</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/opus_codec_registration.html#dom-opusencoderconfig-application"> AudioEncoder ➞ configure ➞ opus ➞ opus_application</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://w3c.github.io/webcodecs/opus_codec_registration.html#dom-opusencoderconfig-signal"> AudioEncoder ➞ configure ➞ opus ➞ opus_signal</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><span> HTMLElement ➞ contentEditable ➞ plaintext-only</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> SharedWorker ➞ SharedWorker ➞ options_type_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/rejectionhandled_event"> WorkerGlobalScope ➞ rejectionhandled_event</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/unhandledrejection_event"> WorkerGlobalScope ➞ unhandledrejection_event</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-align/#align-justify-content,https://drafts.csswg.org/css-multicol/#the-multi-column-model"> properties ➞ align-content ➞ multicol_context</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://drafts.csswg.org/css-overflow/#ref-for-typedef-visual-box③"> properties ➞ overflow-clip-margin ➞ border-box</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://drafts.csswg.org/css-overflow/#ref-for-typedef-visual-box③"> properties ➞ overflow-clip-margin ➞ content-box</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://drafts.csswg.org/css-overflow/#ref-for-typedef-visual-box③"> properties ➞ overflow-clip-margin ➞ padding-box</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+</ol><h4>html</h4><ol><li><span> global_attributes ➞ title ➞ multi-line_titles</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+</ol><h4>http</h4><ol><li><span> headers ➞ Content-Security-Policy ➞ form-action ➞ blocks_redirects</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/HTTP/Status/408"> status ➞ 408</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+</ol><h4>mathml</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/semantics"> elements ➞ annotation</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/semantics"> elements ➞ annotation-xml</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/mmultiscripts"> elements ➞ mprescripts</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+</ol><h4>webextensions</h4><ol><li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction"> api ➞ browserAction</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getContext"> api ➞ runtime ➞ getContext</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><span> manifest ➞ background ➞ preferred_environment</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><span> manifest ➞ content_scripts ➞ css_origin</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><span> manifest ➞ optional_permissions ➞ menus</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
 
  		</ol>
 	 	</section>]]></content:encoded>

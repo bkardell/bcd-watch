@@ -78,7 +78,11 @@ function formatSummary(delta, data) {
  				retVal += `<h4>${topic}</h4><ol>`
  				lastTopic = topic
  			}
- 			retVal +=  `<li>`;
+ 			retVal +=  `<li`;
+ 			if (feature.addedImplementations.length == 3) {
+ 				retVal += ` class="all3"`;
+ 			}
+ 			retVal +=  `>`;
  			if (feature.mdn_url || feature.spec_url) {
 	 			retVal += `<a href="${feature.mdn_url || feature.spec_url}">`;
 	 		} else {
@@ -93,7 +97,7 @@ function formatSummary(delta, data) {
  			retVal += ` <b><br></b> `;
  			retVal += ` <span class="browsers">Added to <strong>${feature.addedImplementations.join(', ')}</strong></span> `;
  			retVal += ` <b>&nbsp;➞&nbsp;</b> `;
- 			retVal += ` <span class="ni${feature.totalImplementations} engines">Now in <strong>${feature.totalImplementations} of 3</strong> engines</span></li>\n`;
+ 			retVal += ` <span class="ni${feature.totalImplementations} engines"><strong>${feature.totalImplementations} of 3</strong> engines</span></li>\n`;
  			return retVal;
  		}).join('')}
  		</ol>

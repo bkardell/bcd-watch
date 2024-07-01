@@ -108,7 +108,9 @@ ol {
 li + li {
 	border-top: 1px dotted #AAA;
 }
-
+li.all3, li.all3 > *:not(:first-child) {
+	opacity: 0.67;
+}
 section {
 	display: grid;
 	grid-template-columns: auto auto max-content;

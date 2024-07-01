@@ -4,7 +4,7 @@
         <title>bcd-watch: New baselines (weekly)</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 26 Jun 2024 01:24:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jul 2024 15:11:45 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -28,9 +28,16 @@
 		</div>
 		<p>48 new Baseline implementations</p>
 			<section class="added implementations">
-			</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/revert-layer"> types ➞ global_keywords ➞ revert-layer</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
+			</ol><h4>api</h4><ol><li> SharedWorker ➞ SharedWorker ➞ options_type_parameter <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/rejectionhandled_event"> WorkerGlobalScope ➞ rejectionhandled_event</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/unhandledrejection_event"> WorkerGlobalScope ➞ unhandledrejection_event</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/revert-layer"> types ➞ global_keywords ➞ revert-layer</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
+</ol><h4>html</h4><ol><li> global_attributes ➞ title ➞ multi-line_titles <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
 </ol><h4>http</h4><ol><li> headers ➞ Access-Control-Allow-Headers ➞ wildcard <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
 <li> headers ➞ Access-Control-Allow-Methods ➞ wildcard <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+</ol><h4>mathml</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/semantics"> elements ➞ annotation</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/semantics"> elements ➞ annotation-xml</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/mmultiscripts"> elements ➞ mprescripts</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
 </ol><h4>webextensions</h4><ol><li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/ColorArray"> api ➞ action ➞ ColorArray</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
 <li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/ImageDataType"> api ➞ action ➞ ImageDataType</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
 <li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/disable"> api ➞ action ➞ disable</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
@@ -68,14 +75,7 @@
 <li> manifest ➞ incognito ➞ spanning <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
 <li> manifest ➞ incognito ➞ split <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b></b>  </li>
 <li> manifest ➞ optional_permissions ➞ contextMenus <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
-</ol><h4>api</h4><ol><li> SharedWorker ➞ SharedWorker ➞ options_type_parameter <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/rejectionhandled_event"> WorkerGlobalScope ➞ rejectionhandled_event</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/unhandledrejection_event"> WorkerGlobalScope ➞ unhandledrejection_event</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-</ol><h4>html</h4><ol><li> global_attributes ➞ title ➞ multi-line_titles <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-</ol><h4>mathml</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/semantics"> elements ➞ annotation</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/semantics"> elements ➞ annotation-xml</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/mmultiscripts"> elements ➞ mprescripts</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-</ol><h4>webextensions</h4><ol><li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction"> api ➞ browserAction</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction"> api ➞ browserAction</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
 
 			</ol>
 			</section>

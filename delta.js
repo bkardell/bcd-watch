@@ -97,6 +97,16 @@ function delta (bcdObjA, bcdObjB) {
         	out.changed[key] = cur[key]
         }
     }
+
+    out.addedImplementations.sort((a, b) => {
+       let one = a.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+       let two = b.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+       
+       if (one < two) { return -1; }
+       if (two > one) { return +1; }
+       return 0;  
+    })
+
     return out
 }
 

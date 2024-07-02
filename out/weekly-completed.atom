@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: New baselines (weekly)</title>
-    <updated>2024-07-01T20:58:49.615Z</updated>
+    <updated>2024-07-02T12:36:24.478Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,68 +15,81 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Tue Jun 18 2024 - Tue Jun 25 2024]]></title>
-        <id>https://bkardell.com/bcd-watch/Jun-25-2024-completed.html</id>
-        <link href="https://bkardell.com/bcd-watch/Jun-25-2024-completed.html">
+        <title type="html"><![CDATA[BCD New Baselines Report, Tue Jun 25 2024 - Tue Jul 02 2024]]></title>
+        <id>https://bkardell.com/bcd-watch/Jul-02-2024-completed.html</id>
+        <link href="https://bkardell.com/bcd-watch/Jul-02-2024-completed.html">
         </link>
-        <updated>2024-06-25T20:30:19.469Z</updated>
+        <updated>2024-07-02T10:05:40.603Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<h1>BCD New Baselines Report, <time>Tue Jun 25 2024</time></h1>
+        <content type="html"><![CDATA[<h1>BCD New Baselines Report, <time>Tue Jul 02 2024</time></h1>
 		<div>
 			<p><strong>Summary of <a href="https://web.dev/baseline/">Baseline</a> changes</strong><br>
-			<span>from <time>Tue Jun 18 2024 10:25:45 GMT+0000 (Coordinated Universal Time)</time></span><br>
-			<span>to <time>Tue Jun 25 2024 20:30:19 GMT+0000 (Coordinated Universal Time)</time></span></p>
+			<span>from <time>Tue Jun 25 2024 20:30:19 GMT+0000 (Coordinated Universal Time)</time></span><br>
+			<span>to <time>Tue Jul 02 2024 10:05:40 GMT+0000 (Coordinated Universal Time)</time></span></p>
 		</div>
-		<p>48 new Baseline implementations</p>
+		<p>61 new Baseline implementations</p>
 			<section class="added implementations">
-			</ol><h4>api</h4><ol><li> SharedWorker ➞ SharedWorker ➞ options_type_parameter <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/rejectionhandled_event"> WorkerGlobalScope ➞ rejectionhandled_event</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/unhandledrejection_event"> WorkerGlobalScope ➞ unhandledrejection_event</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/revert-layer"> types ➞ global_keywords ➞ revert-layer</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
-</ol><h4>html</h4><ol><li> global_attributes ➞ title ➞ multi-line_titles <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-</ol><h4>http</h4><ol><li> headers ➞ Access-Control-Allow-Headers ➞ wildcard <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> headers ➞ Access-Control-Allow-Methods ➞ wildcard <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-</ol><h4>mathml</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/semantics"> elements ➞ annotation</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/semantics"> elements ➞ annotation-xml</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Web/MathML/Element/mmultiscripts"> elements ➞ mprescripts</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
-</ol><h4>webextensions</h4><ol><li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/ColorArray"> api ➞ action ➞ ColorArray</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/ImageDataType"> api ➞ action ➞ ImageDataType</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/disable"> api ➞ action ➞ disable</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/enable"> api ➞ action ➞ enable</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeBackgroundColor"> api ➞ action ➞ getBadgeBackgroundColor</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/getBadgeText"> api ➞ action ➞ getBadgeText</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/getPopup"> api ➞ action ➞ getPopup</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/getTitle"> api ➞ action ➞ getTitle</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/onClicked"> api ➞ action ➞ onClicked</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ action ➞ onClicked ➞ tab <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeBackgroundColor"> api ➞ action ➞ setBadgeBackgroundColor</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setBadgeText"> api ➞ action ➞ setBadgeText</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setIcon"> api ➞ action ➞ setIcon</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ action ➞ setIcon ➞ imageData <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setPopup"> api ➞ action ➞ setPopup</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/action/setTitle"> api ➞ action ➞ setTitle</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/onChanged"> api ➞ cookies ➞ onChanged</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ cookies ➞ sameSiteStatus ➞ lax <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ cookies ➞ sameSiteStatus ➞ no_restriction <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ cookies ➞ sameSiteStatus ➞ strict <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ declarativeNetRequest ➞ ResourceType ➞ other <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n/LanguageCode"> api ➞ i18n ➞ LanguageCode</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ menus ➞ ContextType ➞ action <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onConnectExternal"> api ➞ runtime ➞ onConnectExternal</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ scripting ➞ insertCSS ➞ origin <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ scripting ➞ removeCSS ➞ origin <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ tabs ➞ insertCSS ➞ cssOrigin <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ tabs ➞ sendMessage ➞ options ➞ frameId <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> api ➞ tabs ➞ update ➞ highlighted_value <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> manifest ➞ commands ➞ _execute_action <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> manifest ➞ commands ➞ _execute_browser_action <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> manifest ➞ commands ➞ _execute_page_action <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito"> manifest ➞ incognito</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> manifest ➞ incognito ➞ not_allowed <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> manifest ➞ incognito ➞ spanning <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
-<li> manifest ➞ incognito ➞ split <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b></b>  </li>
-<li> manifest ➞ optional_permissions ➞ contextMenus <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b></b>  </li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction"> api ➞ browserAction</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+			</ol><h4>api</h4><ol><li> ResizeObserver ➞ observe ➞ options_box_parameter <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li> createImageBitmap ➞ options_imageOrientation_parameter ➞ from-image <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-break-spaces"> properties ➞ white-space-collapse ➞ break-spaces</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-collapse"> properties ➞ white-space-collapse ➞ collapse</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-preserve"> properties ➞ white-space-collapse ➞ preserve</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-preserve-breaks"> properties ➞ white-space-collapse ➞ preserve-breaks</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+</ol><h4>html</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/rel/dns-prefetch"> elements ➞ link ➞ rel ➞ dns-prefetch</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+</ol><h4>svg</h4><ol><li> global_attributes ➞ class ➞ animation_support <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/clip"> global_attributes ➞ clip</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/clip-path"> global_attributes ➞ clip-path</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/clip-rule"> global_attributes ➞ clip-rule</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/color"> global_attributes ➞ color</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/color-interpolation-filters"> global_attributes ➞ color-interpolation-filters</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/cursor"> global_attributes ➞ cursor</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/direction"> global_attributes ➞ direction</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/display"> global_attributes ➞ display</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/dominant-baseline"> global_attributes ➞ dominant-baseline</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill-opacity"> global_attributes ➞ fill-opacity</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill-rule"> global_attributes ➞ fill-rule</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/filter"> global_attributes ➞ filter</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/flood-color"> global_attributes ➞ flood-color</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/flood-opacity"> global_attributes ➞ flood-opacity</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-family"> global_attributes ➞ font-family</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size"> global_attributes ➞ font-size</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-stretch"> global_attributes ➞ font-stretch</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-style"> global_attributes ➞ font-style</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-variant"> global_attributes ➞ font-variant</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-weight"> global_attributes ➞ font-weight</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/image-rendering"> global_attributes ➞ image-rendering</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/lighting-color"> global_attributes ➞ lighting-color</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/marker-end"> global_attributes ➞ marker-end</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/marker-mid"> global_attributes ➞ marker-mid</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/marker-start"> global_attributes ➞ marker-start</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/overflow"> global_attributes ➞ overflow</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/pointer-events"> global_attributes ➞ pointer-events</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/shape-rendering"> global_attributes ➞ shape-rendering</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stop-color"> global_attributes ➞ stop-color</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke"> global_attributes ➞ stroke</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-dasharray"> global_attributes ➞ stroke-dasharray</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-dashoffset"> global_attributes ➞ stroke-dashoffset</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linecap"> global_attributes ➞ stroke-linecap</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linejoin"> global_attributes ➞ stroke-linejoin</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-miterlimit"> global_attributes ➞ stroke-miterlimit</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-opacity"> global_attributes ➞ stroke-opacity</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-width"> global_attributes ➞ stroke-width</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/text-anchor"> global_attributes ➞ text-anchor</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/text-decoration"> global_attributes ➞ text-decoration</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li> global_attributes ➞ text-overflow <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/text-rendering"> global_attributes ➞ text-rendering</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/unicode-bidi"> global_attributes ➞ unicode-bidi</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/visibility"> global_attributes ➞ visibility</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li> global_attributes ➞ white-space <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/xml:space"> global_attributes ➞ xml_space</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://svgwg.org/specs/animations/#HrefAttribute"> elements ➞ animate ➞ href</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://svgwg.org/specs/animations/#HrefAttribute"> elements ➞ animateMotion ➞ href</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://svgwg.org/specs/animations/#HrefAttribute"> elements ➞ animateTransform ➞ href</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://svgwg.org/svg2-draft/embedded.html#ImageElementHrefAttribute"> elements ➞ image ➞ href</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementHrefAttribute"> elements ➞ linearGradient ➞ href</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://svgwg.org/specs/animations/#MPathElementHrefAttribute"> elements ➞ mpath ➞ href</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://svgwg.org/svg2-draft/interact.html#ScriptElementHrefAttribute"> elements ➞ script ➞ href</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
+<li><a href="https://svgwg.org/specs/animations/#HrefAttribute"> elements ➞ set ➞ href</a> <b>&nbsp;➞&nbsp;</b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b></b>  </li>
 
 			</ol>
 			</section>

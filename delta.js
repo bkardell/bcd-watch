@@ -1,68 +1,75 @@
 const browsers = ['firefox', 'chrome', 'safari']
 const unimplemented = {
-    "support" : {
+    "support": {
         "fake": {},
         "chrome": {
             "version_added": false
-          },
-          "edge": {
+        },
+        "edge": {
             "version_added": false
-          },
-          "firefox": {
+        },
+        "firefox": {
             "version_added": false
-          },
-          "firefox_android": {
+        },
+        "firefox_android": {
             "version_added": false
-          },
-          "opera": {
+        },
+        "opera": {
             "version_added": false
-          },
-          "safari": {
+        },
+        "safari": {
             "version_added": false
-          },
-          "safari_ios": {
+        },
+        "safari_ios": {
             "version_added": false
-          } 
         }
     }
+}
 
 function union(setA, setB) {
-  const _union = new Set(setA);
-  for (const elem of setB) {
-    _union.add(elem);
-  }
-  return _union;
+    const _union = new Set(setA);
+    for (const elem of setB) {
+        _union.add(elem);
+    }
+    return _union;
 }
 
 /*
-	@key The node name/path
-	@past the past bcd entry under that name
-	@cur the cur bcd entry under that name, modified by ref where relevant
-	@out the output object, modified by ref	(added/removed)
+    @key The node name/path
+    @past the past bcd entry under that name
+    @cur the cur bcd entry under that name, modified by ref where relevant
+    @out the output object, modified by ref (added/removed)
+    @latestBrowsers the browser keys with numeric arrays of the 'latest browsers'
 
-	returns whether or not there was any delta
+    returns whether or not there was any delta
 */
-function deltaSupport(key, past, cur, out) {
-	let added = [], removed = [], total = 0
-	let changed = false
-    
+function deltaSupport(key, past, cur, out, latestBrowsers) {
+    let added = [],
+        removed = [],
+        total = 0,
+        changed = false;
+
     browsers.forEach(browser => {
-    	browsername = browser.charAt(0).toUpperCase() + browser.slice(1);
-        if(cur.support[browser].version_added) {
+        browsername = browser.charAt(0).toUpperCase() + browser.slice(1);
+        if (cur.support[browser].version_added) {
             total++
         }
-		if (!past.support[browser].version_added && cur.support[browser].version_added) {
-			//out.addedImplementations.push(key)
+        if (!past.support[browser].version_added && cur.support[browser].version_added) {
             cur.key = key
-			added.push(browsername)
-			if (!changed){ out.addedImplementations.push(cur) }
-			changed = true
-		} else if (past.support[browser].version_added && !cur.support[browser].version_added) {
-			//out.removedImplementations.push(key)
-			removed.push(browsername)
-			changed = true
-		}
-	})
+
+            let v = parseFloat(cur.support[browser].version_added)
+            if (latestBrowsers[browser].indexOf(v) !== -1) {
+                added.push(browsername)
+                if (!changed) {
+                    out.addedImplementations.push(cur)
+                }
+                changed = true
+            }
+        } else if (past.support[browser].version_added && !cur.support[browser].version_added) {
+            removed.push(browsername)
+            changed = true
+        }
+    })
     if (added.length > 0) {
         cur.addedImplementations = added
     }
@@ -71,10 +78,10 @@ function deltaSupport(key, past, cur, out) {
         cur.removedImplementsions = removed
     }
     cur.totalImplementations = total;
-	return changed
+    return changed
 }
 
-function delta (bcdObjA, bcdObjB) {
+function delta(bcdObjA, bcdObjB, latestBrowsers) {
     let out = { added: [], removed: [], changed: {}, addedImplementations: [], removedImplementations: [] }
     let keySetA = new Set(Object.keys(bcdObjA))
     let keySetB = new Set(Object.keys(bcdObjB))
@@ -92,21 +99,13 @@ function delta (bcdObjA, bcdObjB) {
         } else if (!inA && inB) {
             out.added.push(key)
         }
-        let hasChanges = deltaSupport(key, past, cur, out)
+        let hasChanges = deltaSupport(key, past, cur, out, latestBrowsers)
         if (hasChanges) {
-        	out.changed[key] = cur[key]
+            out.changed[key] = cur[key]
         }
     }
 
-    out.addedImplementations.sort((a, b) => {
-       let one = a.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
-       let two = b.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
-       
-       if (one < two) { return -1; }
-       if (two > one) { return +1; }
-       return 0;  
-    })
-
+    require('fs').writeFileSync("out.json", JSON.stringify(out, null, 2))
     return out
 }
 

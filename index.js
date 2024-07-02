@@ -23,11 +23,16 @@ function shortDate(date) {
 function run(o,l) {
   let inputA = JSON.parse(fs.readFileSync(`${store_path}/${o}`))
   let inputB = JSON.parse(fs.readFileSync(`${store_path}/${l}`))
+  let latestBrowsers = {
+    chrome: Object.keys(inputB.browsers.chrome.releases).map(n => parseFloat(n)).slice(-4),
+    firefox: Object.keys(inputB.browsers.firefox.releases).map(n => parseFloat(n)).slice(-4),
+    safari: Object.keys(inputB.browsers.safari.releases).map(n => parseFloat(n)).slice(-4)
+  }
 
   let flattenedA = flatten(inputA)
   let flattenedB = flatten(inputB)
   
-  let data = delta(flattenedA, flattenedB)
+  let data = delta(flattenedA, flattenedB, latestBrowsers)
 
   let fromDate = new Date(inputA.__meta.timestamp)
   let toDate =  new Date(inputB.__meta.timestamp)

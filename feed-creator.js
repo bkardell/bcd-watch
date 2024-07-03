@@ -1,5 +1,4 @@
 const fs = require('fs'),
-      path = './out/',
       Feed = require('feed').Feed
 
 module.exports = function (meta, data) {
@@ -45,7 +44,7 @@ module.exports = function (meta, data) {
     })
 
 
-    fs.writeFileSync(path + `${data.filename}.rss`, feed.rss2(), 'utf8');
-    fs.writeFileSync(path + `${data.filename}.atom`, feed.atom1(), 'utf8');
-    fs.writeFileSync(path + `${data.filename}.json`, feed.json1(), 'utf8');
+    fs.writeFileSync(`${data.path}/feed.rss`, feed.rss2(), 'utf8');
+    fs.writeFileSync(`${data.path}/feed.atom`, feed.atom1(), 'utf8');
+    fs.writeFileSync(`${data.path}/feed.json`, feed.json1(), 'utf8');
 }

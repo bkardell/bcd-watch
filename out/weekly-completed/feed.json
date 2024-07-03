@@ -1,0 +1,22 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "bcd-watch: New baselines (weekly)",
+    "home_page_url": "https://bkardell.com/bcd-watch",
+    "feed_url": "https://bkardell.com/bcd-watch/feed.json",
+    "description": "A feed that summarizes changes to BCD weekly",
+    "icon": "https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg",
+    "author": {
+        "name": "Brian Kardell",
+        "url": "https://bkardell.com"
+    },
+    "items": [
+        {
+            "id": "https://bkardell.com/bcd-watch/Jul-02-2024-completed.html",
+            "content_html": "<h1>BCD New Baselines Report, <time>Tue Jul 02 2024</time></h1>\n\t\t<div>\n\t\t\t<p><strong>Summary of <a href=\"https://web.dev/baseline/\">Baseline</a> changes</strong><br>\n\t\t\t<span>from <time>Tue Jun 25 2024 16:30:19 GMT-0400 (Eastern Daylight Time)</time></span><br>\n\t\t\t<span>to <time>Tue Jul 02 2024 06:05:40 GMT-0400 (Eastern Daylight Time)</time></span></p>\n\t\t</div>\n\t\t<p>2 new Baseline implementations</p>\n\t\t\t<section class=\"added implementations\">\n\t\t\t<h4>svg</h4><ol><li><a href=\"https://developer.mozilla.org/docs/Web/SVG/Attribute/image-rendering\"> global_attributes ➞ image-rendering</a> <b>&nbsp;➞&nbsp;</b>  <span class=\"browsers\">Added to <strong>Firefox</strong></span>  <b></b>  </li>\n<li><a href=\"https://developer.mozilla.org/docs/Web/SVG/Attribute/pointer-events\"> global_attributes ➞ pointer-events</a> <b>&nbsp;➞&nbsp;</b>  <span class=\"browsers\">Added to <strong>Firefox</strong></span>  <b></b>  </li>\n\n\t\t\t</ol>\n\t\t\t</section>\n\t\t ",
+            "url": "https://bkardell.com/bcd-watch/Jul-02-2024-completed.html",
+            "title": "BCD New Baselines Report, Tue Jun 25 2024 - Tue Jul 02 2024",
+            "summary": "Weekly summary of new Baseline items in BCD data",
+            "date_modified": "2024-07-02T10:05:40.603Z"
+        }
+    ]
+}

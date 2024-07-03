@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" href="styles.css" rel="stylesheet">
+<title>BCD Changes Report, Tue Apr 30 2024 - Tue May 07 2024</title>
+</head>
+<body>
+
+	<h1>BCD Changes Report, <time>Tue May 07 2024</time></h1>
+	<div>
+		<p>Summary of BCD changes <br>
+		<span>from <time>Tue Apr 30 2024 23:18:44 GMT+0000 (Coordinated Universal Time)</time></span><br>
+		<span>to <time>Tue May 07 2024 12:59:32 GMT+0000 (Coordinated Universal Time)</time></span></p>
+	</div>
+	<h2>Added Features: 43</h2>
+	 <details class="added features">
+	 		<summary>Expand to see the full list</summary>
+	 		<h4>api</h4><ol><li>Document ➞ hasUnpartitionedCookieAccess</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_BroadcastChannel_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_SharedWorker_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_all_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_caches_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_cookies_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_createObjectURL_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_estimate_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_getDirectory_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_indexedDB_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_localStorage_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_locks_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_revokeObjectURL_parameter</li>
+<li>Document ➞ requestStorageAccess ➞ types_parameter ➞ types_sessionStorage_parameter</li>
+<li>InstallEvent ➞ addRoutes</li>
+<li>Permissions ➞ permission_compute-pressure</li>
+<li>PressureObserver ➞ PressureObserver</li>
+<li>PressureObserver</li>
+<li>PressureObserver ➞ disconnect</li>
+<li>PressureObserver ➞ knownSources_static</li>
+<li>PressureObserver ➞ observe</li>
+<li>PressureObserver ➞ takeRecords</li>
+<li>PressureObserver ➞ unobserve</li>
+<li>PressureRecord</li>
+<li>PressureRecord ➞ source</li>
+<li>PressureRecord ➞ state</li>
+<li>PressureRecord ➞ time</li>
+<li>PressureRecord ➞ toJSON</li>
+<li>SharedWorker ➞ SharedWorker ➞ options_sameSiteCookies_parameter</li>
+<li>StorageAccessHandle ➞ BroadcastChannel</li>
+<li>StorageAccessHandle ➞ SharedWorker</li>
+<li>StorageAccessHandle</li>
+<li>StorageAccessHandle ➞ caches</li>
+<li>StorageAccessHandle ➞ createObjectURL</li>
+<li>StorageAccessHandle ➞ estimate</li>
+<li>StorageAccessHandle ➞ getDirectory</li>
+<li>StorageAccessHandle ➞ indexedDB</li>
+<li>StorageAccessHandle ➞ localStorage</li>
+<li>StorageAccessHandle ➞ locks</li>
+<li>StorageAccessHandle ➞ revokeObjectURL</li>
+<li>StorageAccessHandle ➞ sessionStorage</li>
+</ol><h4>http</h4><ol><li>headers ➞ Permissions-Policy ➞ compute-pressure</li>
+
+	 	</ol>
+	 </details>
+
+	 <h2>Removed Features: 0</h2>
+	 <details class="removed features">
+	 		<summary>Expand to see the full list</summary>
+	 		
+	 	</ol>
+	 </details>
+
+	 <h2>Implementation Status Changes: +44, -0</h2>
+
+		<h3>Added (44)</h3><section class="added implementations"><ol><li>
+ 		</ol><h4>api</h4><ol><li><a href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-popstateevent-hasuavisualtransition"> PopStateEvent ➞ hasUAVisualTransition</a> <b> ∦ </b>  <span class="browsers">Added to <strong>safari</strong></span>  <b> ∦ </b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/Document/hasUnpartitionedCookieAccess"> Document ➞ hasUnpartitionedCookieAccess</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dictdef-storageaccesstypes"> Document ➞ requestStorageAccess ➞ types_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-broadcastchannel"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_BroadcastChannel_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-sharedworker"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_SharedWorker_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-all"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_all_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-caches"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_caches_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-cookies"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_cookies_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-createobjecturl"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_createObjectURL_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-estimate"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_estimate_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-getdirectory"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_getDirectory_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-indexeddb"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_indexedDB_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-localstorage"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_localStorage_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-locks"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_locks_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-revokeobjecturl"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_revokeObjectURL_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-storageaccesstypes-sessionstorage"> Document ➞ requestStorageAccess ➞ types_parameter ➞ types_sessionStorage_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://w3c.github.io/ServiceWorker/#register-router-method"> InstallEvent ➞ addRoutes</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://w3c.github.io/compute-pressure/#policy-control"> Permissions ➞ permission_compute-pressure</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureObserver/PressureObserver"> PressureObserver ➞ PressureObserver</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureObserver"> PressureObserver</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureObserver/disconnect"> PressureObserver ➞ disconnect</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureObserver/knownSources_static"> PressureObserver ➞ knownSources_static</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureObserver/observe"> PressureObserver ➞ observe</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureObserver/takeRecords"> PressureObserver ➞ takeRecords</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureObserver/unobserve"> PressureObserver ➞ unobserve</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureRecord"> PressureRecord</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureRecord/source"> PressureRecord ➞ source</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureRecord/state"> PressureRecord ➞ state</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureRecord/time"> PressureRecord ➞ time</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/PressureRecord/toJSON"> PressureRecord ➞ toJSON</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://privacycg.github.io/saa-non-cookie-storage/#dom-sharedworkeroptions-samesitecookies"> SharedWorker ➞ SharedWorker ➞ options_sameSiteCookies_parameter</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/BroadcastChannel"> StorageAccessHandle ➞ BroadcastChannel</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/SharedWorker"> StorageAccessHandle ➞ SharedWorker</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle"> StorageAccessHandle</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/caches"> StorageAccessHandle ➞ caches</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/createObjectURL"> StorageAccessHandle ➞ createObjectURL</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/estimate"> StorageAccessHandle ➞ estimate</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/getDirectory"> StorageAccessHandle ➞ getDirectory</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/indexedDB"> StorageAccessHandle ➞ indexedDB</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/localStorage"> StorageAccessHandle ➞ localStorage</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/locks"> StorageAccessHandle ➞ locks</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/revokeObjectURL"> StorageAccessHandle ➞ revokeObjectURL</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/sessionStorage"> StorageAccessHandle ➞ sessionStorage</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+</ol><h4>http</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/compute-pressure"> headers ➞ Permissions-Policy ➞ compute-pressure</a> <b> ∦ </b>  <span class="browsers">Added to <strong>chrome</strong></span>  <b> ∦ </b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+
+ 		</ol>
+	 	</section>
+</body>
+</html>

@@ -52,11 +52,11 @@ function run(o,l) {
   let title = `BCD Changes Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
   
 
-  markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<meta name="viewport" content="width=device-width, initial-scale=1" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + out + `\n</body>\n</html>`,
+  markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<meta name="viewport" content="width=device-width, initial-scale=1" />\n<link type="text/css" href="../styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + out + `\n</body>\n</html>`,
         
   // current...
   fs.writeFileSync(
-      output_path + '/index.html',
+      output_path + '/weekly/index.html',
       markup,
       'utf8'
   )
@@ -65,7 +65,7 @@ function run(o,l) {
 
   // archived
   fs.writeFileSync(
-      output_path + `/${name}.html`,
+      output_path + `/weekly/${name}.html`,
       markup,
      'utf8'
   )
@@ -82,19 +82,25 @@ function run(o,l) {
     },
 		{
 			title: `BCD changes (weekly)`,
-			filename: "weekly"
+			path: output_path + `/weekly`
 		}
   )
 
   let outComplete = formatter.formatCompleted(data, flattenedB)
 
   title =  `BCD New Baselines Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
-  markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + outComplete + `\n</body>\n</html>`,
+  markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="../styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + outComplete + `\n</body>\n</html>`,
   
   fs.writeFileSync(
-      output_path + `/${name}-completed.html`,
+      output_path + `/weekly-completed/${name}.html`,
       markup,
      'utf8'
+  )
+
+  fs.writeFileSync(
+      output_path + '/weekly-completed/index.html',
+      markup,
+      'utf8'
   )
 
   RSS({
@@ -109,7 +115,7 @@ function run(o,l) {
   	},
 		{
 			title: `New baselines (weekly)`,
-			filename: "weekly-completed"
+      path: output_path + `/weekly-completed`
 		}
 	)
 

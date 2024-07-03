@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>bcd-watch: BCD changes (weekly)</title>
+        <link>https://bkardell.com/bcd-watch</link>
+        <description>A feed that summarizes changes to BCD weekly</description>
+        <lastBuildDate>Wed, 03 Jul 2024 17:19:09 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>awesome mix</generator>
+        <image>
+            <title>bcd-watch: BCD changes (weekly)</title>
+            <url>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</url>
+            <link>https://bkardell.com/bcd-watch</link>
+        </image>
+        <copyright>All rights reserved 2024, Brian Kardell</copyright>
+        <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Tue Jun 25 2024 - Tue Jul 02 2024]]></title>
+            <link>https://bkardell.com/bcd-watch/Jul-02-2024.html</link>
+            <guid>https://bkardell.com/bcd-watch/Jul-02-2024.html</guid>
+            <pubDate>Tue, 02 Jul 2024 10:05:40 GMT</pubDate>
+            <description><![CDATA[Weekly summary of changes to BCD data]]></description>
+            <content:encoded><![CDATA[
+	<h1>BCD Changes Report, <time>Tue Jul 02 2024</time></h1>
+	<div>
+		<p><strong>Summary of BCD changes</strong> <br>
+		<span>from <time>Tue Jun 25 2024 16:30:19 GMT-0400 (Eastern Daylight Time)</time></span><br>
+		<span>to <time>Tue Jul 02 2024 06:05:40 GMT-0400 (Eastern Daylight Time)</time></span></p>
+	</div>
+	<h2>Added Features: 15</h2>
+	 <details class="added features">
+	 		<summary>Expand to see the full list</summary>
+	 		<h4>api</h4><ol><li>Navigator ➞ registerProtocolHandler ➞ scheme_parameter_ethereum</li>
+<li>createImageBitmap ➞ options_imageOrientation_parameter ➞ from-image</li>
+<li>createImageBitmap ➞ options_imageOrientation_parameter ➞ none</li>
+</ol><h4>html</h4><ol><li>manifest ➞ display_override ➞ tabbed</li>
+</ol><h4>http</h4><ol><li>headers ➞ Priority</li>
+</ol><h4>svg</h4><ol><li>elements ➞ animate ➞ href</li>
+<li>elements ➞ animateMotion ➞ href</li>
+<li>elements ➞ animateTransform ➞ href</li>
+<li>elements ➞ image ➞ href</li>
+<li>elements ➞ linearGradient ➞ href</li>
+<li>elements ➞ mpath ➞ href</li>
+<li>elements ➞ script ➞ href</li>
+<li>elements ➞ set ➞ href</li>
+</ol><h4>webextensions</h4><ol><li>api ➞ contentScripts ➞ register ➞ matchOriginAsFallback</li>
+<li>api ➞ scripting ➞ RegisteredContentScript ➞ matchOriginAsFallback</li>
+
+	 	</ol>
+	 </details>
+	 <h2>Removed Features: 37</h2>
+	 <details class="removed features">
+	 		<summary>Expand to see the full list</summary>
+	 		</ol><h4>api</h4><ol><li>Navigator ➞ registerProtocolHandler ➞ scheme_parameter_etherium</li>
+</ol><h4>html</h4><ol><li>elements ➞ iframe ➞ external_protocol_urls_blocked</li>
+<li>elements ➞ track ➞ src ➞ settable_src</li>
+</ol><h4>http</h4><ol><li>status ➞ 100</li>
+<li>status ➞ 200</li>
+<li>status ➞ 201</li>
+<li>status ➞ 204</li>
+<li>status ➞ 206</li>
+<li>status ➞ 301</li>
+<li>status ➞ 302</li>
+<li>status ➞ 303</li>
+<li>status ➞ 304</li>
+<li>status ➞ 307</li>
+<li>status ➞ 401</li>
+<li>status ➞ 403</li>
+<li>status ➞ 404</li>
+<li>status ➞ 406</li>
+<li>status ➞ 407</li>
+<li>status ➞ 408</li>
+<li>status ➞ 409</li>
+<li>status ➞ 410</li>
+<li>status ➞ 412</li>
+<li>status ➞ 416</li>
+<li>status ➞ 418</li>
+<li>status ➞ 451</li>
+<li>status ➞ 500</li>
+<li>status ➞ 501</li>
+<li>status ➞ 502</li>
+<li>status ➞ 503</li>
+<li>status ➞ 504</li>
+</ol><h4>svg</h4><ol><li>global_attributes ➞ color-profile</li>
+<li>global_attributes ➞ enable-background</li>
+<li>global_attributes ➞ href</li>
+<li>global_attributes ➞ kerning</li>
+<li>global_attributes ➞ solid-color</li>
+<li>global_attributes ➞ solid-opacity</li>
+<li>global_attributes ➞ xml_base</li>
+
+	 	</ol>
+	 </details><h2>Implementation Status Changes: +5, -0</h2>
+
+		<h3>Added (5)</h3><section class="added implementations">
+ 		<h4>html</h4><ol><li><a href="https://wicg.github.io/manifest-incubations/#dfn-tabbed"> manifest ➞ display_override ➞ tabbed</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines"><strong>1 of 3</strong> engines</span></li>
+</ol><h4>http</h4><ol><li><a href="https://www.rfc-editor.org/rfc/rfc9218.html#name-the-priority-http-header-fi"> headers ➞ Priority</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines"><strong>2 of 3</strong> engines</span></li>
+</ol><h4>svg</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size-adjust"> global_attributes ➞ font-size-adjust</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines"><strong>2 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/image-rendering"> global_attributes ➞ image-rendering</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines"><strong>3 of 3</strong> engines</span></li>
+<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/pointer-events"> global_attributes ➞ pointer-events</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines"><strong>3 of 3</strong> engines</span></li>
+
+ 		</ol>
+	 	</section>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

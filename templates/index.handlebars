@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" href="styles.css" rel="stylesheet">
+<title>BCD Watch</title>
+</head>
+<body>
+
+	<h1>Welcome to BCD-Watch</h1>
+	<p>This site automatically collects, indexes and makes available for viewing (and as subscribe-able feeds), information about updates to Browser Compatibility Data (BCD).</p>
+
+	<p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became "new baseline" last week</a> (marked as available in all 3 engines).</p>
+
+	<details>
+		<summary>A full index of past reports</summary>
+		<table>
+			<tr>
+				<th>Weekly</th>
+				<th>Weekly Complete</th>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						{{#each weekly}}
+							<li><a href="weekly/{{this}}">{{stripFileExtension this}}</a></li>
+  						{{/each}}
+  					</ul>
+				</td>
+				<td>
+					<ul>
+						{{#each completed}}
+							<li><a href="weekly-completed/{{this}}">{{stripFileExtension this}}</a></li>
+  						{{/each}}
+  					</ul>
+  				</td>
+			</tr>
+		</table>
+
+	</details>
+</body>
+</html>

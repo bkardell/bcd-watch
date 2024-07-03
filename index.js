@@ -14,9 +14,11 @@ let fs = require('fs'),
   formatter = require('./format'),
   RSS = require('./feed-creator.js')
 
-Handlebars.registerHelper('stripFileExtension', function (aString) {
-    return aString.split(".")[0]
-})
+function stripFileExtension(str) {
+  return str.split(".")[0]
+}
+
+Handlebars.registerHelper('stripFileExtension', stripFileExtension)
 
 function shortDate(date) {
   let dateParts = date.toDateString().split(' ')
@@ -24,13 +26,23 @@ function shortDate(date) {
   return dateParts.join('-')
 }
 
+function getSortedListOfEntries(path) {
+  let files = fs.readdirSync(path)
+
+  files = files.filter(name => name.endsWith(".html") && name !== "index.html")
+  files.sort(function(a,b){
+    return new Date(stripFileExtension(b)) - new Date(stripFileExtension(a));
+  })
+  return files
+}
+
 function makeHistoricalIndex() {
   const compiledTemplate = require("./templates/index.handlebars");
   fs.writeFileSync(
     output_path + "/index.html", 
     compiledTemplate({
-      weekly: fs.readdirSync(output_path + "/weekly").filter(name => name.endsWith(".html") && name !== "index.html"),
-      completed: fs.readdirSync(output_path + "/weekly-completed").filter(name => name.endsWith(".html") && name !== "index.html")
+      weekly: getSortedListOfEntries(output_path + "/weekly"),
+      completed: getSortedListOfEntries(output_path + "/weekly-completed")
     })
   )
 }

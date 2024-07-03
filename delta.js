@@ -105,7 +105,15 @@ function delta(bcdObjA, bcdObjB, latestBrowsers) {
         }
     }
 
-    require('fs').writeFileSync("out.json", JSON.stringify(out, null, 2))
+    out.addedImplementations.sort((a, b) => {
+       let one = a.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+       let two = b.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+
+       if (one < two) { return -1; }
+       if (two > one) { return +1; }
+       return 0;  
+    })
+    
     return out
 }
 

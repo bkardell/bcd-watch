@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: BCD changes (weekly)</title>
-    <updated>2024-07-02T19:52:06.494Z</updated>
+    <updated>2024-07-03T12:34:22.884Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -94,7 +94,7 @@
 	 </details><h2>Implementation Status Changes: +5, -0</h2>
 
 		<h3>Added (5)</h3><section class="added implementations">
- 		<li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size-adjust"> global_attributes ➞ font-size-adjust</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines"><strong>2 of 3</strong> engines</span></li>
+ 		<h4>svg</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size-adjust"> global_attributes ➞ font-size-adjust</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines"><strong>2 of 3</strong> engines</span></li>
 <li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/image-rendering"> global_attributes ➞ image-rendering</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines"><strong>3 of 3</strong> engines</span></li>
 <li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/pointer-events"> global_attributes ➞ pointer-events</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines"><strong>3 of 3</strong> engines</span></li>
 </ol><h4>html</h4><ol><li><a href="https://wicg.github.io/manifest-incubations/#dfn-tabbed"> manifest ➞ display_override ➞ tabbed</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines"><strong>1 of 3</strong> engines</span></li>

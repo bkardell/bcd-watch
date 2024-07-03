@@ -12,6 +12,7 @@ function formatSummary(delta, data) {
 	
 	let rTS = new Date(Date.parse(delta.__meta[0].newer.releaseDate)); // 'reportTimeStamp'
 	let reportDate = `${rTS.toDateString()}`;
+	let lastTopic = '';
 	let out = `
 	<h1>BCD Changes Report, <time>${reportDate}</time></h1>
 	<div>
@@ -62,7 +63,7 @@ function formatSummary(delta, data) {
 	 	</ol>
 	 </details>`
 	 }
-	separ = ' &nbsp;&nbsp;➞&nbsp;&nbsp; ';
+	lastTopic = '';
 	 out += `<h2>Implementation Status Changes: +${delta.addedImplementations.length}, -${delta.removedImplementations.length}</h2>
 
 		<h3>Added (${delta.addedImplementations.length})</h3>`;

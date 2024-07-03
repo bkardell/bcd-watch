@@ -6,18 +6,33 @@
   and outputs out/index.html
  */
 let fs = require('fs'),
-store_path = './store',
-output_path = './out'
-flatten = require('./flatten.js').flatten,
-delta = require('./delta.js').delta,
-formatter = require('./format'),
-RSS = require('./feed-creator.js')
+  Handlebars = require('handlebars')
+  store_path = './store',
+  output_path = './out'
+  flatten = require('./flatten.js').flatten,
+  delta = require('./delta.js').delta,
+  formatter = require('./format'),
+  RSS = require('./feed-creator.js')
 
+Handlebars.registerHelper('stripFileExtension', function (aString) {
+    return aString.split(".")[0]
+})
 
 function shortDate(date) {
   let dateParts = date.toDateString().split(' ')
   dateParts.shift()
   return dateParts.join('-')
+}
+
+function makeHistoricalIndex() {
+  const compiledTemplate = require("./templates/index.handlebars");
+  fs.writeFileSync(
+    output_path + "/index.html", 
+    compiledTemplate({
+      weekly: fs.readdirSync(output_path + "/weekly").filter(name => name.endsWith(".html") && name !== "index.html"),
+      completed: fs.readdirSync(output_path + "/weekly-completed").filter(name => name.endsWith(".html") && name !== "index.html")
+    })
+  )
 }
 
 function run(o,l) {
@@ -118,6 +133,9 @@ function run(o,l) {
       path: output_path + `/weekly-completed`
 		}
 	)
+
+  makeHistoricalIndex()
+
 
 }
 

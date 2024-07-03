@@ -17,6 +17,7 @@
   },
   "author": "bkardell",
   "dependencies": {
+    "handlebars": "^4.7.8",
     "jsdom": "^20.0.1"
   }
 }

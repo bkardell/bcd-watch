@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" href="../styles.css" rel="stylesheet">
+<title>BCD Changes Report, {{olderReleaseDate}} (Coordinated Universal Time) - {{laterReleaseDate}} (Coordinated Universal Time)</title>
+</head>
+<body>
+
+  <h1>BCD Changes Report, <time>{{reportDate}}</time></h1>
+  <div>
+    <p><strong>Summary of BCD changes</strong> <br>
+    <span>from <time>{{olderReleaseDate}}</time></span><br>
+    <span>to <time>{{laterReleaseDate}}</time></span></p>
+  </div>
+
+  <h2>Added Features: {{addedFeaturesCt}}</h2>
+  {{#unless addedFeatures}}
+    No features were added to bcd in this time period 
+  {{/unless}}
+  {{#if addedFeatures}}
+    <details>
+      <summary>Expand to see the full list...</summary>
+      {{#each addedFeatures}}
+        <h4>{{@key}}</h4>
+        <ol>
+          {{#each this}}
+            <li>{{formatFeatureStr this}}</li>
+          {{/each}}
+        </ol>
+      {{/each}} 
+    </details>
+  {{/if}}
+
+  <h2>Removed Features: {{removedFeaturesCt}}</h2>
+  {{#unless removedFeatures}}
+    No features were removed from bcd in this time period
+  {{/unless}}
+  {{#if removedFeatures}}
+    <details>
+      <summary>Expand to see the full list...</summary>
+      {{#each removedFeatures}}
+        <h4>{{@key}}</h4>
+        <ol>
+          {{#each this}}
+            <li>{{formatFeatureStr this}}</li>
+          {{/each}}
+        </ol>
+      {{/each}} 
+    </details>
+  {{/if}}
+
+  <h2>Implementation Status Changes: {{addedImplmentationsCt}}, -{{removedImplementationsCt}}
+
+    {{#if addedImplementations}}
+      <h3>Added ({{addedImplmentationsCt}})</h3>
+      <section class="added implementations">
+        {{#each addedImplementations}}
+          <h4>{{@key}}</h4>
+          <ol>
+            {{#each this}}
+              <li>
+                {{#unless (mdnLink this)}}
+                  <span>{{formatFeatureStr key topic}}</span>
+                {{/unless}}
+
+                {{#if (mdnLink this)}}
+                  <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
+                {{/if}}
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>{{addedImplementations}}</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni{{totalImplementations}} engines"><strong>{{totalImplementations}} of 3</strong> engines</span>
+
+              </li>
+            {{/each}}
+          </ol>
+        {{/each}}
+      </section>
+    {{/if}}
+
+    {{#if removedImplementations}}
+      <h3>Added ({{removedImplementationsCt}})</h3>
+      <section class="removed implementations">
+        {{#each removedImplementations}}
+          <h4>{{@key}}</h4>
+          <ol>
+            {{#each this}}
+              <li>
+                {{#unless (mdnLink this)}}
+                  <span>{{formatFeatureStr key topic}}</span>
+                {{/unless}}
+
+                {{#if (mdnLink this)}}
+                  <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
+                {{/if}}
+                
+                <b><br></b> 
+                <span class="browsers">Removed from <strong>{{removedImplementations}}</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni{{totalImplementations}} engines"><strong>{{totalImplementations}} of 3</strong> engines</span>
+
+              </li>
+            {{/each}}
+          </ol>
+        {{/each}}
+      </section>
+    {{/if}}
+
+  </section>
+</body>
+</html>

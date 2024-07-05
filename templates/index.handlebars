@@ -4,40 +4,88 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link type="text/css" href="styles.css" rel="stylesheet">
+<style>
+main {
+   max-width: 45em;
+   margin-inline: auto;
+}
+#reports {
+	text-align: center;
+}
+#reports h2 {
+	border-image-outset: 0;
+	text-align: center;
+}
+#reports h2 [href] {
+	display: block;
+	color: inherit;
+	text-underline-offset: 0.15em;
+}
+#reports, #reports details div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0 2em;
+}
+#reports details, #reports summary {
+	grid-column: 1/-1;
+}
+#reports details ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#reports details ul:nth-of-type(1) {
+	grid-column: 1;
+}
+#reports details ul:nth-of-type(2) {
+	grid-column: 2;
+}
+#reports details ul li {
+	margin-inline: 0;
+}
+#reports details ul li [href] {
+	display: block;
+}
+#reports details ul li [href]:hover {
+	background: silver;
+}
+</style>
 <title>BCD Watch</title>
 </head>
 <body>
 
-	<h1>Welcome to BCD-Watch</h1>
-	<p>This site automatically collects, indexes and makes available for viewing (and as subscribe-able feeds), information about updates to Browser Compatibility Data (BCD).</p>
-
-	<p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became "new baseline" last week</a> (marked as available in all 3 engines).</p>
-
-	<details>
-		<summary>A full index of past reports</summary>
-		<table>
-			<tr>
-				<th>Weekly</th>
-				<th>Weekly Complete</th>
-			</tr>
-			<tr>
-				<td>
-					<ul>
-						{{#each weekly}}
-							<li><a href="weekly/{{this}}">{{stripFileExtension this}}</a></li>
-  						{{/each}}
-  					</ul>
-				</td>
-				<td>
-					<ul>
-						{{#each completed}}
-							<li><a href="weekly-completed/{{this}}">{{stripFileExtension this}}</a></li>
-  						{{/each}}
-  					</ul>
-  				</td>
-			</tr>
-		</table>
-
-	</details>
+  <main>
+    <h1>Welcome to BCD-Watch</h1>
+    <div id="reports">
+    <div>
+      <h2><a href="weekly">Weekly Report</a></h2>
+      <p>All the BCD updates that occurred in the last week: features added or removed, and which features gained or lost engine support.</p>
+      </div>
+      <div>
+      <h2><a href="weekly-completed">New Baselines Weekly Report</a></h2>
+      <p>All the BCD entries that moved to “baseline” status in the past week; i.e., are now supported in all three major browser engines.
+      </p>
+      </div>
+      <details>
+        <summary>
+          Full index of past reports
+        </summary>
+        <div>
+        <ul>
+	{{#each weekly}}
+		<li><a href="weekly/{{this}}">{{stripFileExtension this}}</a></li>
+	{{/each}}
+        </ul>
+        <ul>
+	{{#each completed}}
+		<li><a href="weekly-completed/{{this}}">{{stripFileExtension this}}</a></li>
+	{{/each}}
+        </ul>
+        </div>
+      </details>
+    </div>
+    <p>This site automatically collects, indexes, and makes available for viewing (and as subscribe-able feeds), information about updates to <a href="https://github.com/mdn/browser-compat-data">Browser Compatibility Data (BCD)</a>. Currently there are two different views (and feeds) on this data, which are compiled each Tuesday (US/Eastern time).</p>
+    <p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became "new baseline" last week</a> (marked as available in all 3 engines).</p>
+  </main>
 </body>
 </html>

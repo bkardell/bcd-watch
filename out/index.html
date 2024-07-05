@@ -1,70 +1,184 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link type="text/css" href="styles.css" rel="stylesheet">
-<title>BCD Watch</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" href="styles.css" rel="stylesheet">
+  <title>BCD Watch</title>
+  <style>
+  main {
+        max-width: 45em;
+        margin-inline: auto;
+  }
+  #reports {
+    	text-align: center;
+  }
+  #reports h2 {
+  	border-image-outset: 0;
+  	text-align: center;
+  }
+  #reports h2 [href] {
+  	display: block;
+  	color: inherit;
+  	text-underline-offset: 0.15em;
+  }
+  #reports, #reports details div {
+  	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-gap: 0 2em;
+  }
+  #reports details, #reports summary {
+  	grid-column: 1/-1;
+  }
+  #reports details ul {
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
+  }
+  #reports details ul:nth-of-type(1) {
+  	grid-column: 1;
+  }
+  #reports details ul:nth-of-type(2) {
+  	grid-column: 2;
+  }
+  #reports details ul li {
+  	margin-inline: 0;
+  }
+  #reports details ul li [href] {
+  	display: block;
+  }
+  #reports details ul li [href]:hover {
+  	background: silver;
+  }
+
+  </style>
 </head>
 <body>
-
-	<h1>Welcome to BCD-Watch</h1>
-	<p>This site automatically collects, indexes and makes available for viewing (and as subscribe-able feeds), information about updates to Browser Compatibility Data (BCD).</p>
-
-	<p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became "new baseline" last week</a> (marked as available in all 3 engines).</p>
-
-	<details>
-		<summary>A full index of past reports</summary>
-		<table>
-			<tr>
-				<th>Weekly</th>
-				<th>Weekly Complete</th>
-			</tr>
-			<tr>
-				<td>
-					<ul>
-							<li><a href="weekly/Jul-02-2024.html">Jul-02-2024</a></li>
-							<li><a href="weekly/Jun-25-2024.html">Jun-25-2024</a></li>
-							<li><a href="weekly/Jun-18-2024.html">Jun-18-2024</a></li>
-							<li><a href="weekly/Jun-07-2024.html">Jun-07-2024</a></li>
-							<li><a href="weekly/May-28-2024.html">May-28-2024</a></li>
-							<li><a href="weekly/May-14-2024.html">May-14-2024</a></li>
-							<li><a href="weekly/May-10-2024.html">May-10-2024</a></li>
-							<li><a href="weekly/May-07-2024.html">May-07-2024</a></li>
-							<li><a href="weekly/Apr-30-2024.html">Apr-30-2024</a></li>
-							<li><a href="weekly/Apr-23-2024.html">Apr-23-2024</a></li>
-							<li><a href="weekly/Apr-16-2024.html">Apr-16-2024</a></li>
-							<li><a href="weekly/Apr-09-2024.html">Apr-09-2024</a></li>
-							<li><a href="weekly/Apr-03-2024.html">Apr-03-2024</a></li>
-							<li><a href="weekly/Mar-26-2024.html">Mar-26-2024</a></li>
-							<li><a href="weekly/Mar-13-2024.html">Mar-13-2024</a></li>
-							<li><a href="weekly/Mar-06-2024.html">Mar-06-2024</a></li>
-							<li><a href="weekly/Feb-27-2024.html">Feb-27-2024</a></li>
-							<li><a href="weekly/Feb-20-2024.html">Feb-20-2024</a></li>
-							<li><a href="weekly/Feb-09-2024.html">Feb-09-2024</a></li>
-							<li><a href="weekly/Jan-30-2024.html">Jan-30-2024</a></li>
-  					</ul>
-				</td>
-				<td>
-					<ul>
-							<li><a href="weekly-completed/Jul-02-2024.html">Jul-02-2024</a></li>
-							<li><a href="weekly-completed/Jun-25-2024.html">Jun-25-2024</a></li>
-							<li><a href="weekly-completed/Jun-18-2024.html">Jun-18-2024</a></li>
-							<li><a href="weekly-completed/Jun-07-2024.html">Jun-07-2024</a></li>
-							<li><a href="weekly-completed/May-28-2024.html">May-28-2024</a></li>
-							<li><a href="weekly-completed/May-14-2024.html">May-14-2024</a></li>
-							<li><a href="weekly-completed/May-10-2024.html">May-10-2024</a></li>
-							<li><a href="weekly-completed/May-07-2024.html">May-07-2024</a></li>
-							<li><a href="weekly-completed/Apr-30-2024.html">Apr-30-2024</a></li>
-							<li><a href="weekly-completed/Apr-23-2024.html">Apr-23-2024</a></li>
-							<li><a href="weekly-completed/Apr-16-2024.html">Apr-16-2024</a></li>
-							<li><a href="weekly-completed/Apr-09-2024.html">Apr-09-2024</a></li>
-							<li><a href="weekly-completed/Apr-03-2024.html">Apr-03-2024</a></li>
-  					</ul>
-  				</td>
-			</tr>
-		</table>
-
-	</details>
+  <main>
+    <h1>Welcome to BCD-Watch</h1>
+    <p>This site automatically collects, indexes, and makes available for viewing (and as subscribe-able feeds), information about updates to <a href="https://github.com/mdn/browser-compat-data">Browser Compatibility Data (BCD)</a>. Currently there are two different views (and feeds) on this data, which are compiled each Tuesday (US/Eastern time).</p>
+    <p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became "new baseline" last week</a> (marked as available in all 3 engines).</p>
+    <div id="reports">
+    <div>
+      <h2><a href="weekly">Weekly Report</a></h2>
+      <p>All the BCD updates that occurred in the last week: features added or removed, and which features gained or lost engine support.</p>
+      </div>
+      <div>
+      <h2><a href="weekly-completed">New Baselines Weekly Report</a></h2>
+      <p>All the BCD entries that moved to “baseline” status in the past week; i.e., are now supported in all three major browser engines.
+      </p>
+      </div>
+      <details>
+        <summary>
+          Full index of past reports
+        </summary>
+        <div>
+        <ul>
+          <li>
+            <a href="weekly/Jul-02-2024.html">Jul-02-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Jun-25-2024.html">Jun-25-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Jun-18-2024.html">Jun-18-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Jun-07-2024.html">Jun-07-2024</a>
+          </li>
+          <li>
+            <a href="weekly/May-28-2024.html">May-28-2024</a>
+          </li>
+          <li>
+            <a href="weekly/May-14-2024.html">May-14-2024</a>
+          </li>
+          <li>
+            <a href="weekly/May-10-2024.html">May-10-2024</a>
+          </li>
+          <li>
+            <a href="weekly/May-07-2024.html">May-07-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Apr-30-2024.html">Apr-30-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Apr-23-2024.html">Apr-23-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Apr-16-2024.html">Apr-16-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Apr-09-2024.html">Apr-09-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Apr-03-2024.html">Apr-03-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Mar-26-2024.html">Mar-26-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Mar-13-2024.html">Mar-13-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Mar-06-2024.html">Mar-06-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Feb-27-2024.html">Feb-27-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Feb-20-2024.html">Feb-20-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Feb-09-2024.html">Feb-09-2024</a>
+          </li>
+          <li>
+            <a href="weekly/Jan-30-2024.html">Jan-30-2024</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="weekly-completed/Jul-02-2024.html">Jul-02-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/Jun-25-2024.html">Jun-25-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/Jun-18-2024.html">Jun-18-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/Jun-07-2024.html">Jun-07-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/May-28-2024.html">May-28-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/May-14-2024.html">May-14-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/May-10-2024.html">May-10-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/May-07-2024.html">May-07-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/Apr-30-2024.html">Apr-30-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/Apr-23-2024.html">Apr-23-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/Apr-16-2024.html">Apr-16-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/Apr-09-2024.html">Apr-09-2024</a>
+          </li>
+          <li>
+            <a href="weekly-completed/Apr-03-2024.html">Apr-03-2024</a>
+          </li>
+        </ul>
+        </div>
+      </details>
+    </div>
+  </main>
 </body>
 </html>

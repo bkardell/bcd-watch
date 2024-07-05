@@ -26,6 +26,26 @@ function shortDate(date) {
   return dateParts.join('-')
 }
 
+function toTopicsFromStrings(list) {
+  let ret = {}
+  list.forEach(item => {
+    let topic = item.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+    ret[topic] = ret[topic] || []
+    ret[topic].push(item)
+  })
+  return ret
+}
+
+function toTopicsFromObjects(list) {
+  let ret = {}
+  list.forEach(item => {
+    let topic = item.key.match(/bcd ::: (\w)*/)[0].replace("bcd ::: ", "")
+    ret[topic] = ret[topic] || []
+    ret[topic].push(item)
+  })
+  return ret
+}
+
 function getSortedListOfEntries(path) {
   let files = fs.readdirSync(path)
 
@@ -71,8 +91,9 @@ function run(o,l) {
       older: { releaseDate: fromDate },
       newer: { releaseDate: toDate }
   }]
-  data.addedFeatures = data.added
-  data.removedFeatures = data.removed
+  data.addedFeatures = toTopicsFromStrings(data.added)
+  data.removedFeatures = toTopicsFromStrings(data.removed)
+  data.addedImplementations = toTopicsFromObjects(data.addedImplementations)
 
 
   let out = formatter.formatSummary(data, flattenedB)
@@ -112,6 +133,8 @@ function run(o,l) {
 			path: output_path + `/weekly`
 		}
   )
+
+
 
   let outComplete = formatter.formatCompleted(data, flattenedB)
 

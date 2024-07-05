@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" href="../styles.css" rel="stylesheet">
+<title>BCD New Baselines Report, {{olderReleaseDate}} (Coordinated Universal Time) - {{laterReleaseDate}} (Coordinated Universal Time)</title>
+</head>
+<body>
+
+	<h1>BCD New Baselines Report <time>{{reportDate}}</time></h1>
+	<div>
+		<p>Summary of BCD changes <br>
+		<span>from <time>{{olderReleaseDate}} (Coordinated Universal Time)</time></span><br>
+		<span>to <time>{{newerReleaseDate}} (Coordinated Universal Time)</time></span></p>
+	</div>
+
+	{{#unless completedImplementations}}
+		No new Baseline implementations to report 🙁
+	{{/unless}}
+
+	<p>{{completedCt}} new Baseline implementations</p>
+
+	 {{#if completedImplementations}}
+      <section class="added implementations">
+        {{#each completedImplementations}}
+          <h4>{{@key}}</h4>
+          <ol>
+            {{#each this}}
+              <li>
+                {{#unless (mdnLink this)}}
+                  <span>{{formatFeatureStr key topic}}</span>
+                {{/unless}}
+
+                {{#if (mdnLink this)}}
+                  <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
+                {{/if}}
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>{{addedImplementations}}</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni{{totalImplementations}} engines"><strong>{{totalImplementations}} of 3</strong> engines</span>
+
+              </li>
+            {{/each}}
+          </ol>
+        {{/each}}
+      </section>
+    {{/if}}
+</body>
+</html>

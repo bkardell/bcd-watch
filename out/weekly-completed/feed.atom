@@ -1,12 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD New Baselines Report, Tue Jun 25 2024 - Sat Jul 06 2024</title>
-</head>
-<body>
-<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bkardell.com/bcd-watch</id>
+    <title>bcd-watch: New baselines (weekly)</title>
+    <updated>2024-07-08T16:44:41.519Z</updated>
+    <generator>awesome mix</generator>
+    <author>
+        <name>Brian Kardell</name>
+        <email>bkardell@gmail.com</email>
+        <uri>https://bkardell.com</uri>
+    </author>
+    <link rel="alternate" href="https://bkardell.com/bcd-watch"/>
+    <link rel="self" href="https://bkardell.com/bcd-watch/feed.atom"/>
+    <subtitle>A feed that summarizes changes to BCD weekly</subtitle>
+    <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
+    <rights>All rights reserved 2024, Brian Kardell</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD New Baselines Report, Tue Jun 25 2024 - Sat Jul 06 2024]]></title>
+        <id>https://bkardell.com/bcd-watch/Jul-06-2024-completed.html</id>
+        <link href="https://bkardell.com/bcd-watch/Jul-06-2024-completed.html">
+        </link>
+        <updated>2024-07-06T00:30:59.540Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
+        <content type="html"><![CDATA[<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
@@ -52,6 +67,6 @@
           </ol>
       </section>
 </body>
-</html>
-</body>
-</html>
+</html>]]></content>
+    </entry>
+</feed>

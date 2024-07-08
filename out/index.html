@@ -52,6 +52,10 @@
         text-align: center;
   }
   #reports h2 {
+  	display: grid;
+  	grid-template-columns: 1fr max-content;
+  	align-items: center;
+  	padding-block: 0;
         border-image-outset: 0;
         text-align: center;
   }
@@ -59,6 +63,11 @@
         display: block;
         color: inherit;
         text-underline-offset: 0.15em;
+  }
+  #reports h2 img[alt*="RSS"] {
+ 	 display: block;
+  	max-height: 2em;
+  	margin: -0.2em;
   }
   #reports, #reports details div {
         display: grid;
@@ -108,11 +117,11 @@
     <p>Keeping an eye on changes in MDN’s Browser Compatibility Data</p>
     <div id="reports">
       <div>
-        <h2><a href="weekly">Full Weekly Report</a></h2>
+        <h2><a href="weekly">Full Weekly Report</a> <a href="weekly/feed.rss"><img src="rss.svg" alt="RSS feed"></a></h2>
         <p>All the BCD updates that occurred in the last week: features added or removed, and which features gained or lost engine support.</p>
       </div>
       <div>
-        <h2><a href="weekly-completed">New Baselines Weekly Report</a></h2>
+        <h2><a href="weekly-completed">Baselines Weekly Report</a> <a href="weekly-completed/feed.rss"><img src="rss.svg" alt="RSS feed"></a></h2>
         <p>All the BCD entries that moved to “baseline” status in the past week; i.e., are now supported in all three major browser engines.</p>
       </div>
       <details>

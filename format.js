@@ -35,10 +35,18 @@ function formatSummary(delta, data) {
 	let reportDate = rTS.toDateString();
 
 	const compiledTemplate = require("./templates/weekly.handlebars");
+	const dtOptions = {
+		weekday:'long',
+	  year: 'numeric',
+  	month: 'long',
+	  day: 'numeric'
+	}
 
 	return compiledTemplate({
-		olderReleaseDate: delta.__meta[0].older.releaseDate,
-		laterReleaseDate: delta.__meta[0].newer.releaseDate,
+		olderReleaseDate: delta.__meta[0].older.releaseDate.toLocaleDateString('en-GB',dtOptions),
+		laterReleaseDate: delta.__meta[0].newer.releaseDate.toLocaleDateString('en-GB',dtOptions),
+		olderReleaseDateTime: delta.__meta[0].older.releaseDate,
+		laterReleaseDateTime: delta.__meta[0].newer.releaseDate,
 		reportDate: reportDate,
 		addedFeaturesCt: addedFeaturesCt,
 		addedFeatures: delta.addedFeatures,
@@ -68,10 +76,18 @@ function formatCompleted(delta, data) {
 	let reportDate = rTS.toDateString();
 
 	const compiledTemplate = require("./templates/baseline.handlebars");
+	const dtOptions = {
+		weekday:'long',
+	  year: 'numeric',
+  	month: 'long',
+	  day: 'numeric'
+	}
 
 	return compiledTemplate({
-		olderReleaseDate: delta.__meta[0].older.releaseDate,
-		laterReleaseDate: delta.__meta[0].newer.releaseDate,
+		olderReleaseDate: delta.__meta[0].older.releaseDate.toLocaleDateString('en-GB',dtOptions),
+		laterReleaseDate: delta.__meta[0].newer.releaseDate.toLocaleDateString('en-GB',dtOptions),
+		olderReleaseDateTime: delta.__meta[0].older.releaseDate,
+		laterReleaseDateTime: delta.__meta[0].newer.releaseDate,
 		reportDate: reportDate,
 		completedCt: ct,
 		completedImplementations: complete,

@@ -6,30 +6,47 @@
   <link type="text/css" href="styles.css" rel="stylesheet">
   <style>
   html {
-  	background: #F7F8F9;
+        background: #F7F8F9;
   }
   main {
-   max-width: 45em;
-   margin-inline: auto;
+        max-width: 45em;
+        margin-inline: auto;
   }
   h1 {
-  	margin-block-end: 0;
-  	font-size: 3.33em;
-  	text-align: center;
+        margin-block-end: 0;
+        font-size: 4em;
+        text-align: center;
   }
   h1 img {
-  	max-height: 2.25em;
-	  margin-block: -0.8em -0.4em;
-	  vertical-align: bottom;
+        max-height: 2.25em;
+          margin-block: -0.8em -0.4em;
+          vertical-align: bottom;
   }
   h1 img:first-of-type {
-  	transform: scaleX(-1);
-	}
+        transform: scaleX(-1);
+  }
+
+  @media (max-width: 44em) {
+  	h1 {
+  		font-size: 3em;
+  	}
+  }
+  @media (max-width: 33em) {
+  	h1 {
+  		font-size: 2em;
+  	}
+  }
+  @media (max-width: 22em) {
+  	h1 img {
+  		display: none;
+  	}
+  }
+
   h1 + p {
-  	margin-block: 0.25em 1em;
-  	text-align: center;
-  	font-size: 1.25em;
-  	font-style: italic;
+        margin-block: 0.25em 1em;
+        text-align: center;
+        font-size: 1.25em;
+        font-style: italic;
   }
   #reports {
         text-align: center;
@@ -87,8 +104,8 @@
 </head>
 <body>
   <main>
-    <h1><img src="binoculars.png">&#160;BCD-Watch&#160;<img src="binoculars.png"></h1>
-    <p>Keeping an eye on browser compatibility data</p>
+    <h1><img src="binoculars.png">&nbsp;BCD Watch&nbsp;<img src="binoculars.png"></h1>
+    <p>Keeping an eye on changes in MDN’s Browser Compatibility Data</p>
     <div id="reports">
       <div>
         <h2><a href="weekly">Full Weekly Report</a></h2>

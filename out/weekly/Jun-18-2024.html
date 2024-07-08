@@ -7,193 +7,387 @@
 <title>BCD Changes Report, Fri Jun 07 2024 - Tue Jun 18 2024</title>
 </head>
 <body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" href="../styles.css" rel="stylesheet">
+<title>BCD Changes Report, Friday, 7 June 2024 (UTC) - Tuesday, 18 June 2024 (UTC)</title>
+</head>
+<body>
 
-	<h1>BCD Changes Report, <time>Tue Jun 18 2024</time></h1>
-	<div>
-		<p><strong>Summary of BCD changes</strong> <br>
-		<span>from <time>Fri Jun 07 2024 19:05:08 GMT+0000 (Coordinated Universal Time)</time></span><br>
-		<span>to <time>Tue Jun 18 2024 10:25:45 GMT+0000 (Coordinated Universal Time)</time></span></p>
-	</div>
-	<h2>Added Features: 47</h2>
-	 <details class="added features">
-	 		<summary>Expand to see the full list</summary>
-	 		<h4>api</h4><ol><li>Blob ➞ bytes</li>
-<li>CSSViewTransitionRule</li>
-<li>CSSViewTransitionRule ➞ navigation</li>
-<li>CSSViewTransitionRule ➞ types</li>
-<li>ChapterInformation</li>
-<li>ChapterInformation ➞ artwork</li>
-<li>ChapterInformation ➞ startTime</li>
-<li>ChapterInformation ➞ title</li>
-<li>GPUAdapter ➞ info</li>
-<li>GamepadHapticActuator ➞ effects</li>
-<li>GeolocationCoordinates ➞ toJSON</li>
-<li>GeolocationPosition ➞ toJSON</li>
-<li>MediaMetadata ➞ chapterInfo</li>
-<li>PushMessageData ➞ bytes</li>
-<li>RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame</li>
-<li>RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame</li>
-<li>Request ➞ bytes</li>
-<li>Response ➞ bytes</li>
-<li>VideoTrackGenerator ➞ VideoTrackGenerator</li>
-<li>VideoTrackGenerator</li>
-<li>VideoTrackGenerator ➞ muted</li>
-<li>VideoTrackGenerator ➞ track</li>
-<li>VideoTrackGenerator ➞ writable</li>
-<li>WebGLObject</li>
-</ol><h4>css</h4><ol><li>selectors ➞ active-view-transition</li>
-<li>selectors ➞ active-view-transition-type</li>
-<li>types ➞ calc ➞ color_component</li>
-</ol><h4>html</h4><ol><li>elements ➞ form ➞ autocomplete ➞ new-password</li>
-<li>elements ➞ form ➞ autocomplete ➞ one-time-code</li>
-<li>elements ➞ form ➞ autocomplete ➞ webauthn</li>
-<li>elements ➞ img ➞ usemap ➞ case_sensitive</li>
-<li>elements ➞ input ➞ autocomplete</li>
-<li>elements ➞ select ➞ autocomplete</li>
-<li>elements ➞ textarea ➞ autocomplete ➞ new-password</li>
-<li>elements ➞ textarea ➞ autocomplete ➞ one-time-code</li>
-<li>elements ➞ textarea ➞ autocomplete ➞ webauthn</li>
-</ol><h4>http</h4><ol><li>headers ➞ Permissions-Policy ➞ cross-origin-isolated</li>
-<li>mixed-content</li>
-<li>mixed-content ➞ allow_file_urls</li>
-<li>mixed-content ➞ allow_localhost_url</li>
-<li>mixed-content ➞ allow_loopback_url</li>
-<li>mixed-content ➞ auto_upgrade_images</li>
-<li>mixed-content ➞ auto_upgrade_video_audio</li>
-<li>mixed-content ➞ block_mixed_downloads</li>
-<li>mixed-content ➞ blockable_mixed_content</li>
-<li>mixed-content ➞ private_network_access</li>
-</ol><h4>svg</h4><ol><li>elements ➞ textPath ➞ textLength</li>
+  <h1>BCD Changes Report, <time>Tue Jun 18 2024</time></h1>
+	<p>
+	<strong>Summary of BCD changes</strong>
+	<span>from <time title="Fri Jun 07 2024 15:05:08 GMT-0400 (Eastern Daylight Time)">Friday, 7 June 2024</time></span>
+	<span>to <time title="Tue Jun 18 2024 06:25:45 GMT-0400 (Eastern Daylight Time)">Tuesday, 18 June 2024</time></span>
+	</p>
 
-	 	</ol>
-	 </details>
-	 <h2>Removed Features: 9</h2>
-	 <details class="removed features">
-	 		<summary>Expand to see the full list</summary>
-	 		</ol><h4>api</h4><ol><li>HTMLTextAreaElement ➞ autocapitalize</li>
-</ol><h4>html</h4><ol><li>elements ➞ img ➞ usemap ➞ caseless_usemap</li>
-<li>elements ➞ input ➞ x-moz-errormessage</li>
-<li>elements ➞ meta ➞ http-equiv ➞ set-cookie</li>
-<li>global_attributes ➞ autocomplete</li>
-<li>global_attributes ➞ autocomplete ➞ new-password</li>
-<li>global_attributes ➞ autocomplete ➞ one-time-code</li>
-<li>global_attributes ➞ autocomplete ➞ webauthn</li>
-</ol><h4>svg</h4><ol><li>global_attributes ➞ textLength</li>
+  <h2>Added Features: 47</h2>
+    <details class="added">
+      <summary>Expand to see the full list...</summary>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Blob ➞ bytes</li>
+            <li>api ➞ CSSViewTransitionRule</li>
+            <li>api ➞ CSSViewTransitionRule ➞ navigation</li>
+            <li>api ➞ CSSViewTransitionRule ➞ types</li>
+            <li>api ➞ ChapterInformation</li>
+            <li>api ➞ ChapterInformation ➞ artwork</li>
+            <li>api ➞ ChapterInformation ➞ startTime</li>
+            <li>api ➞ ChapterInformation ➞ title</li>
+            <li>api ➞ GPUAdapter ➞ info</li>
+            <li>api ➞ GamepadHapticActuator ➞ effects</li>
+            <li>api ➞ GeolocationCoordinates ➞ toJSON</li>
+            <li>api ➞ GeolocationPosition ➞ toJSON</li>
+            <li>api ➞ MediaMetadata ➞ chapterInfo</li>
+            <li>api ➞ PushMessageData ➞ bytes</li>
+            <li>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame</li>
+            <li>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame</li>
+            <li>api ➞ Request ➞ bytes</li>
+            <li>api ➞ Response ➞ bytes</li>
+            <li>api ➞ VideoTrackGenerator ➞ VideoTrackGenerator</li>
+            <li>api ➞ VideoTrackGenerator</li>
+            <li>api ➞ VideoTrackGenerator ➞ muted</li>
+            <li>api ➞ VideoTrackGenerator ➞ track</li>
+            <li>api ➞ VideoTrackGenerator ➞ writable</li>
+            <li>api ➞ WebGLObject</li>
+        </ol>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ selectors ➞ active-view-transition</li>
+            <li>css ➞ selectors ➞ active-view-transition-type</li>
+            <li>css ➞ types ➞ calc ➞ color_component</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ form ➞ autocomplete ➞ new-password</li>
+            <li>html ➞ elements ➞ form ➞ autocomplete ➞ one-time-code</li>
+            <li>html ➞ elements ➞ form ➞ autocomplete ➞ webauthn</li>
+            <li>html ➞ elements ➞ img ➞ usemap ➞ case_sensitive</li>
+            <li>html ➞ elements ➞ input ➞ autocomplete</li>
+            <li>html ➞ elements ➞ select ➞ autocomplete</li>
+            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ new-password</li>
+            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ one-time-code</li>
+            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ webauthn</li>
+        </ol>
+        <h4>http</h4>
+        <ol>
+            <li>http ➞ headers ➞ Permissions-Policy ➞ cross-origin-isolated</li>
+            <li>http ➞ mixed-content</li>
+            <li>http ➞ mixed-content ➞ allow_file_urls</li>
+            <li>http ➞ mixed-content ➞ allow_localhost_url</li>
+            <li>http ➞ mixed-content ➞ allow_loopback_url</li>
+            <li>http ➞ mixed-content ➞ auto_upgrade_images</li>
+            <li>http ➞ mixed-content ➞ auto_upgrade_video_audio</li>
+            <li>http ➞ mixed-content ➞ block_mixed_downloads</li>
+            <li>http ➞ mixed-content ➞ blockable_mixed_content</li>
+            <li>http ➞ mixed-content ➞ private_network_access</li>
+        </ol>
+        <h4>svg</h4>
+        <ol>
+            <li>svg ➞ elements ➞ textPath ➞ textLength</li>
+        </ol>
+    </details>
 
-	 	</ol>
-	 </details><h2>Implementation Status Changes: +108, -0</h2>
+  <h2>Removed Features: 9</h2>
+    <details class="removed">
+      <summary>Expand to see the full list...</summary>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ HTMLTextAreaElement ➞ autocapitalize</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ img ➞ usemap ➞ caseless_usemap</li>
+            <li>html ➞ elements ➞ input ➞ x-moz-errormessage</li>
+            <li>html ➞ elements ➞ meta ➞ http-equiv ➞ set-cookie</li>
+            <li>html ➞ global_attributes ➞ autocomplete</li>
+            <li>html ➞ global_attributes ➞ autocomplete ➞ new-password</li>
+            <li>html ➞ global_attributes ➞ autocomplete ➞ one-time-code</li>
+            <li>html ➞ global_attributes ➞ autocomplete ➞ webauthn</li>
+        </ol>
+        <h4>svg</h4>
+        <ol>
+            <li>svg ➞ global_attributes ➞ textLength</li>
+        </ol>
+    </details>
 
-		<h3>Added (108)</h3><section class="added implementations">
- 		</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent/ContentVisibilityAutoStateChangeEvent"> ContentVisibilityAutoStateChangeEvent ➞ ContentVisibilityAutoStateChangeEvent</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent"> ContentVisibilityAutoStateChangeEvent</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent/skipped"> ContentVisibilityAutoStateChangeEvent ➞ skipped</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/Document/startViewTransition"> Document ➞ startViewTransition</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-gethtml"> Element ➞ getHTML</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/canvas.html#dom-canvasrenderingcontext2dsettings-willreadfrequently"> HTMLCanvasElement ➞ getContext ➞ 2d_context ➞ options_willReadFrequently_parameter</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootClonable"> HTMLTemplateElement ➞ shadowRootClonable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootDelegatesFocus"> HTMLTemplateElement ➞ shadowRootDelegatesFocus</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootSerializable"> HTMLTemplateElement ➞ shadowRootSerializable</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/encrypted-media/#dom-mediakeys-getstatusforpolicy"> MediaKeys ➞ getStatusForPolicy</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaSource/canConstructInDedicatedWorker_static"> MediaSource ➞ canConstructInDedicatedWorker_static</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaSource/handle"> MediaSource ➞ handle</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaSourceHandle"> MediaSourceHandle</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor/MediaStreamTrackProcessor"> MediaStreamTrackProcessor ➞ MediaStreamTrackProcessor</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor"> MediaStreamTrackProcessor</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor/readable"> MediaStreamTrackProcessor ➞ readable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/getParameters"> RTCRtpReceiver ➞ getParameters</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/getParameters#codecs"> RTCRtpReceiver ➞ getParameters ➞ return_object_property_codecs</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiver/setCodecPreferences"> RTCRtpTransceiver ➞ setCodecPreferences</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-gethtml"> ShadowRoot ➞ getHTML</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://dom.spec.whatwg.org/#dom-shadowroot-serializable"> ShadowRoot ➞ serializable</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/URL/parse_static"> URL ➞ parse_static</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition"> ViewTransition</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/finished"> ViewTransition ➞ finished</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/ready"> ViewTransition ➞ ready</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/skipTransition"> ViewTransition ➞ skipTransition</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/updateCallbackDone"> ViewTransition ➞ updateCallbackDone</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/CSS/@container"> at-rules ➞ container ➞ style_queries_for_custom_properties</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> properties ➞ align-content ➞ flex_context ➞ safe_unsafe</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ align-items ➞ flex_context ➞ safe_unsafe</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ align-self ➞ flex_context ➞ safe_unsafe</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-auto"> properties ➞ content-visibility ➞ auto</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-hidden"> properties ➞ content-visibility ➞ hidden</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain-3/#content-visibility-animation"> properties ➞ content-visibility ➞ is_transitionable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-visible"> properties ➞ content-visibility ➞ visible</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-display-4/#display-animation"> properties ➞ display ➞ is_transitionable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-display-4/#display-animation"> properties ➞ display ➞ keyframe_animatable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/font-size-adjust"> properties ➞ font-size-adjust</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-from-font"> properties ➞ font-size-adjust ➞ from-font</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-none"> properties ➞ font-size-adjust ➞ none</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ font-size-adjust ➞ two-values</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ justify-content ➞ flex_context ➞ safe_unsafe</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ offset-path ➞ basic_shape</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ offset-path ➞ coord_box</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/view-transition-name"> properties ➞ view-transition-name</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions/#valdef-view-transition-name-none"> properties ➞ view-transition-name ➞ none</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition"> selectors ➞ view-transition</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition-group"> selectors ➞ view-transition-group</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition-image-pair"> selectors ➞ view-transition-image-pair</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition-new"> selectors ➞ view-transition-new</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/::view-transition-old"> selectors ➞ view-transition-old</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-color-function"> types ➞ color ➞ color ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-HSL"> types ➞ color ➞ hsl ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-HWB"> types ➞ color ➞ hwb ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-Lab"> types ➞ color ➞ lab ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-LCH"> types ➞ color ➞ lch ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-Oklab"> types ➞ color ➞ oklab ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-Oklch"> types ➞ color ➞ oklch ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-color-5/#relative-RGB"> types ➞ color ➞ rgb ➞ relative_syntax</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>html</h4><ol><li><a href="https://html.spec.whatwg.org/multipage/webappapis.html#normalizing-a-module-integrity-map"> elements ➞ script ➞ type ➞ importmap ➞ integrity</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Global_attributes/inputmode"> global_attributes ➞ inputmode</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/Blob/bytes"> Blob ➞ bytes</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions-2/#cssviewtransitionrule"> CSSViewTransitionRule</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-navigation"> CSSViewTransitionRule ➞ navigation</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-types"> CSSViewTransitionRule ➞ types</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#chapterinformation"> ChapterInformation</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#dom-chapterinformation-artwork"> ChapterInformation ➞ artwork</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#dom-chapterinformation-starttime"> ChapterInformation ➞ startTime</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#dom-chapterinformation-title"> ChapterInformation ➞ title</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://gpuweb.github.io/gpuweb/#dom-gpuadapter-info"> GPUAdapter ➞ info</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/gamepad/#dom-gamepadhapticactuator-effects"> GamepadHapticActuator ➞ effects</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/geolocation-api/#tojson-method-0"> GeolocationCoordinates ➞ toJSON</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/geolocation-api/#tojson-method"> GeolocationPosition ➞ toJSON</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediasession/#dom-mediametadata-chapterinfo"> MediaMetadata ➞ chapterInfo</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/PushMessageData/bytes"> PushMessageData ➞ bytes</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor"> RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor"> RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/Request/bytes"> Request ➞ bytes</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/Response/bytes"> Response ➞ bytes</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#dom-videotrackgenerator-videotrackgenerator"> VideoTrackGenerator ➞ VideoTrackGenerator</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#videotrackgenerator"> VideoTrackGenerator</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#dom-videotrackgenerator-muted"> VideoTrackGenerator ➞ muted</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#dom-videotrackgenerator-track"> VideoTrackGenerator ➞ track</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/mediacapture-transform/#dom-videotrackgenerator-writable"> VideoTrackGenerator ➞ writable</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/WebGLObject"> WebGLObject</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-pseudo"> selectors ➞ active-view-transition</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-type-pseudo"> selectors ➞ active-view-transition-type</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> types ➞ calc ➞ color_component</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-</ol><h4>html</h4><ol><li><span> elements ➞ form ➞ autocomplete ➞ new-password</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> elements ➞ form ➞ autocomplete ➞ one-time-code</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill-processing-model:attr-fe-autocomplete-webauthn"> elements ➞ form ➞ autocomplete ➞ webauthn</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> elements ➞ img ➞ usemap ➞ case_sensitive</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/autocomplete"> elements ➞ input ➞ autocomplete</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/select#autocomplete"> elements ➞ select ➞ autocomplete</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> elements ➞ textarea ➞ autocomplete ➞ new-password</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> elements ➞ textarea ➞ autocomplete ➞ one-time-code</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill-processing-model:attr-fe-autocomplete-webauthn"> elements ➞ textarea ➞ autocomplete ➞ webauthn</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>http</h4><ol><li><a href="https://html.spec.whatwg.org/multipage/infrastructure.html#cross-origin-isolated-feature"> headers ➞ Permissions-Policy ➞ cross-origin-isolated</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/Security/Mixed_content"> mixed-content</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#intro"> mixed-content ➞ allow_file_urls</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#intro"> mixed-content ➞ allow_localhost_url</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#intro"> mixed-content ➞ allow_loopback_url</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#category-upgradeable"> mixed-content ➞ auto_upgrade_images</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#category-upgradeable"> mixed-content ➞ auto_upgrade_video_audio</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#mixed-download"> mixed-content ➞ block_mixed_downloads</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://www.w3.org/TR/mixed-content/#category-blockable"> mixed-content ➞ blockable_mixed_content</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://wicg.github.io/private-network-access/#intro"> mixed-content ➞ private_network_access</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>svg</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/textLength"> elements ➞ textPath ➞ textLength</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
+  <h2>Implementation Status Changes: +25, -0
 
- 		</ol>
-	 	</section>
+      <h3>Added (25)</h3>
+      <section class="added implementations">
+          <h4>api</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/URL/parse_static">api ➞ URL ➞ parse_static</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-view-transitions-2/#cssviewtransitionrule">api ➞ CSSViewTransitionRule</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-navigation">api ➞ CSSViewTransitionRule ➞ navigation</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-view-transitions-2/#dom-cssviewtransitionrule-types">api ➞ CSSViewTransitionRule ➞ types</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/mediasession/#chapterinformation">api ➞ ChapterInformation</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/mediasession/#dom-chapterinformation-artwork">api ➞ ChapterInformation ➞ artwork</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/mediasession/#dom-chapterinformation-starttime">api ➞ ChapterInformation ➞ startTime</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/mediasession/#dom-chapterinformation-title">api ➞ ChapterInformation ➞ title</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://gpuweb.github.io/gpuweb/#dom-gpuadapter-info">api ➞ GPUAdapter ➞ info</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/gamepad/#dom-gamepadhapticactuator-effects">api ➞ GamepadHapticActuator ➞ effects</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/geolocation-api/#tojson-method-0">api ➞ GeolocationCoordinates ➞ toJSON</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/geolocation-api/#tojson-method">api ➞ GeolocationPosition ➞ toJSON</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/mediasession/#dom-mediametadata-chapterinfo">api ➞ MediaMetadata ➞ chapterInfo</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor">api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor">api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/WebGLObject">api ➞ WebGLObject</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>css</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/CSS/font-size-adjust">css ➞ properties ➞ font-size-adjust</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-from-font">css ➞ properties ➞ font-size-adjust ➞ from-font</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-none">css ➞ properties ➞ font-size-adjust ➞ none</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>css ➞ properties ➞ font-size-adjust ➞ two-values</span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-pseudo">css ➞ selectors ➞ active-view-transition</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-type-pseudo">css ➞ selectors ➞ active-view-transition-type</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>html</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/HTML/Element/select#autocomplete">html ➞ elements ➞ select ➞ autocomplete</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Safari</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>http</h4>
+          <ol>
+              <li>
+
+                  <a href="https://wicg.github.io/private-network-access/#intro">http ➞ mixed-content ➞ private_network_access</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>svg</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/textLength">svg ➞ elements ➞ textPath ➞ textLength</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Safari</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+      </section>
+
+
+  </section>
+</body>
+</html>
 </body>
 </html>

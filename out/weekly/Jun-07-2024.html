@@ -7,197 +7,228 @@
 <title>BCD Changes Report, Tue May 28 2024 - Fri Jun 07 2024</title>
 </head>
 <body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" href="../styles.css" rel="stylesheet">
+<title>BCD Changes Report, Tuesday, 28 May 2024 (UTC) - Friday, 7 June 2024 (UTC)</title>
+</head>
+<body>
 
-	<h1>BCD Changes Report, <time>Fri Jun 07 2024</time></h1>
-	<div>
-		<p><strong>Summary of BCD changes</strong> <br>
-		<span>from <time>Tue May 28 2024 12:28:46 GMT+0000 (Coordinated Universal Time)</time></span><br>
-		<span>to <time>Fri Jun 07 2024 19:05:08 GMT+0000 (Coordinated Universal Time)</time></span></p>
-	</div>
-	<h2>Added Features: 38</h2>
-	 <details class="added features">
-	 		<summary>Expand to see the full list</summary>
-	 		<h4>api</h4><ol><li>Clipboard ➞ read ➞ formats_unsanitized_parameter</li>
-<li>ClipboardItem ➞ supports_static ➞ optional_type_image_svg_xml</li>
-<li>ClipboardItem ➞ supports_static ➞ optional_type_web</li>
-<li>CookieChangeEvent ➞ changed ➞ partitioned_property</li>
-<li>CookieChangeEvent ➞ deleted ➞ partitioned_property</li>
-<li>ExtendableCookieChangeEvent ➞ changed ➞ partitioned_property</li>
-<li>ExtendableCookieChangeEvent ➞ deleted ➞ partitioned_property</li>
-<li>HTMLBaseElement ➞ href ➞ forbid_data_javascript_urls</li>
-<li>HTMLElement ➞ writingSuggestions</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ aspectRatio_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ autoGainControl_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ channelCount_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ deviceId_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ displaySurface_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ facingMode_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ frameRate_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ groupId_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ height_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ latency_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ logicalSurface_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ noiseSuppression_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ resizeMode_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ sampleRate_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ sampleSize_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ suppressLocalAudioPlayback_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ volume_constraint</li>
-<li>MediaStreamTrack ➞ applyConstraints ➞ width_constraint</li>
-<li>SharedStorageWorklet ➞ run</li>
-<li>SharedStorageWorklet ➞ selectURL</li>
-<li>WebTransportSendStream ➞ getWriter</li>
-</ol><h4>css</h4><ol><li>properties ➞ position-anchor ➞ auto</li>
-</ol><h4>html</h4><ol><li>elements ➞ a ➞ attributionsourceid</li>
-<li>elements ➞ input ➞ required</li>
-<li>elements ➞ input ➞ size</li>
-<li>elements ➞ script ➞ type ➞ importmap ➞ integrity</li>
-</ol><h4>webextensions</h4><ol><li>api ➞ declarativeNetRequest ➞ getDisabledRuleIds</li>
-<li>api ➞ declarativeNetRequest ➞ updateStaticRules</li>
+  <h1>BCD Changes Report, <time>Fri Jun 07 2024</time></h1>
+	<p>
+	<strong>Summary of BCD changes</strong>
+	<span>from <time title="Tue May 28 2024 08:28:46 GMT-0400 (Eastern Daylight Time)">Tuesday, 28 May 2024</time></span>
+	<span>to <time title="Fri Jun 07 2024 15:05:08 GMT-0400 (Eastern Daylight Time)">Friday, 7 June 2024</time></span>
+	</p>
 
-	 	</ol>
-	 </details>
-	 <h2>Removed Features: 68</h2>
-	 <details class="removed features">
-	 		<summary>Expand to see the full list</summary>
-	 		</ol><h4>api</h4><ol><li>MediaTrackConstraints</li>
-<li>MediaTrackConstraints ➞ aspectRatio</li>
-<li>MediaTrackConstraints ➞ autoGainControl</li>
-<li>MediaTrackConstraints ➞ channelCount</li>
-<li>MediaTrackConstraints ➞ deviceId</li>
-<li>MediaTrackConstraints ➞ displaySurface</li>
-<li>MediaTrackConstraints ➞ echoCancellation</li>
-<li>MediaTrackConstraints ➞ facingMode</li>
-<li>MediaTrackConstraints ➞ frameRate</li>
-<li>MediaTrackConstraints ➞ groupId</li>
-<li>MediaTrackConstraints ➞ height</li>
-<li>MediaTrackConstraints ➞ latency</li>
-<li>MediaTrackConstraints ➞ logicalSurface</li>
-<li>MediaTrackConstraints ➞ noiseSuppression</li>
-<li>MediaTrackConstraints ➞ resizeMode</li>
-<li>MediaTrackConstraints ➞ sampleRate</li>
-<li>MediaTrackConstraints ➞ sampleSize</li>
-<li>MediaTrackConstraints ➞ suppressLocalAudioPlayback</li>
-<li>MediaTrackConstraints ➞ volume</li>
-<li>MediaTrackConstraints ➞ width</li>
-<li>MediaTrackSettings</li>
-<li>MediaTrackSettings ➞ aspectRatio</li>
-<li>MediaTrackSettings ➞ autoGainControl</li>
-<li>MediaTrackSettings ➞ channelCount</li>
-<li>MediaTrackSettings ➞ cursor</li>
-<li>MediaTrackSettings ➞ deviceId</li>
-<li>MediaTrackSettings ➞ displaySurface</li>
-<li>MediaTrackSettings ➞ echoCancellation</li>
-<li>MediaTrackSettings ➞ facingMode</li>
-<li>MediaTrackSettings ➞ frameRate</li>
-<li>MediaTrackSettings ➞ groupId</li>
-<li>MediaTrackSettings ➞ height</li>
-<li>MediaTrackSettings ➞ latency</li>
-<li>MediaTrackSettings ➞ logicalSurface</li>
-<li>MediaTrackSettings ➞ noiseSuppression</li>
-<li>MediaTrackSettings ➞ resizeMode</li>
-<li>MediaTrackSettings ➞ sampleRate</li>
-<li>MediaTrackSettings ➞ sampleSize</li>
-<li>MediaTrackSettings ➞ suppressLocalAudioPlayback</li>
-<li>MediaTrackSettings ➞ volume</li>
-<li>MediaTrackSettings ➞ width</li>
-<li>MediaTrackSupportedConstraints</li>
-<li>MediaTrackSupportedConstraints ➞ aspectRatio</li>
-<li>MediaTrackSupportedConstraints ➞ autoGainControl</li>
-<li>MediaTrackSupportedConstraints ➞ channelCount</li>
-<li>MediaTrackSupportedConstraints ➞ deviceId</li>
-<li>MediaTrackSupportedConstraints ➞ displaySurface</li>
-<li>MediaTrackSupportedConstraints ➞ echoCancellation</li>
-<li>MediaTrackSupportedConstraints ➞ facingMode</li>
-<li>MediaTrackSupportedConstraints ➞ frameRate</li>
-<li>MediaTrackSupportedConstraints ➞ groupId</li>
-<li>MediaTrackSupportedConstraints ➞ height</li>
-<li>MediaTrackSupportedConstraints ➞ latency</li>
-<li>MediaTrackSupportedConstraints ➞ logicalSurface</li>
-<li>MediaTrackSupportedConstraints ➞ noiseSuppression</li>
-<li>MediaTrackSupportedConstraints ➞ resizeMode</li>
-<li>MediaTrackSupportedConstraints ➞ sampleRate</li>
-<li>MediaTrackSupportedConstraints ➞ sampleSize</li>
-<li>MediaTrackSupportedConstraints ➞ suppressLocalAudioPlayback</li>
-<li>MediaTrackSupportedConstraints ➞ volume</li>
-<li>MediaTrackSupportedConstraints ➞ width</li>
-</ol><h4>css</h4><ol><li>properties ➞ box-sizing ➞ padding-box</li>
-<li>properties ➞ justify-self ➞ flex_context</li>
-</ol><h4>html</h4><ol><li>elements ➞ html ➞ manifest</li>
-<li>elements ➞ html ➞ manifest ➞ secure_context_required</li>
-<li>elements ➞ iframe ➞ sandbox ➞ allow-downloads-without-user-activation</li>
-<li>elements ➞ input ➞ type_color ➞ autocomplete</li>
-<li>elements ➞ input ➞ type_color ➞ list</li>
+  <h2>Added Features: 38</h2>
+    <details class="added">
+      <summary>Expand to see the full list...</summary>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Clipboard ➞ read ➞ formats_unsanitized_parameter</li>
+            <li>api ➞ ClipboardItem ➞ supports_static ➞ optional_type_image_svg_xml</li>
+            <li>api ➞ ClipboardItem ➞ supports_static ➞ optional_type_web</li>
+            <li>api ➞ CookieChangeEvent ➞ changed ➞ partitioned_property</li>
+            <li>api ➞ CookieChangeEvent ➞ deleted ➞ partitioned_property</li>
+            <li>api ➞ ExtendableCookieChangeEvent ➞ changed ➞ partitioned_property</li>
+            <li>api ➞ ExtendableCookieChangeEvent ➞ deleted ➞ partitioned_property</li>
+            <li>api ➞ HTMLBaseElement ➞ href ➞ forbid_data_javascript_urls</li>
+            <li>api ➞ HTMLElement ➞ writingSuggestions</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ aspectRatio_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ autoGainControl_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ channelCount_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ deviceId_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ displaySurface_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ facingMode_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ frameRate_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ groupId_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ height_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ latency_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ logicalSurface_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ noiseSuppression_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ resizeMode_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ sampleRate_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ sampleSize_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ suppressLocalAudioPlayback_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ volume_constraint</li>
+            <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ width_constraint</li>
+            <li>api ➞ SharedStorageWorklet ➞ run</li>
+            <li>api ➞ SharedStorageWorklet ➞ selectURL</li>
+            <li>api ➞ WebTransportSendStream ➞ getWriter</li>
+        </ol>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ properties ➞ position-anchor ➞ auto</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ a ➞ attributionsourceid</li>
+            <li>html ➞ elements ➞ input ➞ required</li>
+            <li>html ➞ elements ➞ input ➞ size</li>
+            <li>html ➞ elements ➞ script ➞ type ➞ importmap ➞ integrity</li>
+        </ol>
+        <h4>webextensions</h4>
+        <ol>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getDisabledRuleIds</li>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ updateStaticRules</li>
+        </ol>
+    </details>
 
-	 	</ol>
-	 </details><h2>Implementation Status Changes: +62, -0</h2>
+  <h2>Removed Features: 68</h2>
+    <details class="removed">
+      <summary>Expand to see the full list...</summary>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ MediaTrackConstraints</li>
+            <li>api ➞ MediaTrackConstraints ➞ aspectRatio</li>
+            <li>api ➞ MediaTrackConstraints ➞ autoGainControl</li>
+            <li>api ➞ MediaTrackConstraints ➞ channelCount</li>
+            <li>api ➞ MediaTrackConstraints ➞ deviceId</li>
+            <li>api ➞ MediaTrackConstraints ➞ displaySurface</li>
+            <li>api ➞ MediaTrackConstraints ➞ echoCancellation</li>
+            <li>api ➞ MediaTrackConstraints ➞ facingMode</li>
+            <li>api ➞ MediaTrackConstraints ➞ frameRate</li>
+            <li>api ➞ MediaTrackConstraints ➞ groupId</li>
+            <li>api ➞ MediaTrackConstraints ➞ height</li>
+            <li>api ➞ MediaTrackConstraints ➞ latency</li>
+            <li>api ➞ MediaTrackConstraints ➞ logicalSurface</li>
+            <li>api ➞ MediaTrackConstraints ➞ noiseSuppression</li>
+            <li>api ➞ MediaTrackConstraints ➞ resizeMode</li>
+            <li>api ➞ MediaTrackConstraints ➞ sampleRate</li>
+            <li>api ➞ MediaTrackConstraints ➞ sampleSize</li>
+            <li>api ➞ MediaTrackConstraints ➞ suppressLocalAudioPlayback</li>
+            <li>api ➞ MediaTrackConstraints ➞ volume</li>
+            <li>api ➞ MediaTrackConstraints ➞ width</li>
+            <li>api ➞ MediaTrackSettings</li>
+            <li>api ➞ MediaTrackSettings ➞ aspectRatio</li>
+            <li>api ➞ MediaTrackSettings ➞ autoGainControl</li>
+            <li>api ➞ MediaTrackSettings ➞ channelCount</li>
+            <li>api ➞ MediaTrackSettings ➞ cursor</li>
+            <li>api ➞ MediaTrackSettings ➞ deviceId</li>
+            <li>api ➞ MediaTrackSettings ➞ displaySurface</li>
+            <li>api ➞ MediaTrackSettings ➞ echoCancellation</li>
+            <li>api ➞ MediaTrackSettings ➞ facingMode</li>
+            <li>api ➞ MediaTrackSettings ➞ frameRate</li>
+            <li>api ➞ MediaTrackSettings ➞ groupId</li>
+            <li>api ➞ MediaTrackSettings ➞ height</li>
+            <li>api ➞ MediaTrackSettings ➞ latency</li>
+            <li>api ➞ MediaTrackSettings ➞ logicalSurface</li>
+            <li>api ➞ MediaTrackSettings ➞ noiseSuppression</li>
+            <li>api ➞ MediaTrackSettings ➞ resizeMode</li>
+            <li>api ➞ MediaTrackSettings ➞ sampleRate</li>
+            <li>api ➞ MediaTrackSettings ➞ sampleSize</li>
+            <li>api ➞ MediaTrackSettings ➞ suppressLocalAudioPlayback</li>
+            <li>api ➞ MediaTrackSettings ➞ volume</li>
+            <li>api ➞ MediaTrackSettings ➞ width</li>
+            <li>api ➞ MediaTrackSupportedConstraints</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ aspectRatio</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ autoGainControl</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ channelCount</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ deviceId</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ displaySurface</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ echoCancellation</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ facingMode</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ frameRate</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ groupId</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ height</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ latency</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ logicalSurface</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ noiseSuppression</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ resizeMode</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ sampleRate</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ sampleSize</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ suppressLocalAudioPlayback</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ volume</li>
+            <li>api ➞ MediaTrackSupportedConstraints ➞ width</li>
+        </ol>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ properties ➞ box-sizing ➞ padding-box</li>
+            <li>css ➞ properties ➞ justify-self ➞ flex_context</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ html ➞ manifest</li>
+            <li>html ➞ elements ➞ html ➞ manifest ➞ secure_context_required</li>
+            <li>html ➞ elements ➞ iframe ➞ sandbox ➞ allow-downloads-without-user-activation</li>
+            <li>html ➞ elements ➞ input ➞ type_color ➞ autocomplete</li>
+            <li>html ➞ elements ➞ input ➞ type_color ➞ list</li>
+        </ol>
+    </details>
 
-		<h3>Added (62)</h3><section class="added implementations">
- 		</ol><h4>api</h4><ol><li><a href="https://w3c.github.io/clipboard-apis/#dom-clipboarditem-supports"> ClipboardItem ➞ supports_static</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> Request ➞ cache ➞ only-if-cached</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> Response ➞ Response ➞ accept_readablestream</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_aes</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_hkdf</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_hmac</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"> SubtleCrypto ➞ deriveKey ➞ derivedKeyAlgorithm_option_pbkdf2</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://registry.khronos.org/webgl/specs/latest/1.0/#DOM-WebGLRenderingContext-drawingBufferColorSpace"> WebGL2RenderingContext ➞ drawingBufferColorSpace</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace"> WebGLRenderingContext ➞ drawingBufferColorSpace</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/webtransport/#dom-webtransportoptions-servercertificatehashes"> WebTransport ➞ WebTransport ➞ options_serverCertificateHashes_parameter</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>css</h4><ol><li><span> properties ➞ content ➞ alt_text</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> properties ➞ display ➞ ruby</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> properties ➞ display ➞ ruby-text</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-inline/#valdef-initial-letter-normal"> properties ➞ initial-letter ➞ normal</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/white-space-collapse"> properties ➞ white-space-collapse</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-break-spaces"> properties ➞ white-space-collapse ➞ break-spaces</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-collapse"> properties ➞ white-space-collapse ➞ collapse</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-preserve"> properties ➞ white-space-collapse ➞ preserve</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-text-4/#valdef-white-space-collapse-preserve-breaks"> properties ➞ white-space-collapse ➞ preserve-breaks</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> types ➞ overflow ➞ overlay</span> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-</ol><h4>html</h4><ol><li><span> elements ➞ base ➞ href ➞ forbid_data_javascript_urls</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-</ol><h4>javascript</h4><ol><li><span> builtins ➞ Intl ➞ PluralRules ➞ PluralRules ➞ options_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> builtins ➞ Intl ➞ PluralRules ➞ PluralRules ➞ options_parameter ➞ options_roundingMode_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> builtins ➞ Intl ➞ PluralRules ➞ PluralRules ➞ options_parameter ➞ options_roundingPriority_parameter</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/Clipboard/read#unsanitized"> Clipboard ➞ read ➞ formats_unsanitized_parameter</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/clipboard-apis/#optional-data-types"> ClipboardItem ➞ supports_static ➞ optional_type_image_svg_xml</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/clipboard-apis/#optional-data-types"> ClipboardItem ➞ supports_static ➞ optional_type_web</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-partitioned"> CookieChangeEvent ➞ changed ➞ partitioned_property</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-partitioned"> CookieChangeEvent ➞ deleted ➞ partitioned_property</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-partitioned"> ExtendableCookieChangeEvent ➞ changed ➞ partitioned_property</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://wicg.github.io/cookie-store/#dom-cookielistitem-partitioned"> ExtendableCookieChangeEvent ➞ deleted ➞ partitioned_property</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> HTMLBaseElement ➞ href ➞ forbid_data_javascript_urls</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/interaction.html#dom-writingsuggestions"> HTMLElement ➞ writingSuggestions</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/aspectRatio"> MediaStreamTrack ➞ applyConstraints ➞ aspectRatio_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/autoGainControl"> MediaStreamTrack ➞ applyConstraints ➞ autoGainControl_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/channelCount"> MediaStreamTrack ➞ applyConstraints ➞ channelCount_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/deviceId"> MediaStreamTrack ➞ applyConstraints ➞ deviceId_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/displaySurface"> MediaStreamTrack ➞ applyConstraints ➞ displaySurface_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/echoCancellation"> MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/facingMode"> MediaStreamTrack ➞ applyConstraints ➞ facingMode_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/frameRate"> MediaStreamTrack ➞ applyConstraints ➞ frameRate_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/groupId"> MediaStreamTrack ➞ applyConstraints ➞ groupId_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/height"> MediaStreamTrack ➞ applyConstraints ➞ height_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/latency"> MediaStreamTrack ➞ applyConstraints ➞ latency_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/logicalSurface"> MediaStreamTrack ➞ applyConstraints ➞ logicalSurface_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/noiseSuppression"> MediaStreamTrack ➞ applyConstraints ➞ noiseSuppression_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/resizeMode"> MediaStreamTrack ➞ applyConstraints ➞ resizeMode_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleRate"> MediaStreamTrack ➞ applyConstraints ➞ sampleRate_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleSize"> MediaStreamTrack ➞ applyConstraints ➞ sampleSize_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/suppressLocalAudioPlayback"> MediaStreamTrack ➞ applyConstraints ➞ suppressLocalAudioPlayback_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/volume"> MediaStreamTrack ➞ applyConstraints ➞ volume_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/width"> MediaStreamTrack ➞ applyConstraints ➞ width_constraint</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-run"> SharedStorageWorklet ➞ run</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-selecturl"> SharedStorageWorklet ➞ selectURL</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://w3c.github.io/webtransport/#dom-webtransportsendstream-getwriter"> WebTransportSendStream ➞ getWriter</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-anchor-position-1/#position-anchor"> properties ➞ position-anchor ➞ auto</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>html</h4><ol><li><a href="https://privacycg.github.io/private-click-measurement/#dom-htmlanchorelement-attributionsourceid"> elements ➞ a ➞ attributionsourceid</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/input#required"> elements ➞ input ➞ required</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Attributes/size"> elements ➞ input ➞ size</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/webappapis.html#normalizing-a-module-integrity-map"> elements ➞ script ➞ type ➞ importmap ➞ integrity</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>webextensions</h4><ol><li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getDisabledRuleIds"> api ➞ declarativeNetRequest ➞ getDisabledRuleIds</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateStaticRules"> api ➞ declarativeNetRequest ➞ updateStaticRules</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
+  <h2>Implementation Status Changes: +5, -0
 
- 		</ol>
-	 	</section>
+      <h3>Added (5)</h3>
+      <section class="added implementations">
+          <h4>api</h4>
+          <ol>
+              <li>
+
+                  <a href="https://html.spec.whatwg.org/multipage/interaction.html#dom-writingsuggestions">api ➞ HTMLElement ➞ writingSuggestions</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-run">api ➞ SharedStorageWorklet ➞ run</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://wicg.github.io/shared-storage/#dom-sharedstorageworklet-selecturl">api ➞ SharedStorageWorklet ➞ selectURL</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>css</h4>
+          <ol>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-anchor-position-1/#position-anchor">css ➞ properties ➞ position-anchor ➞ auto</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>html</h4>
+          <ol>
+              <li>
+
+                  <a href="https://html.spec.whatwg.org/multipage/webappapis.html#normalizing-a-module-integrity-map">html ➞ elements ➞ script ➞ type ➞ importmap ➞ integrity</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+      </section>
+
+
+  </section>
+</body>
+</html>
 </body>
 </html>

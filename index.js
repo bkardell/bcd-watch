@@ -19,6 +19,13 @@ function stripFileExtension(str) {
 }
 
 Handlebars.registerHelper('stripFileExtension', stripFileExtension)
+Handlebars.registerHelper('pluralize', function(number, singular, plural) {
+    if (number === 1)
+        return singular;
+    else
+        return (typeof plural === 'string' ? plural : singular + 's');
+});
+
 
 function shortDate(date) {
   let dateParts = date.toDateString().split(' ')

@@ -16,10 +16,10 @@
 	</p>
 
   <h2>Added Features: {{addedFeaturesCt}}</h2>
-  {{#unless addedFeatures}}
+  {{#unless addedFeaturesCt}}
     No features were added to bcd in this time period 
   {{/unless}}
-  {{#if addedFeatures}}
+  {{#if addedFeaturesCt}}
     <details class="added">
       <summary>Expand to see the full list...</summary>
       {{#each addedFeatures}}
@@ -34,10 +34,10 @@
   {{/if}}
 
   <h2>Removed Features: {{removedFeaturesCt}}</h2>
-  {{#unless removedFeatures}}
+  {{#unless removedFeaturesCt}}
     No features were removed from bcd in this time period
   {{/unless}}
-  {{#if removedFeatures}}
+  {{#if removedFeaturesCt}}
     <details class="removed">
       <summary>Expand to see the full list...</summary>
       {{#each removedFeatures}}
@@ -53,7 +53,7 @@
 
   <h2>Implementation Status Changes: +{{addedImplmentationsCt}}, -{{removedImplementationsCt}}
 
-    {{#if addedImplementations}}
+    {{#if addedImplmentationsCt}}
       <h3>Added ({{addedImplmentationsCt}})</h3>
       <section class="added implementations">
         {{#each addedImplementations}}
@@ -81,7 +81,7 @@
       </section>
     {{/if}}
 
-    {{#if removedImplementations}}
+    {{#if removedImplementationsCt}}
       <h3>Added ({{removedImplementationsCt}})</h3>
       <section class="removed implementations">
         {{#each removedImplementations}}

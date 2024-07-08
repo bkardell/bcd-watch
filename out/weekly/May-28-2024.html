@@ -7,84 +7,165 @@
 <title>BCD Changes Report, Tue May 14 2024 - Tue May 28 2024</title>
 </head>
 <body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" href="../styles.css" rel="stylesheet">
+<title>BCD Changes Report, Tuesday, 14 May 2024 (UTC) - Tuesday, 28 May 2024 (UTC)</title>
+</head>
+<body>
 
-	<h1>BCD Changes Report, <time>Tue May 28 2024</time></h1>
-	<div>
-		<p><strong>Summary of BCD changes</strong> <br>
-		<span>from <time>Tue May 14 2024 18:33:28 GMT+0000 (Coordinated Universal Time)</time></span><br>
-		<span>to <time>Tue May 28 2024 12:28:46 GMT+0000 (Coordinated Universal Time)</time></span></p>
-	</div>
-	<h2>Added Features: 24</h2>
-	 <details class="added features">
-	 		<summary>Expand to see the full list</summary>
-	 		<h4>api</h4><ol><li>Element ➞ attachShadow ➞ options_clonable_parameter</li>
-<li>Element ➞ attachShadow ➞ options_delegatesFocus_parameter</li>
-<li>Element ➞ attachShadow ➞ options_serializable_parameter</li>
-<li>Element ➞ checkVisibility ➞ options_opacityProperty_parameter</li>
-<li>Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees</li>
-<li>Selection ➞ extend ➞ accepts_nodes_in_shadow_trees</li>
-<li>Selection ➞ getComposedRanges ➞ returns_multiple_ranges</li>
-<li>Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees</li>
-</ol><h4>css</h4><ol><li>properties ➞ place-items ➞ anchor-center</li>
-<li>properties ➞ place-self ➞ anchor-center</li>
-<li>properties ➞ position-try-options ➞ inset-area</li>
-</ol><h4>html</h4><ol><li>elements ➞ fencedframe ➞ allow</li>
-<li>elements ➞ fencedframe ➞ height</li>
-<li>elements ➞ fencedframe ➞ width</li>
-<li>elements ➞ template ➞ shadowrootdelegatesfocus</li>
-<li>elements ➞ template ➞ shadowrootserializable</li>
-</ol><h4>javascript</h4><ol><li>builtins ➞ DataView ➞ getFloat16</li>
-<li>builtins ➞ DataView ➞ setFloat16</li>
-<li>builtins ➞ Float16Array ➞ Float16Array</li>
-<li>builtins ➞ Float16Array</li>
-<li>builtins ➞ Math ➞ f16round</li>
-</ol><h4>webextensions</h4><ol><li>api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter</li>
-<li>api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter</li>
-<li>api ➞ management ➞ ExtensionInfo ➞ installType</li>
+  <h1>BCD Changes Report, <time>Tue May 28 2024</time></h1>
+	<p>
+	<strong>Summary of BCD changes</strong>
+	<span>from <time title="Tue May 14 2024 14:33:28 GMT-0400 (Eastern Daylight Time)">Tuesday, 14 May 2024</time></span>
+	<span>to <time title="Tue May 28 2024 08:28:46 GMT-0400 (Eastern Daylight Time)">Tuesday, 28 May 2024</time></span>
+	</p>
 
-	 	</ol>
-	 </details>
-	 <h2>Removed Features: 2</h2>
-	 <details class="removed features">
-	 		<summary>Expand to see the full list</summary>
-	 		</ol><h4>api</h4><ol><li>Element ➞ attachShadow ➞ init_clonable_parameter</li>
-<li>Element ➞ attachShadow ➞ init_delegatesFocus_parameter</li>
+  <h2>Added Features: 24</h2>
+    <details class="added">
+      <summary>Expand to see the full list...</summary>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Element ➞ attachShadow ➞ options_clonable_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ options_delegatesFocus_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ options_serializable_parameter</li>
+            <li>api ➞ Element ➞ checkVisibility ➞ options_opacityProperty_parameter</li>
+            <li>api ➞ Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees</li>
+            <li>api ➞ Selection ➞ extend ➞ accepts_nodes_in_shadow_trees</li>
+            <li>api ➞ Selection ➞ getComposedRanges ➞ returns_multiple_ranges</li>
+            <li>api ➞ Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees</li>
+        </ol>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ properties ➞ place-items ➞ anchor-center</li>
+            <li>css ➞ properties ➞ place-self ➞ anchor-center</li>
+            <li>css ➞ properties ➞ position-try-options ➞ inset-area</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ fencedframe ➞ allow</li>
+            <li>html ➞ elements ➞ fencedframe ➞ height</li>
+            <li>html ➞ elements ➞ fencedframe ➞ width</li>
+            <li>html ➞ elements ➞ template ➞ shadowrootdelegatesfocus</li>
+            <li>html ➞ elements ➞ template ➞ shadowrootserializable</li>
+        </ol>
+        <h4>javascript</h4>
+        <ol>
+            <li>javascript ➞ builtins ➞ DataView ➞ getFloat16</li>
+            <li>javascript ➞ builtins ➞ DataView ➞ setFloat16</li>
+            <li>javascript ➞ builtins ➞ Float16Array ➞ Float16Array</li>
+            <li>javascript ➞ builtins ➞ Float16Array</li>
+            <li>javascript ➞ builtins ➞ Math ➞ f16round</li>
+        </ol>
+        <h4>webextensions</h4>
+        <ol>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter</li>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter</li>
+            <li>webextensions ➞ api ➞ management ➞ ExtensionInfo ➞ installType</li>
+        </ol>
+    </details>
 
-	 	</ol>
-	 </details><h2>Implementation Status Changes: +29, -0</h2>
+  <h2>Removed Features: 2</h2>
+    <details class="removed">
+      <summary>Expand to see the full list...</summary>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Element ➞ attachShadow ➞ init_clonable_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ init_delegatesFocus_parameter</li>
+        </ol>
+    </details>
 
-		<h3>Added (29)</h3><section class="added implementations">
- 		<li><a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-gethtml"> ShadowRoot ➞ getHTML</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-auto"> properties ➞ content-visibility ➞ auto</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-hidden"> properties ➞ content-visibility ➞ hidden</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-visible"> properties ➞ content-visibility ➞ visible</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://svgwg.org/svg2-draft/paths.html#TheDProperty"> properties ➞ d</a> <b><br></b>  <span class="browsers">Added to <strong>Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-</ol><h4>api</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#clonable"> Element ➞ attachShadow ➞ options_clonable_parameter</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#delegatesfocus"> Element ➞ attachShadow ➞ options_delegatesFocus_parameter</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#serializable"> Element ➞ attachShadow ➞ options_serializable_parameter</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions"> Element ➞ checkVisibility ➞ options_opacityProperty_parameter</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome, Safari</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni3 engines">Now in <strong>3 of 3</strong> engines</span></li>
-<li><span> Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> Selection ➞ extend ➞ accepts_nodes_in_shadow_trees</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> Selection ➞ getComposedRanges ➞ returns_multiple_ranges</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><span> Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>css</h4><ol><li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"> properties ➞ place-items ➞ anchor-center</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"> properties ➞ place-self ➞ anchor-center</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/CSS/inset-area_function"> properties ➞ position-try-options ➞ inset-area</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>html</h4><ol><li><a href="https://wicg.github.io/fenced-frame/#element-attrdef-fencedframe-allow"> elements ➞ fencedframe ➞ allow</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/embedded-content-other.html#attr-dim-height"> elements ➞ fencedframe ➞ height</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://html.spec.whatwg.org/multipage/embedded-content-other.html#attr-dim-width"> elements ➞ fencedframe ➞ width</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/template#shadowrootdelegatesfocus"> elements ➞ template ➞ shadowrootdelegatesfocus</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/template#shadowrootserializable"> elements ➞ template ➞ shadowrootserializable</a> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>javascript</h4><ol><li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getFloat16"> builtins ➞ DataView ➞ getFloat16</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setFloat16"> builtins ➞ DataView ➞ setFloat16</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float16Array/Float16Array"> builtins ➞ Float16Array ➞ Float16Array</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float16Array"> builtins ➞ Float16Array</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-<li><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/f16round"> builtins ➞ Math ➞ f16round</a> <b><br></b>  <span class="browsers">Added to <strong>Firefox</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
-</ol><h4>webextensions</h4><ol><li><span> api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter</span> <b><br></b>  <span class="browsers">Added to <strong>Firefox, Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni2 engines">Now in <strong>2 of 3</strong> engines</span></li>
-<li><span> api ➞ management ➞ ExtensionInfo ➞ installType</span> <b><br></b>  <span class="browsers">Added to <strong>Chrome</strong></span>  <b>&nbsp;➞&nbsp;</b>  <span class="ni1 engines">Now in <strong>1 of 3</strong> engines</span></li>
+  <h2>Implementation Status Changes: +7, -0
 
- 		</ol>
-	 	</section>
+      <h3>Added (7)</h3>
+      <section class="added implementations">
+          <h4>api</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#clonable">api ➞ Element ➞ attachShadow ➞ options_clonable_parameter</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#serializable">api ➞ Element ➞ attachShadow ➞ options_serializable_parameter</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>css</h4>
+          <ol>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center">css ➞ properties ➞ place-items ➞ anchor-center</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center">css ➞ properties ➞ place-self ➞ anchor-center</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/CSS/inset-area_function">css ➞ properties ➞ position-try-options ➞ inset-area</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>html</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/HTML/Element/template#shadowrootdelegatesfocus">html ➞ elements ➞ template ➞ shadowrootdelegatesfocus</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/HTML/Element/template#shadowrootserializable">html ➞ elements ➞ template ➞ shadowrootserializable</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+      </section>
+
+
+  </section>
+</body>
+</html>
 </body>
 </html>

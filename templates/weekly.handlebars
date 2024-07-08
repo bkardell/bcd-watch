@@ -4,23 +4,23 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD Changes Report, {{olderReleaseDate}} (Coordinated Universal Time) - {{laterReleaseDate}} (Coordinated Universal Time)</title>
+<title>BCD Changes Report, {{olderReleaseDate}} (UTC) - {{laterReleaseDate}} (UTC)</title>
 </head>
 <body>
 
   <h1>BCD Changes Report, <time>{{reportDate}}</time></h1>
-  <div>
-    <p><strong>Summary of BCD changes</strong> <br>
-    <span>from <time>{{olderReleaseDate}}</time></span><br>
-    <span>to <time>{{laterReleaseDate}}</time></span></p>
-  </div>
+	<p>
+	<strong>Summary of BCD changes</strong>
+	<span>from <time title="{{olderReleaseDateTime}}">{{olderReleaseDate}}</time></span>
+	<span>to <time title="{{laterReleaseDateTime}}">{{laterReleaseDate}}</time></span>
+	</p>
 
   <h2>Added Features: {{addedFeaturesCt}}</h2>
   {{#unless addedFeatures}}
     No features were added to bcd in this time period 
   {{/unless}}
   {{#if addedFeatures}}
-    <details>
+    <details class="added">
       <summary>Expand to see the full list...</summary>
       {{#each addedFeatures}}
         <h4>{{@key}}</h4>
@@ -38,7 +38,7 @@
     No features were removed from bcd in this time period
   {{/unless}}
   {{#if removedFeatures}}
-    <details>
+    <details class="removed">
       <summary>Expand to see the full list...</summary>
       {{#each removedFeatures}}
         <h4>{{@key}}</h4>
@@ -51,7 +51,7 @@
     </details>
   {{/if}}
 
-  <h2>Implementation Status Changes: {{addedImplmentationsCt}}, -{{removedImplementationsCt}}
+  <h2>Implementation Status Changes: +{{addedImplmentationsCt}}, -{{removedImplementationsCt}}
 
     {{#if addedImplementations}}
       <h3>Added ({{addedImplmentationsCt}})</h3>

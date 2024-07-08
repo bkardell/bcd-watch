@@ -4,19 +4,19 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD New Baselines Report, {{olderReleaseDate}} (Coordinated Universal Time) - {{laterReleaseDate}} (Coordinated Universal Time)</title>
+<title>BCD New Baselines Report, {{olderReleaseDate}} - {{laterReleaseDate}}</title>
 </head>
 <body>
 
 	<h1>BCD New Baselines Report <time>{{reportDate}}</time></h1>
-	<div>
-		<p>Summary of BCD changes <br>
-		<span>from <time>{{olderReleaseDate}} (Coordinated Universal Time)</time></span><br>
-		<span>to <time>{{newerReleaseDate}} (Coordinated Universal Time)</time></span></p>
-	</div>
+	<p>
+	<strong>New baseline implementations</strong>
+	<span>from <time title="{{olderReleaseDateTime}}">{{olderReleaseDate}}</time></span>
+	<span>to <time title="{{laterReleaseDateTime}}">{{laterReleaseDate}}</time></span>
+	</p>
 
 	{{#unless completedImplementations}}
-		No new Baseline implementations to report 🙁
+	<p>No new Baseline implementations to report 🙁</p>
 	{{/unless}}
 
 	<p>{{completedCt}} new Baseline implementations</p>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: BCD changes (weekly)</title>
-    <updated>2024-07-05T17:35:01.786Z</updated>
+    <updated>2024-07-08T13:55:45.888Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,11 +15,11 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD Changes Report, Tue Jun 25 2024 - Tue Jul 02 2024]]></title>
-        <id>https://bkardell.com/bcd-watch/Jul-02-2024.html</id>
-        <link href="https://bkardell.com/bcd-watch/Jul-02-2024.html">
+        <title type="html"><![CDATA[BCD Changes Report, Tue Jun 25 2024 - Sat Jul 06 2024]]></title>
+        <id>https://bkardell.com/bcd-watch/Jul-06-2024.html</id>
+        <link href="https://bkardell.com/bcd-watch/Jul-06-2024.html">
         </link>
-        <updated>2024-07-02T10:05:40.603Z</updated>
+        <updated>2024-07-06T00:30:59.540Z</updated>
         <summary type="html"><![CDATA[Weekly summary of changes to BCD data]]></summary>
         <content type="html"><![CDATA[<!DOCTYPE html>
 <html>
@@ -27,23 +27,26 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD Changes Report, Tue Jun 25 2024 20:30:19 GMT+0000 (Coordinated Universal Time) (Coordinated Universal Time) - Tue Jul 02 2024 10:05:40 GMT+0000 (Coordinated Universal Time) (Coordinated Universal Time)</title>
+<title>BCD Changes Report, Tue Jun 25 2024 20:30:19 GMT+0000 (Coordinated Universal Time) (Coordinated Universal Time) - Sat Jul 06 2024 00:30:59 GMT+0000 (Coordinated Universal Time) (Coordinated Universal Time)</title>
 </head>
 <body>
 
-  <h1>BCD Changes Report, <time>Tue Jul 02 2024</time></h1>
+  <h1>BCD Changes Report, <time>Sat Jul 06 2024</time></h1>
   <div>
     <p><strong>Summary of BCD changes</strong> <br>
     <span>from <time>Tue Jun 25 2024 20:30:19 GMT+0000 (Coordinated Universal Time)</time></span><br>
-    <span>to <time>Tue Jul 02 2024 10:05:40 GMT+0000 (Coordinated Universal Time)</time></span></p>
+    <span>to <time>Sat Jul 06 2024 00:30:59 GMT+0000 (Coordinated Universal Time)</time></span></p>
   </div>
 
-  <h2>Added Features: 15</h2>
+  <h2>Added Features: 22</h2>
     <details>
       <summary>Expand to see the full list...</summary>
         <h4>api</h4>
         <ol>
+            <li>api ➞ HTMLBaseElement ➞ href ➞ forbid_special_characters</li>
             <li>api ➞ Navigator ➞ registerProtocolHandler ➞ scheme_parameter_ethereum</li>
+            <li>api ➞ PerformancePaintTiming ➞ first-contentful-paint</li>
+            <li>api ➞ PerformancePaintTiming ➞ first-paint</li>
             <li>api ➞ createImageBitmap ➞ options_imageOrientation_parameter ➞ from-image</li>
             <li>api ➞ createImageBitmap ➞ options_imageOrientation_parameter ➞ none</li>
         </ol>
@@ -68,17 +71,48 @@
         </ol>
         <h4>webextensions</h4>
         <ol>
+            <li>webextensions ➞ api ➞ contentScripts</li>
             <li>webextensions ➞ api ➞ contentScripts ➞ register ➞ matchOriginAsFallback</li>
+            <li>webextensions ➞ api ➞ contentScripts ➞ register ➞ world</li>
             <li>webextensions ➞ api ➞ scripting ➞ RegisteredContentScript ➞ matchOriginAsFallback</li>
+            <li>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ ISOLATED</li>
+            <li>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ MAIN</li>
         </ol>
     </details>
 
-  <h2>Removed Features: 37</h2>
+  <h2>Removed Features: 63</h2>
     <details>
       <summary>Expand to see the full list...</summary>
         <h4>api</h4>
         <ol>
             <li>api ➞ Navigator ➞ registerProtocolHandler ➞ scheme_parameter_etherium</li>
+        </ol>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ properties ➞ -moz-orient ➞ auto</li>
+            <li>css ➞ properties ➞ -moz-user-input ➞ disabled</li>
+            <li>css ➞ properties ➞ -moz-user-input ➞ enabled</li>
+            <li>css ➞ properties ➞ -webkit-mask-attachment</li>
+            <li>css ➞ properties ➞ -webkit-overflow-scrolling</li>
+            <li>css ➞ properties ➞ align-tracks</li>
+            <li>css ➞ properties ➞ hanging-punctuation ➞ force-end</li>
+            <li>css ➞ properties ➞ image-orientation ➞ flip_and_angle</li>
+            <li>css ➞ properties ➞ initial-letter-align</li>
+            <li>css ➞ properties ➞ justify-tracks</li>
+            <li>css ➞ properties ➞ outline-color ➞ invert</li>
+            <li>css ➞ properties ➞ ruby-position ➞ inter-character</li>
+            <li>css ➞ properties ➞ scrollbar-3dlight-color</li>
+            <li>css ➞ properties ➞ scrollbar-arrow-color</li>
+            <li>css ➞ properties ➞ scrollbar-base-color</li>
+            <li>css ➞ properties ➞ scrollbar-darkshadow-color</li>
+            <li>css ➞ properties ➞ scrollbar-face-color</li>
+            <li>css ➞ properties ➞ scrollbar-highlight-color</li>
+            <li>css ➞ properties ➞ scrollbar-shadow-color</li>
+            <li>css ➞ properties ➞ touch-action ➞ double-tap-zoom</li>
+            <li>css ➞ selectors ➞ -moz-page</li>
+            <li>css ➞ selectors ➞ -moz-page-sequence</li>
+            <li>css ➞ selectors ➞ -moz-scrolled-page-sequence</li>
+            <li>css ➞ selectors ➞ -webkit-details-marker</li>
         </ol>
         <h4>html</h4>
         <ol>
@@ -125,11 +159,16 @@
             <li>svg ➞ global_attributes ➞ solid-opacity</li>
             <li>svg ➞ global_attributes ➞ xml_base</li>
         </ol>
+        <h4>webextensions</h4>
+        <ol>
+            <li>webextensions ➞ manifest ➞ theme ➞ colors ➞ tab_background_separator</li>
+            <li>webextensions ➞ manifest ➞ theme ➞ colors ➞ toolbar_field_separator</li>
+        </ol>
     </details>
 
-  <h2>Implementation Status Changes: 5, -0
+  <h2>Implementation Status Changes: 7, -0
 
-      <h3>Added (5)</h3>
+      <h3>Added (7)</h3>
       <section class="added implementations">
           <h4>html</h4>
           <ol>
@@ -161,6 +200,16 @@
           <ol>
               <li>
 
+                  <a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint">svg ➞ global_attributes ➞ fill ➞ context-fill</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
                   <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size-adjust">svg ➞ global_attributes ➞ font-size-adjust</a>
                 
                 <b><br></b> 
@@ -187,6 +236,16 @@
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint">svg ➞ global_attributes ➞ stroke ➞ context-stroke</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
               </li>
           </ol>

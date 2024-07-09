@@ -13,6 +13,9 @@
         margin-inline: auto;
   }
   h1 {
+  	display: grid;
+  	grid-template-columns: 1fr max-content 1fr;
+  	gap: 0 0.25em;
         margin-block-end: 0;
         font-size: 4em;
         text-align: center;
@@ -24,6 +27,15 @@
   }
   h1 img:first-of-type {
         transform: scaleX(-1);
+        justify-self: end;
+  }
+
+  h1 + p {
+  	max-width: 100%;
+        margin-block: 0.25em 1em;
+        text-align: center;
+        font-size: 1.25em;
+        font-style: italic;
   }
 
   @media (max-width: 44em) {
@@ -35,18 +47,18 @@
   	h1 {
   		font-size: 2em;
   	}
+	  h1 + p {
+	  	font-size: 1.1em;
+	}
   }
   @media (max-width: 22em) {
+  	h1 { display: block;}
   	h1 img {
   		display: none;
   	}
-  }
-
-  h1 + p {
-        margin-block: 0.25em 1em;
-        text-align: center;
-        font-size: 1.25em;
-        font-style: italic;
+	  h1 + p {
+	  	font-size: 1em;
+	}
   }
   #reports {
         text-align: center;
@@ -113,8 +125,8 @@
 </head>
 <body>
   <main>
-    <h1><img src="binoculars.png">&nbsp;BCD Watch&nbsp;<img src="binoculars.png"></h1>
-    <p>Keeping an eye on changes in MDN’s Browser Compatibility Data</p>
+    <h1><img src="binoculars.png"> BCD Watch <img src="binoculars.png"></h1>
+    <p>Keeping an eye on changes to MDN’s Browser Compatibility Data</p>
     <div id="reports">
       <div>
         <h2><a href="weekly">Full Weekly Report</a> <a href="weekly/feed.rss"><img src="rss.svg" alt="RSS feed"></a></h2>

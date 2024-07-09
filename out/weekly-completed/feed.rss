@@ -4,7 +4,7 @@
         <title>bcd-watch: New baselines (weekly)</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Tue, 09 Jul 2024 14:45:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jul 2024 16:25:36 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -15,10 +15,10 @@
         <copyright>All rights reserved 2024, Brian Kardell</copyright>
         <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[BCD New Baselines Report, Tue Jun 25 2024 - Tue Jul 02 2024]]></title>
-            <link>https://bkardell.com/bcd-watch/Jul-02-2024-completed.html</link>
-            <guid>https://bkardell.com/bcd-watch/Jul-02-2024-completed.html</guid>
-            <pubDate>Tue, 02 Jul 2024 10:05:40 GMT</pubDate>
+            <title><![CDATA[BCD New Baselines Report, Tue Jul 02 2024 - Tue Jul 09 2024]]></title>
+            <link>https://bkardell.com/bcd-watch/Jul-09-2024-completed.html</link>
+            <guid>https://bkardell.com/bcd-watch/Jul-09-2024-completed.html</guid>
+            <pubDate>Tue, 09 Jul 2024 15:11:53 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<!DOCTYPE html>
 <html>
@@ -29,44 +29,19 @@
 <link rel="alternate" type="application/atom+xml" title="Atom feed" href="feed.atom">
 <link rel="alternate" type="application/feed+json" title="JSON feed" href="feed.json">
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD New Baselines Report, Tuesday, 25 June 2024 - Tuesday, 2 July 2024</title>
+<title>BCD New Baselines Report, Tuesday, 2 July 2024 - Tuesday, 9 July 2024</title>
 </head>
 <body>
 
-    <h1>BCD New Baselines Report <time>Tue Jul 02 2024</time></h1>
+    <h1>BCD New Baselines Report <time>Tue Jul 09 2024</time></h1>
     <p>
     <strong>New baseline implementations</strong>
-    <span>from <time title="Tue Jun 25 2024 16:30:19 GMT-0400 (Eastern Daylight Time)">Tuesday, 25 June 2024</time></span>
-    <span>to <time title="Tue Jul 02 2024 06:05:40 GMT-0400 (Eastern Daylight Time)">Tuesday, 2 July 2024</time></span>
+    <span>from <time title="Tue Jul 02 2024 10:05:40 GMT+0000 (Coordinated Universal Time)">Tuesday, 2 July 2024</time></span>
+    <span>to <time title="Tue Jul 09 2024 15:11:53 GMT+0000 (Coordinated Universal Time)">Tuesday, 9 July 2024</time></span>
     </p>
 
+    <p>No new Baseline implementations to report 🙁</p>
 
-      <p>2 new Baseline implementations</p>
-      <section class="added implementations">
-          <h4>svg</h4>
-          <ol>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/image-rendering">svg ➞ global_attributes ➞ image-rendering</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/pointer-events">svg ➞ global_attributes ➞ pointer-events</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-          </ol>
-      </section>
   <footer>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
   </footer>

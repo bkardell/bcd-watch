@@ -4,7 +4,7 @@
         <title>bcd-watch: BCD changes (weekly)</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 08 Jul 2024 22:23:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jul 2024 12:55:58 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -25,6 +25,9 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="alternate" type="application/rss+xml" title="RSS feed" href="feed.rss">
+<link rel="alternate" type="application/atom+xml" title="Atom feed" href="feed.atom">
+<link rel="alternate" type="application/feed+json" title="JSON feed" href="feed.json">
 <link type="text/css" href="../styles.css" rel="stylesheet">
 <title>BCD Changes Report, Tuesday, 25 June 2024 (UTC) - Tuesday, 2 July 2024 (UTC)</title>
 </head>
@@ -193,6 +196,9 @@
 
 
   </section>
+  <footer>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  </footer>
 </body>
 </html>]]></content:encoded>
         </item>

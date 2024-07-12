@@ -22,42 +22,6 @@
 	<span>to <time title="{{laterReleaseDateTime}}">{{laterReleaseDate}}</time></span>
 	</p>
 
-  <h2>Added Features: {{addedFeaturesCt}}</h2>
-  {{#unless addedFeaturesCt}}
-    No features were added to bcd in this time period 
-  {{/unless}}
-  {{#if addedFeaturesCt}}
-    <details class="added">
-      <summary>Expand to see the full list...</summary>
-      {{#each addedFeatures}}
-        <h4>{{@key}}</h4>
-        <ol>
-          {{#each this}}
-            <li>{{formatFeatureStr this}}</li>
-          {{/each}}
-        </ol>
-      {{/each}} 
-    </details>
-  {{/if}}
-
-  <h2>Removed Features: {{removedFeaturesCt}}</h2>
-  {{#unless removedFeaturesCt}}
-    No features were removed from bcd in this time period
-  {{/unless}}
-  {{#if removedFeaturesCt}}
-    <details class="removed">
-      <summary>Expand to see the full list...</summary>
-      {{#each removedFeatures}}
-        <h4>{{@key}}</h4>
-        <ol>
-          {{#each this}}
-            <li>{{formatFeatureStr this}}</li>
-          {{/each}}
-        </ol>
-      {{/each}} 
-    </details>
-  {{/if}}
-
   <h2>Implementation Status Changes: +{{addedImplmentationsCt}}, -{{removedImplementationsCt}}</h2>
 
     {{#if addedImplmentationsCt}}
@@ -117,6 +81,74 @@
     {{/if}}
 
   </section>
+
+
+  <h2>BCD Metadata Changes</h2>
+  <details>
+    <summary>Show Changes</summary>
+    <p class="info"><strong>Note:</strong>These represent changes to BCD metadata keys
+      in the same time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+    </p>
+
+    {{#if backfilledImplementationsCt}}
+      <h3>Backfilled ({{backfilledImplementationsCt}})</h3>
+      <section class="backfilled implementations">
+        {{#each backfilledImplementations}}
+          <h4>{{@key}}</h4>
+          <ol>
+            {{#each this}}
+              <li>
+                {{#unless (mdnLink this)}}
+                  <span>{{formatFeatureStr key topic}}</span>
+                {{/unless}}
+
+                {{#if (mdnLink this)}}
+                  <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
+                {{/if}}
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong>{{backfilledImplementations}}</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni{{totalImplementations}} engines"><strong>{{totalImplementations}} of 3</strong> engines</span>
+
+              </li>
+            {{/each}}
+          </ol>
+        {{/each}}
+      </section>
+    {{/if}}
+    
+    <h3>Added Features: {{addedFeaturesCt}}</h3>
+    {{#unless addedFeaturesCt}}
+      No features were added to bcd in this time period 
+    {{/unless}}
+    {{#if addedFeaturesCt}}
+      {{#each addedFeatures}}
+        <h4>{{@key}}</h4>
+        <ol>
+          {{#each this}}
+            <li>{{formatFeatureStr this}}</li>
+          {{/each}}
+        </ol>
+      {{/each}} 
+    {{/if}}
+
+    <h3>Removed Features: {{removedFeaturesCt}}</h3>
+    {{#unless removedFeaturesCt}}
+      No features were removed from bcd in this time period
+    {{/unless}}
+    {{#if removedFeaturesCt}}
+      {{#each removedFeatures}}
+        <h4>{{@key}}</h4>
+        <ol>
+          {{#each this}}
+            <li>{{formatFeatureStr this}}</li>
+          {{/each}}
+        </ol>
+      {{/each}} 
+    {{/if}}
+  </details>
+  
   <footer>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
   </footer>

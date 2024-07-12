@@ -239,3 +239,15 @@ footer {
 .filtered li:has(>[class^="ni"]:not(.ni3)) {
 	display: none;
 }
+
+.info {
+	background: lemonchiffon;
+	padding: 1rem;
+	border: 1px solid gray;
+	font-size: 0.875rem;
+}
+
+.info::before {
+	content: 'ⓘ';
+	margin-right: 1rem;
+}

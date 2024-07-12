@@ -17,7 +17,8 @@ function formatSummary(delta, data) {
 	let addedFeaturesCt = 0, 
 			removedFeaturesCt = 0, 
 			addedImplmentationsCt = 0
-			removedImplementationsCt = 0;
+			removedImplementationsCt = 0
+			backfilledImplementationsCt = 0;
 
 	Object.keys(delta.addedFeatures).forEach(topic => {
 		addedFeaturesCt += delta.addedFeatures[topic].length
@@ -30,6 +31,9 @@ function formatSummary(delta, data) {
 	})
 	Object.keys(delta.removedImplementations).forEach(topic => {
 		removedImplementationsCt += delta.removedImplementations[topic].length
+	})
+	Object.keys(delta.backfilledImplementations).forEach(topic => {
+		backfilledImplementationsCt += delta.backfilledImplementations[topic].length
 	})
 	let rTS = new Date(Date.parse(delta.__meta[0].newer.releaseDate)); // 'reportTimeStamp'
 	let reportDate = rTS.toDateString();
@@ -55,7 +59,9 @@ function formatSummary(delta, data) {
 		addedImplmentationsCt: addedImplmentationsCt,
 		addedImplementations: delta.addedImplementations,
 		removedImplementationsCt: removedImplementationsCt,
-		removedImplementations: delta.removedImplementations
+		removedImplementations: delta.removedImplementations,
+		backfilledImplementationsCt: backfilledImplementationsCt,
+		backfilledImplementations: delta.backfilledImplementations
 	})
 }
 

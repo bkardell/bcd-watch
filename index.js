@@ -100,6 +100,7 @@ function run(o,l) {
   }]
   data.addedFeatures = toTopicsFromStrings(data.added)
   data.removedFeatures = toTopicsFromStrings(data.removed)
+  data.backfilledImplementations = toTopicsFromObjects(data.backfilledImplementations)
   data.addedImplementations = toTopicsFromObjects(data.addedImplementations)
 
 

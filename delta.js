@@ -46,6 +46,7 @@ function union(setA, setB) {
 function deltaSupport(key, past, cur, out, latestBrowsers) {
     let added = [],
         removed = [],
+        backfilled = [],
         total = 0,
         changed = false;
 
@@ -64,6 +65,11 @@ function deltaSupport(key, past, cur, out, latestBrowsers) {
                     out.addedImplementations.push(cur)
                 }
                 changed = true
+            } else {
+                if (!changed) {
+                    out.backfilledImplementations.push(cur)
+                }
+                changed = true
             }
         } else if (past.support[browser].version_added && !cur.support[browser].version_added) {
             removed.push(browsername)
@@ -77,12 +83,13 @@ function deltaSupport(key, past, cur, out, latestBrowsers) {
     if (removed.length > 0) {
         cur.removedImplementsions = removed
     }
+
     cur.totalImplementations = total;
     return changed
 }
 
 function delta(bcdObjA, bcdObjB, latestBrowsers) {
-    let out = { added: [], removed: [], changed: {}, addedImplementations: [], removedImplementations: [] }
+    let out = { added: [], removed: [], changed: {}, addedImplementations: [], removedImplementations: [], backfilledImplementations: [] }
     let keySetA = new Set(Object.keys(bcdObjA))
     let keySetB = new Set(Object.keys(bcdObjB))
     let allKeys = union(keySetA, keySetB)

@@ -31,76 +31,12 @@
 	<span>to <time title="Tue May 28 2024 08:28:46 GMT-0400 (Eastern Daylight Time)">Tuesday, 28 May 2024</time></span>
 	</p>
 
-  <h2>Added Features: 24</h2>
-    <details class="added">
-      <summary>Expand to see the full list...</summary>
-        <h4>api</h4>
-        <ol>
-            <li>api ➞ Element ➞ attachShadow ➞ options_clonable_parameter</li>
-            <li>api ➞ Element ➞ attachShadow ➞ options_delegatesFocus_parameter</li>
-            <li>api ➞ Element ➞ attachShadow ➞ options_serializable_parameter</li>
-            <li>api ➞ Element ➞ checkVisibility ➞ options_opacityProperty_parameter</li>
-            <li>api ➞ Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees</li>
-            <li>api ➞ Selection ➞ extend ➞ accepts_nodes_in_shadow_trees</li>
-            <li>api ➞ Selection ➞ getComposedRanges ➞ returns_multiple_ranges</li>
-            <li>api ➞ Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees</li>
-        </ol>
-        <h4>css</h4>
-        <ol>
-            <li>css ➞ properties ➞ place-items ➞ anchor-center</li>
-            <li>css ➞ properties ➞ place-self ➞ anchor-center</li>
-            <li>css ➞ properties ➞ position-try-options ➞ inset-area</li>
-        </ol>
-        <h4>html</h4>
-        <ol>
-            <li>html ➞ elements ➞ fencedframe ➞ allow</li>
-            <li>html ➞ elements ➞ fencedframe ➞ height</li>
-            <li>html ➞ elements ➞ fencedframe ➞ width</li>
-            <li>html ➞ elements ➞ template ➞ shadowrootdelegatesfocus</li>
-            <li>html ➞ elements ➞ template ➞ shadowrootserializable</li>
-        </ol>
-        <h4>javascript</h4>
-        <ol>
-            <li>javascript ➞ builtins ➞ DataView ➞ getFloat16</li>
-            <li>javascript ➞ builtins ➞ DataView ➞ setFloat16</li>
-            <li>javascript ➞ builtins ➞ Float16Array ➞ Float16Array</li>
-            <li>javascript ➞ builtins ➞ Float16Array</li>
-            <li>javascript ➞ builtins ➞ Math ➞ f16round</li>
-        </ol>
-        <h4>webextensions</h4>
-        <ol>
-            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter</li>
-            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter</li>
-            <li>webextensions ➞ api ➞ management ➞ ExtensionInfo ➞ installType</li>
-        </ol>
-    </details>
+  <h2>Implementation Status Changes: +5, -0</h2>
 
-  <h2>Removed Features: 2</h2>
-    <details class="removed">
-      <summary>Expand to see the full list...</summary>
-        <h4>api</h4>
-        <ol>
-            <li>api ➞ Element ➞ attachShadow ➞ init_clonable_parameter</li>
-            <li>api ➞ Element ➞ attachShadow ➞ init_delegatesFocus_parameter</li>
-        </ol>
-    </details>
-
-  <h2>Implementation Status Changes: +7, -0</h2>
-
-      <h3>Added (7)</h3>
+      <h3>Added (5)</h3>
       <section class="added implementations">
           <h4>api</h4>
           <ol>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#clonable">api ➞ Element ➞ attachShadow ➞ options_clonable_parameter</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-              </li>
               <li>
 
                   <a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#serializable">api ➞ Element ➞ attachShadow ➞ options_serializable_parameter</a>
@@ -149,16 +85,6 @@
           <ol>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/HTML/Element/template#shadowrootdelegatesfocus">html ➞ elements ➞ template ➞ shadowrootdelegatesfocus</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
                   <a href="https://developer.mozilla.org/docs/Web/HTML/Element/template#shadowrootserializable">html ➞ elements ➞ template ➞ shadowrootserializable</a>
                 
                 <b><br></b> 
@@ -172,6 +98,323 @@
 
 
   </section>
+
+
+  <h2>BCD Metadata Changes</h2>
+  <details>
+    <summary>Show Changes</summary>
+    <p class="info"><strong>Note:</strong>These represent changes to BCD metadata keys
+      in the same time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+    </p>
+
+      <h3>Backfilled (24)</h3>
+      <section class="backfilled implementations">
+          <h4>api</h4>
+          <ol>
+              <li>
+
+                  <a href="https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-gethtml">api ➞ ShadowRoot ➞ getHTML</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#clonable">api ➞ Element ➞ attachShadow ➞ options_clonable_parameter</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#delegatesfocus">api ➞ Element ➞ attachShadow ➞ options_delegatesFocus_parameter</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions">api ➞ Element ➞ checkVisibility ➞ options_opacityProperty_parameter</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees</span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ Selection ➞ extend ➞ accepts_nodes_in_shadow_trees</span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ Selection ➞ getComposedRanges ➞ returns_multiple_ranges</span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees</span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>css</h4>
+          <ol>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-auto">css ➞ properties ➞ content-visibility ➞ auto</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-hidden">css ➞ properties ➞ content-visibility ➞ hidden</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://drafts.csswg.org/css-contain/#valdef-content-visibility-visible">css ➞ properties ➞ content-visibility ➞ visible</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://svgwg.org/svg2-draft/paths.html#TheDProperty">css ➞ properties ➞ d</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>html</h4>
+          <ol>
+              <li>
+
+                  <a href="https://wicg.github.io/fenced-frame/#element-attrdef-fencedframe-allow">html ➞ elements ➞ fencedframe ➞ allow</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://html.spec.whatwg.org/multipage/embedded-content-other.html#attr-dim-height">html ➞ elements ➞ fencedframe ➞ height</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://html.spec.whatwg.org/multipage/embedded-content-other.html#attr-dim-width">html ➞ elements ➞ fencedframe ➞ width</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/HTML/Element/template#shadowrootdelegatesfocus">html ➞ elements ➞ template ➞ shadowrootdelegatesfocus</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>javascript</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getFloat16">javascript ➞ builtins ➞ DataView ➞ getFloat16</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setFloat16">javascript ➞ builtins ➞ DataView ➞ setFloat16</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float16Array/Float16Array">javascript ➞ builtins ➞ Float16Array ➞ Float16Array</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float16Array">javascript ➞ builtins ➞ Float16Array</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/f16round">javascript ➞ builtins ➞ Math ➞ f16round</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>webextensions</h4>
+          <ol>
+              <li>
+                  <span>webextensions ➞ api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter</span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>webextensions ➞ api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter</span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>webextensions ➞ api ➞ management ➞ ExtensionInfo ➞ installType</span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+      </section>
+    
+    <h3>Added Features: 24</h3>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Element ➞ attachShadow ➞ options_clonable_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ options_delegatesFocus_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ options_serializable_parameter</li>
+            <li>api ➞ Element ➞ checkVisibility ➞ options_opacityProperty_parameter</li>
+            <li>api ➞ Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees</li>
+            <li>api ➞ Selection ➞ extend ➞ accepts_nodes_in_shadow_trees</li>
+            <li>api ➞ Selection ➞ getComposedRanges ➞ returns_multiple_ranges</li>
+            <li>api ➞ Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees</li>
+        </ol>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ properties ➞ place-items ➞ anchor-center</li>
+            <li>css ➞ properties ➞ place-self ➞ anchor-center</li>
+            <li>css ➞ properties ➞ position-try-options ➞ inset-area</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ fencedframe ➞ allow</li>
+            <li>html ➞ elements ➞ fencedframe ➞ height</li>
+            <li>html ➞ elements ➞ fencedframe ➞ width</li>
+            <li>html ➞ elements ➞ template ➞ shadowrootdelegatesfocus</li>
+            <li>html ➞ elements ➞ template ➞ shadowrootserializable</li>
+        </ol>
+        <h4>javascript</h4>
+        <ol>
+            <li>javascript ➞ builtins ➞ DataView ➞ getFloat16</li>
+            <li>javascript ➞ builtins ➞ DataView ➞ setFloat16</li>
+            <li>javascript ➞ builtins ➞ Float16Array ➞ Float16Array</li>
+            <li>javascript ➞ builtins ➞ Float16Array</li>
+            <li>javascript ➞ builtins ➞ Math ➞ f16round</li>
+        </ol>
+        <h4>webextensions</h4>
+        <ol>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter</li>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter</li>
+            <li>webextensions ➞ api ➞ management ➞ ExtensionInfo ➞ installType</li>
+        </ol>
+
+    <h3>Removed Features: 2</h3>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Element ➞ attachShadow ➞ init_clonable_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ init_delegatesFocus_parameter</li>
+        </ol>
+  </details>
+  
   <footer>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
   </footer>

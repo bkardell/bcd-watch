@@ -2,7 +2,7 @@ html {
 	font-family: Calibri, Helvetica, Arial, sans-serif;
 }
 body {
-	max-width: max-content;
+	max-width: min(55em,95vw);
 	margin-inline: auto;
 	padding-inline: 0.5em;
 	padding-block-end: max(5em,20vh);
@@ -244,10 +244,15 @@ footer {
 	background: lemonchiffon;
 	padding: 1rem;
 	border: 1px solid gray;
-	font-size: 0.875rem;
+	font-size: 90%;
 }
 
 .info::before {
 	content: 'ⓘ';
-	margin-right: 1rem;
+	margin-right: 0.25rem;
+	line-height: 1px;
+}
+.info:has(strong)::before, .info strong {
+	font-weight: 900;
+	color: maroon;
 }

@@ -61,7 +61,8 @@ function formatSummary(delta, data) {
 		removedImplementationsCt: removedImplementationsCt,
 		removedImplementations: delta.removedImplementations,
 		backfilledImplementationsCt: backfilledImplementationsCt,
-		backfilledImplementations: delta.backfilledImplementations
+		backfilledImplementations: delta.backfilledImplementations,
+		allImplementationsCt: addedFeaturesCt + removedFeaturesCt + backfilledImplementationsCt
 	})
 }
 

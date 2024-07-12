@@ -22,10 +22,10 @@
 	<span>to <time title="{{laterReleaseDateTime}}">{{laterReleaseDate}}</time></span>
 	</p>
 
-  <h2>Implementation Status Changes: +{{addedImplmentationsCt}}, -{{removedImplementationsCt}}</h2>
+  <h2>Browser Support Changes: +{{addedImplmentationsCt}}, -{{removedImplementationsCt}}</h2>
 
     {{#if addedImplmentationsCt}}
-      <h3>Added ({{addedImplmentationsCt}})</h3>
+      <h3>Support increases ({{addedImplmentationsCt}})</h3>
       <section class="added implementations">
         {{#each addedImplementations}}
           <h4>{{@key}}</h4>
@@ -53,7 +53,7 @@
     {{/if}}
 
     {{#if removedImplementationsCt}}
-      <h3>Added ({{removedImplementationsCt}})</h3>
+      <h3>Support decreases ({{removedImplementationsCt}})</h3>
       <section class="removed implementations">
         {{#each removedImplementations}}
           <h4>{{@key}}</h4>
@@ -83,15 +83,17 @@
   </section>
 
 
-  <h2>BCD Metadata Changes</h2>
+  <h2>BCD Metadata Changes: {{allImplementationsCt}}</h2>
   <details>
-    <summary>Show Changes</summary>
-    <p class="info"><strong>Note:</strong>These represent changes to BCD metadata keys
-      in the same time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+    <summary>Show all {{ allImplementationsCt }} changes</summary>
+    <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+      in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
     </p>
 
     {{#if backfilledImplementationsCt}}
-      <h3>Backfilled ({{backfilledImplementationsCt}})</h3>
+      <h3>Backfilled entries ({{backfilledImplementationsCt}})</h3>
+    <p class="info">The entries in this section saw support information change since the report on  {{ olderReleaseDate }}, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+    </p>
       <section class="backfilled implementations">
         {{#each backfilledImplementations}}
           <h4>{{@key}}</h4>
@@ -118,11 +120,13 @@
       </section>
     {{/if}}
     
-    <h3>Added Features: {{addedFeaturesCt}}</h3>
+    <h3>New entries ({{addedFeaturesCt}})</h3>
     {{#unless addedFeaturesCt}}
-      No features were added to bcd in this time period 
+      No features were added to BCD in this time period.
     {{/unless}}
     {{#if addedFeaturesCt}}
+    <p class="info">The entries in this section were not found in BCD on {{ olderReleaseDate }}, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+    </p>
       {{#each addedFeatures}}
         <h4>{{@key}}</h4>
         <ol>
@@ -133,11 +137,13 @@
       {{/each}} 
     {{/if}}
 
-    <h3>Removed Features: {{removedFeaturesCt}}</h3>
+    <h3>Removed entries ({{removedFeaturesCt}})</h3>
     {{#unless removedFeaturesCt}}
       No features were removed from bcd in this time period
     {{/unless}}
     {{#if removedFeaturesCt}}
+    <p class="info">The entries in this section were found in BCD on {{ olderReleaseDate }}, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+    </p>
       {{#each removedFeatures}}
         <h4>{{@key}}</h4>
         <ol>

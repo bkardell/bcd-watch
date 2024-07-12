@@ -31,96 +31,6 @@
 	<span>to <time title="Tue Jun 18 2024 06:25:45 GMT-0400 (Eastern Daylight Time)">Tuesday, 18 June 2024</time></span>
 	</p>
 
-  <h2>Added Features: 47</h2>
-    <details class="added">
-      <summary>Expand to see the full list...</summary>
-        <h4>api</h4>
-        <ol>
-            <li>api ➞ Blob ➞ bytes</li>
-            <li>api ➞ CSSViewTransitionRule</li>
-            <li>api ➞ CSSViewTransitionRule ➞ navigation</li>
-            <li>api ➞ CSSViewTransitionRule ➞ types</li>
-            <li>api ➞ ChapterInformation</li>
-            <li>api ➞ ChapterInformation ➞ artwork</li>
-            <li>api ➞ ChapterInformation ➞ startTime</li>
-            <li>api ➞ ChapterInformation ➞ title</li>
-            <li>api ➞ GPUAdapter ➞ info</li>
-            <li>api ➞ GamepadHapticActuator ➞ effects</li>
-            <li>api ➞ GeolocationCoordinates ➞ toJSON</li>
-            <li>api ➞ GeolocationPosition ➞ toJSON</li>
-            <li>api ➞ MediaMetadata ➞ chapterInfo</li>
-            <li>api ➞ PushMessageData ➞ bytes</li>
-            <li>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame</li>
-            <li>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame</li>
-            <li>api ➞ Request ➞ bytes</li>
-            <li>api ➞ Response ➞ bytes</li>
-            <li>api ➞ VideoTrackGenerator ➞ VideoTrackGenerator</li>
-            <li>api ➞ VideoTrackGenerator</li>
-            <li>api ➞ VideoTrackGenerator ➞ muted</li>
-            <li>api ➞ VideoTrackGenerator ➞ track</li>
-            <li>api ➞ VideoTrackGenerator ➞ writable</li>
-            <li>api ➞ WebGLObject</li>
-        </ol>
-        <h4>css</h4>
-        <ol>
-            <li>css ➞ selectors ➞ active-view-transition</li>
-            <li>css ➞ selectors ➞ active-view-transition-type</li>
-            <li>css ➞ types ➞ calc ➞ color_component</li>
-        </ol>
-        <h4>html</h4>
-        <ol>
-            <li>html ➞ elements ➞ form ➞ autocomplete ➞ new-password</li>
-            <li>html ➞ elements ➞ form ➞ autocomplete ➞ one-time-code</li>
-            <li>html ➞ elements ➞ form ➞ autocomplete ➞ webauthn</li>
-            <li>html ➞ elements ➞ img ➞ usemap ➞ case_sensitive</li>
-            <li>html ➞ elements ➞ input ➞ autocomplete</li>
-            <li>html ➞ elements ➞ select ➞ autocomplete</li>
-            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ new-password</li>
-            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ one-time-code</li>
-            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ webauthn</li>
-        </ol>
-        <h4>http</h4>
-        <ol>
-            <li>http ➞ headers ➞ Permissions-Policy ➞ cross-origin-isolated</li>
-            <li>http ➞ mixed-content</li>
-            <li>http ➞ mixed-content ➞ allow_file_urls</li>
-            <li>http ➞ mixed-content ➞ allow_localhost_url</li>
-            <li>http ➞ mixed-content ➞ allow_loopback_url</li>
-            <li>http ➞ mixed-content ➞ auto_upgrade_images</li>
-            <li>http ➞ mixed-content ➞ auto_upgrade_video_audio</li>
-            <li>http ➞ mixed-content ➞ block_mixed_downloads</li>
-            <li>http ➞ mixed-content ➞ blockable_mixed_content</li>
-            <li>http ➞ mixed-content ➞ private_network_access</li>
-        </ol>
-        <h4>svg</h4>
-        <ol>
-            <li>svg ➞ elements ➞ textPath ➞ textLength</li>
-        </ol>
-    </details>
-
-  <h2>Removed Features: 9</h2>
-    <details class="removed">
-      <summary>Expand to see the full list...</summary>
-        <h4>api</h4>
-        <ol>
-            <li>api ➞ HTMLTextAreaElement ➞ autocapitalize</li>
-        </ol>
-        <h4>html</h4>
-        <ol>
-            <li>html ➞ elements ➞ img ➞ usemap ➞ caseless_usemap</li>
-            <li>html ➞ elements ➞ input ➞ x-moz-errormessage</li>
-            <li>html ➞ elements ➞ meta ➞ http-equiv ➞ set-cookie</li>
-            <li>html ➞ global_attributes ➞ autocomplete</li>
-            <li>html ➞ global_attributes ➞ autocomplete ➞ new-password</li>
-            <li>html ➞ global_attributes ➞ autocomplete ➞ one-time-code</li>
-            <li>html ➞ global_attributes ➞ autocomplete ➞ webauthn</li>
-        </ol>
-        <h4>svg</h4>
-        <ol>
-            <li>svg ➞ global_attributes ➞ textLength</li>
-        </ol>
-    </details>
-
   <h2>Implementation Status Changes: +25, -0</h2>
 
       <h3>Added (25)</h3>
@@ -394,6 +304,100 @@
 
 
   </section>
+
+
+  <h2>BCD Metadata Changes</h2>
+  <details>
+    <summary>Show Changes</summary>
+    <p class="info"><strong>Note:</strong>These represent changes to BCD metadata keys
+      in the same time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+    </p>
+
+    <h3>Added Features: 47</h3>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Blob ➞ bytes</li>
+            <li>api ➞ CSSViewTransitionRule</li>
+            <li>api ➞ CSSViewTransitionRule ➞ navigation</li>
+            <li>api ➞ CSSViewTransitionRule ➞ types</li>
+            <li>api ➞ ChapterInformation</li>
+            <li>api ➞ ChapterInformation ➞ artwork</li>
+            <li>api ➞ ChapterInformation ➞ startTime</li>
+            <li>api ➞ ChapterInformation ➞ title</li>
+            <li>api ➞ GPUAdapter ➞ info</li>
+            <li>api ➞ GamepadHapticActuator ➞ effects</li>
+            <li>api ➞ GeolocationCoordinates ➞ toJSON</li>
+            <li>api ➞ GeolocationPosition ➞ toJSON</li>
+            <li>api ➞ MediaMetadata ➞ chapterInfo</li>
+            <li>api ➞ PushMessageData ➞ bytes</li>
+            <li>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame</li>
+            <li>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame</li>
+            <li>api ➞ Request ➞ bytes</li>
+            <li>api ➞ Response ➞ bytes</li>
+            <li>api ➞ VideoTrackGenerator ➞ VideoTrackGenerator</li>
+            <li>api ➞ VideoTrackGenerator</li>
+            <li>api ➞ VideoTrackGenerator ➞ muted</li>
+            <li>api ➞ VideoTrackGenerator ➞ track</li>
+            <li>api ➞ VideoTrackGenerator ➞ writable</li>
+            <li>api ➞ WebGLObject</li>
+        </ol>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ selectors ➞ active-view-transition</li>
+            <li>css ➞ selectors ➞ active-view-transition-type</li>
+            <li>css ➞ types ➞ calc ➞ color_component</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ form ➞ autocomplete ➞ new-password</li>
+            <li>html ➞ elements ➞ form ➞ autocomplete ➞ one-time-code</li>
+            <li>html ➞ elements ➞ form ➞ autocomplete ➞ webauthn</li>
+            <li>html ➞ elements ➞ img ➞ usemap ➞ case_sensitive</li>
+            <li>html ➞ elements ➞ input ➞ autocomplete</li>
+            <li>html ➞ elements ➞ select ➞ autocomplete</li>
+            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ new-password</li>
+            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ one-time-code</li>
+            <li>html ➞ elements ➞ textarea ➞ autocomplete ➞ webauthn</li>
+        </ol>
+        <h4>http</h4>
+        <ol>
+            <li>http ➞ headers ➞ Permissions-Policy ➞ cross-origin-isolated</li>
+            <li>http ➞ mixed-content</li>
+            <li>http ➞ mixed-content ➞ allow_file_urls</li>
+            <li>http ➞ mixed-content ➞ allow_localhost_url</li>
+            <li>http ➞ mixed-content ➞ allow_loopback_url</li>
+            <li>http ➞ mixed-content ➞ auto_upgrade_images</li>
+            <li>http ➞ mixed-content ➞ auto_upgrade_video_audio</li>
+            <li>http ➞ mixed-content ➞ block_mixed_downloads</li>
+            <li>http ➞ mixed-content ➞ blockable_mixed_content</li>
+            <li>http ➞ mixed-content ➞ private_network_access</li>
+        </ol>
+        <h4>svg</h4>
+        <ol>
+            <li>svg ➞ elements ➞ textPath ➞ textLength</li>
+        </ol>
+
+    <h3>Removed Features: 9</h3>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ HTMLTextAreaElement ➞ autocapitalize</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ img ➞ usemap ➞ caseless_usemap</li>
+            <li>html ➞ elements ➞ input ➞ x-moz-errormessage</li>
+            <li>html ➞ elements ➞ meta ➞ http-equiv ➞ set-cookie</li>
+            <li>html ➞ global_attributes ➞ autocomplete</li>
+            <li>html ➞ global_attributes ➞ autocomplete ➞ new-password</li>
+            <li>html ➞ global_attributes ➞ autocomplete ➞ one-time-code</li>
+            <li>html ➞ global_attributes ➞ autocomplete ➞ webauthn</li>
+        </ol>
+        <h4>svg</h4>
+        <ol>
+            <li>svg ➞ global_attributes ➞ textLength</li>
+        </ol>
+  </details>
+  
   <footer>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
   </footer>

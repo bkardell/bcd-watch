@@ -31,60 +31,6 @@
 	<span>to <time title="Tue May 28 2024 08:28:46 GMT-0400 (Eastern Daylight Time)">Tuesday, 28 May 2024</time></span>
 	</p>
 
-  <h2>Added Features: 24</h2>
-    <details class="added">
-      <summary>Expand to see the full list...</summary>
-        <h4>api</h4>
-        <ol>
-            <li>api ➞ Element ➞ attachShadow ➞ options_clonable_parameter</li>
-            <li>api ➞ Element ➞ attachShadow ➞ options_delegatesFocus_parameter</li>
-            <li>api ➞ Element ➞ attachShadow ➞ options_serializable_parameter</li>
-            <li>api ➞ Element ➞ checkVisibility ➞ options_opacityProperty_parameter</li>
-            <li>api ➞ Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees</li>
-            <li>api ➞ Selection ➞ extend ➞ accepts_nodes_in_shadow_trees</li>
-            <li>api ➞ Selection ➞ getComposedRanges ➞ returns_multiple_ranges</li>
-            <li>api ➞ Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees</li>
-        </ol>
-        <h4>css</h4>
-        <ol>
-            <li>css ➞ properties ➞ place-items ➞ anchor-center</li>
-            <li>css ➞ properties ➞ place-self ➞ anchor-center</li>
-            <li>css ➞ properties ➞ position-try-options ➞ inset-area</li>
-        </ol>
-        <h4>html</h4>
-        <ol>
-            <li>html ➞ elements ➞ fencedframe ➞ allow</li>
-            <li>html ➞ elements ➞ fencedframe ➞ height</li>
-            <li>html ➞ elements ➞ fencedframe ➞ width</li>
-            <li>html ➞ elements ➞ template ➞ shadowrootdelegatesfocus</li>
-            <li>html ➞ elements ➞ template ➞ shadowrootserializable</li>
-        </ol>
-        <h4>javascript</h4>
-        <ol>
-            <li>javascript ➞ builtins ➞ DataView ➞ getFloat16</li>
-            <li>javascript ➞ builtins ➞ DataView ➞ setFloat16</li>
-            <li>javascript ➞ builtins ➞ Float16Array ➞ Float16Array</li>
-            <li>javascript ➞ builtins ➞ Float16Array</li>
-            <li>javascript ➞ builtins ➞ Math ➞ f16round</li>
-        </ol>
-        <h4>webextensions</h4>
-        <ol>
-            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter</li>
-            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter</li>
-            <li>webextensions ➞ api ➞ management ➞ ExtensionInfo ➞ installType</li>
-        </ol>
-    </details>
-
-  <h2>Removed Features: 2</h2>
-    <details class="removed">
-      <summary>Expand to see the full list...</summary>
-        <h4>api</h4>
-        <ol>
-            <li>api ➞ Element ➞ attachShadow ➞ init_clonable_parameter</li>
-            <li>api ➞ Element ➞ attachShadow ➞ init_delegatesFocus_parameter</li>
-        </ol>
-    </details>
-
   <h2>Implementation Status Changes: +7, -0</h2>
 
       <h3>Added (7)</h3>
@@ -172,6 +118,64 @@
 
 
   </section>
+
+
+  <h2>BCD Metadata Changes</h2>
+  <details>
+    <summary>Show Changes</summary>
+    <p class="info"><strong>Note:</strong>These represent changes to BCD metadata keys
+      in the same time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+    </p>
+
+    <h3>Added Features: 24</h3>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Element ➞ attachShadow ➞ options_clonable_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ options_delegatesFocus_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ options_serializable_parameter</li>
+            <li>api ➞ Element ➞ checkVisibility ➞ options_opacityProperty_parameter</li>
+            <li>api ➞ Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees</li>
+            <li>api ➞ Selection ➞ extend ➞ accepts_nodes_in_shadow_trees</li>
+            <li>api ➞ Selection ➞ getComposedRanges ➞ returns_multiple_ranges</li>
+            <li>api ➞ Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees</li>
+        </ol>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ properties ➞ place-items ➞ anchor-center</li>
+            <li>css ➞ properties ➞ place-self ➞ anchor-center</li>
+            <li>css ➞ properties ➞ position-try-options ➞ inset-area</li>
+        </ol>
+        <h4>html</h4>
+        <ol>
+            <li>html ➞ elements ➞ fencedframe ➞ allow</li>
+            <li>html ➞ elements ➞ fencedframe ➞ height</li>
+            <li>html ➞ elements ➞ fencedframe ➞ width</li>
+            <li>html ➞ elements ➞ template ➞ shadowrootdelegatesfocus</li>
+            <li>html ➞ elements ➞ template ➞ shadowrootserializable</li>
+        </ol>
+        <h4>javascript</h4>
+        <ol>
+            <li>javascript ➞ builtins ➞ DataView ➞ getFloat16</li>
+            <li>javascript ➞ builtins ➞ DataView ➞ setFloat16</li>
+            <li>javascript ➞ builtins ➞ Float16Array ➞ Float16Array</li>
+            <li>javascript ➞ builtins ➞ Float16Array</li>
+            <li>javascript ➞ builtins ➞ Math ➞ f16round</li>
+        </ol>
+        <h4>webextensions</h4>
+        <ol>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter</li>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter</li>
+            <li>webextensions ➞ api ➞ management ➞ ExtensionInfo ➞ installType</li>
+        </ol>
+
+    <h3>Removed Features: 2</h3>
+        <h4>api</h4>
+        <ol>
+            <li>api ➞ Element ➞ attachShadow ➞ init_clonable_parameter</li>
+            <li>api ➞ Element ➞ attachShadow ➞ init_delegatesFocus_parameter</li>
+        </ol>
+  </details>
+  
   <footer>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
   </footer>

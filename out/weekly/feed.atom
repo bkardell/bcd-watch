@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: BCD changes (weekly)</title>
-    <updated>2024-07-12T20:34:58.653Z</updated>
+    <updated>2024-07-15T20:21:56.424Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -53,7 +53,7 @@
           <ol>
               <li>
                   <span>css ➞ properties ➞ position-try-fallbacks ➞ flip-block
-                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-block"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-block"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -65,7 +65,7 @@
               </li>
               <li>
                   <span>css ➞ properties ➞ position-try-fallbacks ➞ flip-inline
-                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-inline"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-inline"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -77,7 +77,7 @@
               </li>
               <li>
                   <span>css ➞ properties ➞ position-try-fallbacks ➞ flip-start
-                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-start"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-start"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -89,7 +89,7 @@
               </li>
               <li>
                   <span>css ➞ properties ➞ position-try-fallbacks ➞ inset-area
-                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#propdef-inset-area"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#propdef-inset-area"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -101,7 +101,7 @@
               </li>
               <li>
                   <span>css ➞ properties ➞ position-try-fallbacks ➞ none
-                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-none"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-none"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -203,7 +203,7 @@
               </li>
               <li>
                   <span>api ➞ HTMLElement ➞ writingSuggestions
-                  	<a href="https://html.spec.whatwg.org/multipage/interaction.html#dom-writingsuggestions"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://html.spec.whatwg.org/multipage/interaction.html#dom-writingsuggestions"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -226,7 +226,7 @@
               </li>
               <li>
                   <span>api ➞ IntersectionObserver ➞ delay
-                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-delay"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-delay"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -238,7 +238,7 @@
               </li>
               <li>
                   <span>api ➞ IntersectionObserver ➞ trackVisibility
-                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-trackvisibility"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-trackvisibility"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -250,7 +250,7 @@
               </li>
               <li>
                   <span>api ➞ IntersectionObserverEntry ➞ isVisible
-                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isvisible"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isvisible"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -427,7 +427,7 @@
               </li>
               <li>
                   <span>svg ➞ global_attributes ➞ fill ➞ context-fill
-                  	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
@@ -439,7 +439,7 @@
               </li>
               <li>
                   <span>svg ➞ global_attributes ➞ stroke ➞ context-stroke
-                  	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 

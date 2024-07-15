@@ -33,7 +33,11 @@
             {{#each this}}
               <li>
                 {{#unless (mdnLink this)}}
-                  <span>{{formatFeatureStr key topic}}</span>
+                  <span>{{formatFeatureStr key topic}}
+                  	{{#if (specLink this)}}
+                  	<a href="{{specLink this}}"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	{{/if}}
+                </span>
                 {{/unless}}
 
                 {{#if (mdnLink this)}}
@@ -61,12 +65,17 @@
             {{#each this}}
               <li>
                 {{#unless (mdnLink this)}}
-                  <span>{{formatFeatureStr key topic}}</span>
+                  <span>{{formatFeatureStr key topic}}
+                  	{{#if (specLink this)}}
+                  	<a href="{{specLink this}}"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	{{/if}}
+                </span>
                 {{/unless}}
 
                 {{#if (mdnLink this)}}
                   <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
                 {{/if}}
+
                 
                 <b><br></b> 
                 <span class="browsers">Removed from <strong>{{removedImplementations}}</strong></span> 
@@ -101,7 +110,11 @@
             {{#each this}}
               <li>
                 {{#unless (mdnLink this)}}
-                  <span>{{formatFeatureStr key topic}}</span>
+                  <span>{{formatFeatureStr key topic}}
+                  	{{#if (specLink this)}}
+                  	<a href="{{specLink this}}"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	{{/if}}
+                </span>
                 {{/unless}}
 
                 {{#if (mdnLink this)}}
@@ -131,7 +144,11 @@
         <h4>{{@key}}</h4>
         <ol>
           {{#each this}}
-            <li>{{formatFeatureStr this}}</li>
+            <li>{{formatFeatureStr this}}
+							{{#if (specLink this)}}
+							<a href="{{specLink this}}"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+							{{/if}}
+            </li>
           {{/each}}
         </ol>
       {{/each}} 
@@ -148,7 +165,11 @@
         <h4>{{@key}}</h4>
         <ol>
           {{#each this}}
-            <li>{{formatFeatureStr this}}</li>
+            <li>{{formatFeatureStr this}}
+							{{#if (specLink this)}}
+							<a href="{{specLink this}}"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+							{{/if}}
+            </li>
           {{/each}}
         </ol>
       {{/each}} 

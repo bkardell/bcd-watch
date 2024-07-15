@@ -35,7 +35,11 @@
             {{#each this}}
               <li>
                 {{#unless (mdnLink this)}}
-                  <span>{{formatFeatureStr key topic}}</span>
+                  <span>{{formatFeatureStr key topic}}
+                  	{{#if (specLink this)}}
+                  	<a href="{{specLink this}}"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	{{/if}}
+                  </span>
                 {{/unless}}
 
                 {{#if (mdnLink this)}}

@@ -10,7 +10,11 @@ Handlebars.registerHelper('formatFeatureStr', (str, topic) => {
 })
 
 Handlebars.registerHelper('mdnLink', (o) =>{
-	return o.mdn_url || o.spec_url
+	return o.mdn_url
+})
+
+Handlebars.registerHelper('specLink', (o) =>{
+	return o.spec_url
 })
 
 function formatSummary(delta, data) {

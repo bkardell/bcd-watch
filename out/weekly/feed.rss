@@ -4,7 +4,7 @@
         <title>bcd-watch: BCD changes (weekly)</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Fri, 12 Jul 2024 19:00:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jul 2024 16:55:50 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -44,15 +44,17 @@
 	<span>to <time title="Tue Jul 09 2024 11:11:53 GMT-0400 (Eastern Daylight Time)">Tuesday, 9 July 2024</time></span>
 	</p>
 
-  <h2>Implementation Status Changes: +5, -0</h2>
+  <h2>Browser Support Changes: +5, -0</h2>
 
-      <h3>Added (5)</h3>
+      <h3>Support increases (5)</h3>
       <section class="added implementations">
           <h4>css</h4>
           <ol>
               <li>
+                  <span>css ➞ properties ➞ position-try-fallbacks ➞ flip-block
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-block"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-block">css ➞ properties ➞ position-try-fallbacks ➞ flip-block</a>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Chrome</strong></span> 
@@ -61,8 +63,10 @@
 
               </li>
               <li>
+                  <span>css ➞ properties ➞ position-try-fallbacks ➞ flip-inline
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-inline"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-inline">css ➞ properties ➞ position-try-fallbacks ➞ flip-inline</a>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Chrome</strong></span> 
@@ -71,8 +75,10 @@
 
               </li>
               <li>
+                  <span>css ➞ properties ➞ position-try-fallbacks ➞ flip-start
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-start"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-start">css ➞ properties ➞ position-try-fallbacks ➞ flip-start</a>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Chrome</strong></span> 
@@ -81,8 +87,10 @@
 
               </li>
               <li>
+                  <span>css ➞ properties ➞ position-try-fallbacks ➞ inset-area
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#propdef-inset-area"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://drafts.csswg.org/css-anchor-position-1/#propdef-inset-area">css ➞ properties ➞ position-try-fallbacks ➞ inset-area</a>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Chrome</strong></span> 
@@ -91,8 +99,10 @@
 
               </li>
               <li>
+                  <span>css ➞ properties ➞ position-try-fallbacks ➞ none
+                  	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-none"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-none">css ➞ properties ➞ position-try-fallbacks ➞ none</a>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Chrome</strong></span> 
@@ -107,14 +117,16 @@
   </section>
 
 
-  <h2>BCD Metadata Changes</h2>
+  <h2>BCD Metadata Changes: 91</h2>
   <details>
-    <summary>Show Changes</summary>
-    <p class="info"><strong>Note:</strong>These represent changes to BCD metadata keys
-      in the same time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+    <summary>Show all 91 changes</summary>
+    <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+      in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
     </p>
 
-      <h3>Backfilled (36)</h3>
+      <h3>Backfilled entries (36)</h3>
+    <p class="info">The entries in this section saw support information change since the report on  Tuesday, 2 July 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+    </p>
       <section class="backfilled implementations">
           <h4>api</h4>
           <ol>
@@ -189,8 +201,10 @@
 
               </li>
               <li>
+                  <span>api ➞ HTMLElement ➞ writingSuggestions
+                  	<a href="https://html.spec.whatwg.org/multipage/interaction.html#dom-writingsuggestions"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://html.spec.whatwg.org/multipage/interaction.html#dom-writingsuggestions">api ➞ HTMLElement ➞ writingSuggestions</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -199,7 +213,8 @@
 
               </li>
               <li>
-                  <span>api ➞ HTMLBaseElement ➞ href ➞ forbid_special_characters</span>
+                  <span>api ➞ HTMLBaseElement ➞ href ➞ forbid_special_characters
+                </span>
 
                 
                 <b><br></b> 
@@ -209,8 +224,10 @@
 
               </li>
               <li>
+                  <span>api ➞ IntersectionObserver ➞ delay
+                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-delay"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-delay">api ➞ IntersectionObserver ➞ delay</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -219,8 +236,10 @@
 
               </li>
               <li>
+                  <span>api ➞ IntersectionObserver ➞ trackVisibility
+                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-trackvisibility"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-trackvisibility">api ➞ IntersectionObserver ➞ trackVisibility</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -229,8 +248,10 @@
 
               </li>
               <li>
+                  <span>api ➞ IntersectionObserverEntry ➞ isVisible
+                  	<a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isvisible"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isvisible">api ➞ IntersectionObserverEntry ➞ isVisible</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -259,7 +280,8 @@
 
               </li>
               <li>
-                  <span>api ➞ VTTCue ➞ text ➞ all_html_character_references</span>
+                  <span>api ➞ VTTCue ➞ text ➞ all_html_character_references
+                </span>
 
                 
                 <b><br></b> 
@@ -272,7 +294,8 @@
           <h4>css</h4>
           <ol>
               <li>
-                  <span>css ➞ at-rules ➞ font-face ➞ src ➞ tech_keyword</span>
+                  <span>css ➞ at-rules ➞ font-face ➞ src ➞ tech_keyword
+                </span>
 
                 
                 <b><br></b> 
@@ -378,7 +401,8 @@
           <h4>javascript</h4>
           <ol>
               <li>
-                  <span>javascript ➞ builtins ➞ Function ➞ toString ➞ toString_revision</span>
+                  <span>javascript ➞ builtins ➞ Function ➞ toString ➞ toString_revision
+                </span>
 
                 
                 <b><br></b> 
@@ -401,8 +425,10 @@
 
               </li>
               <li>
+                  <span>svg ➞ global_attributes ➞ fill ➞ context-fill
+                  	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint">svg ➞ global_attributes ➞ fill ➞ context-fill</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -411,8 +437,10 @@
 
               </li>
               <li>
+                  <span>svg ➞ global_attributes ➞ stroke ➞ context-stroke
+                  	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint">svg ➞ global_attributes ➞ stroke ➞ context-stroke</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -424,7 +452,8 @@
           <h4>webextensions</h4>
           <ol>
               <li>
-                  <span>webextensions ➞ api ➞ scripting ➞ ExecutionWorld ➞ MAIN</span>
+                  <span>webextensions ➞ api ➞ scripting ➞ ExecutionWorld ➞ MAIN
+                </span>
 
                 
                 <b><br></b> 
@@ -434,7 +463,8 @@
 
               </li>
               <li>
-                  <span>webextensions ➞ manifest ➞ content_scripts ➞ world</span>
+                  <span>webextensions ➞ manifest ➞ content_scripts ➞ world
+                </span>
 
                 
                 <b><br></b> 
@@ -454,7 +484,8 @@
 
               </li>
               <li>
-                  <span>webextensions ➞ api ➞ contentScripts ➞ register ➞ world</span>
+                  <span>webextensions ➞ api ➞ contentScripts ➞ register ➞ world
+                </span>
 
                 
                 <b><br></b> 
@@ -474,7 +505,8 @@
 
               </li>
               <li>
-                  <span>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ ISOLATED</span>
+                  <span>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ ISOLATED
+                </span>
 
                 
                 <b><br></b> 
@@ -484,7 +516,8 @@
 
               </li>
               <li>
-                  <span>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ MAIN</span>
+                  <span>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ MAIN
+                </span>
 
                 
                 <b><br></b> 
@@ -496,84 +529,143 @@
           </ol>
       </section>
     
-    <h3>Added Features: 18</h3>
+    <h3>New entries (18)</h3>
+    <p class="info">The entries in this section were not found in BCD on Tuesday, 2 July 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+    </p>
         <h4>api</h4>
         <ol>
-            <li>api ➞ HTMLBaseElement ➞ href ➞ forbid_special_characters</li>
-            <li>api ➞ IntersectionObserver ➞ delay</li>
-            <li>api ➞ IntersectionObserver ➞ trackVisibility</li>
-            <li>api ➞ IntersectionObserverEntry ➞ isVisible</li>
-            <li>api ➞ PerformancePaintTiming ➞ first-contentful-paint</li>
-            <li>api ➞ PerformancePaintTiming ➞ first-paint</li>
-            <li>api ➞ VTTCue ➞ text ➞ all_html_character_references</li>
+            <li>api ➞ HTMLBaseElement ➞ href ➞ forbid_special_characters
+            </li>
+            <li>api ➞ IntersectionObserver ➞ delay
+            </li>
+            <li>api ➞ IntersectionObserver ➞ trackVisibility
+            </li>
+            <li>api ➞ IntersectionObserverEntry ➞ isVisible
+            </li>
+            <li>api ➞ PerformancePaintTiming ➞ first-contentful-paint
+            </li>
+            <li>api ➞ PerformancePaintTiming ➞ first-paint
+            </li>
+            <li>api ➞ VTTCue ➞ text ➞ all_html_character_references
+            </li>
         </ol>
         <h4>css</h4>
         <ol>
-            <li>css ➞ properties ➞ position-try-fallbacks</li>
-            <li>css ➞ properties ➞ position-try-fallbacks ➞ flip-block</li>
-            <li>css ➞ properties ➞ position-try-fallbacks ➞ flip-inline</li>
-            <li>css ➞ properties ➞ position-try-fallbacks ➞ flip-start</li>
-            <li>css ➞ properties ➞ position-try-fallbacks ➞ inset-area</li>
-            <li>css ➞ properties ➞ position-try-fallbacks ➞ none</li>
+            <li>css ➞ properties ➞ position-try-fallbacks
+            </li>
+            <li>css ➞ properties ➞ position-try-fallbacks ➞ flip-block
+            </li>
+            <li>css ➞ properties ➞ position-try-fallbacks ➞ flip-inline
+            </li>
+            <li>css ➞ properties ➞ position-try-fallbacks ➞ flip-start
+            </li>
+            <li>css ➞ properties ➞ position-try-fallbacks ➞ inset-area
+            </li>
+            <li>css ➞ properties ➞ position-try-fallbacks ➞ none
+            </li>
         </ol>
         <h4>webextensions</h4>
         <ol>
-            <li>webextensions ➞ api ➞ contentScripts</li>
-            <li>webextensions ➞ api ➞ contentScripts ➞ register ➞ world</li>
-            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_DISABLED_STATIC_RULES</li>
-            <li>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ ISOLATED</li>
-            <li>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ MAIN</li>
+            <li>webextensions ➞ api ➞ contentScripts
+            </li>
+            <li>webextensions ➞ api ➞ contentScripts ➞ register ➞ world
+            </li>
+            <li>webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_DISABLED_STATIC_RULES
+            </li>
+            <li>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ ISOLATED
+            </li>
+            <li>webextensions ➞ api ➞ scripting ➞ executeScript ➞ world ➞ MAIN
+            </li>
         </ol>
 
-    <h3>Removed Features: 37</h3>
+    <h3>Removed entries (37)</h3>
+    <p class="info">The entries in this section were found in BCD on Tuesday, 2 July 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+    </p>
         <h4>css</h4>
         <ol>
-            <li>css ➞ properties ➞ -moz-orient ➞ auto</li>
-            <li>css ➞ properties ➞ -moz-user-input ➞ disabled</li>
-            <li>css ➞ properties ➞ -moz-user-input ➞ enabled</li>
-            <li>css ➞ properties ➞ -webkit-mask-attachment</li>
-            <li>css ➞ properties ➞ -webkit-overflow-scrolling</li>
-            <li>css ➞ properties ➞ align-tracks</li>
-            <li>css ➞ properties ➞ hanging-punctuation ➞ force-end</li>
-            <li>css ➞ properties ➞ image-orientation ➞ flip_and_angle</li>
-            <li>css ➞ properties ➞ initial-letter-align</li>
-            <li>css ➞ properties ➞ justify-tracks</li>
-            <li>css ➞ properties ➞ outline-color ➞ invert</li>
-            <li>css ➞ properties ➞ position-try-options</li>
-            <li>css ➞ properties ➞ position-try-options ➞ flip-block</li>
-            <li>css ➞ properties ➞ position-try-options ➞ flip-inline</li>
-            <li>css ➞ properties ➞ position-try-options ➞ flip-start</li>
-            <li>css ➞ properties ➞ position-try-options ➞ inset-area</li>
-            <li>css ➞ properties ➞ position-try-options ➞ none</li>
-            <li>css ➞ properties ➞ ruby-position ➞ inter-character</li>
-            <li>css ➞ properties ➞ scrollbar-3dlight-color</li>
-            <li>css ➞ properties ➞ scrollbar-arrow-color</li>
-            <li>css ➞ properties ➞ scrollbar-base-color</li>
-            <li>css ➞ properties ➞ scrollbar-darkshadow-color</li>
-            <li>css ➞ properties ➞ scrollbar-face-color</li>
-            <li>css ➞ properties ➞ scrollbar-highlight-color</li>
-            <li>css ➞ properties ➞ scrollbar-shadow-color</li>
-            <li>css ➞ properties ➞ touch-action ➞ double-tap-zoom</li>
-            <li>css ➞ selectors ➞ -moz-page</li>
-            <li>css ➞ selectors ➞ -moz-page-sequence</li>
-            <li>css ➞ selectors ➞ -moz-scrolled-page-sequence</li>
-            <li>css ➞ selectors ➞ -webkit-details-marker</li>
+            <li>css ➞ properties ➞ -moz-orient ➞ auto
+            </li>
+            <li>css ➞ properties ➞ -moz-user-input ➞ disabled
+            </li>
+            <li>css ➞ properties ➞ -moz-user-input ➞ enabled
+            </li>
+            <li>css ➞ properties ➞ -webkit-mask-attachment
+            </li>
+            <li>css ➞ properties ➞ -webkit-overflow-scrolling
+            </li>
+            <li>css ➞ properties ➞ align-tracks
+            </li>
+            <li>css ➞ properties ➞ hanging-punctuation ➞ force-end
+            </li>
+            <li>css ➞ properties ➞ image-orientation ➞ flip_and_angle
+            </li>
+            <li>css ➞ properties ➞ initial-letter-align
+            </li>
+            <li>css ➞ properties ➞ justify-tracks
+            </li>
+            <li>css ➞ properties ➞ outline-color ➞ invert
+            </li>
+            <li>css ➞ properties ➞ position-try-options
+            </li>
+            <li>css ➞ properties ➞ position-try-options ➞ flip-block
+            </li>
+            <li>css ➞ properties ➞ position-try-options ➞ flip-inline
+            </li>
+            <li>css ➞ properties ➞ position-try-options ➞ flip-start
+            </li>
+            <li>css ➞ properties ➞ position-try-options ➞ inset-area
+            </li>
+            <li>css ➞ properties ➞ position-try-options ➞ none
+            </li>
+            <li>css ➞ properties ➞ ruby-position ➞ inter-character
+            </li>
+            <li>css ➞ properties ➞ scrollbar-3dlight-color
+            </li>
+            <li>css ➞ properties ➞ scrollbar-arrow-color
+            </li>
+            <li>css ➞ properties ➞ scrollbar-base-color
+            </li>
+            <li>css ➞ properties ➞ scrollbar-darkshadow-color
+            </li>
+            <li>css ➞ properties ➞ scrollbar-face-color
+            </li>
+            <li>css ➞ properties ➞ scrollbar-highlight-color
+            </li>
+            <li>css ➞ properties ➞ scrollbar-shadow-color
+            </li>
+            <li>css ➞ properties ➞ touch-action ➞ double-tap-zoom
+            </li>
+            <li>css ➞ selectors ➞ -moz-page
+            </li>
+            <li>css ➞ selectors ➞ -moz-page-sequence
+            </li>
+            <li>css ➞ selectors ➞ -moz-scrolled-page-sequence
+            </li>
+            <li>css ➞ selectors ➞ -webkit-details-marker
+            </li>
         </ol>
         <h4>html</h4>
         <ol>
-            <li>html ➞ elements ➞ link ➞ methods</li>
-            <li>html ➞ elements ➞ menu ➞ hr_separator</li>
-            <li>html ➞ elements ➞ menu ➞ label</li>
-            <li>html ➞ elements ➞ menu ➞ type_menu</li>
+            <li>html ➞ elements ➞ link ➞ methods
+            </li>
+            <li>html ➞ elements ➞ menu ➞ hr_separator
+            </li>
+            <li>html ➞ elements ➞ menu ➞ label
+            </li>
+            <li>html ➞ elements ➞ menu ➞ type_menu
+            </li>
         </ol>
         <h4>svg</h4>
         <ol>
-            <li>svg ➞ elements ➞ feMorphology ➞ HTML_elements</li>
+            <li>svg ➞ elements ➞ feMorphology ➞ HTML_elements
+            </li>
         </ol>
         <h4>webextensions</h4>
         <ol>
-            <li>webextensions ➞ manifest ➞ theme ➞ colors ➞ tab_background_separator</li>
-            <li>webextensions ➞ manifest ➞ theme ➞ colors ➞ toolbar_field_separator</li>
+            <li>webextensions ➞ manifest ➞ theme ➞ colors ➞ tab_background_separator
+            </li>
+            <li>webextensions ➞ manifest ➞ theme ➞ colors ➞ toolbar_field_separator
+            </li>
         </ol>
   </details>
   

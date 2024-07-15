@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="21" version="1.1" viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" scale="0.5">
+  <rect x="10" y="10" width="140" height="190" rx="15" style="fill: white; stroke: #555; stroke-width: 5;"/> 
+  
+  <g style="stroke: #555; stroke-width: 6; stroke-linecap: round; ">
+	  <line x1="33" x2="127" y1="46" y2="46"/>
+	  <line x1="33" x2="127" y1="67" y2="67"/>
+	  <line x1="33" x2="127" y1="88" y2="88"/>
+	  <line x1="33" x2="127" y1="109" y2="109"/>
+	  <line x1="33" x2="127" y1="130" y2="130"/>
+	  <line x1="33" x2="127" y1="151" y2="151"/>
+	  <line x1="33" x2="127" y1="172" y2="172"/>
+  </g>
+  
+  <rect x="30" y="42" width="65" height="52" style="fill:white; stroke: #555; stroke-width: 0;"/>
+  <text x="35" y="73" style="font-family: 'Source Code Pro'; letter-spacing: 10; font-weight: bold; font-size: 60px; fill: black;">:;</text>
+</svg>

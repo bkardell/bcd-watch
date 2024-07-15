@@ -195,8 +195,10 @@ ol.implementations li > span > strong {
 	text-transform: capitalize;
 }
 
-.implementations > li {
-	margin-block: 1em;
+.implementations li img {
+	max-height: 1.25em;
+	margin-inline: 0.5em;
+	vertical-align: bottom;
 }
 
 .implementations.added ol li:is(:hover, :focus, :focus-within),

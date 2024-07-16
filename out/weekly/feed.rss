@@ -4,7 +4,7 @@
         <title>bcd-watch: BCD changes (weekly)</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 15 Jul 2024 20:21:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jul 2024 15:22:42 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -41,7 +41,7 @@
 	<p>
 	<strong>Summary of BCD changes</strong>
 	<span>from <time title="Tue Jul 02 2024 06:05:40 GMT-0400 (Eastern Daylight Time)">Tuesday, 2 July 2024</time></span>
-	<span>to <time title="Tue Jul 09 2024 11:11:53 GMT-0400 (Eastern Daylight Time)">Tuesday, 9 July 2024</time></span>
+	<span>to <time title="Tue Jul 09 2024 11:11:53 GMT-0400 (Eastern Daylight Time)">Tuesday, 9 July 2024</time></span> <a href="Jul-09-2024.html" title="permalink">🔗</a>
 	</p>
 
   <h2>Browser Support Changes: +5, -0</h2>

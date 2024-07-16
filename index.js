@@ -90,10 +90,8 @@ function run(o,l) {
 
   let fromDate = new Date(inputA.__meta.timestamp)
   let toDate =  new Date(inputB.__meta.timestamp)
-  
-  // TODO: this is messy, should probably reconsider
-  // how it is stored and recalled, but at least for now
-  // this keeps the old thing working 
+  let name = shortDate(toDate)
+
   data.__meta = [{
       older: { releaseDate: fromDate },
       newer: { releaseDate: toDate }
@@ -102,27 +100,23 @@ function run(o,l) {
   data.removedFeatures = toTopicsFromStrings(data.removed)
   data.backfilledImplementations = toTopicsFromObjects(data.backfilledImplementations)
   data.addedImplementations = toTopicsFromObjects(data.addedImplementations)
-
+  data.permalink = name
 
   let out = formatter.formatSummary(data, flattenedB)
   let title = `BCD Changes Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
-  
-
-  markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<meta name="viewport" content="width=device-width, initial-scale=1" />\n<link type="text/css" href="../styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + out + `\n</body>\n</html>`,
-        
+         
   // current...
   fs.writeFileSync(
       output_path + '/weekly/index.html',
-      markup,
+      out,
       'utf8'
   )
 
-  let name = shortDate(toDate)
 
   // archived
   fs.writeFileSync(
       output_path + `/weekly/${name}.html`,
-      markup,
+      out,
      'utf8'
   )
 
@@ -145,19 +139,17 @@ function run(o,l) {
 
 
   let outComplete = formatter.formatCompleted(data, flattenedB)
-
   title =  `BCD New Baselines Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
-  markup = `<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8" />\n<link type="text/css" href="../styles.css" rel="stylesheet">\n<title>${title}</title>\n</head>\n<body>\n` + outComplete + `\n</body>\n</html>`,
   
   fs.writeFileSync(
       output_path + `/weekly-completed/${name}.html`,
-      markup,
+      outComplete,
      'utf8'
   )
 
   fs.writeFileSync(
       output_path + '/weekly-completed/index.html',
-      markup,
+      outComplete,
       'utf8'
   )
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: New baselines (weekly)</title>
-    <updated>2024-07-15T20:21:56.425Z</updated>
+    <updated>2024-07-16T15:22:42.553Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -42,7 +42,7 @@
     <p>
     <strong>New baseline implementations</strong>
     <span>from <time title="Tue Jul 02 2024 06:05:40 GMT-0400 (Eastern Daylight Time)">Tuesday, 2 July 2024</time></span>
-    <span>to <time title="Tue Jul 09 2024 11:11:53 GMT-0400 (Eastern Daylight Time)">Tuesday, 9 July 2024</time></span>
+    <span>to <time title="Tue Jul 09 2024 11:11:53 GMT-0400 (Eastern Daylight Time)">Tuesday, 9 July 2024</time></span> <a href="Jul-09-2024.html" title="permalink">🔗</a>
     </p>
 
     <p>No new Baseline implementations to report 🙁</p>

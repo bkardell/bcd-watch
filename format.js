@@ -56,6 +56,7 @@ function formatSummary(delta, data) {
 		olderReleaseDateTime: delta.__meta[0].older.releaseDate,
 		laterReleaseDateTime: delta.__meta[0].newer.releaseDate,
 		reportDate: reportDate,
+		permalink: delta.permalink + ".html",
 		addedFeaturesCt: addedFeaturesCt,
 		addedFeatures: delta.addedFeatures,
 		removedFeaturesCt: removedFeaturesCt,
@@ -100,8 +101,9 @@ function formatCompleted(delta, data) {
 		olderReleaseDateTime: delta.__meta[0].older.releaseDate,
 		laterReleaseDateTime: delta.__meta[0].newer.releaseDate,
 		reportDate: reportDate,
+		permalink: delta.permalink + ".html",
 		completedCt: ct,
-		completedImplementations: complete,
+		completedImplementations: complete
 	})
 }
 

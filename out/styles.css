@@ -258,3 +258,8 @@ footer {
 	font-weight: 900;
 	color: maroon;
 }
+
+a[title='permalink']{
+	text-decoration: none;
+	margin-left: 0.75rem;
+}

@@ -31,9 +31,10 @@ let updatedDate = new Date(data.__meta.timestamp || Date.now())
 let latestDate = new Date(bookkeeping.latest.timestamp)
 
 let deltaInDays = Math.round((updatedDate - latestDate  ) /  86400000)
-console.log("meta:", JSON.stringify(data.__meta))
+
+// console.log("meta:", JSON.stringify(data.__meta))
 console.log("updated %s, latest %s", updatedDate, latestDate)
-console.log('???', deltaInDays)
+console.log(`It's been ${deltaInDays} since then.`)
 	
 if((updatedDate > latestDate) && (deltaInDays >= 5)){
 	console.log("I think I should update")

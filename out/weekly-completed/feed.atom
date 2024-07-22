@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: New baselines (weekly)</title>
-    <updated>2024-07-22T15:10:31.376Z</updated>
+    <updated>2024-07-22T16:52:04.256Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -92,7 +92,7 @@
               </li>
               <li>
                   <span>api ➞ TextEvent
-                  	<a href="https://w3c.github.io/uievents/#legacy-textevent-events"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/uievents/#legacy-textevent-events"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                 
@@ -104,7 +104,7 @@
               </li>
               <li>
                   <span>api ➞ TextEvent ➞ data
-                  	<a href="https://w3c.github.io/uievents/#dom-textevent-data"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/uievents/#dom-textevent-data"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                 
@@ -116,7 +116,7 @@
               </li>
               <li>
                   <span>api ➞ TextEvent ➞ initTextEvent
-                  	<a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                 

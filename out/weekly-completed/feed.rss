@@ -4,7 +4,7 @@
         <title>bcd-watch: New baselines (weekly)</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 22 Jul 2024 15:10:31 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jul 2024 16:52:04 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -91,7 +91,7 @@
               </li>
               <li>
                   <span>api ➞ TextEvent
-                  	<a href="https://w3c.github.io/uievents/#legacy-textevent-events"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/uievents/#legacy-textevent-events"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                 
@@ -103,7 +103,7 @@
               </li>
               <li>
                   <span>api ➞ TextEvent ➞ data
-                  	<a href="https://w3c.github.io/uievents/#dom-textevent-data"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/uievents/#dom-textevent-data"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                 
@@ -115,7 +115,7 @@
               </li>
               <li>
                   <span>api ➞ TextEvent ➞ initTextEvent
-                  	<a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                 

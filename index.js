@@ -74,13 +74,21 @@ function makeHistoricalIndex() {
   )
 }
 
+function getLastVersions(browserReleases) {
+  return Object.values(browserReleases).map(n => parseFloat(n.engine_version)).sort((a, b) => {
+     if(a > b) { return -1; }
+     else if (b < a) { return -1; } 
+     else return 0
+  }).slice(0, 4)
+}
+
 function run(o,l) {
   let inputA = JSON.parse(fs.readFileSync(`${store_path}/${o}`))
   let inputB = JSON.parse(fs.readFileSync(`${store_path}/${l}`))
   let latestBrowsers = {
-    chrome: Object.keys(inputB.browsers.chrome.releases).map(n => parseFloat(n)).slice(-4),
-    firefox: Object.keys(inputB.browsers.firefox.releases).map(n => parseFloat(n)).slice(-4),
-    safari: Object.keys(inputB.browsers.safari.releases).map(n => parseFloat(n)).slice(-4)
+    chrome: getLastVersions(inputB.browsers.chrome.releases),
+    firefox: getLastVersions(inputB.browsers.firefox.releases),
+    safari: getLastVersions(inputB.browsers.safari.releases)
   }
 
   let flattenedA = flatten(inputA)

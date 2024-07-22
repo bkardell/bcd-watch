@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: BCD changes (weekly)</title>
-    <updated>2024-07-20T04:24:53.417Z</updated>
+    <updated>2024-07-22T15:10:31.373Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,9 +15,9 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD Changes Report, Tue Jul 09 2024 - Sat Jul 20 2024]]></title>
-        <id>https://bkardell.com/bcd-watch/Jul-20-2024.html</id>
-        <link href="https://bkardell.com/bcd-watch/Jul-20-2024.html">
+        <title type="html"><![CDATA[BCD Changes Report, Tue Jul 09 2024 - Fri Jul 19 2024]]></title>
+        <id>https://bkardell.com/bcd-watch/Jul-19-2024.html</id>
+        <link href="https://bkardell.com/bcd-watch/Jul-19-2024.html">
         </link>
         <updated>2024-07-20T01:44:56.315Z</updated>
         <summary type="html"><![CDATA[Weekly summary of changes to BCD data]]></summary>
@@ -34,115 +34,321 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD Changes Report, Tuesday, 9 July 2024 (UTC) - Saturday, 20 July 2024 (UTC)</title>
+<title>BCD Changes Report, Tuesday, 9 July 2024 (UTC) - Friday, 19 July 2024 (UTC)</title>
 </head>
 <body>
 
-  <h1>BCD Changes Report, <time>Sat Jul 20 2024</time></h1>
+  <h1>BCD Changes Report, <time>Fri Jul 19 2024</time></h1>
 	<p>
 	<strong>Summary of BCD changes</strong>
-	<span>from <time title="Tue Jul 09 2024 15:11:53 GMT+0000 (Coordinated Universal Time)">Tuesday, 9 July 2024</time></span>
-	<span>to <time title="Sat Jul 20 2024 01:44:56 GMT+0000 (Coordinated Universal Time)">Saturday, 20 July 2024</time></span> <a href="Jul-20-2024.html" title="permalink">🔗</a>
+	<span>from <time title="Tue Jul 09 2024 11:11:53 GMT-0400 (Eastern Daylight Time)">Tuesday, 9 July 2024</time></span>
+	<span>to <time title="Fri Jul 19 2024 21:44:56 GMT-0400 (Eastern Daylight Time)">Friday, 19 July 2024</time></span> <a href="Jul-19-2024.html" title="permalink">🔗</a>
 	</p>
 
-  <h2>Browser Support Changes: +15, -0</h2>
+  <h2>Browser Support Changes: +27, -0</h2>
 
-      <h3>Support increases (15)</h3>
+      <h3>Support increases (27)</h3>
       <section class="added implementations">
           <h4>api</h4>
           <ol>
               <li>
-                  <span>api ➞ GamepadHapticActuator ➞ effects ➞ type_trigger-rumble
-                  	<a href="https://w3c.github.io/gamepad/#dom-gamepadhapticeffecttype-trigger-rumble"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/CSSStartingStyleRule">api ➞ CSSStartingStyleRule</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/toJSON">api ➞ GeolocationCoordinates ➞ toJSON</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/GeolocationPosition/toJSON">api ➞ GeolocationPosition ➞ toJSON</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/responseStatus">api ➞ PerformanceResourceTiming ➞ responseStatus</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/RTCDTMFSender/canInsertDTMF">api ➞ RTCDTMFSender ➞ canInsertDTMF</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ TextEvent
+                  	<a href="https://w3c.github.io/uievents/#legacy-textevent-events"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
                 <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ TextEvent ➞ data
+                  	<a href="https://w3c.github.io/uievents/#dom-textevent-data"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ TextEvent ➞ initTextEvent
+                  	<a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ CSSPageDescriptors
+                  	<a href="https://drafts.csswg.org/cssom/#csspagedescriptors"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
               </li>
               <li>
-                  <span>api ➞ GamepadHapticActuator ➞ playEffect ➞ params_leftTrigger_parameter
-                  	<a href="https://w3c.github.io/gamepad/#dom-gamepadeffectparameters-lefttrigger"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                  <span>api ➞ CSSPageDescriptors ➞ margin
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
                 <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
               </li>
               <li>
-                  <span>api ➞ GamepadHapticActuator ➞ playEffect ➞ params_rightTrigger_parameter
-                  	<a href="https://w3c.github.io/gamepad/#dom-gamepadeffectparameters-righttrigger"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                  <span>api ➞ CSSPageDescriptors ➞ margin-bottom
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin-botton"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
                 <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
               </li>
               <li>
-                  <span>api ➞ GamepadHapticActuator ➞ playEffect ➞ type_trigger-rumble
-                  	<a href="https://w3c.github.io/gamepad/#dom-gamepadhapticeffecttype-trigger-rumble"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                  <span>api ➞ CSSPageDescriptors ➞ margin-left
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin-left"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
                 <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
               </li>
               <li>
+                  <span>api ➞ CSSPageDescriptors ➞ margin-right
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin-right"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes">api ➞ HTMLImageElement ➞ sizes ➞ auto</a>
                 
                 <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ CSSPageDescriptors ➞ margin-top
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin-top"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ CSSPageDescriptors ➞ marginBottom
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-marginbotton"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ CSSPageDescriptors ➞ marginLeft
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-marginleft"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ CSSPageDescriptors ➞ marginRight
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-marginright"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ CSSPageDescriptors ➞ marginTop
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margintop"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ CSSPageDescriptors ➞ size
+                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-size"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ PerformanceResourceTiming ➞ contentType
+                  	<a href="https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-contenttype"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>css</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/CSS/@starting-style">css ➞ at-rules ➞ starting-style</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
               </li>
           </ol>
           <h4>html</h4>
           <ol>
               <li>
+                  <span>html ➞ elements ➞ details ➞ name
+                </span>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes">html ➞ elements ➞ img ➞ sizes ➞ auto</a>
                 
                 <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
               </li>
           </ol>
           <h4>javascript</h4>
           <ol>
               <li>
-                  <span>javascript ➞ regular_expressions ➞ modifier
-                  	<a href="https://github.com/tc39/proposal-regexp-modifiers#syntax"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                  <span>javascript ➞ regular_expressions ➞ named_capturing_group ➞ duplicate_named_capturing_groups
                 </span>
 
                 
                 <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
               </li>
           </ol>
-          <h4>svg</h4>
+          <h4>webextensions</h4>
           <ol>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ circle ➞ fill</a>
+                  <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_RULES">webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_DYNAMIC_RULES</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_SESSION_RULES">webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_SESSION_RULES</a>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ domainType
+                </span>
+
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -151,68 +357,9 @@
 
               </li>
               <li>
+                  <span>webextensions ➞ manifest ➞ optional_host_permissions
+                </span>
 
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ ellipse ➞ fill</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ path ➞ fill</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ polygon ➞ fill</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ polyline ➞ fill</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ rect ➞ fill</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ text ➞ fill</a>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ tspan ➞ fill</a>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -227,14 +374,14 @@
   </section>
 
 
-  <h2>BCD Metadata Changes: 274</h2>
+  <h2>BCD Metadata Changes: 262</h2>
   <details>
-    <summary>Show all 274 changes</summary>
+    <summary>Show all 262 changes</summary>
     <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
       in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
     </p>
 
-      <h3>Backfilled entries (124)</h3>
+      <h3>Backfilled entries (112)</h3>
     <p class="info">The entries in this section saw support information change since the report on  Tuesday, 9 July 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
     </p>
       <section class="backfilled implementations">
@@ -252,62 +399,12 @@
               </li>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/CSSStartingStyleRule">api ➞ CSSStartingStyleRule</a>
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/toJSON">api ➞ GeolocationCoordinates ➞ toJSON</a>
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/API/GeolocationPosition/toJSON">api ➞ GeolocationPosition ➞ toJSON</a>
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/responseStatus">api ➞ PerformanceResourceTiming ➞ responseStatus</a>
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
                   <a href="https://developer.mozilla.org/docs/Web/API/PushMessageData/bytes">api ➞ PushMessageData ➞ bytes</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/API/RTCDTMFSender/canInsertDTMF">api ➞ RTCDTMFSender ➞ canInsertDTMF</a>
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
               </li>
               <li>
@@ -328,174 +425,6 @@
                 <span class="browsers">Backfilled from <strong></strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ TextEvent
-                  	<a href="https://w3c.github.io/uievents/#legacy-textevent-events"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ TextEvent ➞ data
-                  	<a href="https://w3c.github.io/uievents/#dom-textevent-data"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ TextEvent ➞ initTextEvent
-                  	<a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors
-                  	<a href="https://drafts.csswg.org/cssom/#csspagedescriptors"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ margin
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ margin-bottom
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin-botton"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ margin-left
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin-left"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ margin-right
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin-right"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ margin-top
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margin-top"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ marginBottom
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-marginbotton"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ marginLeft
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-marginleft"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ marginRight
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-marginright"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ marginTop
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-margintop"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ CSSPageDescriptors ➞ size
-                  	<a href="https://drafts.csswg.org/cssom/#dom-csspagedescriptors-size"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
               </li>
               <li>
@@ -556,6 +485,54 @@
 
               </li>
               <li>
+                  <span>api ➞ GamepadHapticActuator ➞ effects ➞ type_trigger-rumble
+                  	<a href="https://w3c.github.io/gamepad/#dom-gamepadhapticeffecttype-trigger-rumble"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ GamepadHapticActuator ➞ playEffect ➞ params_leftTrigger_parameter
+                  	<a href="https://w3c.github.io/gamepad/#dom-gamepadeffectparameters-lefttrigger"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ GamepadHapticActuator ➞ playEffect ➞ params_rightTrigger_parameter
+                  	<a href="https://w3c.github.io/gamepad/#dom-gamepadeffectparameters-righttrigger"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ GamepadHapticActuator ➞ playEffect ➞ type_trigger-rumble
+                  	<a href="https://w3c.github.io/gamepad/#dom-gamepadhapticeffecttype-trigger-rumble"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+              <li>
                   <span>api ➞ HTMLCanvasElement ➞ toBlob ➞ type_parameter_jpeg
                 </span>
 
@@ -600,10 +577,8 @@
 
               </li>
               <li>
-                  <span>api ➞ PerformanceResourceTiming ➞ contentType
-                  	<a href="https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-contenttype"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
 
+                  <a href="https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes">api ➞ HTMLImageElement ➞ sizes ➞ auto</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -622,16 +597,6 @@
                 <span class="browsers">Backfilled from <strong></strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Web/CSS/@starting-style">css ➞ at-rules ➞ starting-style</a>
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
               </li>
               <li>
@@ -659,20 +624,6 @@
               <li>
                   <span>css ➞ properties ➞ display ➞ inline
                   	<a href="https://drafts.csswg.org/css-display/#typedef-display-outside"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-          </ol>
-          <h4>html</h4>
-          <ol>
-              <li>
-                  <span>html ➞ elements ➞ details ➞ name
                 </span>
 
                 
@@ -879,20 +830,6 @@
 
               </li>
           </ol>
-          <h4>javascript</h4>
-          <ol>
-              <li>
-                  <span>javascript ➞ regular_expressions ➞ named_capturing_group ➞ duplicate_named_capturing_groups
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-          </ol>
           <h4>svg</h4>
           <ol>
               <li>
@@ -986,6 +923,16 @@
 
               </li>
               <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ circle ➞ fill</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
                   <span>svg ➞ elements ➞ circle ➞ fill ➞ context-fill
                   	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
@@ -1030,6 +977,16 @@
               <li>
 
                   <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/systemLanguage">svg ➞ elements ➞ defs ➞ systemLanguage</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ ellipse ➞ fill</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -1110,6 +1067,16 @@
 
               </li>
               <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ path ➞ fill</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
                   <span>svg ➞ elements ➞ path ➞ fill ➞ context-fill
                   	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
@@ -1142,6 +1109,16 @@
 
               </li>
               <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ polygon ➞ fill</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
                   <span>svg ➞ elements ➞ polygon ➞ fill ➞ context-fill
                   	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
@@ -1164,6 +1141,16 @@
 
               </li>
               <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ polyline ➞ fill</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
                   <span>svg ➞ elements ➞ polyline ➞ fill ➞ context-fill
                   	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
@@ -1178,6 +1165,16 @@
               <li>
 
                   <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/systemLanguage">svg ➞ elements ➞ polyline ➞ systemLanguage</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ rect ➞ fill</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -1240,6 +1237,16 @@
               <li>
 
                   <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/systemLanguage">svg ➞ elements ➞ switch ➞ systemLanguage</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ text ➞ fill</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
@@ -1334,6 +1341,16 @@
 
               </li>
               <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/fill">svg ➞ elements ➞ tspan ➞ fill</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
                   <span>svg ➞ elements ➞ tspan ➞ fill ➞ context-fill
                   	<a href="https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
@@ -1363,6 +1380,34 @@
                 <span class="browsers">Backfilled from <strong></strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>html</h4>
+          <ol>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes">html ➞ elements ➞ img ➞ sizes ➞ auto</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>javascript</h4>
+          <ol>
+              <li>
+                  <span>javascript ➞ regular_expressions ➞ modifier
+                  	<a href="https://github.com/tc39/proposal-regexp-modifiers#syntax"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
               </li>
           </ol>
@@ -1442,26 +1487,6 @@
 
               </li>
               <li>
-
-                  <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_RULES">webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_DYNAMIC_RULES</a>
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-                  <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_SESSION_RULES">webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_SESSION_RULES</a>
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-              </li>
-              <li>
                   <span>webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_UNSAFE_DYNAMIC_RULES
                 </span>
 
@@ -1481,17 +1506,6 @@
                 <span class="browsers">Backfilled from <strong></strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ domainType
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
               </li>
               <li>
@@ -1584,17 +1598,6 @@
               </li>
               <li>
                   <span>webextensions ➞ api ➞ tabs ➞ update ➞ updateProperties_url_parameter
-                </span>
-
-                
-                <b><br></b> 
-                <span class="browsers">Backfilled from <strong></strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>webextensions ➞ manifest ➞ optional_host_permissions
                 </span>
 
                 

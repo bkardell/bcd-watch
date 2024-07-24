@@ -4,7 +4,7 @@
         <title>bcd-watch: New baselines (weekly)</title>
         <link>https://bkardell.com/bcd-watch</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 24 Jul 2024 18:31:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jul 2024 18:50:37 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -15,9 +15,9 @@
         <copyright>All rights reserved 2024, Brian Kardell</copyright>
         <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[BCD New Baselines Report, Sat Jul 20 2024 - Sat Jul 20 2024]]></title>
-            <link>https://bkardell.com/bcd-watch/Jul-20-2024-completed.html</link>
-            <guid>https://bkardell.com/bcd-watch/Jul-20-2024-completed.html</guid>
+            <title><![CDATA[BCD New Baselines Report, Tue Jul 09 2024 - Fri Jul 19 2024]]></title>
+            <link>https://bkardell.com/bcd-watch/Jul-19-2024-completed.html</link>
+            <guid>https://bkardell.com/bcd-watch/Jul-19-2024-completed.html</guid>
             <pubDate>Sat, 20 Jul 2024 01:44:56 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<!DOCTYPE html>
@@ -33,19 +33,203 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD New Baselines Report, Saturday, 20 July 2024 - Saturday, 20 July 2024</title>
+<title>BCD New Baselines Report, Tuesday, 9 July 2024 - Friday, 19 July 2024</title>
 </head>
 <body>
 
-    <h1>BCD New Baselines Report <time>Sat Jul 20 2024</time></h1>
+    <h1>BCD New Baselines Report <time>Fri Jul 19 2024</time></h1>
     <p>
     <strong>New baseline implementations</strong>
-    <span>from <time title="Sat Jul 20 2024 01:44:56 GMT+0000 (Coordinated Universal Time)">Saturday, 20 July 2024</time></span>
-    <span>to <time title="Sat Jul 20 2024 01:44:56 GMT+0000 (Coordinated Universal Time)">Saturday, 20 July 2024</time></span> <a href="Jul-20-2024.html" title="permalink">🔗</a>
+    <span>from <time title="Tue Jul 09 2024 11:11:53 GMT-0400 (Eastern Daylight Time)">Tuesday, 9 July 2024</time></span>
+    <span>to <time title="Fri Jul 19 2024 21:44:56 GMT-0400 (Eastern Daylight Time)">Friday, 19 July 2024</time></span> <a href="Jul-19-2024.html" title="permalink">🔗</a>
     </p>
 
-    <p>No new Baseline implementations to report 🙁</p>
 
+      <p>12 new Baseline implementations</p>
+      <section class="added implementations">
+          <h4>api</h4>
+          <ol>
+              <li>
+
+      
+
+                  <span>
+                    <a href="https://developer.mozilla.org/docs/Web/API/CSSStartingStyleRule">api ➞ CSSStartingStyleRule</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+      
+
+                  <span>
+                    <a href="https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/toJSON">api ➞ GeolocationCoordinates ➞ toJSON</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+      
+
+                  <span>
+                    <a href="https://developer.mozilla.org/docs/Web/API/GeolocationPosition/toJSON">api ➞ GeolocationPosition ➞ toJSON</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+      
+
+                  <span>
+                    <a href="https://developer.mozilla.org/docs/Web/API/RTCDTMFSender/canInsertDTMF">api ➞ RTCDTMFSender ➞ canInsertDTMF</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ TextEvent
+                  	<a href="https://w3c.github.io/uievents/#legacy-textevent-events"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                      (⚠️ deprecated)
+                  </span>
+
+      
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ TextEvent ➞ data
+                  	<a href="https://w3c.github.io/uievents/#dom-textevent-data"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                      (⚠️ deprecated)
+                  </span>
+
+      
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ TextEvent ➞ initTextEvent
+                  	<a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                      (⚠️ deprecated)
+                  </span>
+
+      
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>css</h4>
+          <ol>
+              <li>
+
+      
+
+                  <span>
+                    <a href="https://developer.mozilla.org/docs/Web/CSS/@starting-style">css ➞ at-rules ➞ starting-style</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>html</h4>
+          <ol>
+              <li>
+                  <span>html ➞ elements ➞ details ➞ name
+                  </span>
+
+      
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>javascript</h4>
+          <ol>
+              <li>
+                  <span>javascript ➞ regular_expressions ➞ named_capturing_group ➞ duplicate_named_capturing_groups
+                  </span>
+
+      
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>webextensions</h4>
+          <ol>
+              <li>
+                  <span>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ domainType
+                  </span>
+
+      
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>webextensions ➞ manifest ➞ optional_host_permissions
+                  </span>
+
+      
+
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+      </section>
   <footer>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
   </footer>

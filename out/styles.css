@@ -199,6 +199,7 @@ ol.implementations li > span > strong {
 	max-height: 1.25em;
 	margin-inline: 0.5em;
 	vertical-align: bottom;
+	width: 1.5rem;
 }
 
 .implementations.added ol li:is(:hover, :focus, :focus-within),

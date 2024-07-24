@@ -1,0 +1,29 @@
+# This is a basic workflow that is manually triggered
+
+name: Manual Reprocess All
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  node-job-manual:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '19.x'
+      - name: Install dependencies
+        run: npm install
+      - name: Run Node.js script
+        run: node reprocessAll.js
+      - name: Commit output file
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Updated after latest run"
+          file_pattern: out/*.* store/*.json
+

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: BCD changes (weekly)</title>
-    <updated>2024-07-22T15:10:31.373Z</updated>
+    <updated>2024-07-24T18:26:52.813Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,9 +15,9 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD Changes Report, Tue Jul 09 2024 - Fri Jul 19 2024]]></title>
-        <id>https://bkardell.com/bcd-watch/Jul-19-2024.html</id>
-        <link href="https://bkardell.com/bcd-watch/Jul-19-2024.html">
+        <title type="html"><![CDATA[BCD Changes Report, Tue Jul 09 2024 - Sat Jul 20 2024]]></title>
+        <id>https://bkardell.com/bcd-watch/Jul-20-2024.html</id>
+        <link href="https://bkardell.com/bcd-watch/Jul-20-2024.html">
         </link>
         <updated>2024-07-20T01:44:56.315Z</updated>
         <summary type="html"><![CDATA[Weekly summary of changes to BCD data]]></summary>
@@ -34,15 +34,15 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD Changes Report, Tuesday, 9 July 2024 (UTC) - Friday, 19 July 2024 (UTC)</title>
+<title>BCD Changes Report, Tuesday, 9 July 2024 (UTC) - Saturday, 20 July 2024 (UTC)</title>
 </head>
 <body>
 
-  <h1>BCD Changes Report, <time>Fri Jul 19 2024</time></h1>
+  <h1>BCD Changes Report, <time>Sat Jul 20 2024</time></h1>
 	<p>
 	<strong>Summary of BCD changes</strong>
-	<span>from <time title="Tue Jul 09 2024 11:11:53 GMT-0400 (Eastern Daylight Time)">Tuesday, 9 July 2024</time></span>
-	<span>to <time title="Fri Jul 19 2024 21:44:56 GMT-0400 (Eastern Daylight Time)">Friday, 19 July 2024</time></span> <a href="Jul-19-2024.html" title="permalink">🔗</a>
+	<span>from <time title="Tue Jul 09 2024 15:11:53 GMT+0000 (Coordinated Universal Time)">Tuesday, 9 July 2024</time></span>
+	<span>to <time title="Sat Jul 20 2024 01:44:56 GMT+0000 (Coordinated Universal Time)">Saturday, 20 July 2024</time></span> <a href="Jul-20-2024.html" title="permalink">🔗</a>
 	</p>
 
   <h2>Browser Support Changes: +27, -0</h2>
@@ -53,7 +53,8 @@
           <ol>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/CSSStartingStyleRule">api ➞ CSSStartingStyleRule</a>
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/CSSStartingStyleRule">api ➞ CSSStartingStyleRule</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -63,7 +64,8 @@
               </li>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/toJSON">api ➞ GeolocationCoordinates ➞ toJSON</a>
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/toJSON">api ➞ GeolocationCoordinates ➞ toJSON</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -73,7 +75,8 @@
               </li>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/GeolocationPosition/toJSON">api ➞ GeolocationPosition ➞ toJSON</a>
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/GeolocationPosition/toJSON">api ➞ GeolocationPosition ➞ toJSON</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -83,7 +86,8 @@
               </li>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/responseStatus">api ➞ PerformanceResourceTiming ➞ responseStatus</a>
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/responseStatus">api ➞ PerformanceResourceTiming ➞ responseStatus</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -93,7 +97,8 @@
               </li>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/RTCDTMFSender/canInsertDTMF">api ➞ RTCDTMFSender ➞ canInsertDTMF</a>
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/RTCDTMFSender/canInsertDTMF">api ➞ RTCDTMFSender ➞ canInsertDTMF</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -104,6 +109,7 @@
               <li>
                   <span>api ➞ TextEvent
                   	<a href="https://w3c.github.io/uievents/#legacy-textevent-events"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                      (⚠️ deprecated)
                 </span>
 
                 
@@ -116,6 +122,7 @@
               <li>
                   <span>api ➞ TextEvent ➞ data
                   	<a href="https://w3c.github.io/uievents/#dom-textevent-data"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                      (⚠️ deprecated)
                 </span>
 
                 
@@ -128,6 +135,7 @@
               <li>
                   <span>api ➞ TextEvent ➞ initTextEvent
                   	<a href="https://w3c.github.io/uievents/#dom-textevent-inittextevent"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                      (⚠️ deprecated)
                 </span>
 
                 
@@ -286,7 +294,8 @@
           <ol>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/CSS/@starting-style">css ➞ at-rules ➞ starting-style</a>
+                  <span><a href="https://developer.mozilla.org/docs/Web/CSS/@starting-style">css ➞ at-rules ➞ starting-style</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -327,7 +336,8 @@
           <ol>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_RULES">webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_DYNAMIC_RULES</a>
+                  <span><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_RULES">webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_DYNAMIC_RULES</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -337,7 +347,8 @@
               </li>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_SESSION_RULES">webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_SESSION_RULES</a>
+                  <span><a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_SESSION_RULES">webextensions ➞ api ➞ declarativeNetRequest ➞ MAX_NUMBER_OF_SESSION_RULES</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 

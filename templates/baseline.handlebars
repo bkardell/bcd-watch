@@ -37,13 +37,23 @@
                 {{#unless (mdnLink this)}}
                   <span>{{formatFeatureStr key topic}}
                   	{{#if (specLink this)}}
-                  	<a href="{{specLink this}}"><img src="/imgs/spec2.svg" alt="Spec link"></a>
+                  	<a href="{{specLink this}}"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                   	{{/if}}
+                    {{#if status.deprecated}}
+                      (⚠️ deprecated)
+                    {{/if}}
                   </span>
                 {{/unless}}
 
+      
+
                 {{#if (mdnLink this)}}
-                  <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
+                  <span>
+                    <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
+                    {{#if status.deprecated}}
+                      (⚠️ deprecated)
+                    {{/if}}
+                  </span>
                 {{/if}}
                 
                 <b><br></b> 

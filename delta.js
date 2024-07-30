@@ -81,7 +81,7 @@ function deltaSupport(key, past, cur, out, latestBrowsers) {
     }
 
     if (removed.length > 0) {
-        cur.removedImplementsions = removed
+        cur.removedImplementations = removed
     }
 
     cur.totalImplementations = total;

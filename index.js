@@ -75,11 +75,13 @@ function makeHistoricalIndex() {
 }
 
 function getLastVersions(browserReleases) {
-  return Object.values(browserReleases).map(n => parseFloat(n.engine_version)).sort((a, b) => {
+  return Object.keys(browserReleases).map(n => {
+      return parseFloat(n)
+    }).sort((a, b) => {
      if(a > b) { return -1; }
      else if (b < a) { return -1; } 
      else return 0
-  }).slice(0, 4)
+  }).slice(0, 3)
 }
 
 function run(o,l) {

@@ -234,9 +234,19 @@ ol.implementations li > span > strong {
 }
 
 footer {
+	display: flex;
+	justify-content: space-between;
+	gap: 2em;
 	border-block-start: 1px solid #AAAAAAAA;
 	margin-block: 3em 0;
 	padding-block: 0.25em 1em;
+}
+footer p {
+	margin-block: 0;
+}
+footer img {
+	max-height: 1.5em;
+	vertical-align: -33%;
 }
 
 .filtered li:has(>[class^="ni"]:not(.ni3)) {

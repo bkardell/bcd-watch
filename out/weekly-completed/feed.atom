@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bkardell.com/bcd-watch</id>
     <title>bcd-watch: New baselines (weekly)</title>
-    <updated>2024-07-30T19:27:45.930Z</updated>
+    <updated>2024-08-03T01:26:30.740Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Brian Kardell</name>
@@ -15,11 +15,11 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved 2024, Brian Kardell</rights>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Fri Jul 19 2024 - Fri Jul 26 2024]]></title>
-        <id>https://bkardell.com/bcd-watch/Jul-26-2024-completed.html</id>
-        <link href="https://bkardell.com/bcd-watch/Jul-26-2024-completed.html">
+        <title type="html"><![CDATA[BCD New Baselines Report, Fri Jul 26 2024 - Fri Aug 02 2024]]></title>
+        <id>https://bkardell.com/bcd-watch/Aug-02-2024-completed.html</id>
+        <link href="https://bkardell.com/bcd-watch/Aug-02-2024-completed.html">
         </link>
-        <updated>2024-07-26T17:10:15.399Z</updated>
+        <updated>2024-08-02T21:16:55.843Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<!DOCTYPE html>
 <html>
@@ -34,31 +34,31 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD New Baselines Report, Friday, 19 July 2024 - Friday, 26 July 2024</title>
+<title>BCD New Baselines Report, Friday, 26 July 2024 - Friday, 2 August 2024</title>
 </head>
 <body>
 
-    <h1>BCD New Baselines Report <time>Fri Jul 26 2024</time></h1>
+    <h1>BCD New Baselines Report <time>Fri Aug 02 2024</time></h1>
     <p>
     <strong>New baseline implementations</strong>
-    <span>from <time title="Fri Jul 19 2024 21:44:56 GMT-0400 (Eastern Daylight Time)">Friday, 19 July 2024</time></span>
-    <span>to <time title="Fri Jul 26 2024 13:10:15 GMT-0400 (Eastern Daylight Time)">Friday, 26 July 2024</time></span> <a href="Jul-26-2024.html" title="permalink">🔗</a>
+    <span>from <time title="Fri Jul 26 2024 17:10:15 GMT+0000 (Coordinated Universal Time)">Friday, 26 July 2024</time></span>
+    <span>to <time title="Fri Aug 02 2024 21:16:55 GMT+0000 (Coordinated Universal Time)">Friday, 2 August 2024</time></span> <a href="Aug-02-2024.html" title="permalink">🔗</a>
     </p>
 
 
       <p>1 new Baseline implementation</p>
       <section class="added implementations">
-          <h4>api</h4>
+          <h4>css</h4>
           <ol>
               <li>
-                  <span>api ➞ MediaSession ➞ setActionHandler ➞ skipad_type
+                  <span>css ➞ properties ➞ hyphens ➞ language_czech
                   </span>
 
       
 
                 
                 <b><br></b> 
-                <span class="browsers">Added to <strong>Chrome</strong></span> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
                 <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 

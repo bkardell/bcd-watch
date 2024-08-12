@@ -4,6 +4,7 @@ const fs = require('fs'),
 module.exports = function (meta, data) {
     let css = `` //fs.readFileSync('./templates/main.css')
     let feedtitle = meta.data;
+    let directory = data.path.replace('./out/','');
     let feed = new Feed({
       title: `bcd-watch: ${data.title}`,
       description: 'A feed that summarizes changes to BCD weekly',
@@ -15,9 +16,9 @@ module.exports = function (meta, data) {
       copyright: 'All rights reserved, Igalia SL',
       generator: 'awesome mix', // optional, default = 'Feed for Node.js'
       feedLinks: {
-        rss:  `https://bcd-watch.igalia.com/${data.path}/feed.rss`,
-        json: `https://bcd-watch.igalia.com/${data.path}/feed.json`,
-        atom: `https://bcd-watch.igalia.com/${data.path}/feed.atom`,
+        rss:  `https://bcd-watch.igalia.com/${directory}/feed.rss`,
+        json: `https://bcd-watch.igalia.com/${directory}/feed.json`,
+        atom: `https://bcd-watch.igalia.com/${directory}/feed.atom`,
       }, 
       author: {
         name: 'Igalia',
@@ -42,7 +43,6 @@ module.exports = function (meta, data) {
       })
 
     })
-
 
     fs.writeFileSync(`${data.path}/feed.rss`, feed.rss2(), 'utf8');
     fs.writeFileSync(`${data.path}/feed.atom`, feed.atom1(), 'utf8');

@@ -7,22 +7,22 @@ module.exports = function (meta, data) {
     let feed = new Feed({
       title: `bcd-watch: ${data.title}`,
       description: 'A feed that summarizes changes to BCD weekly',
-      id: 'https://bkardell.com/bcd-watch',
-      link: 'https://bkardell.com/bcd-watch',
+      id: 'https://bcd-watch.igalia.com',
+      link: 'https://bcd-watch.igalia.com',
       image: 'https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg',
       // favicon: 'https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg',
       updated: new Date(),
-      copyright: 'All rights reserved 2024, Brian Kardell',
+      copyright: 'All rights reserved, Igalia SL',
       generator: 'awesome mix', // optional, default = 'Feed for Node.js'
       feedLinks: {
-        rss: 'https://bkardell.com/bcd-watch/feed.rss',
-        json: 'https://bkardell.com/bcd-watch/feed.json',
-        atom: 'https://bkardell.com/bcd-watch/feed.atom',
+        rss:  `https://bcd-watch.igalia.com/${data.path}/feed.rss`,
+        json: `https://bcd-watch.igalia.com/${data.path}/feed.json`,
+        atom: `https://bcd-watch.igalia.com/${data.path}/feed.atom`,
       }, 
       author: {
-        name: 'Brian Kardell',
-        email: 'bkardell@gmail.com',
-        link: 'https://bkardell.com'
+        name: 'Igalia',
+        email: 'info@igalia.com',
+        link: 'https://igalia.com'
       }
     })
 
@@ -33,8 +33,8 @@ module.exports = function (meta, data) {
 
       feed.addItem({
         title: item.title,
-        id: `https://bkardell.com/bcd-watch/${item.file}`,
-        link: `https://bkardell.com/bcd-watch/${item.file}`,
+        id: `https://bcd-watch.igalia.com/${item.file}`,
+        link: `https://bcd-watch.igalia.com/${item.file}`,
         description: item.blurb,
         content: `${item.content}`,
         date: new Date(item.pubDate),

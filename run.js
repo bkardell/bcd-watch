@@ -31,7 +31,7 @@ let updatedDate = new Date(data.__meta.timestamp || Date.now())
 let latestReleaseDate = new Date(bookkeeping.latest.timestamp)
 
 let deltaInDays = Math.round((updatedDate - latestReleaseDate  ) /  86400000)
-let calendarDeltaInDays = Math.round((updatedDate - calendarDeltaInDays) / 86400000)
+let calendarDeltaInDays = Math.round((updatedDate - new Date()) / 86400000)
 
 console.log("meta:", JSON.stringify(data.__meta))
 console.log("updated %s, latest %s", updatedDate, latestReleaseDate)

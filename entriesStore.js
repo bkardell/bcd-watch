@@ -21,8 +21,3 @@ exports.getSortedListOfJSONEntries = function (path) {
   				return name.replace('.html', '.json').replaceAll('-', ' ') 
   			})
 }
-
-
-
-
-

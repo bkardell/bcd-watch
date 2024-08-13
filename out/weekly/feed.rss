@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>bcd-watch: BCD changes (weekly)</title>
-        <link>https://bkardell.com/bcd-watch</link>
+        <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Sat, 03 Aug 2024 01:26:30 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Aug 2024 12:42:21 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
             <title>bcd-watch: BCD changes (weekly)</title>
             <url>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</url>
-            <link>https://bkardell.com/bcd-watch</link>
+            <link>https://bcd-watch.igalia.com</link>
         </image>
-        <copyright>All rights reserved 2024, Brian Kardell</copyright>
-        <atom:link href="https://bkardell.com/bcd-watch/feed.atom" rel="self" type="application/rss+xml"/>
+        <copyright>All rights reserved, Igalia SL</copyright>
+        <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[BCD Changes Report, Fri Jul 26 2024 - Fri Aug 02 2024]]></title>
-            <link>https://bkardell.com/bcd-watch/Aug-02-2024.html</link>
-            <guid>https://bkardell.com/bcd-watch/Aug-02-2024.html</guid>
-            <pubDate>Fri, 02 Aug 2024 21:16:55 GMT</pubDate>
+            <title><![CDATA[BCD Changes Report, Fri Aug 02 2024 - Tue Aug 13 2024]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/Aug-13-2024.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/Aug-13-2024.html</guid>
+            <pubDate>Tue, 13 Aug 2024 09:28:13 GMT</pubDate>
             <description><![CDATA[Weekly summary of changes to BCD data]]></description>
             <content:encoded><![CDATA[<!DOCTYPE html>
 <html>
@@ -33,39 +33,36 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD Changes Report, Friday, 26 July 2024 (UTC) - Friday, 2 August 2024 (UTC)</title>
+<title>BCD Changes Report, Friday, 2 August 2024 (UTC) - Tuesday, 13 August 2024 (UTC)</title>
 </head>
 <body>
 
-  <h1>BCD Changes Report, <time>Fri Aug 02 2024</time></h1>
+  <h1>BCD Changes Report, <time>Tue Aug 13 2024</time></h1>
 	<p>
 	<strong>Summary of BCD changes</strong>
-	<span>from <time title="Fri Jul 26 2024 17:10:15 GMT+0000 (Coordinated Universal Time)">Friday, 26 July 2024</time></span>
-	<span>to <time title="Fri Aug 02 2024 21:16:55 GMT+0000 (Coordinated Universal Time)">Friday, 2 August 2024</time></span> <a href="Aug-02-2024.html" title="permalink">🔗</a>
+	<span>from <time title="Fri Aug 02 2024 21:16:55 GMT+0000 (Coordinated Universal Time)">Friday, 2 August 2024</time></span>
+	<span>to <time title="Tue Aug 13 2024 09:28:13 GMT+0000 (Coordinated Universal Time)">Tuesday, 13 August 2024</time></span> <a href="Aug-13-2024.html" title="permalink">🔗</a>
 	</p>
 
-  <h2>Browser Support Changes: +3, -0</h2>
+  <h2>Browser Support Changes: +10, -0</h2>
 
-      <h3>Support increases (3)</h3>
+      <h3>Support increases (10)</h3>
       <section class="added implementations">
           <h4>api</h4>
           <ol>
               <li>
 
-                  <span><a href="https://developer.mozilla.org/docs/Web/API/MediaCapabilities/decodingInfo#keysystemconfiguration">api ➞ MediaCapabilities ➞ decodingInfo ➞ configuration_keySystemConfiguration_parameter</a>
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody">api ➞ CSPViolationReportBody</a>
                   </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
-                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
               </li>
-          </ol>
-          <h4>css</h4>
-          <ol>
               <li>
-                  <span>css ➞ properties ➞ hyphens ➞ language_czech
+                  <span>api ➞ HTMLDetailsElement ➞ name
                 </span>
 
                 
@@ -76,9 +73,90 @@
 
               </li>
               <li>
-                  <span>css ➞ properties ➞ hyphens ➞ language_slovak
+
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits">api ➞ SubtleCrypto ➞ deriveBits ➞ x25519</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey">api ➞ SubtleCrypto ➞ deriveKey ➞ x25519</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey">api ➞ SubtleCrypto ➞ exportKey ➞ x25519</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey">api ➞ SubtleCrypto ➞ generateKey ➞ x25519</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <span><a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey">api ➞ SubtleCrypto ➞ importKey ➞ x25519</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+          </ol>
+          <h4>http</h4>
+          <ol>
+              <li>
+
+                  <span><a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/report-to">http ➞ headers ➞ Content-Security-Policy ➞ report-to</a>
+                  </span>
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>http ➞ headers ➞ Report-To
+                      (⚠️ deprecated)
                 </span>
 
+                
+                <b><br></b> 
+                <span class="browsers">Added to <strong>Firefox</strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <span><a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Reporting-Endpoints">http ➞ headers ➞ Reporting-Endpoints</a>
+                  </span>
                 
                 <b><br></b> 
                 <span class="browsers">Added to <strong>Firefox</strong></span> 
@@ -93,105 +171,328 @@
   </section>
 
 
-  <h2>BCD Metadata Changes: 20</h2>
+  <h2>BCD Metadata Changes: 35</h2>
   <details>
-    <summary>Show all 20 changes</summary>
+    <summary>Show all 35 changes</summary>
     <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
       in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
     </p>
 
-      <h3>Backfilled entries (3)</h3>
-    <p class="info">The entries in this section saw support information change since the report on  Friday, 26 July 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      <h3>Backfilled entries (27)</h3>
+    <p class="info">The entries in this section saw support information change since the report on  Friday, 2 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
     </p>
       <section class="backfilled implementations">
           <h4>api</h4>
           <ol>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ position-area</a>
+                  <a href="https://developer.mozilla.org/docs/Web/API/DeprecationReportBody">api ➞ DeprecationReportBody</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
               </li>
               <li>
 
-                  <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ positionArea</a>
+                  <a href="https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/anticipatedRemoval">api ➞ DeprecationReportBody ➞ anticipatedRemoval</a>
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
               </li>
               <li>
-                  <span>api ➞ MLGraphBuilder ➞ logicalNot
-                  	<a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-logicalnot"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/columnNumber">api ➞ DeprecationReportBody ➞ columnNumber</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/id">api ➞ DeprecationReportBody ➞ id</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/lineNumber">api ➞ DeprecationReportBody ➞ lineNumber</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/message">api ➞ DeprecationReportBody ➞ message</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/sourceFile">api ➞ DeprecationReportBody ➞ sourceFile</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/cancelVideoFrameCallback">api ➞ HTMLVideoElement ➞ cancelVideoFrameCallback</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/requestVideoFrameCallback">api ➞ HTMLVideoElement ➞ requestVideoFrameCallback</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/Report">api ➞ Report</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/Report/body">api ➞ Report ➞ body</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ Report ➞ toJSON
+                  	<a href="https://w3c.github.io/reporting/#dom-report-tojson"><img src="../imgs/spec2.svg" alt="Spec link"></a>
                 </span>
 
                 
                 <b><br></b> 
                 <span class="browsers">Backfilled from <strong></strong></span> 
                 <b>&nbsp;➞&nbsp;</b>
-                <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/Report/type">api ➞ Report ➞ type</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/Report/url">api ➞ Report ➞ url</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/ReportBody">api ➞ ReportBody</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/ReportBody/toJSON">api ➞ ReportBody ➞ toJSON</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/ReportingObserver/ReportingObserver">api ➞ ReportingObserver ➞ ReportingObserver</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/ReportingObserver">api ➞ ReportingObserver</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/ReportingObserver/disconnect">api ➞ ReportingObserver ➞ disconnect</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/ReportingObserver/observe">api ➞ ReportingObserver ➞ observe</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/ReportingObserver/takeRecords">api ➞ ReportingObserver ➞ takeRecords</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+                  <span>api ➞ ReportingObserver ➞ worker_support
+                </span>
+
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey">api ➞ SubtleCrypto ➞ exportKey ➞ ed25519</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey">api ➞ SubtleCrypto ➞ generateKey ➞ ed25519</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey">api ➞ SubtleCrypto ➞ importKey ➞ ed25519</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/sign">api ➞ SubtleCrypto ➞ sign ➞ ed25519</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+              </li>
+              <li>
+
+                  <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/verify">api ➞ SubtleCrypto ➞ verify ➞ ed25519</a>
+                
+                <b><br></b> 
+                <span class="browsers">Backfilled from <strong></strong></span> 
+                <b>&nbsp;➞&nbsp;</b>
+                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
               </li>
           </ol>
       </section>
     
-    <h3>New entries (4)</h3>
-    <p class="info">The entries in this section were not found in BCD on Friday, 26 July 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+    <h3>New entries (7)</h3>
+    <p class="info">The entries in this section were not found in BCD on Friday, 2 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
     </p>
         <h4>api</h4>
         <ol>
-            <li>api ➞ CSSPositionTryDescriptors ➞ position-area
+            <li>api ➞ SubtleCrypto ➞ deriveBits ➞ x25519
             </li>
-            <li>api ➞ CSSPositionTryDescriptors ➞ positionArea
+            <li>api ➞ SubtleCrypto ➞ deriveKey ➞ x25519
             </li>
-            <li>api ➞ MLGraphBuilder ➞ logicalNot
+            <li>api ➞ SubtleCrypto ➞ exportKey ➞ x25519
             </li>
-            <li>api ➞ MediaCapabilities ➞ decodingInfo ➞ configuration_keySystemConfiguration_parameter
+            <li>api ➞ SubtleCrypto ➞ generateKey ➞ x25519
             </li>
-        </ol>
-
-    <h3>Removed entries (13)</h3>
-    <p class="info">The entries in this section were found in BCD on Friday, 26 July 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-    </p>
-        <h4>api</h4>
-        <ol>
-            <li>api ➞ CSSPositionTryDescriptors ➞ inset-area
-            </li>
-            <li>api ➞ CSSPositionTryDescriptors ➞ insetArea
-            </li>
-            <li>api ➞ Element ➞ setHTML
-            </li>
-            <li>api ➞ MLActivation
-            </li>
-            <li>api ➞ MLGraphBuilder ➞ not
-            </li>
-            <li>api ➞ Sanitizer ➞ Sanitizer
-            </li>
-            <li>api ➞ Sanitizer
-            </li>
-            <li>api ➞ Sanitizer ➞ getConfiguration
-            </li>
-            <li>api ➞ Sanitizer ➞ getDefaultConfiguration_static
-            </li>
-            <li>api ➞ Sanitizer ➞ sanitize
+            <li>api ➞ SubtleCrypto ➞ importKey ➞ x25519
             </li>
         </ol>
         <h4>http</h4>
         <ol>
-            <li>http ➞ headers ➞ Permissions-Policy ➞ battery
+            <li>http ➞ headers ➞ Reporting-Endpoints
             </li>
         </ol>
-        <h4>mathml</h4>
+        <h4>webextensions</h4>
         <ol>
-            <li>mathml ➞ elements ➞ mstyle ➞ scriptminsize
+            <li>webextensions ➞ api ➞ webRequest ➞ getSecurityInfo ➞ options
             </li>
-            <li>mathml ➞ elements ➞ mstyle ➞ scriptsizemultiplier
+        </ol>
+
+    <h3>Removed entries (1)</h3>
+    <p class="info">The entries in this section were found in BCD on Friday, 2 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+    </p>
+        <h4>css</h4>
+        <ol>
+            <li>css ➞ properties ➞ masonry-auto-flow
             </li>
         </ol>
   </details>

@@ -4,7 +4,7 @@
         <title>bcd-watch: New baselines (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 14 Aug 2024 16:17:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Aug 2024 22:35:41 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -16,8 +16,8 @@
         <atom:link href="https://bcd-watch.igalia.com/weekly-completed/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[BCD New Baselines Report, Fri Aug 02 2024 - Wed Aug 07 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly-completed/Aug-12-2024-completed.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly-completed/Aug-12-2024-completed.html</guid>
+            <link>https://bcd-watch.igalia.com/weekly-completed/2024-08-12-completed.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly-completed/2024-08-12-completed.html</guid>
             <pubDate>Wed, 07 Aug 2024 06:02:09 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<!DOCTYPE html>
@@ -40,7 +40,7 @@
     <p>
     <strong>New baseline implementations</strong>
     <span>from available bcd releases in this timeframe: <time title="Fri Aug 02 2024 17:16:55 GMT-0400 (Eastern Daylight Time)">Friday, 2 August 2024</time></span>
-    <span>to <time title="Wed Aug 07 2024 02:02:09 GMT-0400 (Eastern Daylight Time)">Wednesday, 7 August 2024</time></span> <a href="Aug-12-2024.html" title="permalink">🔗</a>
+    <span>to <time title="Wed Aug 07 2024 02:02:09 GMT-0400 (Eastern Daylight Time)">Wednesday, 7 August 2024</time></span> <a href="2024-08-12.html" title="permalink">🔗</a>
     </p>
 
     <p>No new Baseline implementations to report 🙁</p>

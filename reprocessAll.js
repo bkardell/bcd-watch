@@ -3,10 +3,8 @@ const index = require('./index.js').run
 const entriesStore = require('./entriesStore.js')
 const utils = require('./utils.js')
 
-
-
 let result = {}
-let list = entriesStore.getSortedListOfJSONEntries("./store", true).map(item => new Date(item))
+let list = entriesStore.getSortedListOfJSONEntries("./store", true).map(item => utils.dateFromISODateString(item))
 let start = list[0], 
     end = list[1], 
     firstMonday = utils.findNextMonday(end),
@@ -29,6 +27,7 @@ mondays.forEach(monday => {
    	console.log(`\n\n${monday.toDateString()} =>
       from: ${start}
    	  lastDate: ${list[lastRelevantIndex]}`)
+
    	index(
    		utils.jsonForDate(start), 
    		utils.jsonForDate(list[lastRelevantIndex]), 

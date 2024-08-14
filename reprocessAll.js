@@ -1,41 +1,20 @@
 const fs = require('fs')
 const index = require('./index.js').run
 const entriesStore = require('./entriesStore.js')
+const utils = require('./utils.js')
 
-function getRelevantMonday(date, plus=0) {
-    const result = new Date(date);
-    const day = result.getDay();
-    if (day==1) {
-    	result.setDate(result.getDate() + plus);
-    	return result
-    }
-    const diff = (day === 0 ? 1 : 8 - day); // If it's Sunday (day 0), add 1 day. Otherwise, add the difference to Monday.
-    result.setDate(result.getDate() + diff);
-    return result;
-}
-
-
-function shortDate(date) {
-  let dateParts = date.toDateString().split(' ')
-  dateParts.shift()
-  return dateParts.join('-')
-}
-
-function jsonForDate(date) {
-	return shortDate(date) + ".json"
-}
 
 
 let result = {}
 let list = entriesStore.getSortedListOfJSONEntries("./store", true).map(item => new Date(item))
 let start = list[0], 
     end = list[1], 
-    firstMonday = getRelevantMonday(end),
+    firstMonday = utils.findNextMonday(end),
     today = new Date(),
     mondays = [], 
     prevLastDate
 
-for (let currentMonday = firstMonday; currentMonday <= today; currentMonday = getRelevantMonday(currentMonday, 7)) {
+for (let currentMonday = firstMonday; currentMonday <= today; currentMonday = utils.findNextMonday(currentMonday, true)) {
   mondays.push(currentMonday)
 }
 
@@ -51,9 +30,9 @@ mondays.forEach(monday => {
       from: ${start}
    	  lastDate: ${list[lastRelevantIndex]}`)
    	index(
-   		jsonForDate(start), 
-   		jsonForDate(list[lastRelevantIndex]), 
-   		shortDate(monday)
+   		utils.jsonForDate(start), 
+   		utils.jsonForDate(list[lastRelevantIndex]), 
+   		utils.toISODateString(monday)
    	)
    	used.push(list[lastRelevantIndex])
 	}

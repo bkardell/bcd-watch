@@ -84,7 +84,7 @@ function getLastVersions(browserReleases) {
   }).slice(0, 3)
 }
 
-function run(o,l) {
+function run(o,l,f='') {
   let inputA = JSON.parse(fs.readFileSync(`${store_path}/${o}`))
   let inputB = JSON.parse(fs.readFileSync(`${store_path}/${l}`))
   let latestBrowsers = {
@@ -100,9 +100,11 @@ function run(o,l) {
 
   let fromDate = new Date(inputA.__meta.timestamp)
   let toDate =  new Date(inputB.__meta.timestamp)
-  let name = shortDate(toDate)
+  let name = f || shortDate(toDate) // backcompat/optional name
 
+console.log("toDate", inputB.__meta.timestamp)
   data.__meta = [{
+      generatedOn: name, 
       older: { releaseDate: fromDate },
       newer: { releaseDate: toDate }
   }]
@@ -180,7 +182,6 @@ function run(o,l) {
 	)
 
   makeHistoricalIndex()
-
 
 }
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>bcd-watch: BCD changes (weekly)</title>
-    <updated>2024-08-14T16:17:47.576Z</updated>
+    <updated>2024-08-14T22:35:41.711Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -16,8 +16,8 @@
     <rights>All rights reserved, Igalia SL</rights>
     <entry>
         <title type="html"><![CDATA[BCD Changes Report, Fri Aug 02 2024 - Wed Aug 07 2024]]></title>
-        <id>https://bcd-watch.igalia.com/weekly/Aug-12-2024.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly/Aug-12-2024.html">
+        <id>https://bcd-watch.igalia.com/weekly/2024-08-12.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly/2024-08-12.html">
         </link>
         <updated>2024-08-07T06:02:09.947Z</updated>
         <summary type="html"><![CDATA[Weekly summary of changes to BCD data]]></summary>
@@ -42,7 +42,7 @@
 	<p>
 	<strong>Summary of BCD changes</strong>
 	<span>from available bcd releases in this timeframe <time title="Fri Aug 02 2024 17:16:55 GMT-0400 (Eastern Daylight Time)">Friday, 2 August 2024</time></span>
-	<span>to <time title="Wed Aug 07 2024 02:02:09 GMT-0400 (Eastern Daylight Time)">Wednesday, 7 August 2024</time></span> <a href="Aug-12-2024.html" title="permalink">🔗</a>
+	<span>to <time title="Wed Aug 07 2024 02:02:09 GMT-0400 (Eastern Daylight Time)">Wednesday, 7 August 2024</time></span> <a href="2024-08-12.html" title="permalink">🔗</a>
 	</p>
 
   <h2>Browser Support Changes: +0, -0</h2>

@@ -1,5 +1,4 @@
 const fs = require('fs')
-const index = require('./index.js').run
 
 function stripFileExtension(str) {
   return str.split(".")[0]

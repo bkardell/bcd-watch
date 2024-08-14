@@ -1,5 +1,6 @@
 let lastTopic = "",
-    Handlebars = require('handlebars')
+    Handlebars = require('handlebars'),
+    utils = require('./utils.js')
 
 Handlebars.registerHelper('formatFeatureStr', (str, topic) => {
 	let ret = str.replace("bcd ::: ", "")
@@ -39,7 +40,7 @@ function formatSummary(delta, data) {
 	Object.keys(delta.backfilledImplementations).forEach(topic => {
 		backfilledImplementationsCt += delta.backfilledImplementations[topic].length
 	})
-	let rTS = new Date(Date.parse(delta.__meta[0].generatedOn)); // 'reportTimeStamp'
+	let rTS = utils.dateFromISODateString(delta.__meta[0].generatedOn); // 'reportTimeStamp'
 	let reportDate = rTS.toDateString();
 
 	const compiledTemplate = require("./templates/weekly.handlebars");
@@ -84,7 +85,7 @@ function formatCompleted(delta, data) {
 		})
 	})
 	
-	let rTS = new Date(Date.parse(delta.__meta[0].generatedOn)); // 'reportTimeStamp'
+	let rTS = utils.dateFromISODateString(delta.__meta[0].generatedOn); // 'reportTimeStamp'
 	let reportDate = rTS.toDateString();
 
 	const compiledTemplate = require("./templates/baseline.handlebars");

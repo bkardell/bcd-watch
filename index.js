@@ -12,26 +12,18 @@ let fs = require('fs'),
   flatten = require('./flatten.js').flatten,
   delta = require('./delta.js').delta,
   formatter = require('./format'),
-  RSS = require('./feed-creator.js')
+  RSS = require('./feed-creator.js'),
+  entriesStore = require('./entriesStore.js'),
+  utils = require('./utils.js')
 
-function stripFileExtension(str) {
-  return str.split(".")[0]
-}
 
-Handlebars.registerHelper('stripFileExtension', stripFileExtension)
+Handlebars.registerHelper('stripFileExtension', utils.stripFileExtension)
 Handlebars.registerHelper('pluralize', function(number, singular, plural) {
     if (number === 1)
         return singular;
     else
         return (typeof plural === 'string' ? plural : singular + 's');
 });
-
-
-function shortDate(date) {
-  let dateParts = date.toDateString().split(' ')
-  dateParts.shift()
-  return dateParts.join('-')
-}
 
 function toTopicsFromStrings(list) {
   let ret = {}
@@ -53,12 +45,14 @@ function toTopicsFromObjects(list) {
   return ret
 }
 
+
+// TODO: DO We need this?
 function getSortedListOfEntries(path) {
   let files = fs.readdirSync(path)
 
   files = files.filter(name => name.endsWith(".html") && name !== "index.html")
   files.sort(function(a,b){
-    return new Date(stripFileExtension(b)) - new Date(stripFileExtension(a));
+    return new Date(utils.stripFileExtension(b)) - new Date(utils.stripFileExtension(a));
   })
   return files
 }
@@ -84,7 +78,7 @@ function getLastVersions(browserReleases) {
   }).slice(0, 3)
 }
 
-function run(o,l) {
+function run(o, l, f='') {
   let inputA = JSON.parse(fs.readFileSync(`${store_path}/${o}`))
   let inputB = JSON.parse(fs.readFileSync(`${store_path}/${l}`))
   let latestBrowsers = {
@@ -100,9 +94,10 @@ function run(o,l) {
 
   let fromDate = new Date(inputA.__meta.timestamp)
   let toDate =  new Date(inputB.__meta.timestamp)
-  let name = shortDate(toDate)
+  let name = f 
 
   data.__meta = [{
+      generatedOn: name, 
       older: { releaseDate: fromDate },
       newer: { releaseDate: toDate }
   }]
@@ -180,7 +175,6 @@ function run(o,l) {
 	)
 
   makeHistoricalIndex()
-
 
 }
 

@@ -6,8 +6,13 @@ const bookkeepingPath = './store/bookkeeping.json';
 const bookkeeping = JSON.parse(fs.readFileSync(bookkeepingPath));
 const utils = require('./utils.js');
 
+const today = new Date();
 
-console.log("checking...", Date.now())
+function isTodayMonday() {
+  return today.getDay() === 1;
+}
+
+console.log("checking...", today)
 JSDOM
   .fromURL("https://github.com/mdn/browser-compat-data/releases", {})
   .then(async dom => {
@@ -50,35 +55,41 @@ JSDOM
       fs.writeFileSync(`./store/${filename}`, JSON.stringify(data), 'utf8')
 
 
-      //update bookkeeping values
-      bookkeeping.previous = bookkeeping.latest
-      bookkeeping.latest = {
-        "file": filename,
-        "timestamp": data.__meta.timestamp,
-        "version": data.__meta.version
+      if (isTodayMonday()) {
+        //update bookkeeping values
+        bookkeeping.previous = bookkeeping.latest
+        bookkeeping.latest = {
+          "file": filename,
+          "timestamp": data.__meta.timestamp,
+          "version": data.__meta.version
+        }
+
+        //rerun index stuff with those    
+        index(
+          bookkeeping.previous.file,
+          bookkeeping.latest.file,
+          utils.toISODateString(today)
+        )
+
+
+        //only write the update has happened, whne it has happened
+        fs.writeFileSync(bookkeepingPath, JSON.stringify(bookkeeping, null, 2), 'utf8')
+
+        console.log("********** UPDATED *************")
       }
 
-      //rerun index stuff with those
-      index(
-        bookkeeping.previous.file,
-        bookkeeping.latest.file,
-        utils.toISODateString(new Date())
-      )
-
-      //only write the update has happened, whne it has happened
-      fs.writeFileSync(bookkeepingPath, JSON.stringify(bookkeeping, null, 2), 'utf8')
-
-      console.log("********** UPDATED *************")
-      console.log(dateStr, JSON.stringify(data.__meta))
-
+      console.log(JSON.stringify(data.__meta))
     } else {
-      console.log("No updates to the store, but we'll write a new report...")
       //rerun index stuff with those
-      index(
-        bookkeeping.latest.file,
-        bookkeeping.latest.file,
-        new Date()
-      )
+      if (isTodayMonday()) {
+
+        console.log("No updates to the store, but we'll write a new report...")
+        index(
+          bookkeeping.latest.file,
+          bookkeeping.latest.file,
+          utils.toISODateString(today)
+        )
+      }
     }
     console.log("I'll check again later...")
   });

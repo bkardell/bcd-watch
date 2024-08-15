@@ -26,17 +26,22 @@ let data = await resp.json()
 
 console.log(`we have the new one:`) 
 
-// we have the new one!
+// we have the new one!document.querySelectorAll('[datetime]').forEach(item => console.log(item.getAttribute('datetime')) )
 let updatedDate = new Date(data.__meta.timestamp || Date.now())
-let latestDate = new Date(bookkeeping.latest.timestamp)
+let latestReleaseDate = new Date(bookkeeping.latest.timestamp)
 
-let deltaInDays = Math.round((updatedDate - latestDate  ) /  86400000)
+let deltaInDays = Math.round((updatedDate - latestReleaseDate  ) /  86400000)
+let calendarDeltaInDays = Math.round((updatedDate - new Date()) / 86400000)
 
 console.log("meta:", JSON.stringify(data.__meta))
-console.log("updated %s, latest %s", updatedDate, latestDate)
+console.log("updated %s, latest %s", updatedDate, latestReleaseDate)
 console.log(`It's been ${deltaInDays} days since then.`)
 	
-if((updatedDate > latestDate) && (deltaInDays >= 5)){
+if(
+	((updatedDate > latestReleaseDate) && (deltaInDays >= 5))
+	||
+	calendarDeltaInDays > 6
+  ) {
 	console.log("I think I should update")
 
 	let dateParts = updatedDate.toDateString().split(' ')

@@ -2,7 +2,7 @@ name: Node.js Cron Job
 on:
   schedule:
     # Run on Mondays at 8:00 AM UTC
-    - cron: cron: 0 8 * * 1
+    - cron: 0 8 * * 1
 jobs:
   node-job:
     runs-on: ubuntu-latest

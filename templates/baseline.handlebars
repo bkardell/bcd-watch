@@ -15,56 +15,61 @@
 </head>
 <body>
     <h1>BCD New Baselines Report <time>{{reportDate}}</time></h1>
-    <p>
-    <strong>New baseline implementations</strong>
-    <span>from available bcd releases in this timeframe: <time title="{{olderReleaseDateTime}}">{{olderReleaseDate}}</time></span>
-    <span>to <time title="{{laterReleaseDateTime}}">{{laterReleaseDate}}</time></span> <a href="{{permalink}}" title="permalink">🔗</a>
-    </p>
-
-    {{#unless completedCt}}
-    <p>No new Baseline implementations to report 🙁</p>
+    {{#unless hasNewData}}
+        <strong>There are no new BCD releases in this timeframe.</strong>
     {{/unless}}
+    {{#if hasNewData}}
+        <p>
+        <strong>New baseline implementations</strong>
+        <span>from available bcd releases in this timeframe: <time title="{{olderReleaseDateTime}}">{{olderReleaseDate}}</time></span>
+        <span>to <time title="{{laterReleaseDateTime}}">{{laterReleaseDate}}</time></span> <a href="{{permalink}}" title="permalink">🔗</a>
+        </p>
 
-    {{#if completedCt}}
-      <p>{{completedCt}} new Baseline {{pluralize completedCt 'implementation'}}</p>
-      <section class="added implementations">
-        {{#each completedImplementations}}
-          <h4>{{@key}}</h4>
-          <ol>
-            {{#each this}}
-              <li>
-                {{#unless (mdnLink this)}}
-                  <span>{{formatFeatureStr key topic}}
-                  	{{#if (specLink this)}}
-                  	<a href="{{specLink this}}"><img src="../imgs/spec2.svg" alt="Spec link"></a>
-                  	{{/if}}
-                    {{#if status.deprecated}}
-                      (⚠️ deprecated)
+        {{#unless completedCt}}
+        <p>No new Baseline implementations to report 🙁</p>
+        {{/unless}}
+
+        {{#if completedCt}}
+          <p>{{completedCt}} new Baseline {{pluralize completedCt 'implementation'}}</p>
+          <section class="added implementations">
+            {{#each completedImplementations}}
+              <h4>{{@key}}</h4>
+              <ol>
+                {{#each this}}
+                  <li>
+                    {{#unless (mdnLink this)}}
+                      <span>{{formatFeatureStr key topic}}
+                      	{{#if (specLink this)}}
+                      	<a href="{{specLink this}}"><img src="../imgs/spec2.svg" alt="Spec link"></a>
+                      	{{/if}}
+                        {{#if status.deprecated}}
+                          (⚠️ deprecated)
+                        {{/if}}
+                      </span>
+                    {{/unless}}
+
+          
+
+                    {{#if (mdnLink this)}}
+                      <span>
+                        <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
+                        {{#if status.deprecated}}
+                          (⚠️ deprecated)
+                        {{/if}}
+                      </span>
                     {{/if}}
-                  </span>
-                {{/unless}}
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>{{addedImplementations}}</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni{{totalImplementations}} engines"><strong>{{totalImplementations}} of 3</strong> engines</span>
 
-      
-
-                {{#if (mdnLink this)}}
-                  <span>
-                    <a href="{{mdnLink this}}">{{formatFeatureStr key topic}}</a>
-                    {{#if status.deprecated}}
-                      (⚠️ deprecated)
-                    {{/if}}
-                  </span>
-                {{/if}}
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>{{addedImplementations}}</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni{{totalImplementations}} engines"><strong>{{totalImplementations}} of 3</strong> engines</span>
-
-              </li>
+                  </li>
+                {{/each}}
+              </ol>
             {{/each}}
-          </ol>
-        {{/each}}
-      </section>
+          </section>
+        {{/if}}
     {{/if}}
   <footer>
   	<p>

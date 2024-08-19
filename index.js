@@ -97,10 +97,11 @@ function run(o, l, f='') {
   let name = f 
 
   data.__meta = [{
-      generatedOn: name, 
+      generatedOn: name,
       older: { releaseDate: fromDate },
       newer: { releaseDate: toDate }
   }]
+  data.hasNewData = !utils.areSameDate(fromDate, toDate),
   data.addedFeatures = toTopicsFromStrings(data.added)
   data.removedFeatures = toTopicsFromStrings(data.removed)
   data.backfilledImplementations = toTopicsFromObjects(data.backfilledImplementations)

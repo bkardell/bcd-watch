@@ -51,6 +51,10 @@ function findNextMonday(date, forward=false) {
     return result;
 }
 
+function areSameDate(date1, date2) {
+ return  date1.toDateString() == date2.toDateString();
+}
+
 
 exports.toISODateString = toISODateString
 exports.toShortDateString = toShortDateString
@@ -58,4 +62,5 @@ exports.stripFileExtension = stripFileExtension
 exports.jsonForDate = jsonForDate
 exports.findNextMonday = findNextMonday
 exports.dateFromISODateString = dateFromISODateString
+exports.areSameDate = areSameDate
 

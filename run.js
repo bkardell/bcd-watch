@@ -12,6 +12,7 @@ function isTodayMonday() {
   return today.getDay() === 1;
 }
 
+
 console.log("checking...", today)
 JSDOM
   .fromURL("https://github.com/mdn/browser-compat-data/releases", {})
@@ -55,7 +56,7 @@ JSDOM
       fs.writeFileSync(`./store/${filename}`, JSON.stringify(data), 'utf8')
 
 
-      if (isTodayMonday()) {
+      if (isTodayMonday() && !utils.areSameDate(latestReleaseDate, updatedDate)) {
         //update bookkeeping values
         bookkeeping.previous = bookkeeping.latest
         bookkeeping.latest = {
@@ -82,7 +83,6 @@ JSDOM
     } else {
       //rerun index stuff with those
       if (isTodayMonday()) {
-
         console.log("No updates to the store, but we'll write a new report...")
         index(
           bookkeeping.latest.file,

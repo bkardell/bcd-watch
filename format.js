@@ -68,7 +68,8 @@ function formatSummary(delta, data) {
 		removedImplementations: delta.removedImplementations,
 		backfilledImplementationsCt: backfilledImplementationsCt,
 		backfilledImplementations: delta.backfilledImplementations,
-		allImplementationsCt: addedFeaturesCt + removedFeaturesCt + backfilledImplementationsCt
+		allImplementationsCt: addedFeaturesCt + removedFeaturesCt + backfilledImplementationsCt,
+		hasNewData: delta.hasNewData
 	})
 }
 
@@ -103,6 +104,7 @@ function formatCompleted(delta, data) {
 		laterReleaseDateTime: delta.__meta[0].newer.releaseDate,
 		reportDate: reportDate,
 		permalink: delta.permalink + ".html",
+		hasNewData: delta.hasNewData,
 		completedCt: ct,
 		completedImplementations: complete
 	})

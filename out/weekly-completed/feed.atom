@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>bcd-watch: New baselines (weekly)</title>
-    <updated>2024-08-19T16:22:52.049Z</updated>
+    <updated>2024-08-26T01:22:18.015Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,11 +15,11 @@
     <logo>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</logo>
     <rights>All rights reserved, Igalia SL</rights>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Wed Aug 07 2024 - Tue Aug 13 2024]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/2024-08-19-completed.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/2024-08-19-completed.html">
+        <title type="html"><![CDATA[BCD New Baselines Report, Tue Aug 13 2024 - Sat Aug 24 2024]]></title>
+        <id>https://bcd-watch.igalia.com/weekly-completed/2024-08-26-completed.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2024-08-26-completed.html">
         </link>
-        <updated>2024-08-13T09:28:13.655Z</updated>
+        <updated>2024-08-24T09:12:30.908Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<!DOCTYPE html>
 <html>
@@ -34,137 +34,18 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD New Baselines Report, Wednesday, 7 August 2024 - Tuesday, 13 August 2024</title>
+<title>BCD New Baselines Report, Tuesday, 13 August 2024 - Saturday, 24 August 2024</title>
 </head>
 <body>
-    <h1>BCD New Baselines Report <time>Mon Aug 19 2024</time></h1>
-    <p>
-    <strong>New baseline implementations</strong>
-    <span>from available bcd releases in this timeframe: <time title="Wed Aug 07 2024 06:02:09 GMT+0000 (Coordinated Universal Time)">Wednesday, 7 August 2024</time></span>
-    <span>to <time title="Tue Aug 13 2024 09:28:13 GMT+0000 (Coordinated Universal Time)">Tuesday, 13 August 2024</time></span> <a href="2024-08-19.html" title="permalink">🔗</a>
-    </p>
+    <h1>BCD New Baselines Report <time>Mon Aug 26 2024</time></h1>
+        <p>
+        <strong>New baseline implementations</strong>
+        <span>from available bcd releases in this timeframe: <time title="Tue Aug 13 2024 09:28:13 GMT+0000 (Coordinated Universal Time)">Tuesday, 13 August 2024</time></span>
+        <span>to <time title="Sat Aug 24 2024 09:12:30 GMT+0000 (Coordinated Universal Time)">Saturday, 24 August 2024</time></span> <a href="2024-08-26.html" title="permalink">🔗</a>
+        </p>
 
+        <p>No new Baseline implementations to report 🙁</p>
 
-      <p>8 new Baseline implementations</p>
-      <section class="added implementations">
-          <h4>api</h4>
-          <ol>
-              <li>
-
-      
-
-                  <span>
-                    <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody">api ➞ CSPViolationReportBody</a>
-                  </span>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-                  <span>api ➞ HTMLDetailsElement ➞ name
-                  </span>
-
-      
-
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-      
-
-                  <span>
-                    <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits">api ➞ SubtleCrypto ➞ deriveBits ➞ x25519</a>
-                  </span>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-      
-
-                  <span>
-                    <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey">api ➞ SubtleCrypto ➞ deriveKey ➞ x25519</a>
-                  </span>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-      
-
-                  <span>
-                    <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey">api ➞ SubtleCrypto ➞ exportKey ➞ x25519</a>
-                  </span>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-      
-
-                  <span>
-                    <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey">api ➞ SubtleCrypto ➞ generateKey ➞ x25519</a>
-                  </span>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-              <li>
-
-      
-
-                  <span>
-                    <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey">api ➞ SubtleCrypto ➞ importKey ➞ x25519</a>
-                  </span>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-          </ol>
-          <h4>http</h4>
-          <ol>
-              <li>
-
-      
-
-                  <span>
-                    <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/report-to">http ➞ headers ➞ Content-Security-Policy ➞ report-to</a>
-                  </span>
-                
-                <b><br></b> 
-                <span class="browsers">Added to <strong>Firefox</strong></span> 
-                <b>&nbsp;➞&nbsp;</b>
-                <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-              </li>
-          </ol>
-      </section>
   <footer>
   	<p>
   	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.jpg" alt="Igalia"></a>

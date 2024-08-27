@@ -21,10 +21,10 @@
     <strong>There are no new BCD releases in this timeframe.</strong>
   {{/unless}}
   {{#if hasNewData}}
-  	<strong>Summary of BCD changes</strong>
-  	<span>from available BCD releases in this timeframe: <time title="{{olderReleaseDateTime}}">{{olderReleaseDate}}</time></span>
-  	<span>to <time title="{{laterReleaseDateTime}}">{{laterReleaseDate}}</time></span> <a href="{{permalink}}" title="permalink">🔗</a>
-  	</p>
+    <p>
+    <strong>Summary of BCD changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time></strong><a href="{{permalink}}" title="permalink">🔗</a><br>
+    <span class="details">BCD releases in this timeframe:  <a href="https://github.com/mdn/browser-compat-data/releases/tag/v{{olderReleaseVersion}}">v{{olderReleaseVersion}}</a> <small>({{olderReleaseDateTime}})</small>, <a href="https://github.com/mdn/browser-compat-data/releases/tag/v{{laterReleaseVersion}}">v{{laterReleaseVersion}}</a> <small>({{laterReleaseDateTime}})</small></span>
+    </p>
 
     <h2>Browser Support Changes: +{{addedImplmentationsCt}}, -{{removedImplementationsCt}}</h2>
 

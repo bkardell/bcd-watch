@@ -51,6 +51,17 @@ function findNextMonday(date, forward=false) {
     return result;
 }
 
+/**
+ * @date The date to begin searching for Monday from.
+ */
+function findPreviousMonday(date) {
+    const result = new Date(date);
+    const day = result.getDay();
+    const diff = (day === 0 ? 1 : 8 - day); // If it's Sunday (day 0), add 1 day. Otherwise, add the difference to Monday.
+    result.setDate(result.getDate() + diff);
+    return result;
+}
+
 function areSameDate(date1, date2) {
  return  date1.toDateString() == date2.toDateString();
 }
@@ -63,4 +74,4 @@ exports.jsonForDate = jsonForDate
 exports.findNextMonday = findNextMonday
 exports.dateFromISODateString = dateFromISODateString
 exports.areSameDate = areSameDate
-
+exports.findPreviousMonday = findPreviousMonday

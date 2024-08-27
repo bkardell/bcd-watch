@@ -78,7 +78,7 @@ function getLastVersions(browserReleases) {
   }).slice(0, 3)
 }
 
-function run(o, l, f='') {
+function run(o, l, reportName='') {
   let inputA = JSON.parse(fs.readFileSync(`${store_path}/${o}`))
   let inputB = JSON.parse(fs.readFileSync(`${store_path}/${l}`))
   let latestBrowsers = {
@@ -89,17 +89,25 @@ function run(o, l, f='') {
 
   let flattenedA = flatten(inputA)
   let flattenedB = flatten(inputB)
-  
+  let reportDate = utils.dateFromISODateString(reportName)
+  let previousReportDate = utils.findPreviousMonday(reportDate)
   let data = delta(flattenedA, flattenedB, latestBrowsers)
-
   let fromDate = new Date(inputA.__meta.timestamp)
   let toDate =  new Date(inputB.__meta.timestamp)
-  let name = f 
+  let name = reportName
 
   data.__meta = [{
       generatedOn: name,
-      older: { releaseDate: fromDate },
-      newer: { releaseDate: toDate }
+      older: { 
+        releaseDate: fromDate, 
+        monday: previousReportDate,
+        version: inputA.__meta.version 
+      },
+      newer: { 
+        releaseDate: toDate, 
+        monday: reportDate,
+        version: inputB.__meta.version 
+      }
   }]
   data.hasNewData = !utils.areSameDate(fromDate, toDate),
   data.addedFeatures = toTopicsFromStrings(data.added)

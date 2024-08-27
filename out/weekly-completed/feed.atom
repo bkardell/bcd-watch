@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>bcd-watch: New baselines (weekly)</title>
-    <updated>2024-08-27T16:58:07.367Z</updated>
+    <updated>2024-08-27T17:45:55.901Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -40,7 +40,7 @@
     <h1>BCD New Baselines Report <time>Mon Aug 26 2024</time></h1>
 
         <p>
-        <strong>Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 26 August 2024">Monday, 26 August 2024</time></strong> <a href="2024-08-26.html" title="permalink">🔗</a><br>
+        <strong>Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 19 August 2024">Monday, 19 August 2024</time> through <time title="Monday, 26 August 2024">Monday, 26 August 2024</time></strong> <a href="2024-08-26.html" title="permalink">🔗</a><br>
         <span class="details">BCD releases in this timeframe:  <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.46">v5.5.46</a> <small>(Tuesday, 13 August 2024)</small>, <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday, 24 August 2024)</small></span>
         </p>
 

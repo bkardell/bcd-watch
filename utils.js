@@ -58,7 +58,7 @@ function findPreviousMonday(date) {
     const result = new Date(date);
     const day = result.getDay();
     const diff = (day === 0 ? 1 : 8 - day); // If it's Sunday (day 0), add 1 day. Otherwise, add the difference to Monday.
-    result.setDate(result.getDate() + diff);
+    result.setDate(result.getDate() - diff);
     return result;
 }
 

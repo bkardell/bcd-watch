@@ -18,6 +18,10 @@ Handlebars.registerHelper('specLink', (o) =>{
 	return o.spec_url
 })
 
+Handlebars.registerHelper('uppercase', (str) =>{
+	return str.toUpperCase()
+})
+
 function formatSummary(delta, data) {
 	let addedFeaturesCt = 0, 
 			removedFeaturesCt = 0, 

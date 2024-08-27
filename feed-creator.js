@@ -10,8 +10,8 @@ module.exports = function (meta, data) {
       description: 'A feed that summarizes changes to BCD weekly',
       id: 'https://bcd-watch.igalia.com',
       link: 'https://bcd-watch.igalia.com',
-      image: 'https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg',
-      // favicon: 'https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg',
+      image: 'https://bcd-watch.igalia.com/imgs/binoculars.png',
+      favicon: 'https://bcd-watch.igalia.com/imgs/binoculars.png',
       updated: new Date(),
       copyright: 'All rights reserved, Igalia SL',
       generator: 'awesome mix', // optional, default = 'Feed for Node.js'

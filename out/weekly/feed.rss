@@ -4,20 +4,20 @@
         <title>bcd-watch: BCD changes (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Tue, 27 Aug 2024 17:45:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Aug 2024 21:47:04 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
             <title>bcd-watch: BCD changes (weekly)</title>
-            <url>https://commons.wikimedia.org/wiki/File:Stars_Art_-_FREE_%2850210921903%29.jpg</url>
+            <url>https://bcd-watch.igalia.com/imgs/binoculars.png</url>
             <link>https://bcd-watch.igalia.com</link>
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[BCD Changes Report, Tue Aug 13 2024 - Sat Aug 24 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2024-08-26.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2024-08-26.html</guid>
+            <link>https://bcd-watch.igalia.com/weekly/.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/.html</guid>
             <pubDate>Sat, 24 Aug 2024 09:12:30 GMT</pubDate>
             <description><![CDATA[Weekly summary of changes to BCD data]]></description>
             <content:encoded><![CDATA[<!DOCTYPE html>
@@ -33,22 +33,21 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link type="text/css" href="../styles.css" rel="stylesheet">
-<title>BCD Changes Report, Tuesday, 13 August 2024 (UTC) - Saturday, 24 August 2024 (UTC)</title>
+<title>BCD Changes Report, Invalid Date</title>
 </head>
 <body>
 
-  <h1>BCD Changes Report, <time>Mon Aug 26 2024</time></h1>
-	<p>
+  <h1>BCD Changes Report, <time>Invalid Date</time></h1>
+  <hr>
     <p>
-    <strong>Summary of BCD changes from <time title="Monday, 19 August 2024">Monday, 19 August 2024</time> through <time title="Monday, 26 August 2024">Monday, 26 August 2024</time></strong><a href="2024-08-26.html" title="permalink">🔗</a><br>
-    <span class="details">BCD releases in this timeframe:  <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.46">v5.5.46</a> <small>(Tuesday, 13 August 2024)</small>, <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday, 24 August 2024)</small></span>
+    <strong>Summary of BCD changes from <time title="Invalid Date">Invalid Date</time> through <time title="Invalid Date">Invalid Date</time></strong><a href=".html" title="permalink">🔗</a>
     </p>
 
     <h2>Browser Support Changes: +1, -0</h2>
 
         <h3>Support increases (1)</h3>
         <section class="added implementations">
-            <h4>css</h4>
+            <h4>CSS</h4>
             <ol>
                 <li>
                     <span>css ➞ properties ➞ reading-flow
@@ -68,6 +67,7 @@
 
     </section>
 
+		<hr>
 
     <h2>BCD Metadata Changes: 197</h2>
     <details>
@@ -77,10 +77,10 @@
       </p>
 
         <h3>Backfilled entries (57)</h3>
-      <p class="info">The entries in this section saw support information change since the report on  Tuesday, 13 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      <p class="info">The entries in this section saw support information change since the report on  Tuesday 13 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
         <section class="backfilled implementations">
-            <h4>html</h4>
+            <h4>HTML</h4>
             <ol>
                 <li>
                     <span>html ➞ elements ➞ textarea ➞ placeholder ➞ line_breaks
@@ -136,7 +136,7 @@
 
                 </li>
             </ol>
-            <h4>api</h4>
+            <h4>API</h4>
             <ol>
                 <li>
                     <span>api ➞ CSSFontFeatureValuesMap ➞ @@iterator
@@ -303,7 +303,7 @@
 
                 </li>
             </ol>
-            <h4>css</h4>
+            <h4>CSS</h4>
             <ol>
                 <li>
 
@@ -736,7 +736,7 @@
 
                 </li>
             </ol>
-            <h4>javascript</h4>
+            <h4>JAVASCRIPT</h4>
             <ol>
                 <li>
 
@@ -762,9 +762,9 @@
         </section>
       
       <h3>New entries (68)</h3>
-      <p class="info">The entries in this section were not found in BCD on Tuesday, 13 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+      <p class="info">The entries in this section were not found in BCD on Tuesday 13 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
       </p>
-          <h4>api</h4>
+            <h4>API</h4>
           <ol>
               <li>api ➞ CSSFontFeatureValuesMap ➞ @@iterator
               </li>
@@ -795,7 +795,7 @@
               <li>api ➞ CSSPageDescriptors ➞ pageOrientation
               </li>
           </ol>
-          <h4>css</h4>
+            <h4>CSS</h4>
           <ol>
               <li>css ➞ properties ➞ position-area
               </li>
@@ -874,14 +874,14 @@
               <li>css ➞ properties ➞ reading-flow
               </li>
           </ol>
-          <h4>html</h4>
+            <h4>HTML</h4>
           <ol>
               <li>html ➞ global_attributes ➞ writingsuggestions
               </li>
               <li>html ➞ manifest ➞ display_override ➞ window-controls-overlay
               </li>
           </ol>
-          <h4>javascript</h4>
+            <h4>JAVASCRIPT</h4>
           <ol>
               <li>javascript ➞ builtins ➞ String ➞ toLocaleLowerCase ➞ locales_parameter
               </li>
@@ -914,9 +914,9 @@
           </ol>
 
       <h3>Removed entries (72)</h3>
-      <p class="info">The entries in this section were found in BCD on Tuesday, 13 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+      <p class="info">The entries in this section were found in BCD on Tuesday 13 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
       </p>
-          <h4>css</h4>
+            <h4>CSS</h4>
           <ol>
               <li>css ➞ properties ➞ -webkit-initial-letter
               </li>
@@ -997,14 +997,14 @@
               <li>css ➞ properties ➞ position-try-fallbacks ➞ inset-area
               </li>
           </ol>
-          <h4>html</h4>
+            <h4>HTML</h4>
           <ol>
               <li>html ➞ manifest ➞ categories
               </li>
               <li>html ➞ manifest ➞ screenshots
               </li>
           </ol>
-          <h4>javascript</h4>
+            <h4>JAVASCRIPT</h4>
           <ol>
               <li>javascript ➞ builtins ➞ Intl ➞ RelativeTimeFormat ➞ resolvedOptions ➞ numberingSystem
               </li>
@@ -1071,13 +1071,19 @@
           </ol>
     </details>
   
+  <hr>
   <footer>
   	<p>
-  	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.jpg" alt="Igalia"></a>
+  	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.png" alt="Igalia"></a>
   	</p>
   	<p>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
   	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.46">v5.5.46</a> <small>(Tuesday 13 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday 24 August 2024)</small>
+			</span>
+		</div>
   </footer>
 </body>
 </html>]]></content:encoded>

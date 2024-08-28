@@ -162,7 +162,7 @@ function run(o, l, reportName='') {
   )
 
   RSS({
-      items: lastNFeedEntries(`weekly`, 'Weekly summary of changes in BCD data', 5)
+      items: lastNFeedEntries(`weekly`, 'Weekly summary of new changes in BCD data', 5)
     },
 		{
 			title: `Changes Report (weekly)`,

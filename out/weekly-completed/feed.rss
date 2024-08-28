@@ -4,7 +4,7 @@
         <title>bcd-watch: New baselines (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 28 Aug 2024 14:00:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Aug 2024 14:40:12 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -15,10 +15,10 @@
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly-completed/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[BCD New Baselines Report, Tue Aug 13 2024 - Sat Aug 24 2024]]></title>
+            <title><![CDATA[BCD New Baselines Report, Mon Aug 26 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/2024-08-26-completed.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/2024-08-26-completed.html</guid>
-            <pubDate>Sat, 24 Aug 2024 09:12:30 GMT</pubDate>
+            <pubDate>Mon, 26 Aug 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<!DOCTYPE html>
 <html>

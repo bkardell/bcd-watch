@@ -17,6 +17,7 @@
 
   <hr>
   <h1>BCD Changes Report, <time>{{reportDate}}</time></h1>
+  <main>
   {{#unless hasNewData}}
 	<p>
     <strong>There were no new BCD releases in this timeframe.</strong>
@@ -24,7 +25,7 @@
   {{/unless}}
   {{#if hasNewData}}
     <p>
-    <strong>Summary of BCD changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time></strong><a href="{{permalink}}" title="permalink">🔗</a>
+    <em>Summary of BCD changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time></strong><a href="{{permalink}}" title="permalink">🔗</a></em>
     </p>
 	  <hr>
 
@@ -192,6 +193,7 @@
   {{/if}}
   
   <hr>
+  <hr>
   <footer>
   	<p>
   	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.png" alt="Igalia"></a>
@@ -205,5 +207,6 @@
 			</span>
 		</div>
   </footer>
+  </main>
 </body>
 </html>

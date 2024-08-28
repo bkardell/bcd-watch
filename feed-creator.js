@@ -6,7 +6,7 @@ module.exports = function (meta, data) {
     let feedtitle = meta.data;
     let directory = data.path.replace('./out/','');
     let feed = new Feed({
-      title: `bcd-watch: ${data.title}`,
+      title: `BCD-watch: ${data.title}`,
       description: 'A feed that summarizes changes to BCD weekly',
       id: 'https://bcd-watch.igalia.com',
       link: 'https://bcd-watch.igalia.com',
@@ -31,13 +31,16 @@ module.exports = function (meta, data) {
       if (!item.content) {
         console.error('NO CONTENT FOR ITEM')
       }
+      
+      let itemContent = item.content;
+      let content = itemContent.match(/<main>([\s\S]+?)<\/main>/);
 
       feed.addItem({
         title: item.title,
         id: `https://bcd-watch.igalia.com/${directory}/${item.file}`,
         link: `https://bcd-watch.igalia.com/${directory}/${item.file}`,
         description: item.blurb,
-        content: `${item.content}`,
+        content: content,
         date: new Date(item.pubDate),
         image: item.img
       })

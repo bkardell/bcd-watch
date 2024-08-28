@@ -117,7 +117,7 @@ function run(o, l, reportName='') {
   data.permalink = name
 
   let out = formatter.formatSummary(data, flattenedB)
-  let title = `BCD Changes Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
+  let title = 'BCD Changes Report, ' + reportDate.toDateString();
          
   // current...
   fs.writeFileSync(
@@ -140,7 +140,7 @@ function run(o, l, reportName='') {
         file: `${name}.html`,
         blurb: 'Weekly summary of changes to BCD data',
         content: out,
-        pubDate: toDate, // I guess always use the to date?
+        pubDate: reportDate,
         image: ""
       }]
     },
@@ -153,7 +153,7 @@ function run(o, l, reportName='') {
 
 
   let outComplete = formatter.formatCompleted(data, flattenedB)
-  title =  `BCD New Baselines Report, ${fromDate.toDateString()} - ${toDate.toDateString()}`
+  title =  'BCD New Baselines Report, ' + reportDate.toDateString();
   
   fs.writeFileSync(
       output_path + `/weekly-completed/${name}.html`,
@@ -173,7 +173,7 @@ function run(o, l, reportName='') {
         file: `${name}-completed.html`,
         blurb: 'Weekly summary of new Baseline items in BCD data',
         content: outComplete,
-        pubDate: toDate, // I guess always use the to date?
+        pubDate: reportDate,
         image: ""
       }]
   	},

@@ -49,7 +49,7 @@ function formatSummary(delta, data) {
 
 	const compiledTemplate = require("./templates/weekly.handlebars");
 	const dtOptions = {
-		weekday:'long',
+		weekday: 'long',
 	  year: 'numeric',
   	month: 'long',
 	  day: 'numeric'
@@ -101,7 +101,7 @@ function formatCompleted(delta, data) {
 
 	const compiledTemplate = require("./templates/baseline.handlebars");
 	const dtOptions = {
-		weekday:'long',
+		weekday: 'long',
 	  year: 'numeric',
   	month: 'long',
 	  day: 'numeric'

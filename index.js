@@ -165,7 +165,7 @@ function run(o, l, reportName='') {
       items: lastNFeedEntries(`weekly`, 'Weekly summary of changes in BCD data', 5)
     },
 		{
-			title: `BCD changes (weekly)`,
+			title: `Changes Report (weekly)`,
 			path: output_path + `/weekly`
 		}
   )
@@ -191,7 +191,7 @@ function run(o, l, reportName='') {
       items: lastNFeedEntries(`weekly-completed`, 'Weekly summary of new Baseline items in BCD data', 5)
   	},
 		{
-			title: `New baselines (weekly)`,
+			title: `New Baselines Report (weekly)`,
       path: output_path + `/weekly-completed`
 		}
 	)

@@ -29,13 +29,13 @@ h1 {
 	border-image-source: linear-gradient(90deg,#BBC 10em,#CCD);
 	border-image-outset: 0 50vw;
 }
-h1 + p {
+main > p:first-child {
 	max-width: 90%;
 	margin-block: 0 2em;
 	font-size: 1.1em;
 	font-style: italic;
 }
-h1 + p + p {
+main > p:first-child + p {
 	font-size: 1.5em;
 	text-align: center;
 }

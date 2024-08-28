@@ -32,15 +32,14 @@ module.exports = function (meta, data) {
         console.error('NO CONTENT FOR ITEM')
       }
       
-      let itemContent = item.content;
-      let content = itemContent.match(/<main>([\s\S]+?)<\/main>/);
+      let itemContent = item.content.match(/<main>([\s\S]+?)<\/main>/)[0];
 
       feed.addItem({
         title: item.title,
         id: `https://bcd-watch.igalia.com/${directory}/${item.file}`,
         link: `https://bcd-watch.igalia.com/${directory}/${item.file}`,
         description: item.blurb,
-        content: content,
+        content: itemContent,
         date: new Date(item.pubDate),
         image: item.img
       })

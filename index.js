@@ -35,6 +35,33 @@ function toTopicsFromStrings(list) {
   return ret
 }
 
+function lastNFeedEntries(which, blurb, n) {
+  let baseFilePath = output_path + "/" + which + "/"
+  let entries = getSortedListOfEntries(baseFilePath)
+  let x = entries.slice(0, n)
+  let items = []
+  return x.map(fileName => {
+    let out = fs.readFileSync(baseFilePath + fileName).toString()
+    const re = {
+      title: /title>(?<title>.*)<\/title>/g
+    } 
+    let titleMatch = out.matchAll(re.title)
+    let title = titleMatch.next().value.groups.title
+    return {
+      content: out,
+      name: fileName,
+      file: which + "/" + fileName,
+      title: title,
+      blurb: blurb,
+      image: "",
+      pubDate: 
+        title
+          .split(", ")[1]
+          .trim()
+    }
+  })
+}
+
 function toTopicsFromObjects(list) {
   let ret = {}
   list.forEach(item => {
@@ -135,14 +162,7 @@ function run(o, l, reportName='') {
   )
 
   RSS({
-      items: [{ 
-        title: title,
-        file: `${name}.html`,
-        blurb: 'Weekly summary of changes to BCD data',
-        content: out,
-        pubDate: reportDate,
-        image: ""
-      }]
+      items: lastNFeedEntries(`weekly`, 'Weekly summary of changes in BCD data', 5)
     },
 		{
 			title: `BCD changes (weekly)`,
@@ -168,14 +188,7 @@ function run(o, l, reportName='') {
   )
 
   RSS({
-      items: [{ 
-        title: title,
-        file: `${name}-completed.html`,
-        blurb: 'Weekly summary of new Baseline items in BCD data',
-        content: outComplete,
-        pubDate: reportDate,
-        image: ""
-      }]
+      items: lastNFeedEntries(`weekly-completed`, 'Weekly summary of new Baseline items in BCD data', 5)
   	},
 		{
 			title: `New baselines (weekly)`,

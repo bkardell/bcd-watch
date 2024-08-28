@@ -4,7 +4,7 @@
         <title>BCD-watch: New Baselines Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 28 Aug 2024 20:16:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Aug 2024 20:24:39 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -35,7 +35,7 @@
   <hr>
   <footer>
   	<p>
-  	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.png" alt="Igalia"></a>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
   	</p>
   	<p>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
@@ -188,7 +188,7 @@
   <hr>
   <footer>
   	<p>
-  	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.png" alt="Igalia"></a>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
   	</p>
   	<p>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
@@ -222,7 +222,7 @@
   <hr>
   <footer>
   	<p>
-  	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.png" alt="Igalia"></a>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
   	</p>
   	<p>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
@@ -274,7 +274,7 @@
   <hr>
   <footer>
   	<p>
-  	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.png" alt="Igalia"></a>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
   	</p>
   	<p>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
@@ -326,7 +326,7 @@
   <hr>
   <footer>
   	<p>
-  	<a href="../">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="../imgs/igalia-logo.png" alt="Igalia"></a>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
   	</p>
   	<p>
   	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>

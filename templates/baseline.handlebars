@@ -14,8 +14,8 @@
 <title>BCD New Baselines Report, {{reportDate}}</title>
 </head>
 <body>
-    <h1>BCD New Baselines Report <time>{{reportDate}}</time></h1>
     <hr>
+    <h1>BCD New Baselines Report <time>{{reportDate}}</time></h1>
     {{#unless hasNewData}}
     <p>
       <strong>There are no new BCD releases in this timeframe.</strong>
@@ -26,6 +26,7 @@
         <p>
         <strong>Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time></strong> <a href="{{permalink}}" title="permalink">🔗</a><br>
         </p>
+		    <hr>
 
 
         {{#unless completedCt}}

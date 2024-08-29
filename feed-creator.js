@@ -41,7 +41,7 @@ module.exports = function (meta, data) {
         description: item.blurb,
         content: itemContent,
         date: new Date(item.pubDate),
-        image: item.img
+        image: 'https://bcd-watch.igalia.com/imgs/binoculars.png'
       })
 
     })

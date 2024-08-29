@@ -4,7 +4,7 @@
         <title>BCD-watch: New Baselines Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 28 Aug 2024 20:24:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Aug 2024 14:30:35 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -47,6 +47,8 @@
 		</div>
   </footer>
   </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[BCD New Baselines Report, Mon Aug 19 2024]]></title>
@@ -200,6 +202,8 @@
 		</div>
   </footer>
   </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[BCD New Baselines Report, Mon Aug 12 2024]]></title>
@@ -234,6 +238,8 @@
 		</div>
   </footer>
   </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[BCD New Baselines Report, Mon Aug 05 2024]]></title>
@@ -286,6 +292,8 @@
 		</div>
   </footer>
   </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
         </item>
         <item>
             <title><![CDATA[BCD New Baselines Report, Mon Jul 29 2024]]></title>
@@ -338,6 +346,8 @@
 		</div>
   </footer>
   </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
         </item>
     </channel>
 </rss>

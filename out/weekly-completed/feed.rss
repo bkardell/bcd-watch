@@ -4,7 +4,7 @@
         <title>BCD-watch: New Baselines Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Wed, 11 Sep 2024 16:11:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Sep 2024 17:04:15 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -18,12 +18,12 @@
             <title><![CDATA[BCD New Baselines Report, Mon Sep 09 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-09.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-09.html</guid>
-            <pubDate>Sun, 08 Sep 2024 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 09 Sep 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 
         <p>
-        <em>Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 9 September 2024">Monday, 9 September 2024</time></em> <a href="2024-09-09.html" title="permalink">🔗</a>
+        Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 9 September 2024">Monday, 9 September 2024</time> <a href="2024-09-09.html" title="permalink">🔗</a>
         </p>
 
 		    <hr>
@@ -54,7 +54,7 @@
             <title><![CDATA[BCD New Baselines Report, Mon Sep 02 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-02.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-02.html</guid>
-            <pubDate>Sun, 01 Sep 2024 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 02 Sep 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 
@@ -108,7 +108,7 @@
             <title><![CDATA[BCD New Baselines Report, Mon Aug 26 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-26.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-26.html</guid>
-            <pubDate>Sun, 25 Aug 2024 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 26 Aug 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 
@@ -144,7 +144,7 @@
             <title><![CDATA[BCD New Baselines Report, Mon Aug 19 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-19.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-19.html</guid>
-            <pubDate>Sun, 18 Aug 2024 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 19 Aug 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 
@@ -299,7 +299,7 @@
             <title><![CDATA[BCD New Baselines Report, Mon Aug 12 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-12.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-12.html</guid>
-            <pubDate>Sun, 11 Aug 2024 23:00:00 GMT</pubDate>
+            <pubDate>Mon, 12 Aug 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 

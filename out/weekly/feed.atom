@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: Changes Report (weekly)</title>
-    <updated>2024-09-11T16:11:29.415Z</updated>
+    <updated>2024-09-11T17:04:15.718Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -20,15 +20,15 @@
         <id>https://bcd-watch.igalia.com/weekly/weekly/2024-09-09.html</id>
         <link href="https://bcd-watch.igalia.com/weekly/weekly/2024-09-09.html">
         </link>
-        <updated>2024-09-08T23:00:00.000Z</updated>
+        <updated>2024-09-09T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    <em>Summary of BCD changes from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 9 September 2024">Monday, 9 September 2024</time></strong><a href="2024-09-09.html" title="permalink">🔗</a></em>
+    Summary of BCD changes from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 9 September 2024">Monday, 9 September 2024</time></strong><a href="2024-09-09.html" title="permalink">🔗</a>
     </p>
 	  <hr>
 
-    <h2>Browser Support Changes: +4, -0</h2>
+    <h2 class="report-subtitle">Browser Support Changes: +4, -0</h2>
 
         <h3>Support increases (4)</h3>
         <section class="added implementations">
@@ -93,297 +93,304 @@
 
 		<hr>
 
-    <h2>BCD Metadata Changes: 32</h2>
-    <details>
+    <h2 class="report-subtitle">BCD Metadata Changes: 32</h2>
+    <details class="section-background">
       <summary>Show all 32 changes</summary>
+      <div class="outline-container">
       <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
         in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
       </p>
+      </div>
 
         <h3>Backfilled entries (24)</h3>
-      <p class="info">The entries in this section saw support information change since the report on  Tuesday, 27 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Tuesday, 27 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
+      </div>
         <section class="backfilled implementations">
             <h4>API</h4>
-            <ol>
-                <li>
+              <ol>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/altitudeAngle">api ➞ PointerEvent ➞ altitudeAngle</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/altitudeAngle">api ➞ PointerEvent ➞ altitudeAngle</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/azimuthAngle">api ➞ PointerEvent ➞ azimuthAngle</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/azimuthAngle">api ➞ PointerEvent ➞ azimuthAngle</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/getCoalescedEvents">api ➞ PointerEvent ➞ getCoalescedEvents</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/getCoalescedEvents">api ➞ PointerEvent ➞ getCoalescedEvents</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/getPredictedEvents">api ➞ PointerEvent ➞ getPredictedEvents</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/getPredictedEvents">api ➞ PointerEvent ➞ getPredictedEvents</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>api ➞ FileSystemFileHandle ➞ createSyncAccessHandle ➞ mode
-                  </span>
+                  </li>
+                  <li>
+                      <span>api ➞ FileSystemFileHandle ➞ createSyncAccessHandle ➞ mode
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>api ➞ FileSystemFileHandle ➞ createWritable ➞ mode
-                  </span>
+                  </li>
+                  <li>
+                      <span>api ➞ FileSystemFileHandle ➞ createWritable ➞ mode
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>api ➞ Notification ➞ requestPermission_static ➞ returns_promise
-                  </span>
+                  </li>
+                  <li>
+                      <span>api ➞ Notification ➞ requestPermission_static ➞ returns_promise
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
             <h4>CSS</h4>
-            <ol>
-                <li>
+              <ol>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size ➞ jis-b4</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size ➞ jis-b4</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size ➞ jis-b5</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size ➞ jis-b5</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/CSS/ruby-align">css ➞ properties ➞ ruby-align</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/ruby-align">css ➞ properties ➞ ruby-align</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ ruby-align ➞ center
-                    	<a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-align-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ ruby-align ➞ center
+                        <a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-align-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ ruby-align ➞ space-around
-                    	<a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-align-space-around"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ ruby-align ➞ space-around
+                        <a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-align-space-around"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ ruby-align ➞ space-between
-                    	<a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-align-space-between"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ ruby-align ➞ space-between
+                        <a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-align-space-between"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ ruby-align ➞ start
-                    	<a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-align-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ ruby-align ➞ start
+                        <a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-align-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/CSS/scrollbar-width">css ➞ properties ➞ scrollbar-width</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/scrollbar-width">css ➞ properties ➞ scrollbar-width</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ scrollbar-width ➞ auto
-                    	<a href="https://drafts.csswg.org/css-scrollbars/#valdef-scrollbar-width-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ scrollbar-width ➞ auto
+                        <a href="https://drafts.csswg.org/css-scrollbars/#valdef-scrollbar-width-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ scrollbar-width ➞ none
-                    	<a href="https://drafts.csswg.org/css-scrollbars/#valdef-scrollbar-width-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ scrollbar-width ➞ none
+                        <a href="https://drafts.csswg.org/css-scrollbars/#valdef-scrollbar-width-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ scrollbar-width ➞ thin
-                    	<a href="https://drafts.csswg.org/css-scrollbars/#valdef-scrollbar-width-thin"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ scrollbar-width ➞ thin
+                        <a href="https://drafts.csswg.org/css-scrollbars/#valdef-scrollbar-width-thin"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ view-transition-class
-                    	<a href="https://drafts.csswg.org/css-view-transitions-2/#view-transition-class-prop"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ view-transition-class
+                        <a href="https://drafts.csswg.org/css-view-transitions-2/#view-transition-class-prop"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ view-transition-class ➞ none
-                    	<a href="https://drafts.csswg.org/css-view-transitions-2/#valdef-view-transition-class-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ view-transition-class ➞ none
+                        <a href="https://drafts.csswg.org/css-view-transitions-2/#valdef-view-transition-class-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>css ➞ selectors ➞ active-view-transition-type
-                    	<a href="https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-type-pseudo"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+                  </li>
+                  <li>
+                      <span>css ➞ selectors ➞ active-view-transition-type
+                        <a href="https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-type-pseudo"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/CSS/::target-text">css ➞ selectors ➞ target-text</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/::target-text">css ➞ selectors ➞ target-text</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
             <h4>JAVASCRIPT</h4>
-            <ol>
-                <li>
+              <ol>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Modifier">javascript ➞ regular_expressions ➞ modifier</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Modifier">javascript ➞ regular_expressions ➞ modifier</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
             <h4>HTTP</h4>
-            <ol>
-                <li>
+              <ol>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Refresh">http ➞ headers ➞ Refresh</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Refresh">http ➞ headers ➞ Refresh</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
         </section>
       
       <h3>New entries (7)</h3>
-      <p class="info">The entries in this section were not found in BCD on Tuesday, 27 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-      </p>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Tuesday, 27 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
             <h4>API</h4>
           <ol>
               <li>api ➞ FileSystemFileHandle ➞ createSyncAccessHandle ➞ mode
@@ -407,15 +414,21 @@
               <li>webdriver ➞ commands ➞ UpdateVirtualPressureSource
               </li>
           </ol>
+        </section> 
+      
 
       <h3>Removed entries (1)</h3>
-      <p class="info">The entries in this section were found in BCD on Tuesday, 27 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-      </p>
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ IDBFactory ➞ open ➞ options_parameter
-              </li>
-          </ol>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Tuesday, 27 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>API</h4>
+              <ol>
+                  <li>api ➞ IDBFactory ➞ open ➞ options_parameter
+                  </li>
+              </ol>
+          </section>
     </details>
   
   <hr>
@@ -440,7 +453,7 @@
         <id>https://bcd-watch.igalia.com/weekly/weekly/2024-09-02.html</id>
         <link href="https://bcd-watch.igalia.com/weekly/weekly/2024-09-02.html">
         </link>
-        <updated>2024-09-01T23:00:00.000Z</updated>
+        <updated>2024-09-02T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
@@ -733,7 +746,7 @@
         <id>https://bcd-watch.igalia.com/weekly/weekly/2024-08-26.html</id>
         <link href="https://bcd-watch.igalia.com/weekly/weekly/2024-08-26.html">
         </link>
-        <updated>2024-08-25T23:00:00.000Z</updated>
+        <updated>2024-08-26T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
@@ -1804,7 +1817,7 @@
         <id>https://bcd-watch.igalia.com/weekly/weekly/2024-08-19.html</id>
         <link href="https://bcd-watch.igalia.com/weekly/weekly/2024-08-19.html">
         </link>
-        <updated>2024-08-18T23:00:00.000Z</updated>
+        <updated>2024-08-19T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
@@ -2301,7 +2314,7 @@
         <id>https://bcd-watch.igalia.com/weekly/weekly/2024-08-12.html</id>
         <link href="https://bcd-watch.igalia.com/weekly/weekly/2024-08-12.html">
         </link>
-        <updated>2024-08-11T23:00:00.000Z</updated>
+        <updated>2024-08-12T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>

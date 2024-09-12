@@ -14,16 +14,20 @@
 <title>BCD Changes Report, Mon Jan 09 2023</title>
 </head>
 <body>
-
+    <div class="header">
+    <h1 class="logo-style"><a href="https://bcd-watch.igalia.com"><img src="/imgs/binoculars.svg" alt="" />BCD Watch</a></h1>
+    </div>
   <hr>
-  <h1>BCD Changes Report, <time>Mon Jan 09 2023</time></h1>
+  <h2>BCD Changes Report
+  <br/>
+  <time>Mon Jan 09 2023</time></h2>
   <main>
     <p>
-    <em>Summary of BCD changes from <time title="Monday 2 January 2023">Monday 2 January 2023</time> through <time title="Monday 9 January 2023">Monday 9 January 2023</time></strong><a href="2023-01-09.html" title="permalink">🔗</a></em>
+    Summary of BCD changes from <time title="Monday, 2 January 2023">Monday, 2 January 2023</time> through <time title="Monday, 9 January 2023">Monday, 9 January 2023</time></strong><a href="2023-01-09.html" title="permalink">🔗</a>
     </p>
 	  <hr>
 
-    <h2>Browser Support Changes: +1, -0</h2>
+    <h2 class="report-subtitle">Browser Support Changes: +1, -0</h2>
 
         <h3>Support increases (1)</h3>
         <section class="added implementations">
@@ -48,37 +52,44 @@
 
 		<hr>
 
-    <h2>BCD Metadata Changes: 4</h2>
-    <details>
+    <h2 class="report-subtitle">BCD Metadata Changes: 4</h2>
+    <details class="section-background">
       <summary>Show all 4 changes</summary>
+      <div class="outline-container">
       <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
         in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
       </p>
+      </div>
 
         <h3>Backfilled entries (1)</h3>
-      <p class="info">The entries in this section saw support information change since the report on  Saturday 31 December 2022, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Saturday, 31 December 2022, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
+      </div>
         <section class="backfilled implementations">
             <h4>CSS</h4>
-            <ol>
-                <li>
-                    <span>css ➞ types ➞ color ➞ system-color ➞ mark_marktext_buttonborder
-                    	<a href="https://w3c.github.io/csswg-drafts/css-color/#valdef-system-color-mark,https://w3c.github.io/csswg-drafts/css-color/#valdef-system-color-marktext,https://w3c.github.io/csswg-drafts/css-color/#valdef-system-color-buttonborder"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+              <ol>
+                  <li>
+                      <span>css ➞ types ➞ color ➞ system-color ➞ mark_marktext_buttonborder
+                        <a href="https://w3c.github.io/csswg-drafts/css-color/#valdef-system-color-mark,https://w3c.github.io/csswg-drafts/css-color/#valdef-system-color-marktext,https://w3c.github.io/csswg-drafts/css-color/#valdef-system-color-buttonborder"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
         </section>
       
       <h3>New entries (2)</h3>
-      <p class="info">The entries in this section were not found in BCD on Saturday 31 December 2022, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-      </p>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Saturday, 31 December 2022, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
             <h4>API</h4>
           <ol>
               <li>api ➞ FileSystemHandle ➞ remove
@@ -89,15 +100,21 @@
               <li>css ➞ types ➞ color ➞ system-color ➞ mark_marktext_buttonborder
               </li>
           </ol>
+        </section> 
+      
 
       <h3>Removed entries (1)</h3>
-      <p class="info">The entries in this section were found in BCD on Saturday 31 December 2022, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-      </p>
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ DOMMatrixReadOnly ➞ transform
-              </li>
-          </ol>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Saturday, 31 December 2022, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>API</h4>
+              <ol>
+                  <li>api ➞ DOMMatrixReadOnly ➞ transform
+                  </li>
+              </ol>
+          </section>
     </details>
   
   <hr>
@@ -111,7 +128,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.2.24">v5.2.24</a> <small>(Saturday 31 December 2022)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.2.26">v5.2.26</a> <small>(Friday 6 January 2023)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.2.24">v5.2.24</a> <small>(Saturday, 31 December 2022)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.2.26">v5.2.26</a> <small>(Friday, 6 January 2023)</small>
 			</span>
 		</div>
   </footer>

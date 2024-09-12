@@ -14,16 +14,20 @@
 <title>BCD Changes Report, Mon Apr 15 2024</title>
 </head>
 <body>
-
+    <div class="header">
+    <h1 class="logo-style"><a href="https://bcd-watch.igalia.com"><img src="/imgs/binoculars.svg" alt="" />BCD Watch</a></h1>
+    </div>
   <hr>
-  <h1>BCD Changes Report, <time>Mon Apr 15 2024</time></h1>
+  <h2>BCD Changes Report
+  <br/>
+  <time>Mon Apr 15 2024</time></h2>
   <main>
     <p>
-    <em>Summary of BCD changes from <time title="Monday 8 April 2024">Monday 8 April 2024</time> through <time title="Monday 15 April 2024">Monday 15 April 2024</time></strong><a href="2024-04-15.html" title="permalink">🔗</a></em>
+    Summary of BCD changes from <time title="Monday, 8 April 2024">Monday, 8 April 2024</time> through <time title="Monday, 15 April 2024">Monday, 15 April 2024</time></strong><a href="2024-04-15.html" title="permalink">🔗</a>
     </p>
 	  <hr>
 
-    <h2>Browser Support Changes: +40, -0</h2>
+    <h2 class="report-subtitle">Browser Support Changes: +40, -0</h2>
 
         <h3>Support increases (40)</h3>
         <section class="added implementations">
@@ -499,235 +503,242 @@
 
 		<hr>
 
-    <h2>BCD Metadata Changes: 48</h2>
-    <details>
+    <h2 class="report-subtitle">BCD Metadata Changes: 48</h2>
+    <details class="section-background">
       <summary>Show all 48 changes</summary>
+      <div class="outline-container">
       <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
         in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
       </p>
+      </div>
 
         <h3>Backfilled entries (19)</h3>
-      <p class="info">The entries in this section saw support information change since the report on  Wednesday 3 April 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Wednesday, 3 April 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
+      </div>
         <section class="backfilled implementations">
             <h4>API</h4>
-            <ol>
-                <li>
-                    <span>api ➞ RTCRtpReceiver ➞ getContributingSources ➞ audioLevel
-                    	<a href="https://w3c.github.io/webrtc-pc/#dom-rtcrtpcontributingsource-audiolevel"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
+              <ol>
+                  <li>
+                      <span>api ➞ RTCRtpReceiver ➞ getContributingSources ➞ audioLevel
+                        <a href="https://w3c.github.io/webrtc-pc/#dom-rtcrtpcontributingsource-audiolevel"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>api ➞ Headers ➞ iterate_combined_duplicates
-                  </span>
+                  </li>
+                  <li>
+                      <span>api ➞ Headers ➞ iterate_combined_duplicates
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>api ➞ Headers ➞ iterate_lexicographically
-                  </span>
+                  </li>
+                  <li>
+                      <span>api ➞ Headers ➞ iterate_lexicographically
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/frames">api ➞ RTCStatsReport ➞ type_media-source ➞ frames</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/frames">api ➞ RTCStatsReport ➞ type_media-source ➞ frames</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/framesPerSecond">api ➞ RTCStatsReport ➞ type_media-source ➞ framesPerSecond</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/framesPerSecond">api ➞ RTCStatsReport ➞ type_media-source ➞ framesPerSecond</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/height">api ➞ RTCStatsReport ➞ type_media-source ➞ height</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/height">api ➞ RTCStatsReport ➞ type_media-source ➞ height</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/width">api ➞ RTCStatsReport ➞ type_media-source ➞ width</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/width">api ➞ RTCStatsReport ➞ type_media-source ➞ width</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
             <h4>HTML</h4>
-            <ol>
-                <li>
-                    <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-fetch
-                  </span>
+              <ol>
+                  <li>
+                      <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-fetch
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-font
-                  </span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-font
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-image
-                  </span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-image
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-script
-                  </span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-script
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-style
-                  </span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-style
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-track
-                  </span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ link ➞ rel ➞ preload ➞ as-track
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
             <h4>JAVASCRIPT</h4>
-            <ol>
-                <li>
+              <ol>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON">javascript ➞ builtins ➞ JSON ➞ isRawJSON</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON">javascript ➞ builtins ➞ JSON ➞ isRawJSON</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON">javascript ➞ builtins ➞ JSON ➞ rawJSON</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON">javascript ➞ builtins ➞ JSON ➞ rawJSON</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
             <h4>WEBEXTENSIONS</h4>
-            <ol>
-                <li>
+              <ol>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setHeight">webextensions ➞ api ➞ devtools ➞ panels ➞ ExtensionSidebarPane ➞ setHeight</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setHeight">webextensions ➞ api ➞ devtools ➞ panels ➞ ExtensionSidebarPane ➞ setHeight</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setPage">webextensions ➞ api ➞ devtools ➞ panels ➞ ExtensionSidebarPane ➞ setPage</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionSidebarPane/setPage">webextensions ➞ api ➞ devtools ➞ panels ➞ ExtensionSidebarPane ➞ setPage</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
 
-                </li>
-                <li>
-                    <span>webextensions ➞ api ➞ proxy ➞ ProxyInfo ➞ proxyAuthorizationHeader
-                  </span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ proxy ➞ ProxyInfo ➞ proxyAuthorizationHeader
+                    </span>
 
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
-                </li>
-                <li>
+                  </li>
+                  <li>
 
-                    <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/onBoundsChanged">webextensions ➞ api ➞ windows ➞ onBoundsChanged</a>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Backfilled from <strong></strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/onBoundsChanged">webextensions ➞ api ➞ windows ➞ onBoundsChanged</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
-                </li>
-            </ol>
+                  </li>
+              </ol>
         </section>
       
       <h3>New entries (23)</h3>
-      <p class="info">The entries in this section were not found in BCD on Wednesday 3 April 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-      </p>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Wednesday, 3 April 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
             <h4>API</h4>
           <ol>
               <li>api ➞ HTMLTemplateElement ➞ shadowRootClonable
@@ -786,28 +797,34 @@
               <li>webextensions ➞ api ➞ windows ➞ onBoundsChanged
               </li>
           </ol>
+        </section> 
+      
 
       <h3>Removed entries (6)</h3>
-      <p class="info">The entries in this section were found in BCD on Wednesday 3 April 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-      </p>
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ Headers ➞ lexicographical_sorting
-              </li>
-          </ol>
-            <h4>HTML</h4>
-          <ol>
-              <li>html ➞ global_attributes ➞ itemid
-              </li>
-              <li>html ➞ global_attributes ➞ itemprop
-              </li>
-              <li>html ➞ global_attributes ➞ itemref
-              </li>
-              <li>html ➞ global_attributes ➞ itemscope
-              </li>
-              <li>html ➞ global_attributes ➞ itemtype
-              </li>
-          </ol>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Wednesday, 3 April 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>API</h4>
+              <ol>
+                  <li>api ➞ Headers ➞ lexicographical_sorting
+                  </li>
+              </ol>
+                <h4>HTML</h4>
+              <ol>
+                  <li>html ➞ global_attributes ➞ itemid
+                  </li>
+                  <li>html ➞ global_attributes ➞ itemprop
+                  </li>
+                  <li>html ➞ global_attributes ➞ itemref
+                  </li>
+                  <li>html ➞ global_attributes ➞ itemscope
+                  </li>
+                  <li>html ➞ global_attributes ➞ itemtype
+                  </li>
+              </ol>
+          </section>
     </details>
   
   <hr>
@@ -821,7 +838,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.19">v5.5.19</a> <small>(Wednesday 3 April 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.21">v5.5.21</a> <small>(Friday 12 April 2024)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.19">v5.5.19</a> <small>(Wednesday, 3 April 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.21">v5.5.21</a> <small>(Friday, 12 April 2024)</small>
 			</span>
 		</div>
   </footer>

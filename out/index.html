@@ -10,22 +10,13 @@
   <link type="text/css" href="styles.css" rel="stylesheet">
   <style>
   html {
-        background: #F7F8F9;
+        background: #F6FBFF;
   }
   main {
         max-width: 45em;
         margin-inline: auto;
   }
-  h1 {
-  	display: grid;
-  	grid-template-columns: 1fr max-content 1fr;
-  	gap: 0 0.25em;
-	  align-items: center;
-	  padding-block: 0;
-        margin-block-end: 0;
-        font-size: 4em;
-        text-align: center;
-  }
+
 
   h1 img {
         max-height: 2.25em;
@@ -40,7 +31,6 @@
   h1 + p {
   	max-width: 100%;
         margin-block: 0.25em 1em;
-        text-align: center;
         font-size: 1.25em;
         font-style: italic;
   }
@@ -51,6 +41,7 @@
   	}
   }
   @media (max-width: 33em) {
+
   	h1 {
   		font-size: 2em;
   	}
@@ -58,6 +49,7 @@
 	  	font-size: 1.1em;
 	}
   }
+
   @media (max-width: 22em) {
   	h1 { display: block;
   		padding-block: 0.5em;
@@ -69,66 +61,101 @@
 	  	font-size: 1em;
 	}
   }
-  #reports {
-        text-align: center;
+
+  .hero {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 1rem;
   }
-  #reports h2 {
-  	display: grid;
-  	grid-template-columns: 1fr max-content;
-  	align-items: center;
-  	padding-block: 0;
-        border-image-outset: 0;
-        text-align: center;
+
+  .hero #reports {
+      display: flex;
+      flex-direction: column;
   }
+
+  .subtitle {
+    font-size: 1.6rem;
+    text-wrap: balance;
+    font-weight: 700;
+    color: #022759;
+  }
+
+  .report-tile {
+      background-color: #8FC0FF ;
+      color: #022759;
+      display: grid;
+      grid-template-rows: repeat(3, max-content);
+      border-radius: 16px;
+      border: 2px solid #022759;
+      padding: 1rem;
+      margin-bottom: 1rem;
+  }
+
+  h2.report-tile-title {
+    padding: 0;
+    border: 0px;
+    margin-top: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  .report-tile img {
+      max-width: 1.5rem;
+      width: 100%;
+  }
+
   #reports h2 [href] {
         display: block;
         color: inherit;
         text-underline-offset: 0.15em;
   }
   #reports h2 img[alt*="RSS"] {
- 	 display: block;
+ 	display: block;
   	max-height: 2em;
   	margin: -0.2em;
   }
-  #reports, #reports details div {
+
+  #archive, #artchive details div {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 0 2em;
   }
-  #reports details {
+ 
+  #archive details {
         padding-block: 0.5em;
         margin-block: 0 2em;
-        background-image: linear-gradient(#eee,#eee), linear-gradient(transparent 40%,#ddd);
-        background-size: 100% 2em, 100% 1em;
-        background-position: 50% 0%, 50% 100%;
-        background-repeat: no-repeat;
-        background-color: #FFF8;
-        border-radius: 1.25em;
-        border-inline: 1px solid #DDD;
   }
-  #reports details, #reports summary {
+
+  #archive details, #archive summary {
         grid-column: 1/-1;
   }
-  #reports details ul {
+
+  #archive details ul {
         margin: 0;
-        padding: 0;
+        padding: 0 1rem 1rem 1rem;
         list-style: none;
   }
-  #reports details ul:nth-of-type(1) {
+
+  #archive details ul:nth-of-type(1) {
         grid-column: 1;
   }
-  #reports details ul:nth-of-type(2) {
+
+  #archive details ul:nth-of-type(2) {
         grid-column: 2;
   }
-  #reports details ul li {
+
+  #archive details ul li {
         margin-inline: 0;
   }
-  #reports details ul li [href] {
+
+  #archive details ul li [href] {
         display: block;
   }
-  #reports details ul li [href]:hover {
+  #reports details ul li [href]:hover,
+  #archive details ul li [href]:hover {
         background: silver;
   }
+
   main footer  {
   	justify-content: center;
   	font-size: 1.1em;
@@ -139,566 +166,633 @@
   main footer img {
   	vertical-align: -30%;
   }
+
+.home-archive {
+      border-radius: 16px;
+}
+
+details[open] > summary.home-archive {
+      border-radius: 16px 16px 0px 0px;
+}
+
+.archive-list {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      border: 2px solid #022759;
+      background: #fff;
+}
+
+.archive-list h2 {
+    background-color: #E3FFBF;
+    font-size: 1rem;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    padding: 1rem;
+}
+
+.weekly {
+      border-right: 2px solid #022759;
+}
+
+
+  @media (max-width: 33em) {
+
+      .hero {
+            grid-template-rows: repeat(2, min-content);
+            grid-template-columns: 1fr;
+      }
+
+      #archive, #archive details div {
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: 1fr;
+            grid-gap: 1em;
+      }
+
+      .weekly {
+            border-right: none;
+      }
+  }
+
   </style>
   <title>BCD Watch</title>
 </head>
 <body>
   <main>
-    <h1><img src="imgs/binoculars.png"> BCD Watch <img src="imgs/binoculars.png"></h1>
-    <p>Keeping an eye on changes to MDN’s Browser Compatibility Data</p>
-    <div id="reports">
-      <div>
-        <h2><a href="weekly">Full Weekly Report</a> <a href="weekly/feed.rss"><img src="imgs/rss.svg" alt="RSS feed"></a></h2>
-        <p>All the BCD updates that occurred in the last week: features added or removed, and which features gained or lost engine support.</p>
-      </div>
-      <div>
-        <h2><a href="weekly-completed">Baselines Weekly Report</a> <a href="weekly-completed/feed.rss"><img src="imgs/rss.svg" alt="RSS feed"></a></h2>
-        <p>All the BCD entries that moved to “baseline” status in the past week; i.e., are now supported in all three major browser engines.</p>
-      </div>
-      <details>
-        <summary>
-          Archive of past reports, most to least recent
-        </summary>
-        <div>
-          <ul>
-            <li>
-              <a href="weekly/2024-09-09.html">2024-09-09</a>
-            </li>            <li>
-              <a href="weekly/2024-09-02.html">2024-09-02</a>
-            </li>            <li>
-              <a href="weekly/2024-08-26.html">2024-08-26</a>
-            </li>            <li>
-              <a href="weekly/2024-08-19.html">2024-08-19</a>
-            </li>            <li>
-              <a href="weekly/2024-08-12.html">2024-08-12</a>
-            </li>            <li>
-              <a href="weekly/2024-08-05.html">2024-08-05</a>
-            </li>            <li>
-              <a href="weekly/2024-07-29.html">2024-07-29</a>
-            </li>            <li>
-              <a href="weekly/2024-07-22.html">2024-07-22</a>
-            </li>            <li>
-              <a href="weekly/2024-07-15.html">2024-07-15</a>
-            </li>            <li>
-              <a href="weekly/2024-07-08.html">2024-07-08</a>
-            </li>            <li>
-              <a href="weekly/2024-07-01.html">2024-07-01</a>
-            </li>            <li>
-              <a href="weekly/2024-06-24.html">2024-06-24</a>
-            </li>            <li>
-              <a href="weekly/2024-06-17.html">2024-06-17</a>
-            </li>            <li>
-              <a href="weekly/2024-06-10.html">2024-06-10</a>
-            </li>            <li>
-              <a href="weekly/2024-06-03.html">2024-06-03</a>
-            </li>            <li>
-              <a href="weekly/2024-05-20.html">2024-05-20</a>
-            </li>            <li>
-              <a href="weekly/2024-05-13.html">2024-05-13</a>
-            </li>            <li>
-              <a href="weekly/2024-05-06.html">2024-05-06</a>
-            </li>            <li>
-              <a href="weekly/2024-04-29.html">2024-04-29</a>
-            </li>            <li>
-              <a href="weekly/2024-04-22.html">2024-04-22</a>
-            </li>            <li>
-              <a href="weekly/2024-04-15.html">2024-04-15</a>
-            </li>            <li>
-              <a href="weekly/2024-04-08.html">2024-04-08</a>
-            </li>            <li>
-              <a href="weekly/2024-04-01.html">2024-04-01</a>
-            </li>            <li>
-              <a href="weekly/2024-03-18.html">2024-03-18</a>
-            </li>            <li>
-              <a href="weekly/2024-03-11.html">2024-03-11</a>
-            </li>            <li>
-              <a href="weekly/2024-03-04.html">2024-03-04</a>
-            </li>            <li>
-              <a href="weekly/2024-02-26.html">2024-02-26</a>
-            </li>            <li>
-              <a href="weekly/2024-02-12.html">2024-02-12</a>
-            </li>            <li>
-              <a href="weekly/2024-01-29.html">2024-01-29</a>
-            </li>            <li>
-              <a href="weekly/2024-01-22.html">2024-01-22</a>
-            </li>            <li>
-              <a href="weekly/2024-01-15.html">2024-01-15</a>
-            </li>            <li>
-              <a href="weekly/2024-01-08.html">2024-01-08</a>
-            </li>            <li>
-              <a href="weekly/2024-01-01.html">2024-01-01</a>
-            </li>            <li>
-              <a href="weekly/2023-12-25.html">2023-12-25</a>
-            </li>            <li>
-              <a href="weekly/2023-12-18.html">2023-12-18</a>
-            </li>            <li>
-              <a href="weekly/2023-12-11.html">2023-12-11</a>
-            </li>            <li>
-              <a href="weekly/2023-12-04.html">2023-12-04</a>
-            </li>            <li>
-              <a href="weekly/2023-11-27.html">2023-11-27</a>
-            </li>            <li>
-              <a href="weekly/2023-11-20.html">2023-11-20</a>
-            </li>            <li>
-              <a href="weekly/2023-11-13.html">2023-11-13</a>
-            </li>            <li>
-              <a href="weekly/2023-11-06.html">2023-11-06</a>
-            </li>            <li>
-              <a href="weekly/2023-10-30.html">2023-10-30</a>
-            </li>            <li>
-              <a href="weekly/2023-10-23.html">2023-10-23</a>
-            </li>            <li>
-              <a href="weekly/2023-10-16.html">2023-10-16</a>
-            </li>            <li>
-              <a href="weekly/2023-10-09.html">2023-10-09</a>
-            </li>            <li>
-              <a href="weekly/2023-10-02.html">2023-10-02</a>
-            </li>            <li>
-              <a href="weekly/2023-09-25.html">2023-09-25</a>
-            </li>            <li>
-              <a href="weekly/2023-09-18.html">2023-09-18</a>
-            </li>            <li>
-              <a href="weekly/2023-09-11.html">2023-09-11</a>
-            </li>            <li>
-              <a href="weekly/2023-09-04.html">2023-09-04</a>
-            </li>            <li>
-              <a href="weekly/2023-08-28.html">2023-08-28</a>
-            </li>            <li>
-              <a href="weekly/2023-08-21.html">2023-08-21</a>
-            </li>            <li>
-              <a href="weekly/2023-08-07.html">2023-08-07</a>
-            </li>            <li>
-              <a href="weekly/2023-07-31.html">2023-07-31</a>
-            </li>            <li>
-              <a href="weekly/2023-07-24.html">2023-07-24</a>
-            </li>            <li>
-              <a href="weekly/2023-07-17.html">2023-07-17</a>
-            </li>            <li>
-              <a href="weekly/2023-07-10.html">2023-07-10</a>
-            </li>            <li>
-              <a href="weekly/2023-07-03.html">2023-07-03</a>
-            </li>            <li>
-              <a href="weekly/2023-06-26.html">2023-06-26</a>
-            </li>            <li>
-              <a href="weekly/2023-06-19.html">2023-06-19</a>
-            </li>            <li>
-              <a href="weekly/2023-06-12.html">2023-06-12</a>
-            </li>            <li>
-              <a href="weekly/2023-06-05.html">2023-06-05</a>
-            </li>            <li>
-              <a href="weekly/2023-05-22.html">2023-05-22</a>
-            </li>            <li>
-              <a href="weekly/2023-05-15.html">2023-05-15</a>
-            </li>            <li>
-              <a href="weekly/2023-05-08.html">2023-05-08</a>
-            </li>            <li>
-              <a href="weekly/2023-05-01.html">2023-05-01</a>
-            </li>            <li>
-              <a href="weekly/2023-04-24.html">2023-04-24</a>
-            </li>            <li>
-              <a href="weekly/2023-04-17.html">2023-04-17</a>
-            </li>            <li>
-              <a href="weekly/2023-04-10.html">2023-04-10</a>
-            </li>            <li>
-              <a href="weekly/2023-04-03.html">2023-04-03</a>
-            </li>            <li>
-              <a href="weekly/2023-03-27.html">2023-03-27</a>
-            </li>            <li>
-              <a href="weekly/2023-03-20.html">2023-03-20</a>
-            </li>            <li>
-              <a href="weekly/2023-03-13.html">2023-03-13</a>
-            </li>            <li>
-              <a href="weekly/2023-03-06.html">2023-03-06</a>
-            </li>            <li>
-              <a href="weekly/2023-02-27.html">2023-02-27</a>
-            </li>            <li>
-              <a href="weekly/2023-02-20.html">2023-02-20</a>
-            </li>            <li>
-              <a href="weekly/2023-02-13.html">2023-02-13</a>
-            </li>            <li>
-              <a href="weekly/2023-02-06.html">2023-02-06</a>
-            </li>            <li>
-              <a href="weekly/2023-01-30.html">2023-01-30</a>
-            </li>            <li>
-              <a href="weekly/2023-01-23.html">2023-01-23</a>
-            </li>            <li>
-              <a href="weekly/2023-01-16.html">2023-01-16</a>
-            </li>            <li>
-              <a href="weekly/2023-01-09.html">2023-01-09</a>
-            </li>            <li>
-              <a href="weekly/2023-01-02.html">2023-01-02</a>
-            </li>            <li>
-              <a href="weekly/2022-12-26.html">2022-12-26</a>
-            </li>            <li>
-              <a href="weekly/2022-12-19.html">2022-12-19</a>
-            </li>            <li>
-              <a href="weekly/2022-12-12.html">2022-12-12</a>
-            </li>            <li>
-              <a href="weekly/2022-12-05.html">2022-12-05</a>
-            </li>            <li>
-              <a href="weekly/2022-11-28.html">2022-11-28</a>
-            </li>            <li>
-              <a href="weekly/2022-11-21.html">2022-11-21</a>
-            </li>            <li>
-              <a href="weekly/2022-11-14.html">2022-11-14</a>
-            </li>            <li>
-              <a href="weekly/2022-11-07.html">2022-11-07</a>
-            </li>            <li>
-              <a href="weekly/2022-10-31.html">2022-10-31</a>
-            </li>            <li>
-              <a href="weekly/2022-10-24.html">2022-10-24</a>
-            </li>            <li>
-              <a href="weekly/2022-10-17.html">2022-10-17</a>
-            </li>            <li>
-              <a href="weekly/2022-10-10.html">2022-10-10</a>
-            </li>            <li>
-              <a href="weekly/2022-10-03.html">2022-10-03</a>
-            </li>            <li>
-              <a href="weekly/2022-09-26.html">2022-09-26</a>
-            </li>            <li>
-              <a href="weekly/2022-09-19.html">2022-09-19</a>
-            </li>            <li>
-              <a href="weekly/2022-09-12.html">2022-09-12</a>
-            </li>            <li>
-              <a href="weekly/2022-09-05.html">2022-09-05</a>
-            </li>            <li>
-              <a href="weekly/2022-08-29.html">2022-08-29</a>
-            </li>            <li>
-              <a href="weekly/2022-08-22.html">2022-08-22</a>
-            </li>            <li>
-              <a href="weekly/2022-08-15.html">2022-08-15</a>
-            </li>            <li>
-              <a href="weekly/2022-08-08.html">2022-08-08</a>
-            </li>            <li>
-              <a href="weekly/2022-08-01.html">2022-08-01</a>
-            </li>            <li>
-              <a href="weekly/2022-07-25.html">2022-07-25</a>
-            </li>            <li>
-              <a href="weekly/2022-07-18.html">2022-07-18</a>
-            </li>            <li>
-              <a href="weekly/2022-07-04.html">2022-07-04</a>
-            </li>            <li>
-              <a href="weekly/2022-06-27.html">2022-06-27</a>
-            </li>            <li>
-              <a href="weekly/2022-06-20.html">2022-06-20</a>
-            </li>            <li>
-              <a href="weekly/2022-06-13.html">2022-06-13</a>
-            </li>            <li>
-              <a href="weekly/2022-06-06.html">2022-06-06</a>
-            </li>            <li>
-              <a href="weekly/2022-05-23.html">2022-05-23</a>
-            </li>            <li>
-              <a href="weekly/2022-05-16.html">2022-05-16</a>
-            </li>            <li>
-              <a href="weekly/2022-05-09.html">2022-05-09</a>
-            </li>            <li>
-              <a href="weekly/2022-05-02.html">2022-05-02</a>
-            </li>            <li>
-              <a href="weekly/2022-04-25.html">2022-04-25</a>
-            </li>            <li>
-              <a href="weekly/2022-04-18.html">2022-04-18</a>
-            </li>            <li>
-              <a href="weekly/2022-04-11.html">2022-04-11</a>
-            </li>            <li>
-              <a href="weekly/2022-04-04.html">2022-04-04</a>
-            </li>            <li>
-              <a href="weekly/2022-03-28.html">2022-03-28</a>
-            </li>            <li>
-              <a href="weekly/2022-03-21.html">2022-03-21</a>
-            </li>            <li>
-              <a href="weekly/2022-03-14.html">2022-03-14</a>
-            </li>            <li>
-              <a href="weekly/2022-03-07.html">2022-03-07</a>
-            </li>            <li>
-              <a href="weekly/2022-02-28.html">2022-02-28</a>
-            </li>            <li>
-              <a href="weekly/2022-02-21.html">2022-02-21</a>
-            </li>            <li>
-              <a href="weekly/2022-02-14.html">2022-02-14</a>
-            </li>            <li>
-              <a href="weekly/2022-02-07.html">2022-02-07</a>
-            </li>            <li>
-              <a href="weekly/2022-01-31.html">2022-01-31</a>
-            </li>            <li>
-              <a href="weekly/2022-01-24.html">2022-01-24</a>
-            </li>            <li>
-              <a href="weekly/2022-01-17.html">2022-01-17</a>
-            </li>            <li>
-              <a href="weekly/2021-12-20.html">2021-12-20</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a href="weekly-completed/2024-09-09.html">2024-09-09</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-09-02.html">2024-09-02</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-08-26.html">2024-08-26</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-08-19.html">2024-08-19</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-08-12.html">2024-08-12</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-08-05.html">2024-08-05</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-07-29.html">2024-07-29</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-07-22.html">2024-07-22</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-07-15.html">2024-07-15</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-07-08.html">2024-07-08</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-07-01.html">2024-07-01</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-06-24.html">2024-06-24</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-06-17.html">2024-06-17</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-06-10.html">2024-06-10</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-06-03.html">2024-06-03</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-05-20.html">2024-05-20</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-05-13.html">2024-05-13</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-05-06.html">2024-05-06</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-04-29.html">2024-04-29</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-04-22.html">2024-04-22</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-04-15.html">2024-04-15</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-04-08.html">2024-04-08</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-04-01.html">2024-04-01</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-03-18.html">2024-03-18</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-03-11.html">2024-03-11</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-03-04.html">2024-03-04</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-02-26.html">2024-02-26</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-02-12.html">2024-02-12</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-01-29.html">2024-01-29</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-01-22.html">2024-01-22</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-01-15.html">2024-01-15</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-01-08.html">2024-01-08</a>
-            </li>            <li>
-              <a href="weekly-completed/2024-01-01.html">2024-01-01</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-12-25.html">2023-12-25</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-12-18.html">2023-12-18</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-12-11.html">2023-12-11</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-12-04.html">2023-12-04</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-11-27.html">2023-11-27</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-11-20.html">2023-11-20</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-11-13.html">2023-11-13</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-11-06.html">2023-11-06</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-10-30.html">2023-10-30</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-10-23.html">2023-10-23</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-10-16.html">2023-10-16</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-10-09.html">2023-10-09</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-10-02.html">2023-10-02</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-09-25.html">2023-09-25</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-09-18.html">2023-09-18</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-09-11.html">2023-09-11</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-09-04.html">2023-09-04</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-08-28.html">2023-08-28</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-08-21.html">2023-08-21</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-08-07.html">2023-08-07</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-07-31.html">2023-07-31</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-07-24.html">2023-07-24</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-07-17.html">2023-07-17</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-07-10.html">2023-07-10</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-07-03.html">2023-07-03</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-06-26.html">2023-06-26</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-06-19.html">2023-06-19</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-06-12.html">2023-06-12</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-06-05.html">2023-06-05</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-05-22.html">2023-05-22</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-05-15.html">2023-05-15</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-05-08.html">2023-05-08</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-05-01.html">2023-05-01</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-04-24.html">2023-04-24</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-04-17.html">2023-04-17</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-04-10.html">2023-04-10</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-04-03.html">2023-04-03</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-03-27.html">2023-03-27</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-03-20.html">2023-03-20</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-03-13.html">2023-03-13</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-03-06.html">2023-03-06</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-02-27.html">2023-02-27</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-02-20.html">2023-02-20</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-02-13.html">2023-02-13</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-02-06.html">2023-02-06</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-01-30.html">2023-01-30</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-01-23.html">2023-01-23</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-01-16.html">2023-01-16</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-01-09.html">2023-01-09</a>
-            </li>            <li>
-              <a href="weekly-completed/2023-01-02.html">2023-01-02</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-12-26.html">2022-12-26</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-12-19.html">2022-12-19</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-12-12.html">2022-12-12</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-12-05.html">2022-12-05</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-11-28.html">2022-11-28</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-11-21.html">2022-11-21</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-11-14.html">2022-11-14</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-11-07.html">2022-11-07</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-10-31.html">2022-10-31</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-10-24.html">2022-10-24</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-10-17.html">2022-10-17</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-10-10.html">2022-10-10</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-10-03.html">2022-10-03</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-09-26.html">2022-09-26</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-09-19.html">2022-09-19</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-09-12.html">2022-09-12</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-09-05.html">2022-09-05</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-08-29.html">2022-08-29</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-08-22.html">2022-08-22</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-08-15.html">2022-08-15</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-08-08.html">2022-08-08</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-08-01.html">2022-08-01</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-07-25.html">2022-07-25</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-07-18.html">2022-07-18</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-07-04.html">2022-07-04</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-06-27.html">2022-06-27</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-06-20.html">2022-06-20</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-06-13.html">2022-06-13</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-06-06.html">2022-06-06</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-05-23.html">2022-05-23</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-05-16.html">2022-05-16</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-05-09.html">2022-05-09</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-05-02.html">2022-05-02</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-04-25.html">2022-04-25</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-04-18.html">2022-04-18</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-04-11.html">2022-04-11</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-04-04.html">2022-04-04</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-03-28.html">2022-03-28</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-03-21.html">2022-03-21</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-03-14.html">2022-03-14</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-03-07.html">2022-03-07</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-02-28.html">2022-02-28</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-02-21.html">2022-02-21</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-02-14.html">2022-02-14</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-02-07.html">2022-02-07</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-01-31.html">2022-01-31</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-01-24.html">2022-01-24</a>
-            </li>            <li>
-              <a href="weekly-completed/2022-01-17.html">2022-01-17</a>
-            </li>            <li>
-              <a href="weekly-completed/2021-12-20.html">2021-12-20</a>
-            </li>
-          </ul>
-        </div>
-      </details>
+    <div class="header">
+    <h1 class="logo-style"><a href="https://bcd-watch.igalia.com"><img src="imgs/binoculars.svg" alt="" />BCD Watch</a></h1>
     </div>
-    <p>This site automatically collects, indexes, and makes available for viewing (and as subscribe-able feeds), information about updates to <a href="https://github.com/mdn/browser-compat-data">Browser Compatibility Data (BCD)</a>. Currently there are two different views (and feeds) on this data, which are compiled each Tuesday (US/Eastern time).</p>
-    <p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became "new baseline" last week</a> (marked as available in all 3 engines).</p>
+    <div class="hero">
+        <div class="hero-text">
+            <p class="subtitle">Keeping an eye on changes to MDN’s Browser Compatibility Data</p>
+            <p>This site automatically collects, indexes, and makes available for viewing (and as subscribe-able feeds), information about updates to <a href="https://github.com/mdn/browser-compat-data">Browser Compatibility Data (BCD)</a>. Currently there are two different views (and feeds) on this data, which are compiled each Tuesday (US/Eastern time).</p>
+            <p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became "new baseline" last week</a> (marked as available in all 3 engines).</p>
+        </div>
+        <div id="reports">
+            <div class="report-tile">
+              <h2 class="report-tile-title"><a href="weekly">Full Weekly Report</a></h2> 
+              <p>All the BCD updates that occurred in the last week: features added or removed, and which features gained or lost engine support.</p>
+              <a href="weekly/feed.rss"><img src="imgs/rss-flat.svg" alt="RSS feed"></a>
+              
+            </div>
+            <div class="report-tile">
+              <h2 class="report-tile-title"><a href="weekly-completed">Baselines Weekly Report</a></h2>
+              <p>All the BCD entries that moved to “baseline” status in the past week; i.e., are now supported in all three major browser engines.</p>
+               <a href="weekly-completed/feed.rss"><img src="imgs/rss-flat.svg" alt="RSS feed"></a>
+            </div>
+        </div>
+      </div>
+      <div id="archive">
+            <details>
+            <summary class="home-archive">
+            Archive of past reports, most to least recent
+            </summary>
+            <div class="archive-list">
+              <div class="weekly">
+                <h2>Full Weekly Report</h2>
+                  <ul>
+                  <li>
+                  <a href="weekly/2024-09-09.html">2024-09-09</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-09-02.html">2024-09-02</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-08-26.html">2024-08-26</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-08-19.html">2024-08-19</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-08-12.html">2024-08-12</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-08-05.html">2024-08-05</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-07-29.html">2024-07-29</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-07-22.html">2024-07-22</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-07-15.html">2024-07-15</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-07-08.html">2024-07-08</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-07-01.html">2024-07-01</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-06-24.html">2024-06-24</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-06-17.html">2024-06-17</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-06-10.html">2024-06-10</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-06-03.html">2024-06-03</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-05-20.html">2024-05-20</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-05-13.html">2024-05-13</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-05-06.html">2024-05-06</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-04-29.html">2024-04-29</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-04-22.html">2024-04-22</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-04-15.html">2024-04-15</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-04-08.html">2024-04-08</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-04-01.html">2024-04-01</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-03-18.html">2024-03-18</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-03-11.html">2024-03-11</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-03-04.html">2024-03-04</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-02-26.html">2024-02-26</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-02-12.html">2024-02-12</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-01-29.html">2024-01-29</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-01-22.html">2024-01-22</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-01-15.html">2024-01-15</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-01-08.html">2024-01-08</a>
+                  </li>                  <li>
+                  <a href="weekly/2024-01-01.html">2024-01-01</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-12-25.html">2023-12-25</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-12-18.html">2023-12-18</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-12-11.html">2023-12-11</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-12-04.html">2023-12-04</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-11-27.html">2023-11-27</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-11-20.html">2023-11-20</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-11-13.html">2023-11-13</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-11-06.html">2023-11-06</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-10-30.html">2023-10-30</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-10-23.html">2023-10-23</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-10-16.html">2023-10-16</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-10-09.html">2023-10-09</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-10-02.html">2023-10-02</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-09-25.html">2023-09-25</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-09-18.html">2023-09-18</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-09-11.html">2023-09-11</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-09-04.html">2023-09-04</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-08-28.html">2023-08-28</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-08-21.html">2023-08-21</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-08-07.html">2023-08-07</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-07-31.html">2023-07-31</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-07-24.html">2023-07-24</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-07-17.html">2023-07-17</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-07-10.html">2023-07-10</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-07-03.html">2023-07-03</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-06-26.html">2023-06-26</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-06-19.html">2023-06-19</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-06-12.html">2023-06-12</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-06-05.html">2023-06-05</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-05-22.html">2023-05-22</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-05-15.html">2023-05-15</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-05-08.html">2023-05-08</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-05-01.html">2023-05-01</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-04-24.html">2023-04-24</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-04-17.html">2023-04-17</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-04-10.html">2023-04-10</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-04-03.html">2023-04-03</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-03-27.html">2023-03-27</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-03-20.html">2023-03-20</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-03-13.html">2023-03-13</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-03-06.html">2023-03-06</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-02-27.html">2023-02-27</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-02-20.html">2023-02-20</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-02-13.html">2023-02-13</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-02-06.html">2023-02-06</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-01-30.html">2023-01-30</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-01-23.html">2023-01-23</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-01-16.html">2023-01-16</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-01-09.html">2023-01-09</a>
+                  </li>                  <li>
+                  <a href="weekly/2023-01-02.html">2023-01-02</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-12-26.html">2022-12-26</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-12-19.html">2022-12-19</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-12-12.html">2022-12-12</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-12-05.html">2022-12-05</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-11-28.html">2022-11-28</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-11-21.html">2022-11-21</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-11-14.html">2022-11-14</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-11-07.html">2022-11-07</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-10-31.html">2022-10-31</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-10-24.html">2022-10-24</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-10-17.html">2022-10-17</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-10-10.html">2022-10-10</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-10-03.html">2022-10-03</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-09-26.html">2022-09-26</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-09-19.html">2022-09-19</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-09-12.html">2022-09-12</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-09-05.html">2022-09-05</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-08-29.html">2022-08-29</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-08-22.html">2022-08-22</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-08-15.html">2022-08-15</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-08-08.html">2022-08-08</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-08-01.html">2022-08-01</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-07-25.html">2022-07-25</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-07-18.html">2022-07-18</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-07-04.html">2022-07-04</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-06-27.html">2022-06-27</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-06-20.html">2022-06-20</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-06-13.html">2022-06-13</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-06-06.html">2022-06-06</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-05-23.html">2022-05-23</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-05-16.html">2022-05-16</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-05-09.html">2022-05-09</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-05-02.html">2022-05-02</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-04-25.html">2022-04-25</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-04-18.html">2022-04-18</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-04-11.html">2022-04-11</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-04-04.html">2022-04-04</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-03-28.html">2022-03-28</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-03-21.html">2022-03-21</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-03-14.html">2022-03-14</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-03-07.html">2022-03-07</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-02-28.html">2022-02-28</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-02-21.html">2022-02-21</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-02-14.html">2022-02-14</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-02-07.html">2022-02-07</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-01-31.html">2022-01-31</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-01-24.html">2022-01-24</a>
+                  </li>                  <li>
+                  <a href="weekly/2022-01-17.html">2022-01-17</a>
+                  </li>                  <li>
+                  <a href="weekly/2021-12-20.html">2021-12-20</a>
+                  </li>
+                  </ul>
+              </div>
+              <div class="baselines-weekly">
+                <h2>Baselines Weekly Report</h2>
+                <ul>
+                  <li>
+                  <a href="weekly-completed/2024-09-09.html">2024-09-09</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-09-02.html">2024-09-02</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-08-26.html">2024-08-26</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-08-19.html">2024-08-19</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-08-12.html">2024-08-12</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-08-05.html">2024-08-05</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-07-29.html">2024-07-29</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-07-22.html">2024-07-22</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-07-15.html">2024-07-15</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-07-08.html">2024-07-08</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-07-01.html">2024-07-01</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-06-24.html">2024-06-24</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-06-17.html">2024-06-17</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-06-10.html">2024-06-10</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-06-03.html">2024-06-03</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-05-20.html">2024-05-20</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-05-13.html">2024-05-13</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-05-06.html">2024-05-06</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-04-29.html">2024-04-29</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-04-22.html">2024-04-22</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-04-15.html">2024-04-15</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-04-08.html">2024-04-08</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-04-01.html">2024-04-01</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-03-18.html">2024-03-18</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-03-11.html">2024-03-11</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-03-04.html">2024-03-04</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-02-26.html">2024-02-26</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-02-12.html">2024-02-12</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-01-29.html">2024-01-29</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-01-22.html">2024-01-22</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-01-15.html">2024-01-15</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-01-08.html">2024-01-08</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2024-01-01.html">2024-01-01</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-12-25.html">2023-12-25</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-12-18.html">2023-12-18</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-12-11.html">2023-12-11</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-12-04.html">2023-12-04</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-11-27.html">2023-11-27</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-11-20.html">2023-11-20</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-11-13.html">2023-11-13</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-11-06.html">2023-11-06</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-10-30.html">2023-10-30</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-10-23.html">2023-10-23</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-10-16.html">2023-10-16</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-10-09.html">2023-10-09</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-10-02.html">2023-10-02</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-09-25.html">2023-09-25</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-09-18.html">2023-09-18</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-09-11.html">2023-09-11</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-09-04.html">2023-09-04</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-08-28.html">2023-08-28</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-08-21.html">2023-08-21</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-08-07.html">2023-08-07</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-07-31.html">2023-07-31</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-07-24.html">2023-07-24</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-07-17.html">2023-07-17</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-07-10.html">2023-07-10</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-07-03.html">2023-07-03</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-06-26.html">2023-06-26</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-06-19.html">2023-06-19</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-06-12.html">2023-06-12</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-06-05.html">2023-06-05</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-05-22.html">2023-05-22</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-05-15.html">2023-05-15</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-05-08.html">2023-05-08</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-05-01.html">2023-05-01</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-04-24.html">2023-04-24</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-04-17.html">2023-04-17</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-04-10.html">2023-04-10</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-04-03.html">2023-04-03</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-03-27.html">2023-03-27</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-03-20.html">2023-03-20</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-03-13.html">2023-03-13</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-03-06.html">2023-03-06</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-02-27.html">2023-02-27</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-02-20.html">2023-02-20</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-02-13.html">2023-02-13</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-02-06.html">2023-02-06</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-01-30.html">2023-01-30</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-01-23.html">2023-01-23</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-01-16.html">2023-01-16</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-01-09.html">2023-01-09</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2023-01-02.html">2023-01-02</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-12-26.html">2022-12-26</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-12-19.html">2022-12-19</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-12-12.html">2022-12-12</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-12-05.html">2022-12-05</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-11-28.html">2022-11-28</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-11-21.html">2022-11-21</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-11-14.html">2022-11-14</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-11-07.html">2022-11-07</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-10-31.html">2022-10-31</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-10-24.html">2022-10-24</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-10-17.html">2022-10-17</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-10-10.html">2022-10-10</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-10-03.html">2022-10-03</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-09-26.html">2022-09-26</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-09-19.html">2022-09-19</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-09-12.html">2022-09-12</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-09-05.html">2022-09-05</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-08-29.html">2022-08-29</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-08-22.html">2022-08-22</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-08-15.html">2022-08-15</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-08-08.html">2022-08-08</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-08-01.html">2022-08-01</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-07-25.html">2022-07-25</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-07-18.html">2022-07-18</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-07-04.html">2022-07-04</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-06-27.html">2022-06-27</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-06-20.html">2022-06-20</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-06-13.html">2022-06-13</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-06-06.html">2022-06-06</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-05-23.html">2022-05-23</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-05-16.html">2022-05-16</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-05-09.html">2022-05-09</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-05-02.html">2022-05-02</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-04-25.html">2022-04-25</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-04-18.html">2022-04-18</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-04-11.html">2022-04-11</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-04-04.html">2022-04-04</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-03-28.html">2022-03-28</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-03-21.html">2022-03-21</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-03-14.html">2022-03-14</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-03-07.html">2022-03-07</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-02-28.html">2022-02-28</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-02-21.html">2022-02-21</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-02-14.html">2022-02-14</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-02-07.html">2022-02-07</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-01-31.html">2022-01-31</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-01-24.html">2022-01-24</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2022-01-17.html">2022-01-17</a>
+                  </li>                  <li>
+                  <a href="weekly-completed/2021-12-20.html">2021-12-20</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </details>
+      </div>
+    </div>
+    
     <footer>
     <p>Brought to you by <a href="https://igalia.com"><img src="imgs/igalia-logo.png" alt="Igalia"></a></p>
     </footer>

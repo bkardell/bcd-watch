@@ -14,9 +14,13 @@
 <title>BCD New Baselines Report, {{reportDate}}</title>
 </head>
 <body>
-
+    <div class="header">
+    <h1 class="logo-style"><a href="https://bcd-watch.igalia.com"><img src="/imgs/binoculars.svg" alt="" />BCD Watch</a></h1>
+    </div>
     <hr>
-    <h1>BCD New Baselines Report <time>{{reportDate}}</time></h1>
+    <h2>BCD New Baselines Report
+    <br>
+    <time>{{reportDate}}</time></h2>
     <main>
     {{#unless hasNewData}}
     <p>
@@ -26,7 +30,7 @@
     {{#if hasNewData}}
 
         <p>
-        <em>Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time></em> <a href="{{permalink}}" title="permalink">🔗</a>
+        Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time> <a href="{{permalink}}" title="permalink">🔗</a>
         </p>
 
 		    <hr>

@@ -103,7 +103,6 @@ h4 {
 }
 
 h4:first-child {
-	padding-top: 0;
     margin-top: 0;
 }
 

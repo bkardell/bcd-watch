@@ -22,21 +22,16 @@
   <br/>
   <time>{{reportDate}}</time></h2>
   <main>
-  {{#unless hasNewData}}
 	<p>
 	Summary of BCD changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time></strong><a href="{{permalink}}" title="permalink">🔗</a>
 	</p>
 	<hr>
-	<p>
+  {{#unless hasNewData}}
+	<p class="callout">
     <strong>There were no new BCD releases in this timeframe.</strong>
   </p>
   {{/unless}}
   {{#if hasNewData}}
-    <p>
-    Summary of BCD changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time></strong><a href="{{permalink}}" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
     <h2 class="report-subtitle">Browser Support Changes: +{{addedImplmentationsCt}}, -{{removedImplementationsCt}}</h2>
 
       {{#if addedImplmentationsCt}}

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2024-09-16T20:31:02.718Z</updated>
+    <updated>2024-09-16T20:33:58.817Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -97,7 +97,7 @@
 	  <hr>
 
 
-          <p><strong>1 new Baseline implementation</strong></p>
+          <p class="callout"><strong>1 new Baseline implementation</strong></p>
           <section class="added implementations">
 	            <h4>API</h4>
               <ol>
@@ -183,7 +183,7 @@
 	  <hr>
 
 
-          <p><strong>8 new Baseline implementations</strong></p>
+          <p class="callout"><strong>8 new Baseline implementations</strong></p>
           <section class="added implementations">
 	            <h4>API</h4>
               <ol>

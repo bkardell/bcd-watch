@@ -40,7 +40,7 @@
         {{/unless}}
 
         {{#if completedCt}}
-          <p><strong>{{completedCt}} new Baseline {{pluralize completedCt 'implementation'}}</strong></p>
+          <p class="callout"><strong>{{completedCt}} new Baseline {{pluralize completedCt 'implementation'}}</strong></p>
           <section class="added implementations">
             {{#each completedImplementations}}
 	            <h4>{{uppercase @key}}</h4>

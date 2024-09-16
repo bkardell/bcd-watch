@@ -26,6 +26,11 @@ mondays.forEach(monday => {
 		`monday: ${monday}
 		 toDay: ${toDay}`)
 	if (prevLastDate == list[lastRelevantIndex]) {
+		index(
+   		utils.jsonForDate(toDay), 
+   		utils.jsonForDate(toDay), 
+   		utils.toISODateString(monday)
+   	)
 		console.log(`\n\n${monday.toDateString()} => nothing new to report`)
 	} else {
 		

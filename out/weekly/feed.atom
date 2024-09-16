@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: Changes Report (weekly)</title>
-    <updated>2024-09-16T20:33:58.815Z</updated>
+    <updated>2024-09-16T20:35:55.140Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>

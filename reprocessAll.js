@@ -20,17 +20,22 @@ let used = [start]
 
 mondays.forEach(monday => {
 	lastRelevantIndex = list.findIndex(date => date > monday) - 1
+	let toDay = list[lastRelevantIndex] || list[list.length-1]
 
+	console.log(
+		`monday: ${monday}
+		 toDay: ${toDay}`)
 	if (prevLastDate == list[lastRelevantIndex]) {
 		console.log(`\n\n${monday.toDateString()} => nothing new to report`)
 	} else {
+		
    	console.log(`\n\n${monday.toDateString()} =>
       from: ${start}
-   	  lastDate: ${list[lastRelevantIndex]}`)
+   	  lastDate: ${toDay}`)
 
    	index(
    		utils.jsonForDate(start), 
-   		utils.jsonForDate(list[lastRelevantIndex]), 
+   		utils.jsonForDate(toDay), 
    		utils.toISODateString(monday)
    	)
    	used.push(list[lastRelevantIndex])

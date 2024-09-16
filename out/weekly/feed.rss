@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 16 Sep 2024 17:18:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Sep 2024 20:35:55 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -25,7 +25,7 @@
 	Summary of BCD changes from <time title="Monday 9 September 2024">Monday 9 September 2024</time> through <time title="Monday 16 September 2024">Monday 16 September 2024</time></strong><a href="2024-09-16.html" title="permalink">🔗</a>
 	</p>
 	<hr>
-	<p>
+	<p class="callout">
     <strong>There were no new BCD releases in this timeframe.</strong>
   </p>
   
@@ -55,11 +55,10 @@
             <pubDate>Mon, 09 Sep 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
-    <p>
-    Summary of BCD changes from <time title="Monday 2 September 2024">Monday 2 September 2024</time> through <time title="Monday 9 September 2024">Monday 9 September 2024</time></strong><a href="2024-09-09.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
+	<p>
+	Summary of BCD changes from <time title="Monday 2 September 2024">Monday 2 September 2024</time> through <time title="Monday 9 September 2024">Monday 9 September 2024</time></strong><a href="2024-09-09.html" title="permalink">🔗</a>
+	</p>
+	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +4, -0</h2>
 
         <h3>Support increases (4)</h3>
@@ -489,11 +488,10 @@
             <pubDate>Mon, 02 Sep 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
-    <p>
-    Summary of BCD changes from <time title="Monday 26 August 2024">Monday 26 August 2024</time> through <time title="Monday 2 September 2024">Monday 2 September 2024</time></strong><a href="2024-09-02.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
+	<p>
+	Summary of BCD changes from <time title="Monday 26 August 2024">Monday 26 August 2024</time> through <time title="Monday 2 September 2024">Monday 2 September 2024</time></strong><a href="2024-09-02.html" title="permalink">🔗</a>
+	</p>
+	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +14, -0</h2>
 
         <h3>Support increases (14)</h3>
@@ -783,11 +781,10 @@
             <pubDate>Mon, 26 Aug 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
-    <p>
-    Summary of BCD changes from <time title="Monday 19 August 2024">Monday 19 August 2024</time> through <time title="Monday 26 August 2024">Monday 26 August 2024</time></strong><a href="2024-08-26.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
+	<p>
+	Summary of BCD changes from <time title="Monday 19 August 2024">Monday 19 August 2024</time> through <time title="Monday 26 August 2024">Monday 26 August 2024</time></strong><a href="2024-08-26.html" title="permalink">🔗</a>
+	</p>
+	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +1, -0</h2>
 
         <h3>Support increases (1)</h3>
@@ -1855,11 +1852,10 @@
             <pubDate>Mon, 19 Aug 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
-    <p>
-    Summary of BCD changes from <time title="Monday 12 August 2024">Monday 12 August 2024</time> through <time title="Monday 19 August 2024">Monday 19 August 2024</time></strong><a href="2024-08-19.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
+	<p>
+	Summary of BCD changes from <time title="Monday 12 August 2024">Monday 12 August 2024</time> through <time title="Monday 19 August 2024">Monday 19 August 2024</time></strong><a href="2024-08-19.html" title="permalink">🔗</a>
+	</p>
+	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +10, -0</h2>
 
         <h3>Support increases (10)</h3>

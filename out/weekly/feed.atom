@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: Changes Report (weekly)</title>
-    <updated>2024-09-16T17:18:17.764Z</updated>
+    <updated>2024-09-16T20:35:55.140Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -27,7 +27,7 @@
 	Summary of BCD changes from <time title="Monday 9 September 2024">Monday 9 September 2024</time> through <time title="Monday 16 September 2024">Monday 16 September 2024</time></strong><a href="2024-09-16.html" title="permalink">🔗</a>
 	</p>
 	<hr>
-	<p>
+	<p class="callout">
     <strong>There were no new BCD releases in this timeframe.</strong>
   </p>
   
@@ -56,11 +56,10 @@
         <updated>2024-09-09T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
-    <p>
-    Summary of BCD changes from <time title="Monday 2 September 2024">Monday 2 September 2024</time> through <time title="Monday 9 September 2024">Monday 9 September 2024</time></strong><a href="2024-09-09.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
+	<p>
+	Summary of BCD changes from <time title="Monday 2 September 2024">Monday 2 September 2024</time> through <time title="Monday 9 September 2024">Monday 9 September 2024</time></strong><a href="2024-09-09.html" title="permalink">🔗</a>
+	</p>
+	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +4, -0</h2>
 
         <h3>Support increases (4)</h3>
@@ -489,11 +488,10 @@
         <updated>2024-09-02T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
-    <p>
-    Summary of BCD changes from <time title="Monday 26 August 2024">Monday 26 August 2024</time> through <time title="Monday 2 September 2024">Monday 2 September 2024</time></strong><a href="2024-09-02.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
+	<p>
+	Summary of BCD changes from <time title="Monday 26 August 2024">Monday 26 August 2024</time> through <time title="Monday 2 September 2024">Monday 2 September 2024</time></strong><a href="2024-09-02.html" title="permalink">🔗</a>
+	</p>
+	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +14, -0</h2>
 
         <h3>Support increases (14)</h3>
@@ -782,11 +780,10 @@
         <updated>2024-08-26T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
-    <p>
-    Summary of BCD changes from <time title="Monday 19 August 2024">Monday 19 August 2024</time> through <time title="Monday 26 August 2024">Monday 26 August 2024</time></strong><a href="2024-08-26.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
+	<p>
+	Summary of BCD changes from <time title="Monday 19 August 2024">Monday 19 August 2024</time> through <time title="Monday 26 August 2024">Monday 26 August 2024</time></strong><a href="2024-08-26.html" title="permalink">🔗</a>
+	</p>
+	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +1, -0</h2>
 
         <h3>Support increases (1)</h3>
@@ -1853,11 +1850,10 @@
         <updated>2024-08-19T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
-    <p>
-    Summary of BCD changes from <time title="Monday 12 August 2024">Monday 12 August 2024</time> through <time title="Monday 19 August 2024">Monday 19 August 2024</time></strong><a href="2024-08-19.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
+	<p>
+	Summary of BCD changes from <time title="Monday 12 August 2024">Monday 12 August 2024</time> through <time title="Monday 19 August 2024">Monday 19 August 2024</time></strong><a href="2024-08-19.html" title="permalink">🔗</a>
+	</p>
+	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +10, -0</h2>
 
         <h3>Support increases (10)</h3>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2024-09-16T17:18:17.766Z</updated>
+    <updated>2024-09-16T20:31:02.718Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -27,7 +27,7 @@
     Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 9 September 2024">Monday 9 September 2024</time> through <time title="Monday 16 September 2024">Monday 16 September 2024</time></strong><a href="2024-09-16.html" title="permalink">🔗</a>
     </p>
 	  <hr>
-    <p>
+    <p class="callout">
       <strong>There were no new BCD releases in this timeframe.</strong>
     </p>
 
@@ -56,14 +56,14 @@
         <updated>2024-09-09T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
+    <p>
+    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 2 September 2024">Monday 2 September 2024</time> through <time title="Monday 9 September 2024">Monday 9 September 2024</time></strong><a href="2024-09-09.html" title="permalink">🔗</a>
+    </p>
+	  <hr>
 
-        <p>
-        Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 2 September 2024">Monday 2 September 2024</time> through <time title="Monday 9 September 2024">Monday 9 September 2024</time> <a href="2024-09-09.html" title="permalink">🔗</a>
+        <p class="callout">
+        	<strong>No new Baseline implementations to report 🙁</strong>
         </p>
-
-		    <hr>
-
-        <p><strong>No new Baseline implementations to report</strong> 🙁</p>
 
 
   <hr>
@@ -91,12 +91,10 @@
         <updated>2024-09-02T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
-
-        <p>
-        Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 26 August 2024">Monday 26 August 2024</time> through <time title="Monday 2 September 2024">Monday 2 September 2024</time> <a href="2024-09-02.html" title="permalink">🔗</a>
-        </p>
-
-		    <hr>
+    <p>
+    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 26 August 2024">Monday 26 August 2024</time> through <time title="Monday 2 September 2024">Monday 2 September 2024</time></strong><a href="2024-09-02.html" title="permalink">🔗</a>
+    </p>
+	  <hr>
 
 
           <p><strong>1 new Baseline implementation</strong></p>
@@ -144,14 +142,14 @@
         <updated>2024-08-26T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
+    <p>
+    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 19 August 2024">Monday 19 August 2024</time> through <time title="Monday 26 August 2024">Monday 26 August 2024</time></strong><a href="2024-08-26.html" title="permalink">🔗</a>
+    </p>
+	  <hr>
 
-        <p>
-        Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 19 August 2024">Monday 19 August 2024</time> through <time title="Monday 26 August 2024">Monday 26 August 2024</time> <a href="2024-08-26.html" title="permalink">🔗</a>
+        <p class="callout">
+        	<strong>No new Baseline implementations to report 🙁</strong>
         </p>
-
-		    <hr>
-
-        <p><strong>No new Baseline implementations to report</strong> 🙁</p>
 
 
   <hr>
@@ -179,12 +177,10 @@
         <updated>2024-08-19T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
-
-        <p>
-        Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 12 August 2024">Monday 12 August 2024</time> through <time title="Monday 19 August 2024">Monday 19 August 2024</time> <a href="2024-08-19.html" title="permalink">🔗</a>
-        </p>
-
-		    <hr>
+    <p>
+    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 12 August 2024">Monday 12 August 2024</time> through <time title="Monday 19 August 2024">Monday 19 August 2024</time></strong><a href="2024-08-19.html" title="permalink">🔗</a>
+    </p>
+	  <hr>
 
 
           <p><strong>8 new Baseline implementations</strong></p>

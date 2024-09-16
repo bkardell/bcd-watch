@@ -64,8 +64,8 @@ main > p:first-child {
 	font-size: 1.1em;
 }
 
-main > p:first-child + p {
-	font-size: 1.5em;
+main p.callout {
+	font-size: 1.33em;
 	text-align: center;
 }
 

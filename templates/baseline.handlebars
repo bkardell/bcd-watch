@@ -22,25 +22,21 @@
     <br>
     <time>{{reportDate}}</time></h2>
     <main>
-    {{#unless hasNewData}}
     <p>
     Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time></strong><a href="{{permalink}}" title="permalink">🔗</a>
     </p>
 	  <hr>
-    <p>
+    {{#unless hasNewData}}
+    <p class="callout">
       <strong>There were no new BCD releases in this timeframe.</strong>
     </p>
     {{/unless}}
     {{#if hasNewData}}
 
-        <p>
-        Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="{{olderMonday}}">{{olderMonday}}</time> through <time title="{{laterMonday}}">{{laterMonday}}</time> <a href="{{permalink}}" title="permalink">🔗</a>
-        </p>
-
-		    <hr>
-
         {{#unless completedCt}}
-        <p><strong>No new Baseline implementations to report</strong> 🙁</p>
+        <p class="callout">
+        	<strong>No new Baseline implementations to report 🙁</strong>
+        </p>
         {{/unless}}
 
         {{#if completedCt}}

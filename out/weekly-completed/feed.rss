@@ -4,7 +4,7 @@
         <title>BCD-watch: New Baselines Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 16 Sep 2024 20:35:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Sep 2024 01:36:54 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -15,10 +15,136 @@
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly-completed/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[BCD New Baselines Report, Mon Sep 23 2024]]></title>
+            <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-23.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-23.html</guid>
+            <pubDate>Mon, 23 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+    <p>
+    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 16 September 2024">Monday, 16 September 2024</time> through <time title="Monday, 23 September 2024">Monday, 23 September 2024</time></strong><a href="2024-09-23.html" title="permalink">🔗</a>
+    </p>
+	  <hr>
+
+
+          <p class="callout"><strong>6 new Baseline implementations</strong></p>
+          <section class="added implementations">
+	            <h4>API</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/altitudeAngle">api ➞ PointerEvent ➞ altitudeAngle</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/azimuthAngle">api ➞ PointerEvent ➞ azimuthAngle</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ PointerEvent ➞ PointerEvent ➞ options_altitudeAngle_parameter
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ PointerEvent ➞ PointerEvent ➞ options_azimuthAngle_parameter
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>CSS</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/::target-text">css ➞ selectors ➞ target-text</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>HTML</h4>
+              <ol>
+                  <li>
+                      <span>html ➞ elements ➞ a ➞ text_fragments
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday, 6 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.2">v5.6.2</a> <small>(Friday, 20 September 2024)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[BCD New Baselines Report, Mon Sep 16 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-16.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-16.html</guid>
-            <pubDate>Mon, 16 Sep 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 16 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
     <p>
@@ -52,7 +178,7 @@
             <title><![CDATA[BCD New Baselines Report, Mon Sep 09 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-09.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-09.html</guid>
-            <pubDate>Mon, 09 Sep 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 09 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
     <p>
@@ -88,7 +214,7 @@
             <title><![CDATA[BCD New Baselines Report, Mon Sep 02 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-02.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-02.html</guid>
-            <pubDate>Mon, 02 Sep 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
     <p>
@@ -140,7 +266,7 @@
             <title><![CDATA[BCD New Baselines Report, Mon Aug 26 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-26.html</link>
             <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-26.html</guid>
-            <pubDate>Mon, 26 Aug 2024 04:00:00 GMT</pubDate>
+            <pubDate>Mon, 26 Aug 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
             <content:encoded><![CDATA[<main>
     <p>
@@ -165,159 +291,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.46">v5.5.46</a> <small>(Tuesday 13 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday 24 August 2024)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD New Baselines Report, Mon Aug 19 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-19.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-19.html</guid>
-            <pubDate>Mon, 19 Aug 2024 04:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-    <p>
-    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday 12 August 2024">Monday 12 August 2024</time> through <time title="Monday 19 August 2024">Monday 19 August 2024</time></strong><a href="2024-08-19.html" title="permalink">🔗</a>
-    </p>
-	  <hr>
-
-
-          <p class="callout"><strong>8 new Baseline implementations</strong></p>
-          <section class="added implementations">
-	            <h4>API</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody">api ➞ CSPViolationReportBody</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ HTMLDetailsElement ➞ name
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits">api ➞ SubtleCrypto ➞ deriveBits ➞ x25519</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey">api ➞ SubtleCrypto ➞ deriveKey ➞ x25519</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey">api ➞ SubtleCrypto ➞ exportKey ➞ x25519</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey">api ➞ SubtleCrypto ➞ generateKey ➞ x25519</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey">api ➞ SubtleCrypto ➞ importKey ➞ x25519</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-	            <h4>HTTP</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/report-to">http ➞ headers ➞ Content-Security-Policy ➞ report-to</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.45">v5.5.45</a> <small>(Wednesday 7 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.46">v5.5.46</a> <small>(Tuesday 13 August 2024)</small>
 			</span>
 		</div>
   </footer>

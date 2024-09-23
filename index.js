@@ -141,6 +141,7 @@ function run(o, l, reportName='') {
   data.removedFeatures = toTopicsFromStrings(data.removed)
   data.backfilledImplementations = toTopicsFromObjects(data.backfilledImplementations)
   data.addedImplementations = toTopicsFromObjects(data.addedImplementations)
+  
   data.permalink = name
 
   let out = formatter.formatSummary(data, flattenedB)
@@ -161,7 +162,7 @@ function run(o, l, reportName='') {
      'utf8'
   )
 
-  RSS({
+ RSS({
       items: lastNFeedEntries(`weekly`, 'Weekly summary of new changes in BCD data', 5)
     },
 		{

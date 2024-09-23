@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 23 Sep 2024 18:55:48 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Sep 2024 19:05:24 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -22,7 +22,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 16 September 2024">Monday, 16 September 2024</time> through <time title="Monday, 23 September 2024">Monday, 23 September 2024</time></strong><a href="2024-09-23.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday, 16 September 2024">Monday, 16 September 2024</time> through <time title="Monday, 23 September 2024">Monday, 23 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-23.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +99, -0</h2>
@@ -2238,7 +2238,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday 9 September 2024">Monday 9 September 2024</time> through <time title="Monday 16 September 2024">Monday 16 September 2024</time></strong><a href="2024-09-16.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday, 9 September 2024">Monday, 9 September 2024</time> through <time title="Monday, 16 September 2024">Monday, 16 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-16.html" title="permalink">🔗</a>
 	</p>
 	<hr>
 	<p class="callout">
@@ -2256,7 +2256,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			The most recent known BCD release was <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday 6 September 2024)</small>
+			The most recent known BCD release was <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday, 6 September 2024)</small>
 			</span>
 		</div>
   </footer>
@@ -2272,7 +2272,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday 2 September 2024">Monday 2 September 2024</time> through <time title="Monday 9 September 2024">Monday 9 September 2024</time></strong><a href="2024-09-09.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 9 September 2024">Monday, 9 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-09.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +4, -0</h2>
@@ -2351,7 +2351,7 @@
 
         <h3>Backfilled entries (24)</h3>
         <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Tuesday 27 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+          <p class="info">The entries in this section saw support information change since the report on  Tuesday, 27 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
       </div>
         <section class="backfilled implementations">
@@ -2634,7 +2634,7 @@
       
       <h3>New entries (7)</h3>
       <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Tuesday 27 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        <p class="info">The entries in this section were not found in BCD on Tuesday, 27 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
         </p>
       </div>
       <section class="added implementations">
@@ -2666,7 +2666,7 @@
 
       <h3>Removed entries (1)</h3>
         <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Tuesday 27 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          <p class="info">The entries in this section were found in BCD on Tuesday, 27 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
           </p>
         </div>
         <section class="removed implementations">
@@ -2689,7 +2689,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.49">v5.5.49</a> <small>(Tuesday 27 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday 6 September 2024)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.49">v5.5.49</a> <small>(Tuesday, 27 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday, 6 September 2024)</small>
 			</span>
 		</div>
   </footer>
@@ -2705,7 +2705,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday 26 August 2024">Monday 26 August 2024</time> through <time title="Monday 2 September 2024">Monday 2 September 2024</time></strong><a href="2024-09-02.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday, 26 August 2024">Monday, 26 August 2024</time> through <time title="Monday, 2 September 2024">Monday, 2 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-02.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +14, -0</h2>
@@ -2897,7 +2897,7 @@
 
         <h3>Backfilled entries (2)</h3>
         <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Saturday 24 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+          <p class="info">The entries in this section saw support information change since the report on  Saturday, 24 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
       </div>
         <section class="backfilled implementations">
@@ -2932,7 +2932,7 @@
       
       <h3>New entries (6)</h3>
       <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Saturday 24 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        <p class="info">The entries in this section were not found in BCD on Saturday, 24 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
         </p>
       </div>
       <section class="added implementations">
@@ -2959,7 +2959,7 @@
 
       <h3>Removed entries (1)</h3>
         <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Saturday 24 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          <p class="info">The entries in this section were found in BCD on Saturday, 24 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
           </p>
         </div>
         <section class="removed implementations">
@@ -2982,7 +2982,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday 24 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.49">v5.5.49</a> <small>(Tuesday 27 August 2024)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday, 24 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.49">v5.5.49</a> <small>(Tuesday, 27 August 2024)</small>
 			</span>
 		</div>
   </footer>
@@ -2998,7 +2998,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday 19 August 2024">Monday 19 August 2024</time> through <time title="Monday 26 August 2024">Monday 26 August 2024</time></strong><a href="2024-08-26.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday, 19 August 2024">Monday, 19 August 2024</time> through <time title="Monday, 26 August 2024">Monday, 26 August 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-08-26.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +1, -0</h2>
@@ -3038,7 +3038,7 @@
 
         <h3>Backfilled entries (57)</h3>
         <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Tuesday 13 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+          <p class="info">The entries in this section saw support information change since the report on  Tuesday, 13 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
       </div>
         <section class="backfilled implementations">
@@ -3725,7 +3725,7 @@
       
       <h3>New entries (68)</h3>
       <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Tuesday 13 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        <p class="info">The entries in this section were not found in BCD on Tuesday, 13 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
         </p>
       </div>
       <section class="added implementations">
@@ -3882,7 +3882,7 @@
 
       <h3>Removed entries (72)</h3>
         <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Tuesday 13 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          <p class="info">The entries in this section were found in BCD on Tuesday, 13 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
           </p>
         </div>
         <section class="removed implementations">
@@ -4053,7 +4053,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.46">v5.5.46</a> <small>(Tuesday 13 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday 24 August 2024)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.46">v5.5.46</a> <small>(Tuesday, 13 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday, 24 August 2024)</small>
 			</span>
 		</div>
   </footer>

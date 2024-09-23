@@ -36,8 +36,8 @@ module.exports = function (meta, data) {
 
       feed.addItem({
         title: item.title,
-        id: `https://bcd-watch.igalia.com/${directory}/${item.file}`,
-        link: `https://bcd-watch.igalia.com/${directory}/${item.file}`,
+        id: `https://bcd-watch.igalia.com/${item.file}`,
+        link: `https://bcd-watch.igalia.com/${item.file}`,
         description: item.blurb,
         content: itemContent,
         date: new Date(item.pubDate),

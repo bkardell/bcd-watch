@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2024-09-23T01:36:54.131Z</updated>
+    <updated>2024-09-23T18:55:48.250Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -17,10 +17,10 @@
     <rights>All rights reserved, Igalia SL</rights>
     <entry>
         <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 23 2024]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-23.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-23.html">
+        <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-23.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-23.html">
         </link>
-        <updated>2024-09-23T00:00:00.000Z</updated>
+        <updated>2024-09-23T07:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
@@ -142,10 +142,10 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 16 2024]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-16.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-16.html">
+        <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-16.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-16.html">
         </link>
-        <updated>2024-09-16T00:00:00.000Z</updated>
+        <updated>2024-09-16T07:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
@@ -175,10 +175,10 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 09 2024]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-09.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-09.html">
+        <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-09.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-09.html">
         </link>
-        <updated>2024-09-09T00:00:00.000Z</updated>
+        <updated>2024-09-09T07:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
@@ -210,10 +210,10 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 02 2024]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-02.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-09-02.html">
+        <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-02.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-02.html">
         </link>
-        <updated>2024-09-02T00:00:00.000Z</updated>
+        <updated>2024-09-02T07:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
@@ -261,10 +261,10 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Baselines Report, Mon Aug 26 2024]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-26.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/weekly-completed/2024-08-26.html">
+        <id>https://bcd-watch.igalia.com/weekly-completed/2024-08-26.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2024-08-26.html">
         </link>
-        <updated>2024-08-26T00:00:00.000Z</updated>
+        <updated>2024-08-26T07:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>

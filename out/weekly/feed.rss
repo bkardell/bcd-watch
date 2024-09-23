@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 23 Sep 2024 01:36:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Sep 2024 18:55:48 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -16,9 +16,9 @@
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Sep 23 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/weekly/2024-09-23.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/weekly/2024-09-23.html</guid>
-            <pubDate>Mon, 23 Sep 2024 00:00:00 GMT</pubDate>
+            <link>https://bcd-watch.igalia.com/weekly/2024-09-23.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2024-09-23.html</guid>
+            <pubDate>Mon, 23 Sep 2024 07:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
@@ -2232,9 +2232,9 @@
         </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Sep 16 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/weekly/2024-09-16.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/weekly/2024-09-16.html</guid>
-            <pubDate>Mon, 16 Sep 2024 00:00:00 GMT</pubDate>
+            <link>https://bcd-watch.igalia.com/weekly/2024-09-16.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2024-09-16.html</guid>
+            <pubDate>Mon, 16 Sep 2024 07:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
@@ -2266,9 +2266,9 @@
         </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Sep 09 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/weekly/2024-09-09.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/weekly/2024-09-09.html</guid>
-            <pubDate>Mon, 09 Sep 2024 00:00:00 GMT</pubDate>
+            <link>https://bcd-watch.igalia.com/weekly/2024-09-09.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2024-09-09.html</guid>
+            <pubDate>Mon, 09 Sep 2024 07:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
@@ -2699,9 +2699,9 @@
         </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Sep 02 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/weekly/2024-09-02.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/weekly/2024-09-02.html</guid>
-            <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
+            <link>https://bcd-watch.igalia.com/weekly/2024-09-02.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2024-09-02.html</guid>
+            <pubDate>Mon, 02 Sep 2024 07:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
@@ -2992,9 +2992,9 @@
         </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Aug 26 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/weekly/2024-08-26.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/weekly/2024-08-26.html</guid>
-            <pubDate>Mon, 26 Aug 2024 00:00:00 GMT</pubDate>
+            <link>https://bcd-watch.igalia.com/weekly/2024-08-26.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2024-08-26.html</guid>
+            <pubDate>Mon, 26 Aug 2024 07:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>

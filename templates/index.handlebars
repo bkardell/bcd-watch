@@ -226,7 +226,7 @@ details[open] > summary.home-archive {
         <div class="hero-text">
             <p class="subtitle">Keeping an eye on changes to MDN’s Browser Compatibility Data</p>
             <p>This site automatically collects, indexes, and makes available for viewing (and as subscribe-able feeds), information about updates to <a href="https://github.com/mdn/browser-compat-data">Browser Compatibility Data (BCD)</a>. Currently there are two different views (and feeds) on this data, which are compiled each Tuesday (US/Eastern time).</p>
-            <p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became "new baseline" last week</a> (marked as available in all 3 engines).</p>
+            <p>Perhaps you're interested in <a href="weekly/index.html">which changes were reported last week</a>, or more specifically <a href="weekly-completed/index.html">which features became universally implemented last week</a> (marked as available in all 3 engines).</p>
             <p>If you encounter any problems with BCD Watch or have suggestions for improvements, please feel free to open an issue in
             our <a href="https://github.com/bkardell/bcd-watch/">Github repository</a>, or submit suggested changes via pull request if you like.</p>
         </div>
@@ -238,8 +238,8 @@ details[open] > summary.home-archive {
               
             </div>
             <div class="report-tile">
-              <h2 class="report-tile-title"><a href="weekly-completed">Baselines Weekly Report</a></h2>
-              <p>All the BCD entries that moved to “<a href="https://web.dev/baseline">Baseline</a>: Newly available” status in the past week; i.e., are now supported in all three major browser engines.</p>
+              <h2 class="report-tile-title"><a href="weekly-completed">Universal Implementations Weekly Report</a></h2>
+              <p>All the BCD entries that had a final implementation in the past week; i.e., are now supported in all three major browser engines (Note this does not mean 'shipping', but it is a very strong indicator that this feature will reach “<a href="https://web.dev/baseline">New Baseline</a>" status soon).</p>
                <a href="weekly-completed/feed.rss"><img src="imgs/rss-flat.svg" alt="RSS feed"></a>
             </div>
         </div>
@@ -259,8 +259,8 @@ details[open] > summary.home-archive {
                   </li>{{/each}}
                   </ul>
               </div>
-              <div class="baselines-weekly">
-                <h2>Baselines Weekly Report</h2>
+              <div class="universal-weekly">
+                <h2>Universal Implementations Weekly Report</h2>
                 <ul>
                   {{#each completed}}
                   <li>

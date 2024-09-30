@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 23 Sep 2024 19:05:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Sep 2024 01:40:01 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -15,10 +15,213 @@
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[BCD Changes Report, Mon Sep 30 2024]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2024-09-30.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2024-09-30.html</guid>
+            <pubDate>Mon, 30 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <time title="Monday, 23 September 2024">Monday, 23 September 2024</time> through <time title="Monday, 30 September 2024">Monday, 30 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-30.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +0, -0</h2>
+
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 18</h2>
+    <details class="section-background">
+      <summary>Show all 18 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (8)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 20 September 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ properties ➞ ruby-overhang
+                        <a href="https://drafts.csswg.org/css-ruby/#propdef-ruby-overhang"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ ruby-overhang ➞ auto
+                        <a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-overhang-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ ruby-overhang ➞ none
+                        <a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-overhang-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+            <h4>MATHML</h4>
+              <ol>
+                  <li>
+                      <span>mathml ➞ elements ➞ mo ➞ movablelimits
+                        <a href="https://w3c.github.io/mathml-core/#dfn-movablelimits-0"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+            <h4>WEBEXTENSIONS</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Content_scripts">webextensions ➞ api ➞ contentScriptGlobalScope</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto">webextensions ➞ api ➞ contentScriptGlobalScope ➞ cloneInto</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction">webextensions ➞ api ➞ contentScriptGlobalScope ➞ exportFunction</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>webextensions ➞ manifest ➞ theme ➞ colors ➞ tab_background_separator
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (9)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 20 September 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ properties ➞ ruby-overhang
+              </li>
+              <li>css ➞ properties ➞ ruby-overhang ➞ auto
+              </li>
+              <li>css ➞ properties ➞ ruby-overhang ➞ none
+              </li>
+          </ol>
+            <h4>MATHML</h4>
+          <ol>
+              <li>mathml ➞ elements ➞ mo ➞ movablelimits
+              </li>
+          </ol>
+            <h4>WEBEXTENSIONS</h4>
+          <ol>
+              <li>webextensions ➞ api ➞ contentScriptGlobalScope
+              </li>
+              <li>webextensions ➞ api ➞ contentScriptGlobalScope ➞ cloneInto
+              </li>
+              <li>webextensions ➞ api ➞ contentScriptGlobalScope ➞ exportFunction
+              </li>
+              <li>webextensions ➞ manifest ➞ theme ➞ colors ➞ tab_background_separator
+              </li>
+              <li>webextensions ➞ manifest ➞ theme ➞ colors ➞ toolbar_field_separator
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (1)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Friday, 20 September 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>MATHML</h4>
+              <ol>
+                  <li>mathml ➞ elements ➞ mo ➞ moveablelimits
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.2">v5.6.2</a> <small>(Friday, 20 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.4">v5.6.4</a> <small>(Friday, 27 September 2024)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
+        <item>
             <title><![CDATA[BCD Changes Report, Mon Sep 23 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-09-23.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-09-23.html</guid>
-            <pubDate>Mon, 23 Sep 2024 07:00:00 GMT</pubDate>
+            <pubDate>Mon, 23 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
@@ -2234,7 +2437,7 @@
             <title><![CDATA[BCD Changes Report, Mon Sep 16 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-09-16.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-09-16.html</guid>
-            <pubDate>Mon, 16 Sep 2024 07:00:00 GMT</pubDate>
+            <pubDate>Mon, 16 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
@@ -2268,7 +2471,7 @@
             <title><![CDATA[BCD Changes Report, Mon Sep 09 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-09-09.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-09-09.html</guid>
-            <pubDate>Mon, 09 Sep 2024 07:00:00 GMT</pubDate>
+            <pubDate>Mon, 09 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
@@ -2701,7 +2904,7 @@
             <title><![CDATA[BCD Changes Report, Mon Sep 02 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-09-02.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-09-02.html</guid>
-            <pubDate>Mon, 02 Sep 2024 07:00:00 GMT</pubDate>
+            <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
@@ -2983,1077 +3186,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday, 24 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.49">v5.5.49</a> <small>(Tuesday, 27 August 2024)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Aug 26 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2024-08-26.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2024-08-26.html</guid>
-            <pubDate>Mon, 26 Aug 2024 07:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <time title="Monday, 19 August 2024">Monday, 19 August 2024</time> through <time title="Monday, 26 August 2024">Monday, 26 August 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-08-26.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +1, -0</h2>
-
-        <h3>Support increases (1)</h3>
-        <section class="added implementations">
-            <h4>CSS</h4>
-            <ol>
-                <li>
-                    <span>css ➞ properties ➞ reading-flow
-                    	<a href="https://drafts.csswg.org/css-display-4/#reading-flow"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 197</h2>
-    <details class="section-background">
-      <summary>Show all 197 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (57)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Tuesday, 13 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>HTML</h4>
-              <ol>
-                  <li>
-                      <span>html ➞ elements ➞ textarea ➞ placeholder ➞ line_breaks
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/Manifest/background_color">html ➞ manifest ➞ background_color</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/Manifest/description">html ➞ manifest ➞ description</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/HTML/Global_attributes/writingsuggestions">html ➞ global_attributes ➞ writingsuggestions</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>html ➞ manifest ➞ display_override ➞ window-controls-overlay
-                        <a href="https://wicg.github.io/window-controls-overlay/#addition-of-new-window-controls-overlay-display-mode"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-            <h4>API</h4>
-              <ol>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ @@iterator
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ clear
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ delete
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ entries
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ forEach
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ get
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ has
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ keys
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ set
-                        <a href="https://drafts.csswg.org/css-fonts/#dom-cssfontfeaturevaluesmap-set"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ size
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ CSSFontFeatureValuesMap ➞ values
-                        <a href="https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#page-orientation">api ➞ CSSPageDescriptors ➞ page-orientation</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#pageorientation">api ➞ CSSPageDescriptors ➞ pageOrientation</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/position-area">css ➞ properties ➞ position-area</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ block-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ block-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ bottom
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ center
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ inline-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ inline-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ left
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ none
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ right
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ self-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ self-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-all
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-all"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-block-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-block-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-bottom
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-inline-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-inline-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-top
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-x-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-x-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-x-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-x-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-y-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-y-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ span-y-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-y-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ top
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ x-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ x-self-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ x-self-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ x-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ y-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ y-self-end
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ y-self-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ position-area ➞ y-start
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-            <h4>JAVASCRIPT</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase#locales">javascript ➞ builtins ➞ String ➞ toLocaleLowerCase ➞ locales_parameter</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase#locales">javascript ➞ builtins ➞ String ➞ toLocaleUpperCase ➞ locales_parameter</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (68)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Tuesday, 13 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ @@iterator
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ clear
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ delete
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ entries
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ forEach
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ get
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ has
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ keys
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ set
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ size
-              </li>
-              <li>api ➞ CSSFontFeatureValuesMap ➞ values
-              </li>
-              <li>api ➞ CSSPageDescriptors ➞ page-orientation
-              </li>
-              <li>api ➞ CSSPageDescriptors ➞ pageOrientation
-              </li>
-          </ol>
-            <h4>CSS</h4>
-          <ol>
-              <li>css ➞ properties ➞ position-area
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ block-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ block-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ bottom
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ center
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ inline-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ inline-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ left
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ none
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ right
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ self-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ self-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-all
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-block-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-block-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-bottom
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-inline-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-inline-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-top
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-x-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-x-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-y-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ span-y-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ top
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ x-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ x-self-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ x-self-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ x-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ y-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ y-self-end
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ y-self-start
-              </li>
-              <li>css ➞ properties ➞ position-area ➞ y-start
-              </li>
-              <li>css ➞ properties ➞ position-try-fallbacks ➞ position-area
-              </li>
-              <li>css ➞ properties ➞ reading-flow
-              </li>
-          </ol>
-            <h4>HTML</h4>
-          <ol>
-              <li>html ➞ global_attributes ➞ writingsuggestions
-              </li>
-              <li>html ➞ manifest ➞ display_override ➞ window-controls-overlay
-              </li>
-          </ol>
-            <h4>JAVASCRIPT</h4>
-          <ol>
-              <li>javascript ➞ builtins ➞ String ➞ toLocaleLowerCase ➞ locales_parameter
-              </li>
-              <li>javascript ➞ builtins ➞ String ➞ toLocaleUpperCase ➞ locales_parameter
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ Now ➞ plainTimeISO
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ Now ➞ timeZoneID
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ PlainDate ➞ calendarId
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ PlainDate ➞ yearOfWeek
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ PlainDateTime ➞ calendarId
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ PlainDateTime ➞ yearOfWeek
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ PlainMonthDay ➞ calendarId
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ PlainYearMonth ➞ calendarId
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ calendarId
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ getTimeZoneTransition
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ timeZoneId
-              </li>
-              <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ yearOfWeek
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (72)</h3>
-        <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Tuesday, 13 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-          </p>
-        </div>
-        <section class="removed implementations">
-                <h4>CSS</h4>
-              <ol>
-                  <li>css ➞ properties ➞ -webkit-initial-letter
-                  </li>
-                  <li>css ➞ properties ➞ cursor ➞ inherit
-                  </li>
-                  <li>css ➞ properties ➞ inset-area
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ block-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ block-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ bottom
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ center
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ inline-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ inline-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ left
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ none
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ right
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ self-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ self-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-all
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-block-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-block-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-bottom
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-inline-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-inline-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-top
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-x-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-x-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-y-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ span-y-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ top
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ x-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ x-self-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ x-self-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ x-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ y-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ y-self-end
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ y-self-start
-                  </li>
-                  <li>css ➞ properties ➞ inset-area ➞ y-start
-                  </li>
-                  <li>css ➞ properties ➞ position-try-fallbacks ➞ inset-area
-                  </li>
-              </ol>
-                <h4>HTML</h4>
-              <ol>
-                  <li>html ➞ manifest ➞ categories
-                  </li>
-                  <li>html ➞ manifest ➞ screenshots
-                  </li>
-              </ol>
-                <h4>JAVASCRIPT</h4>
-              <ol>
-                  <li>javascript ➞ builtins ➞ Intl ➞ RelativeTimeFormat ➞ resolvedOptions ➞ numberingSystem
-                  </li>
-                  <li>javascript ➞ builtins ➞ String ➞ toLocaleLowerCase ➞ locale
-                  </li>
-                  <li>javascript ➞ builtins ➞ String ➞ toLocaleUpperCase ➞ locale
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Instant ➞ epochMicroseconds
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Instant ➞ epochSeconds
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Instant ➞ fromEpochMicroseconds
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Instant ➞ fromEpochSeconds
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Instant ➞ toZonedDateTime
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Now ➞ plainDate
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Now ➞ plainDateTime
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Now ➞ timeZone
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ Now ➞ zonedDateTime
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainDate ➞ calendar
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainDateTime ➞ calendar
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainDateTime ➞ toPlainMonthDay
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainDateTime ➞ toPlainYearMonth
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainDateTime ➞ withPlainDate
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainMonthDay ➞ calendar
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ calendar
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ toPlainDateTime
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ toZonedDateTime
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainYearMonth ➞ calendar
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ getNextTransition
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ getPreviousTransition
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ calendar
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ epochMicroseconds
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ epochSeconds
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ timeZone
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ toPlainMonthDay
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ toPlainYearMonth
-                  </li>
-                  <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ withPlainDate
-                  </li>
-              </ol>
-          </section>
-    </details>
-  
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.46">v5.5.46</a> <small>(Tuesday, 13 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.48">v5.5.48</a> <small>(Saturday, 24 August 2024)</small>
 			</span>
 		</div>
   </footer>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2024-09-30T01:40:01.637Z</updated>
+    <updated>2024-09-30T14:47:11.533Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -16,11 +16,11 @@
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 30 2024]]></title>
+        <title type="html"><![CDATA[BCD New Universal Implmentations Report, Mon Sep 30 2024]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-30.html</id>
         <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-30.html">
         </link>
-        <updated>2024-09-30T00:00:00.000Z</updated>
+        <updated>2024-09-30T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
@@ -29,7 +29,7 @@
     <hr>
 
         <p class="callout">
-        	<strong>No new Baseline implementations to report 🙁</strong>
+        	<strong>No new Universal Implmentations implementations to report 🙁</strong>
         </p>
 
 
@@ -51,17 +51,17 @@
   </main>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 23 2024]]></title>
+        <title type="html"><![CDATA[BCD New Universal Implmentations Report, Mon Sep 23 2024]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-23.html</id>
         <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-23.html">
         </link>
-        <updated>2024-09-23T00:00:00.000Z</updated>
+        <updated>2024-09-23T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 16 September 2024">Monday, 16 September 2024</time> through <time title="Monday, 23 September 2024">Monday, 23 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2024-09-23.html" title="permalink">🔗</a>
+    Summary of changes indicating universal implementations from <time title="Monday, 16 September 2024">Monday, 16 September 2024</time> through <time title="Monday, 23 September 2024">Monday, 23 September 2024</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2024-09-23.html" title="permalink">🔗</a>
     </p>
-	  <hr>
+    <hr>
 
 
           <p class="callout"><strong>6 new Baseline implementations</strong></p>
@@ -176,17 +176,17 @@
   </main>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 16 2024]]></title>
+        <title type="html"><![CDATA[BCD New Universal Implmentations Report, Mon Sep 16 2024]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-16.html</id>
         <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-16.html">
         </link>
-        <updated>2024-09-16T00:00:00.000Z</updated>
+        <updated>2024-09-16T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 9 September 2024">Monday, 9 September 2024</time> through <time title="Monday, 16 September 2024">Monday, 16 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2024-09-16.html" title="permalink">🔗</a>
+    Summary of changes indicating universal implementations from <time title="Monday, 9 September 2024">Monday, 9 September 2024</time> through <time title="Monday, 16 September 2024">Monday, 16 September 2024</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2024-09-16.html" title="permalink">🔗</a>
     </p>
-	  <hr>
+    <hr>
     <p class="callout">
       <strong>There were no new BCD releases in this timeframe.</strong>
     </p>
@@ -209,20 +209,20 @@
   </main>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 09 2024]]></title>
+        <title type="html"><![CDATA[BCD New Universal Implmentations Report, Mon Sep 09 2024]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-09.html</id>
         <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-09.html">
         </link>
-        <updated>2024-09-09T00:00:00.000Z</updated>
+        <updated>2024-09-09T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 9 September 2024">Monday, 9 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2024-09-09.html" title="permalink">🔗</a>
+    Summary of changes indicating universal implementations from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 9 September 2024">Monday, 9 September 2024</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2024-09-09.html" title="permalink">🔗</a>
     </p>
-	  <hr>
+    <hr>
 
         <p class="callout">
-        	<strong>No new Baseline implementations to report 🙁</strong>
+        	<strong>No new Universal Implmentations implementations to report 🙁</strong>
         </p>
 
 
@@ -244,17 +244,17 @@
   </main>]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[BCD New Baselines Report, Mon Sep 02 2024]]></title>
+        <title type="html"><![CDATA[BCD New Universal Implmentations Report, Mon Sep 02 2024]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2024-09-02.html</id>
         <link href="https://bcd-watch.igalia.com/weekly-completed/2024-09-02.html">
         </link>
-        <updated>2024-09-02T00:00:00.000Z</updated>
+        <updated>2024-09-02T04:00:00.000Z</updated>
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of <a href="https://web.dev/baseline">Baseline</a> changes from <time title="Monday, 26 August 2024">Monday, 26 August 2024</time> through <time title="Monday, 2 September 2024">Monday, 2 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2024-09-02.html" title="permalink">🔗</a>
+    Summary of changes indicating universal implementations from <time title="Monday, 26 August 2024">Monday, 26 August 2024</time> through <time title="Monday, 2 September 2024">Monday, 2 September 2024</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2024-09-02.html" title="permalink">🔗</a>
     </p>
-	  <hr>
+    <hr>
 
 
           <p class="callout"><strong>1 new Baseline implementation</strong></p>

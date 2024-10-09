@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 07 Oct 2024 01:39:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Oct 2024 18:15:17 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -18,11 +18,11 @@
             <title><![CDATA[BCD Changes Report, Mon Oct 07 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-10-07.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-10-07.html</guid>
-            <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 07 Oct 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 30 September 2024">Monday, 30 September 2024</time> through <time title="Monday, 7 October 2024">Monday, 7 October 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-10-07.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday 30 September 2024">Monday 30 September 2024</time> through <time title="Monday 7 October 2024">Monday 7 October 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-10-07.html" title="permalink">🔗</a>
 	</p>
 	<hr>
 	<p class="callout">
@@ -40,7 +40,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			The most recent known BCD release was <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.4">v5.6.4</a> <small>(Friday, 27 September 2024)</small>
+			The most recent known BCD release was <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.4">v5.6.4</a> <small>(Friday 27 September 2024)</small>
 			</span>
 		</div>
   </footer>
@@ -52,11 +52,11 @@
             <title><![CDATA[BCD Changes Report, Mon Sep 30 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-09-30.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-09-30.html</guid>
-            <pubDate>Mon, 30 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 30 Sep 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 23 September 2024">Monday, 23 September 2024</time> through <time title="Monday, 30 September 2024">Monday, 30 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-30.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday 23 September 2024">Monday 23 September 2024</time> through <time title="Monday 30 September 2024">Monday 30 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-30.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +0, -0</h2>
@@ -72,13 +72,13 @@
       <summary>Show all 18 changes</summary>
       <div class="outline-container">
       <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
       </p>
       </div>
 
         <h3>Backfilled entries (8)</h3>
         <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 20 September 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+          <p class="info">The entries in this section saw support information change since the report on  Friday 20 September 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
       </div>
         <section class="backfilled implementations">
@@ -91,10 +91,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ ruby-overhang ➞ auto
@@ -103,10 +102,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ ruby-overhang ➞ none
@@ -115,10 +113,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
               </ol>
             <h4>MATHML</h4>
@@ -130,10 +127,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
               </ol>
             <h4>WEBEXTENSIONS</h4>
@@ -143,30 +139,27 @@
                       <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Content_scripts">webextensions ➞ api ➞ contentScriptGlobalScope</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto">webextensions ➞ api ➞ contentScriptGlobalScope ➞ cloneInto</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction">webextensions ➞ api ➞ contentScriptGlobalScope ➞ exportFunction</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>webextensions ➞ manifest ➞ theme ➞ colors ➞ tab_background_separator
@@ -174,17 +167,16 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
               </ol>
         </section>
       
       <h3>New entries (9)</h3>
       <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 20 September 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        <p class="info">The entries in this section were not found in BCD on Friday 20 September 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
         </p>
       </div>
       <section class="added implementations">
@@ -220,7 +212,7 @@
 
       <h3>Removed entries (1)</h3>
         <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday, 20 September 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          <p class="info">The entries in this section were found in BCD on Friday 20 September 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
           </p>
         </div>
         <section class="removed implementations">
@@ -243,7 +235,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.2">v5.6.2</a> <small>(Friday, 20 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.4">v5.6.4</a> <small>(Friday, 27 September 2024)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.2">v5.6.2</a> <small>(Friday 20 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.4">v5.6.4</a> <small>(Friday 27 September 2024)</small>
 			</span>
 		</div>
   </footer>
@@ -255,11 +247,11 @@
             <title><![CDATA[BCD Changes Report, Mon Sep 23 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-09-23.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-09-23.html</guid>
-            <pubDate>Mon, 23 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 23 Sep 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 16 September 2024">Monday, 16 September 2024</time> through <time title="Monday, 23 September 2024">Monday, 23 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-23.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday 16 September 2024">Monday 16 September 2024</time> through <time title="Monday 23 September 2024">Monday 23 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-23.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +99, -0</h2>
@@ -1383,13 +1375,13 @@
       <summary>Show all 133 changes</summary>
       <div class="outline-container">
       <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
       </p>
       </div>
 
         <h3>Backfilled entries (87)</h3>
         <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 6 September 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+          <p class="info">The entries in this section saw support information change since the report on  Friday 6 September 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
       </div>
         <section class="backfilled implementations">
@@ -1400,510 +1392,459 @@
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/AudioData">api ➞ AudioData ➞ AudioData</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData">api ➞ AudioData</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/allocationSize">api ➞ AudioData ➞ allocationSize</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/clone">api ➞ AudioData ➞ clone</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/close">api ➞ AudioData ➞ close</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/copyTo">api ➞ AudioData ➞ copyTo</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/duration">api ➞ AudioData ➞ duration</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/format">api ➞ AudioData ➞ format</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/numberOfChannels">api ➞ AudioData ➞ numberOfChannels</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/numberOfFrames">api ➞ AudioData ➞ numberOfFrames</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/sampleRate">api ➞ AudioData ➞ sampleRate</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioData/timestamp">api ➞ AudioData ➞ timestamp</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/AudioDecoder">api ➞ AudioDecoder ➞ AudioDecoder</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder">api ➞ AudioDecoder</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/close">api ➞ AudioDecoder ➞ close</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/configure">api ➞ AudioDecoder ➞ configure</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/decode">api ➞ AudioDecoder ➞ decode</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/decodeQueueSize">api ➞ AudioDecoder ➞ decodeQueueSize</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/dequeue_event">api ➞ AudioDecoder ➞ dequeue_event</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/flush">api ➞ AudioDecoder ➞ flush</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/isConfigSupported_static">api ➞ AudioDecoder ➞ isConfigSupported_static</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/reset">api ➞ AudioDecoder ➞ reset</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/state">api ➞ AudioDecoder ➞ state</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/AudioEncoder">api ➞ AudioEncoder ➞ AudioEncoder</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder">api ➞ AudioEncoder</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/close">api ➞ AudioEncoder ➞ close</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/configure">api ➞ AudioEncoder ➞ configure</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/dequeue_event">api ➞ AudioEncoder ➞ dequeue_event</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/encode">api ➞ AudioEncoder ➞ encode</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/encodeQueueSize">api ➞ AudioEncoder ➞ encodeQueueSize</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/flush">api ➞ AudioEncoder ➞ flush</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/isConfigSupported_static">api ➞ AudioEncoder ➞ isConfigSupported_static</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/reset">api ➞ AudioEncoder ➞ reset</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/state">api ➞ AudioEncoder ➞ state</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/Web_Authentication_API/WebAuthn_extensions#largeblob">api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ extensions ➞ largeBlob</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/EncodedAudioChunk">api ➞ EncodedAudioChunk ➞ EncodedAudioChunk</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk">api ➞ EncodedAudioChunk</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/byteLength">api ➞ EncodedAudioChunk ➞ byteLength</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/copyTo">api ➞ EncodedAudioChunk ➞ copyTo</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/duration">api ➞ EncodedAudioChunk ➞ duration</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/timestamp">api ➞ EncodedAudioChunk ➞ timestamp</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/type">api ➞ EncodedAudioChunk ➞ type</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/HTMLImageElement/fetchPriority">api ➞ HTMLImageElement ➞ fetchPriority</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority">api ➞ HTMLLinkElement ➞ fetchPriority</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/fetchPriority">api ➞ HTMLScriptElement ➞ fetchPriority</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/ImageCapture">api ➞ ImageCapture ➞ ImageCapture</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture">api ➞ ImageCapture</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/getPhotoCapabilities">api ➞ ImageCapture ➞ getPhotoCapabilities</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/getPhotoSettings">api ➞ ImageCapture ➞ getPhotoSettings</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/takePhoto">api ➞ ImageCapture ➞ takePhoto</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/track">api ➞ ImageCapture ➞ track</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ Permissions ➞ permission_camera
@@ -1911,10 +1852,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ Permissions ➞ permission_microphone
@@ -1922,10 +1862,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransition ➞ types
@@ -1934,10 +1873,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ @@iterator
@@ -1945,10 +1883,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet
@@ -1957,10 +1894,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ add
@@ -1968,10 +1904,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ clear
@@ -1979,10 +1914,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ delete
@@ -1990,10 +1924,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ entries
@@ -2001,10 +1934,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ forEach
@@ -2012,10 +1944,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ has
@@ -2023,10 +1954,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ keys
@@ -2034,10 +1964,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ size
@@ -2045,10 +1974,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ ViewTransitionTypeSet ➞ values
@@ -2056,10 +1984,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ CommandEvent ➞ CommandEvent
@@ -2067,10 +1994,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ CommandEvent
@@ -2078,10 +2004,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ CommandEvent ➞ command
@@ -2089,10 +2014,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ CommandEvent ➞ source
@@ -2100,10 +2024,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ HTMLButtonElement ➞ command
@@ -2111,10 +2034,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ HTMLButtonElement ➞ commandfor
@@ -2122,10 +2044,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ HTMLElement ➞ command_event
@@ -2133,10 +2054,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
               </ol>
             <h4>CSS</h4>
@@ -2148,10 +2068,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ scrollbar-gutter ➞ stable
@@ -2160,10 +2079,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ selectors ➞ any-link ➞ not_match_link
@@ -2171,20 +2089,18 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/CSS/basic-shape/shape">css ➞ types ➞ basic-shape ➞ shape</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ background-clip ➞ border-area
@@ -2193,10 +2109,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ caption-side ➞ bottom
@@ -2204,10 +2119,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ caption-side ➞ top
@@ -2215,10 +2129,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ color-scheme ➞ dark
@@ -2226,10 +2139,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ color-scheme ➞ light
@@ -2237,10 +2149,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ color-scheme ➞ normal
@@ -2248,10 +2159,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ display ➞ table-caption
@@ -2259,10 +2169,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
               </ol>
             <h4>HTML</h4>
@@ -2274,10 +2183,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>html ➞ elements ➞ link ➞ fetchpriority
@@ -2286,10 +2194,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>html ➞ elements ➞ script ➞ fetchpriority
@@ -2298,10 +2205,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
               </ol>
             <h4>WEBEXTENSIONS</h4>
@@ -2312,17 +2218,16 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
               </ol>
         </section>
       
       <h3>New entries (21)</h3>
       <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 6 September 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        <p class="info">The entries in this section were not found in BCD on Friday 6 September 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
         </p>
       </div>
       <section class="added implementations">
@@ -2382,7 +2287,7 @@
 
       <h3>Removed entries (25)</h3>
         <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday, 6 September 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          <p class="info">The entries in this section were found in BCD on Friday 6 September 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
           </p>
         </div>
         <section class="removed implementations">
@@ -2459,7 +2364,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday, 6 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.2">v5.6.2</a> <small>(Friday, 20 September 2024)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday 6 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.2">v5.6.2</a> <small>(Friday 20 September 2024)</small>
 			</span>
 		</div>
   </footer>
@@ -2471,11 +2376,11 @@
             <title><![CDATA[BCD Changes Report, Mon Sep 16 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-09-16.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-09-16.html</guid>
-            <pubDate>Mon, 16 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 16 Sep 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 9 September 2024">Monday, 9 September 2024</time> through <time title="Monday, 16 September 2024">Monday, 16 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-16.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday 9 September 2024">Monday 9 September 2024</time> through <time title="Monday 16 September 2024">Monday 16 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-16.html" title="permalink">🔗</a>
 	</p>
 	<hr>
 	<p class="callout">
@@ -2493,7 +2398,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			The most recent known BCD release was <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday, 6 September 2024)</small>
+			The most recent known BCD release was <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday 6 September 2024)</small>
 			</span>
 		</div>
   </footer>
@@ -2505,11 +2410,11 @@
             <title><![CDATA[BCD Changes Report, Mon Sep 09 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-09-09.html</link>
             <guid>https://bcd-watch.igalia.com/weekly/2024-09-09.html</guid>
-            <pubDate>Mon, 09 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 09 Sep 2024 04:00:00 GMT</pubDate>
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 2 September 2024">Monday, 2 September 2024</time> through <time title="Monday, 9 September 2024">Monday, 9 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-09.html" title="permalink">🔗</a>
+	Summary of BCD changes from <time title="Monday 2 September 2024">Monday 2 September 2024</time> through <time title="Monday 9 September 2024">Monday 9 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-09.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +4, -0</h2>
@@ -2582,13 +2487,13 @@
       <summary>Show all 32 changes</summary>
       <div class="outline-container">
       <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occuring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
       </p>
       </div>
 
         <h3>Backfilled entries (24)</h3>
         <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Tuesday, 27 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+          <p class="info">The entries in this section saw support information change since the report on  Tuesday 27 August 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
       </div>
         <section class="backfilled implementations">
@@ -2599,40 +2504,36 @@
                       <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/altitudeAngle">api ➞ PointerEvent ➞ altitudeAngle</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/azimuthAngle">api ➞ PointerEvent ➞ azimuthAngle</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/getCoalescedEvents">api ➞ PointerEvent ➞ getCoalescedEvents</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/getPredictedEvents">api ➞ PointerEvent ➞ getPredictedEvents</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ FileSystemFileHandle ➞ createSyncAccessHandle ➞ mode
@@ -2640,10 +2541,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ FileSystemFileHandle ➞ createWritable ➞ mode
@@ -2651,10 +2551,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>api ➞ Notification ➞ requestPermission_static ➞ returns_promise
@@ -2662,10 +2561,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
               </ol>
             <h4>CSS</h4>
@@ -2675,30 +2573,27 @@
                       <a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size ➞ jis-b4</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size ➞ jis-b5</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/CSS/ruby-align">css ➞ properties ➞ ruby-align</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ ruby-align ➞ center
@@ -2707,10 +2602,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ ruby-align ➞ space-around
@@ -2719,10 +2613,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ ruby-align ➞ space-between
@@ -2731,10 +2624,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ ruby-align ➞ start
@@ -2743,20 +2635,18 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/CSS/scrollbar-width">css ➞ properties ➞ scrollbar-width</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ scrollbar-width ➞ auto
@@ -2765,10 +2655,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ scrollbar-width ➞ none
@@ -2777,10 +2666,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ scrollbar-width ➞ thin
@@ -2789,10 +2677,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ view-transition-class
@@ -2801,10 +2688,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ properties ➞ view-transition-class ➞ none
@@ -2813,10 +2699,9 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
                       <span>css ➞ selectors ➞ active-view-transition-type
@@ -2825,20 +2710,18 @@
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
                   <li>
 
                       <a href="https://developer.mozilla.org/docs/Web/CSS/::target-text">css ➞ selectors ➞ target-text</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
               </ol>
             <h4>JAVASCRIPT</h4>
@@ -2848,10 +2731,9 @@
                       <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Modifier">javascript ➞ regular_expressions ➞ modifier</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
                   </li>
               </ol>
             <h4>HTTP</h4>
@@ -2861,17 +2743,16 @@
                       <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Refresh">http ➞ headers ➞ Refresh</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled from <strong></strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
                   </li>
               </ol>
         </section>
       
       <h3>New entries (7)</h3>
       <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Tuesday, 27 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        <p class="info">The entries in this section were not found in BCD on Tuesday 27 August 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
         </p>
       </div>
       <section class="added implementations">
@@ -2903,7 +2784,7 @@
 
       <h3>Removed entries (1)</h3>
         <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Tuesday, 27 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          <p class="info">The entries in this section were found in BCD on Tuesday 27 August 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
           </p>
         </div>
         <section class="removed implementations">
@@ -2926,7 +2807,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.49">v5.5.49</a> <small>(Tuesday, 27 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday, 6 September 2024)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.49">v5.5.49</a> <small>(Tuesday 27 August 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday 6 September 2024)</small>
 			</span>
 		</div>
   </footer>

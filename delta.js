@@ -68,6 +68,7 @@ function deltaSupport(key, past, cur, out, latestBrowsers) {
             } else {
                 if (!changed) {
                     out.backfilledImplementations.push(cur)
+                    backfilled.push(browsername)
                 }
                 changed = true
             }
@@ -76,12 +77,17 @@ function deltaSupport(key, past, cur, out, latestBrowsers) {
             changed = true
         }
     })
+
     if (added.length > 0) {
         cur.addedImplementations = added
     }
 
     if (removed.length > 0) {
         cur.removedImplementations = removed
+    }
+
+    if (backfilled.length > 0) {
+        cur.backfilledImplementations = backfilled
     }
 
     cur.totalImplementations = total;

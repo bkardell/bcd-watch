@@ -2,39 +2,21 @@ const fs = require('fs')
 const index = require('./index.js').run
 const utils = require('./utils.js')
 
-const bookkeeping = JSON.parse(
-	fs.readFileSync('./store/bookkeeping.json', 'utf8')
-)
+if (process.argv.length !== 5) { 
+ console.error('Expected 3 date strings yyyy-mm-dd representing the starting diff date, the ending diff date (both must be in /store) and an output date (must be a monday)!'); 
+ process.exit(1); 
+} 
 
+outputDate = utils.dateFromISODateString(process.argv[4])
+if(outputDate.getDay() !== 1) {
+	console.error('the third argument (output date) must currently be a monday!'); 
+ 	process.exit(1); 
+}
 
-let today = new Date(),
-
-	// If today is monday, use today, otherwise fine previous monday
-	m = (today.getDay() == 1) ? today : utils.findPreviousMonday(today),
-	
-	previousReleaseDate = utils.dateFromISODateString(
-		utils.stripFileExtension(
-			bookkeeping.previous.file
-		)
-	),
-
-	latestReleaseDate = utils.dateFromISODateString(
-		utils.stripFileExtension(
-			bookkeeping.latest.file
-		)
-	),
-
-	diffReportDate = utils.findNextMonday(latestReleaseDate)
-
-	// if the relevant report day would be greater than today,
-	// the diff is just between latest and latest (ie, nothing)
-	if(diffReportDate < today) {
-		bookkeeping.previous = bookkeeping.latest
-	}
 
 //rerun index stuff with those
 index(
-	bookkeeping.previous.file, 
-	bookkeeping.latest.file, 
-	utils.toISODateString(m)
+	process.argv[2] + ".json", 
+	process.argv[3] + ".json", 
+	process.argv[4]
 )

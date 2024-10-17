@@ -7,3 +7,7 @@ Under normal operation, bcd-watch tracks the releases it's used in `/store/bookk
 The HTML files are generated with Handlebars templates which live in `/templates/`.
 
 Occasionally, if we change something about templating, we may run `reprocessAll.js`, which just looks at the date oriented release files in `/store/` and loops through a simulation of each Monday from then until now.
+
+You can manually re-run a scenario with `manual-index.js` providing two dates representing valid entries in /store
+  and an output date which is a monday, for example `node manual-index.js 2024-09-06 2024-09-20 2024-09-23`.
+

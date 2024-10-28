@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 21 Oct 2024 01:39:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Oct 2024 01:41:27 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,1324 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon Oct 28 2024]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2024-10-28.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2024-10-28.html</guid>
+            <pubDate>Mon, 28 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <time title="Monday, 21 October 2024">Monday, 21 October 2024</time> through <time title="Monday, 28 October 2024">Monday, 28 October 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-10-28.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +45, -0</h2>
+
+        <h3>Support increases (45)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRFrame/fillJointRadii">api ➞ XRFrame ➞ fillJointRadii</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRFrame/fillPoses">api ➞ XRFrame ➞ fillPoses</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRFrame/getJointPose">api ➞ XRFrame ➞ getJointPose</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ XRHand ➞ @@iterator
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRHand">api ➞ XRHand</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ XRHand ➞ entries
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ XRHand ➞ forEach
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ XRHand ➞ get
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ XRHand ➞ keys
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ XRHand ➞ size
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ XRHand ➞ values
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRInputSource/hand">api ➞ XRInputSource ➞ hand</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRJointPose">api ➞ XRJointPose</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRJointPose/radius">api ➞ XRJointPose ➞ radius</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRJointSpace">api ➞ XRJointSpace</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/XRJointSpace/jointName">api ➞ XRJointSpace ➞ jointName</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CSSMarginRule
+                    	<a href="https://drafts.csswg.org/cssom/#the-cssmarginrule-interface"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CSSMarginRule ➞ name
+                    	<a href="https://drafts.csswg.org/cssom/#dom-cssmarginrule-name"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CSSMarginRule ➞ style
+                    	<a href="https://drafts.csswg.org/cssom/#dom-cssmarginrule-style"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ Request ➞ duplex
+                    	<a href="https://fetch.spec.whatwg.org/#dom-request-duplex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>CSS</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/font-variant-emoji">css ➞ properties ➞ font-variant-emoji</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ bottom-center
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ bottom-left
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ bottom-left-corner
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-left-corner"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ bottom-right
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ bottom-right-corner
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-right-corner"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ left-bottom
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-left-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ left-middle
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-left-middle"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ left-top
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-left-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ right-bottom
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-right-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ right-middle
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-right-middle"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ right-top
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-right-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ top-center
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ top-left
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ top-left-corner
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-left-corner"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ top-right
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ at-rules ➞ page ➞ top-right-corner
+                    	<a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-right-corner"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ anchor-scope
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#propdef-anchor-scope"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ anchor-scope ➞ all
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-all"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ anchor-scope ➞ none
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ font-variant-emoji ➞ emoji
+                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-variant-emoji-emoji"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ font-variant-emoji ➞ normal
+                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-variant-emoji-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ font-variant-emoji ➞ text
+                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-variant-emoji-text"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ font-variant-emoji ➞ unicode
+                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-variant-emoji-unicode"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ selectors ➞ details-content
+                    	<a href="https://drafts.csswg.org/css-pseudo-4/#details-content-pseudo"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 126</h2>
+    <details class="section-background">
+      <summary>Show all 126 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (50)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 18 October 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Transferable_objects">api ➞ RTCDataChannel ➞ transferable</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/Request/keepalive">api ➞ Request ➞ keepalive</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ fetch ➞ init_keepalive_parameter
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ PaymentManager ➞ secure_context_required
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ PaymentRequestUpdateEvent ➞ secure_context_required
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/Request/keepalive">api ➞ Request ➞ Request ➞ init_keepalive_parameter</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTTP</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data#cache">http ➞ headers ➞ Clear-Site-Data ➞ cache</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data#cookies">http ➞ headers ➞ Clear-Site-Data ➞ cookies</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data#storage">http ➞ headers ➞ Clear-Site-Data ➞ storage</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data#sect4">http ➞ headers ➞ Clear-Site-Data ➞ wildcard</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ properties ➞ align-self ➞ positioned_boxes
+                        <a href="https://drafts.csswg.org/css-align/#align-self-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ justify-self ➞ positioned_boxes
+                        <a href="https://drafts.csswg.org/css-align/#justify-self-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ place-self ➞ positioned_boxes
+                        <a href="https://drafts.csswg.org/css-align/#place-self-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTML</h4>
+              <ol>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ accelerometer
+                        <a href="https://w3c.github.io/sensors/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ ambient-light-sensor
+                        <a href="https://w3c.github.io/sensors/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ attribution-reporting
+                        <a href="https://wicg.github.io/attribution-reporting-api/#permission-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ autoplay
+                        <a href="https://html.spec.whatwg.org/multipage/infrastructure.html#autoplay-feature"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ bluetooth
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ browsing-topics
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ camera
+                        <a href="https://w3c.github.io/mediacapture-main/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ compute-pressure
+                        <a href="https://w3c.github.io/compute-pressure/#policy-control"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ cross-origin-isolated
+                        <a href="https://html.spec.whatwg.org/multipage/infrastructure.html#cross-origin-isolated-feature"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ display-capture
+                        <a href="https://w3c.github.io/mediacapture-screen-share/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ document-domain
+                        <a href="https://html.spec.whatwg.org/multipage/infrastructure.html#policy-controlled-features"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ encrypted-media
+                        <a href="https://w3c.github.io/encrypted-media/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ fullscreen
+                        <a href="https://fullscreen.spec.whatwg.org/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ gamepad
+                        <a href="https://w3c.github.io/gamepad/#permission-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ geolocation
+                        <a href="https://w3c.github.io/geolocation/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ gyroscope
+                        <a href="https://w3c.github.io/sensors/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ hid
+                        <a href="https://wicg.github.io/webhid/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ identity-credentials-get
+                        <a href="https://w3c-fedid.github.io/FedCM/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ idle-detection
+                        <a href="https://wicg.github.io/idle-detection/#api-permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ local-fonts
+                        <a href="https://wicg.github.io/local-font-access/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ magnetometer
+                        <a href="https://w3c.github.io/sensors/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ microphone
+                        <a href="https://w3c.github.io/mediacapture-main/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ midi
+                        <a href="https://webaudio.github.io/web-midi-api/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ otp-credentials
+                        <a href="https://wicg.github.io/web-otp/#sctn-permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ payment
+                        <a href="https://w3c.github.io/payment-request/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ picture-in-picture
+                        <a href="https://w3c.github.io/picture-in-picture/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ publickey-credentials-create
+                        <a href="https://w3c.github.io/webauthn/#sctn-permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ publickey-credentials-get
+                        <a href="https://w3c.github.io/webauthn/#sctn-permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ screen-wake-lock
+                        <a href="https://w3c.github.io/screen-wake-lock/#policy-control"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ serial
+                        <a href="https://wicg.github.io/serial/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ speaker-selection
+                        <a href="https://w3c.github.io/mediacapture-output/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ storage-access
+                        <a href="https://privacycg.github.io/storage-access/#permissions-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ usb
+                        <a href="https://wicg.github.io/webusb/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ web-share
+                        <a href="https://w3c.github.io/web-share/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ wildcards
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ window-management
+                        <a href="https://w3c.github.io/window-management/#api-permission-policy-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ iframe ➞ allow ➞ xr-spatial-tracking
+                        <a href="https://immersive-web.github.io/webxr/#permissions-policy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (72)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 18 October 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ CSSMarginRule
+              </li>
+              <li>api ➞ CSSMarginRule ➞ name
+              </li>
+              <li>api ➞ CSSMarginRule ➞ style
+              </li>
+              <li>api ➞ PaymentManager ➞ secure_context_required
+              </li>
+              <li>api ➞ PaymentRequestUpdateEvent ➞ secure_context_required
+              </li>
+              <li>api ➞ Request ➞ Request ➞ init_keepalive_parameter
+              </li>
+              <li>api ➞ Request ➞ duplex
+              </li>
+          </ol>
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ at-rules ➞ page ➞ bottom-center
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ bottom-left
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ bottom-left-corner
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ bottom-right
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ bottom-right-corner
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ left-bottom
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ left-middle
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ left-top
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ right-bottom
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ right-middle
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ right-top
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ top-center
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ top-left
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ top-left-corner
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ top-right
+              </li>
+              <li>css ➞ at-rules ➞ page ➞ top-right-corner
+              </li>
+              <li>css ➞ properties ➞ align-self ➞ positioned_boxes
+              </li>
+              <li>css ➞ properties ➞ anchor-scope
+              </li>
+              <li>css ➞ properties ➞ anchor-scope ➞ all
+              </li>
+              <li>css ➞ properties ➞ anchor-scope ➞ none
+              </li>
+              <li>css ➞ properties ➞ font-variant-emoji ➞ emoji
+              </li>
+              <li>css ➞ properties ➞ font-variant-emoji ➞ normal
+              </li>
+              <li>css ➞ properties ➞ font-variant-emoji ➞ text
+              </li>
+              <li>css ➞ properties ➞ font-variant-emoji ➞ unicode
+              </li>
+              <li>css ➞ properties ➞ justify-self ➞ positioned_boxes
+              </li>
+              <li>css ➞ properties ➞ place-self ➞ positioned_boxes
+              </li>
+              <li>css ➞ selectors ➞ details-content
+              </li>
+          </ol>
+            <h4>HTML</h4>
+          <ol>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ accelerometer
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ ambient-light-sensor
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ attribution-reporting
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ autoplay
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ bluetooth
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ browsing-topics
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ camera
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ compute-pressure
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ cross-origin-isolated
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ display-capture
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ document-domain
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ encrypted-media
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ fullscreen
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ gamepad
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ geolocation
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ gyroscope
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ hid
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ identity-credentials-get
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ idle-detection
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ local-fonts
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ magnetometer
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ microphone
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ midi
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ otp-credentials
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ payment
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ picture-in-picture
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ publickey-credentials-create
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ publickey-credentials-get
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ screen-wake-lock
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ serial
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ speaker-selection
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ storage-access
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ usb
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ web-share
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ wildcards
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ window-management
+              </li>
+              <li>html ➞ elements ➞ iframe ➞ allow ➞ xr-spatial-tracking
+              </li>
+          </ol>
+            <h4>HTTP</h4>
+          <ol>
+              <li>http ➞ headers ➞ Clear-Site-Data ➞ wildcard
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (4)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Friday, 18 October 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>API</h4>
+              <ol>
+                  <li>api ➞ NavigateEvent ➞ canTransition
+                  </li>
+                  <li>api ➞ Permissions ➞ permission_bluetooth
+                  </li>
+                  <li>api ➞ ServiceWorkerContainer ➞ error_event
+                  </li>
+              </ol>
+                <h4>MATHML</h4>
+              <ol>
+                  <li>mathml ➞ elements ➞ maction ➞ actiontype ➞ statusline
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.8">v5.6.8</a> <small>(Friday, 18 October 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.10">v5.6.10</a> <small>(Friday, 25 October 2024)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Oct 21 2024]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2024-10-21.html</link>
@@ -2360,2135 +3678,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.2">v5.6.2</a> <small>(Friday 20 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.4">v5.6.4</a> <small>(Friday 27 September 2024)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Sep 23 2024]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2024-09-23.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2024-09-23.html</guid>
-            <pubDate>Mon, 23 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <time title="Monday 16 September 2024">Monday 16 September 2024</time> through <time title="Monday 23 September 2024">Monday 23 September 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-09-23.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +99, -0</h2>
-
-        <h3>Support increases (99)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors">api ➞ CSSPositionTryDescriptors</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ align-self</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ alignSelf</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ block-size</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ blockSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ bottom</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ height</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inline-size</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inlineSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-block</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-block-end</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-block-start</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-inline</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-inline-end</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-inline-start</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetBlock</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetBlockEnd</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetBlockStart</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetInline</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetInlineEnd</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetInlineStart</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ justify-self</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ justifySelf</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ left</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-block</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-block-end</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-block-start</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-bottom</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-inline</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-inline-end</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-inline-start</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-left</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-right</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-top</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginBlock</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginBlockEnd</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginBlockStart</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginBottom</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginInline</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginInlineEnd</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginInlineStart</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginLeft</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginRight</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginTop</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ max-block-size</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ max-height</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ max-inline-size</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ max-width</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ maxBlockSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ maxHeight</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ maxInlineSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ maxWidth</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ min-block-size</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ min-height</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ min-inline-size</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ min-width</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ minBlockSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ minHeight</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ minInlineSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ minWidth</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ place-self</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ placeSelf</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ position-anchor</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ position-area</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ positionAnchor</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ positionArea</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ right</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ top</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ width</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule">api ➞ CSSPositionTryRule</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/name">api ➞ CSSPositionTryRule ➞ name</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/style">api ➞ CSSPositionTryRule ➞ style</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/Document/fragmentDirective">api ➞ Document ➞ fragmentDirective</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/FragmentDirective">api ➞ FragmentDirective</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/altitudeAngle">api ➞ PointerEvent ➞ altitudeAngle</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/azimuthAngle">api ➞ PointerEvent ➞ azimuthAngle</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_pvrtc">api ➞ WEBGL_compressed_texture_pvrtc</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Document ➞ caretPositionFromPoint ➞ options_parameter
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox,Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PointerEvent ➞ PointerEvent ➞ options_altitudeAngle_parameter
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PointerEvent ➞ PointerEvent ➞ options_azimuthAngle_parameter
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Scheduler ➞ yield
-                    	<a href="https://wicg.github.io/scheduling-apis/#dom-scheduler-yield"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>CSS</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/::target-text">css ➞ selectors ➞ target-text</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>HTML</h4>
-            <ol>
-                <li>
-                    <span>html ➞ elements ➞ a ➞ text_fragments
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>JAVASCRIPT</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/Iterator">javascript ➞ builtins ➞ Iterator ➞ Iterator</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/drop">javascript ➞ builtins ➞ Iterator ➞ drop</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/every">javascript ➞ builtins ➞ Iterator ➞ every</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/filter">javascript ➞ builtins ➞ Iterator ➞ filter</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/find">javascript ➞ builtins ➞ Iterator ➞ find</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/flatMap">javascript ➞ builtins ➞ Iterator ➞ flatMap</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/forEach">javascript ➞ builtins ➞ Iterator ➞ forEach</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/from">javascript ➞ builtins ➞ Iterator ➞ from</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/map">javascript ➞ builtins ➞ Iterator ➞ map</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/reduce">javascript ➞ builtins ➞ Iterator ➞ reduce</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/some">javascript ➞ builtins ➞ Iterator ➞ some</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/take">javascript ➞ builtins ➞ Iterator ➞ take</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/toArray">javascript ➞ builtins ➞ Iterator ➞ toArray</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>WEBEXTENSIONS</h4>
-            <ol>
-                <li>
-                    <span>webextensions ➞ api ➞ tabs ➞ onUpdated ➞ changeInfo ➞ openerTabId
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 133</h2>
-    <details class="section-background">
-      <summary>Show all 133 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (87)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday 6 September 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/AudioData">api ➞ AudioData ➞ AudioData</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData">api ➞ AudioData</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/allocationSize">api ➞ AudioData ➞ allocationSize</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/clone">api ➞ AudioData ➞ clone</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/close">api ➞ AudioData ➞ close</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/copyTo">api ➞ AudioData ➞ copyTo</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/duration">api ➞ AudioData ➞ duration</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/format">api ➞ AudioData ➞ format</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/numberOfChannels">api ➞ AudioData ➞ numberOfChannels</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/numberOfFrames">api ➞ AudioData ➞ numberOfFrames</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/sampleRate">api ➞ AudioData ➞ sampleRate</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioData/timestamp">api ➞ AudioData ➞ timestamp</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/AudioDecoder">api ➞ AudioDecoder ➞ AudioDecoder</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder">api ➞ AudioDecoder</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/close">api ➞ AudioDecoder ➞ close</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/configure">api ➞ AudioDecoder ➞ configure</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/decode">api ➞ AudioDecoder ➞ decode</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/decodeQueueSize">api ➞ AudioDecoder ➞ decodeQueueSize</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/dequeue_event">api ➞ AudioDecoder ➞ dequeue_event</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/flush">api ➞ AudioDecoder ➞ flush</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/isConfigSupported_static">api ➞ AudioDecoder ➞ isConfigSupported_static</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/reset">api ➞ AudioDecoder ➞ reset</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/state">api ➞ AudioDecoder ➞ state</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/AudioEncoder">api ➞ AudioEncoder ➞ AudioEncoder</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder">api ➞ AudioEncoder</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/close">api ➞ AudioEncoder ➞ close</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/configure">api ➞ AudioEncoder ➞ configure</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/dequeue_event">api ➞ AudioEncoder ➞ dequeue_event</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/encode">api ➞ AudioEncoder ➞ encode</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/encodeQueueSize">api ➞ AudioEncoder ➞ encodeQueueSize</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/flush">api ➞ AudioEncoder ➞ flush</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/isConfigSupported_static">api ➞ AudioEncoder ➞ isConfigSupported_static</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/reset">api ➞ AudioEncoder ➞ reset</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/state">api ➞ AudioEncoder ➞ state</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/Web_Authentication_API/WebAuthn_extensions#largeblob">api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ extensions ➞ largeBlob</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/EncodedAudioChunk">api ➞ EncodedAudioChunk ➞ EncodedAudioChunk</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk">api ➞ EncodedAudioChunk</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/byteLength">api ➞ EncodedAudioChunk ➞ byteLength</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/copyTo">api ➞ EncodedAudioChunk ➞ copyTo</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/duration">api ➞ EncodedAudioChunk ➞ duration</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/timestamp">api ➞ EncodedAudioChunk ➞ timestamp</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/type">api ➞ EncodedAudioChunk ➞ type</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/HTMLImageElement/fetchPriority">api ➞ HTMLImageElement ➞ fetchPriority</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority">api ➞ HTMLLinkElement ➞ fetchPriority</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/fetchPriority">api ➞ HTMLScriptElement ➞ fetchPriority</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/ImageCapture">api ➞ ImageCapture ➞ ImageCapture</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture">api ➞ ImageCapture</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/getPhotoCapabilities">api ➞ ImageCapture ➞ getPhotoCapabilities</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/getPhotoSettings">api ➞ ImageCapture ➞ getPhotoSettings</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/takePhoto">api ➞ ImageCapture ➞ takePhoto</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/ImageCapture/track">api ➞ ImageCapture ➞ track</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Permissions ➞ permission_camera
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Permissions ➞ permission_microphone
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransition ➞ types
-                        <a href="https://drafts.csswg.org/css-view-transitions-2/#dom-viewtransition-types"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ @@iterator
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet
-                        <a href="https://drafts.csswg.org/css-view-transitions-2/#viewtransitiontypeset"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ add
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ clear
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ delete
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ entries
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ forEach
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ has
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ keys
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ size
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ViewTransitionTypeSet ➞ values
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ CommandEvent ➞ CommandEvent
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ CommandEvent
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ CommandEvent ➞ command
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ CommandEvent ➞ source
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ HTMLButtonElement ➞ command
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ HTMLButtonElement ➞ commandfor
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ HTMLElement ➞ command_event
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ properties ➞ scrollbar-gutter ➞ auto
-                        <a href="https://drafts.csswg.org/css-overflow/#valdef-scrollbar-gutter-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ scrollbar-gutter ➞ stable
-                        <a href="https://drafts.csswg.org/css-overflow/#valdef-scrollbar-gutter-stable"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ selectors ➞ any-link ➞ not_match_link
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/basic-shape/shape">css ➞ types ➞ basic-shape ➞ shape</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ background-clip ➞ border-area
-                        <a href="https://drafts.csswg.org/css-backgrounds-4/#valdef-background-clip-border-area"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ caption-side ➞ bottom
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ caption-side ➞ top
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ color-scheme ➞ dark
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ color-scheme ➞ light
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ color-scheme ➞ normal
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ display ➞ table-caption
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>HTML</h4>
-              <ol>
-                  <li>
-                      <span>html ➞ elements ➞ img ➞ fetchpriority
-                        <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-fetchpriority"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>html ➞ elements ➞ link ➞ fetchpriority
-                        <a href="https://html.spec.whatwg.org/multipage/semantics.html#attr-link-fetchpriority"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>html ➞ elements ➞ script ➞ fetchpriority
-                        <a href="https://html.spec.whatwg.org/multipage/scripting.html#attr-script-fetchpriority"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>WEBEXTENSIONS</h4>
-              <ol>
-                  <li>
-                      <span>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ initiatorDomains
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (21)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday 6 September 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ CommandEvent ➞ CommandEvent
-              </li>
-              <li>api ➞ CommandEvent
-              </li>
-              <li>api ➞ CommandEvent ➞ command
-              </li>
-              <li>api ➞ CommandEvent ➞ source
-              </li>
-              <li>api ➞ Document ➞ caretPositionFromPoint ➞ options_parameter
-              </li>
-              <li>api ➞ HTMLButtonElement ➞ command
-              </li>
-              <li>api ➞ HTMLButtonElement ➞ commandfor
-              </li>
-              <li>api ➞ HTMLElement ➞ command_event
-              </li>
-              <li>api ➞ PointerEvent ➞ PointerEvent ➞ options_altitudeAngle_parameter
-              </li>
-              <li>api ➞ PointerEvent ➞ PointerEvent ➞ options_azimuthAngle_parameter
-              </li>
-              <li>api ➞ Scheduler ➞ yield
-              </li>
-          </ol>
-            <h4>CSS</h4>
-          <ol>
-              <li>css ➞ at-rules ➞ custom-media
-              </li>
-              <li>css ➞ properties ➞ background-clip ➞ border-area
-              </li>
-              <li>css ➞ properties ➞ caption-side ➞ bottom
-              </li>
-              <li>css ➞ properties ➞ caption-side ➞ top
-              </li>
-              <li>css ➞ properties ➞ color-scheme ➞ dark
-              </li>
-              <li>css ➞ properties ➞ color-scheme ➞ light
-              </li>
-              <li>css ➞ properties ➞ color-scheme ➞ normal
-              </li>
-              <li>css ➞ properties ➞ display ➞ table-caption
-              </li>
-          </ol>
-            <h4>WEBEXTENSIONS</h4>
-          <ol>
-              <li>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ initiatorDomains
-              </li>
-              <li>webextensions ➞ api ➞ tabs ➞ onUpdated ➞ changeInfo ➞ openerTabId
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (25)</h3>
-        <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday 6 September 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-          </p>
-        </div>
-        <section class="removed implementations">
-                <h4>API</h4>
-              <ol>
-                  <li>api ➞ ApplicationCache
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ abort
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ cached_event
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ checking_event
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ downloading_event
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ error_event
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ noupdate_event
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ obsolete_event
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ progress_event
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ status
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ swapCache
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ update
-                  </li>
-                  <li>api ➞ ApplicationCache ➞ updateready_event
-                  </li>
-                  <li>api ➞ HTMLButtonElement ➞ invokeaction
-                  </li>
-                  <li>api ➞ HTMLButtonElement ➞ invoketarget
-                  </li>
-                  <li>api ➞ HTMLElement ➞ invoke_event
-                  </li>
-                  <li>api ➞ InvokeEvent ➞ InvokeEvent
-                  </li>
-                  <li>api ➞ InvokeEvent
-                  </li>
-                  <li>api ➞ InvokeEvent ➞ action
-                  </li>
-                  <li>api ➞ InvokeEvent ➞ invoker
-                  </li>
-              </ol>
-                <h4>CSS</h4>
-              <ol>
-                  <li>css ➞ properties ➞ user-select ➞ contain
-                  </li>
-              </ol>
-                <h4>HTML</h4>
-              <ol>
-                  <li>html ➞ elements ➞ area ➞ tabindex
-                  </li>
-                  <li>html ➞ elements ➞ object ➞ tabindex
-                  </li>
-                  <li>html ➞ global_attributes ➞ invokeaction
-                  </li>
-                  <li>html ➞ global_attributes ➞ invoketarget
-                  </li>
-              </ol>
-          </section>
-    </details>
-  
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.5.51">v5.5.51</a> <small>(Friday 6 September 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.2">v5.6.2</a> <small>(Friday 20 September 2024)</small>
 			</span>
 		</div>
   </footer>

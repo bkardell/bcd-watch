@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: Changes Report (weekly)</title>
-    <updated>2024-12-16T01:49:40.876Z</updated>
+    <updated>2024-12-23T01:39:31.651Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,805 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD Changes Report, Mon Dec 23 2024]]></title>
+        <id>https://bcd-watch.igalia.com/weekly/2024-12-23.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly/2024-12-23.html">
+        </link>
+        <updated>2024-12-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <time title="Monday, 16 December 2024">Monday, 16 December 2024</time> through <time title="Monday, 23 December 2024">Monday, 23 December 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-12-23.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +23, -0</h2>
+
+        <h3>Support increases (23)</h3>
+        <section class="added implementations">
+            <h4>CSS</h4>
+            <ol>
+                <li>
+                    <span>css ➞ properties ➞ bottom ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ inset ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ inset-block ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ inset-block-end ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ inset-block-start ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ inset-inline ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ inset-inline-end ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ inset-inline-start ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ left ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-block ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-block-end ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-block-start ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-bottom ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-inline ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-inline-end ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-inline-start ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-left ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-right ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ margin-top ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ right ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ top ➞ anchor-size
+                    	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ types ➞ anchor-size ➞ inset_margin
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 117</h2>
+    <details class="section-background">
+      <summary>Show all 117 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (21)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 13 December 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-column-axis
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-column-progression
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-hyphenate-limit-after
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-hyphenate-limit-before
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-hyphenate-limit-lines
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-line-align
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-line-box-contain
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-line-grid
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-line-snap
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ -webkit-nbsp-mode
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTML</h4>
+              <ol>
+                  <li>
+                      <span>html ➞ global_attributes ➞ nonce ➞ nonce_hiding
+                        <a href="https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-does-not-update-dom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTML/Global_attributes/hidden">html ➞ global_attributes ➞ hidden ➞ until-found</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>API</h4>
+              <ol>
+                  <li>
+                      <span>api ➞ IDBRequest ➞ error ➞ transient_unrecoverable_read_errors
+                        <a href="https://w3c.github.io/IndexedDB/#:~:text&#x3D;NotReadableError"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTTP</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Service-Worker">http ➞ headers ➞ Service-Worker</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Service-Worker-Allowed">http ➞ headers ➞ Service-Worker-Allowed</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>WEBASSEMBLY</h4>
+              <ol>
+                  <li>
+                      <span>webassembly ➞ api ➞ Module ➞ Module ➞ compile_options
+                        <a href="https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md#:~:text&#x3D;dictionary-,webassemblycompileoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webassembly ➞ api ➞ compileStreaming_static ➞ compile_options
+                        <a href="https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md#:~:text&#x3D;dictionary-,webassemblycompileoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webassembly ➞ api ➞ compile_static ➞ compile_options
+                        <a href="https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md#:~:text&#x3D;dictionary-,webassemblycompileoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webassembly ➞ api ➞ instantiateStreaming_static ➞ compile_options
+                        <a href="https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md#:~:text&#x3D;dictionary-,webassemblycompileoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webassembly ➞ api ➞ instantiate_static ➞ compile_options
+                        <a href="https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md#:~:text&#x3D;dictionary-,webassemblycompileoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webassembly ➞ api ➞ validate_static ➞ compile_options
+                        <a href="https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md#:~:text&#x3D;dictionary-,webassemblycompileoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (33)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 13 December 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ IDBRequest ➞ error ➞ transient_unrecoverable_read_errors
+              </li>
+          </ol>
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ properties ➞ bottom ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ inset ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ inset-block ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ inset-block-end ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ inset-block-start ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ inset-inline ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ inset-inline-end ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ inset-inline-start ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ left ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-block ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-block-end ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-block-start ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-bottom ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-inline ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-inline-end ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-inline-start ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-left ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-right ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ margin-top ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ right ➞ anchor-size
+              </li>
+              <li>css ➞ properties ➞ top ➞ anchor-size
+              </li>
+              <li>css ➞ types ➞ anchor-size ➞ inset_margin
+              </li>
+          </ol>
+            <h4>HTML</h4>
+          <ol>
+              <li>html ➞ global_attributes ➞ hidden ➞ until-found
+              </li>
+          </ol>
+            <h4>HTTP</h4>
+          <ol>
+              <li>http ➞ headers ➞ Service-Worker
+              </li>
+              <li>http ➞ headers ➞ Service-Worker-Allowed
+              </li>
+          </ol>
+            <h4>WEBASSEMBLY</h4>
+          <ol>
+              <li>webassembly ➞ api ➞ Module ➞ Module ➞ compile_options
+              </li>
+              <li>webassembly ➞ api ➞ compileStreaming_static ➞ compile_options
+              </li>
+              <li>webassembly ➞ api ➞ compile_static ➞ compile_options
+              </li>
+              <li>webassembly ➞ api ➞ instantiateStreaming_static ➞ compile_options
+              </li>
+              <li>webassembly ➞ api ➞ instantiate_static ➞ compile_options
+              </li>
+              <li>webassembly ➞ api ➞ validate_static ➞ compile_options
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (63)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Friday, 13 December 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>API</h4>
+              <ol>
+                  <li>api ➞ MLContext ➞ compute
+                  </li>
+                  <li>api ➞ SharedStorageOperation
+                  </li>
+                  <li>api ➞ SharedStorageRunOperation
+                  </li>
+                  <li>api ➞ SharedStorageRunOperation ➞ run
+                  </li>
+                  <li>api ➞ SharedStorageSelectURLOperation
+                  </li>
+                  <li>api ➞ SharedStorageSelectURLOperation ➞ run
+                  </li>
+                  <li>api ➞ WindowSharedStorage
+                  </li>
+                  <li>api ➞ WindowSharedStorage ➞ run
+                  </li>
+                  <li>api ➞ WindowSharedStorage ➞ selectURL
+                  </li>
+                  <li>api ➞ WindowSharedStorage ➞ worklet
+                  </li>
+                  <li>api ➞ WorkletSharedStorage ➞ @@asyncIterator
+                  </li>
+                  <li>api ➞ WorkletSharedStorage
+                  </li>
+                  <li>api ➞ WorkletSharedStorage ➞ context
+                  </li>
+                  <li>api ➞ WorkletSharedStorage ➞ entries
+                  </li>
+                  <li>api ➞ WorkletSharedStorage ➞ get
+                  </li>
+                  <li>api ➞ WorkletSharedStorage ➞ keys
+                  </li>
+                  <li>api ➞ WorkletSharedStorage ➞ length
+                  </li>
+                  <li>api ➞ WorkletSharedStorage ➞ remainingBudget
+                  </li>
+              </ol>
+                <h4>HTML</h4>
+              <ol>
+                  <li>html ➞ global_attributes ➞ hidden ➞ until-found_value
+                  </li>
+              </ol>
+                <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ Calendar
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ dateAdd
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ dateFromFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ dateUntil
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ day
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ dayOfWeek
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ dayOfYear
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ daysInMonth
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ daysInWeek
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ daysInYear
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ era
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ eraYear
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ fields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ from
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ id
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ inLeapYear
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ mergeFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ month
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ monthCode
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ monthDayFromFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ monthsInYear
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ toJSON
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ toString
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ weekOfYear
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ year
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ Calendar ➞ yearMonthFromFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainDate ➞ getISOFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainDateTime ➞ getISOFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainMonthDay ➞ getISOFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ getISOFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ PlainYearMonth ➞ getISOFields
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ TimeZone
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ from
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ getInstantFor
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ getOffsetNanosecondsFor
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ getOffsetStringFor
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ getPlainDateTimeFor
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ getPossibleInstantsFor
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ id
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ toJSON
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ TimeZone ➞ toString
+                  </li>
+                  <li>javascript ➞ builtins ➞ Temporal ➞ ZonedDateTime ➞ getISOFields
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.24">v5.6.24</a> <small>(Friday, 13 December 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.26">v5.6.26</a> <small>(Friday, 20 December 2024)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD Changes Report, Mon Dec 16 2024]]></title>
         <id>https://bcd-watch.igalia.com/weekly/2024-12-16.html</id>
@@ -2720,152 +3519,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.15">v5.6.15</a> <small>(Tuesday, 12 November 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.18">v5.6.18</a> <small>(Friday, 22 November 2024)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD Changes Report, Mon Nov 18 2024]]></title>
-        <id>https://bcd-watch.igalia.com/weekly/2024-11-18.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly/2024-11-18.html">
-        </link>
-        <updated>2024-11-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <time title="Monday, 11 November 2024">Monday, 11 November 2024</time> through <time title="Monday, 18 November 2024">Monday, 18 November 2024</time></strong><a href="https://bcd-watch.igalia.com/weekly/2024-11-18.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +5, -0</h2>
-
-        <h3>Support increases (5)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/Window/pagereveal_event">api ➞ Window ➞ pagereveal_event</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/Window/pageswap_event">api ➞ Window ➞ pageswap_event</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ ServiceWorkerContainer ➞ worker_support
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>CSS</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/@page">css ➞ at-rules ➞ page</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/@page/size">css ➞ at-rules ➞ page ➞ size</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 4</h2>
-    <details class="section-background">
-      <summary>Show all 4 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-      
-      <h3>New entries (1)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 8 November 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ ServiceWorkerContainer ➞ worker_support
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (3)</h3>
-        <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday, 8 November 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-          </p>
-        </div>
-        <section class="removed implementations">
-                <h4>CSS</h4>
-              <ol>
-                  <li>css ➞ selectors ➞ blank
-                  </li>
-                  <li>css ➞ selectors ➞ column
-                  </li>
-              </ol>
-                <h4>HTTP</h4>
-              <ol>
-                  <li>http ➞ headers ➞ Sec-CH-Save-Data
-                  </li>
-              </ol>
-          </section>
-    </details>
-  
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.14">v5.6.14</a> <small>(Friday, 8 November 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.15">v5.6.15</a> <small>(Tuesday, 12 November 2024)</small>
 			</span>
 		</div>
   </footer>

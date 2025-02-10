@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 03 Feb 2025 01:36:45 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Feb 2025 01:38:19 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,588 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon Feb 10 2025]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2025-02-10.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2025-02-10.html</guid>
+            <pubDate>Mon, 10 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <time title="Monday, 3 February 2025">Monday, 3 February 2025</time> through <time title="Monday, 10 February 2025">Monday, 10 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-10.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +27, -0</h2>
+
+        <h3>Support increases (27)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+                    <span>api ➞ HTMLElement ➞ contentEditable ➞ plaintext-only
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ GPUAdapterInfo ➞ subgroupMaxSize
+                    	<a href="https://gpuweb.github.io/gpuweb/#dom-gpuadapterinfo-subgroupmaxsize"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ GPUAdapterInfo ➞ subgroupMinSize
+                    	<a href="https://gpuweb.github.io/gpuweb/#dom-gpuadapterinfo-subgroupminsize"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ HTMLDialogElement ➞ closedBy
+                    	<a href="https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-closedby"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ HTMLDialogElement ➞ requestClose
+                    	<a href="https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-requestclose"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ OffscreenCanvasRenderingContext2D ➞ getContextAttributes
+                    	<a href="https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-canvas-getcontextattributes"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SVGDiscardElement
+                    	<a href="https://svgwg.org/specs/animations/#InterfaceSVGDiscardElement"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                        (⚠️ deprecated)
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorage ➞ batchUpdate
+                    	<a href="https://wicg.github.io/shared-storage/#dom-sharedstorage-batchupdate"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageAppendMethod ➞ SharedStorageAppendMethod
+                    	<a href="https://wicg.github.io/shared-storage/#dom-sharedstorageappendmethod-sharedstorageappendmethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageAppendMethod
+                    	<a href="https://wicg.github.io/shared-storage/#sharedstorageappendmethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageClearMethod ➞ SharedStorageClearMethod
+                    	<a href="https://wicg.github.io/shared-storage/#dom-sharedstorageclearmethod-sharedstorageclearmethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageClearMethod
+                    	<a href="https://wicg.github.io/shared-storage/#sharedstorageclearmethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageDeleteMethod ➞ SharedStorageDeleteMethod
+                    	<a href="https://wicg.github.io/shared-storage/#dom-sharedstoragedeletemethod-sharedstoragedeletemethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageDeleteMethod
+                    	<a href="https://wicg.github.io/shared-storage/#sharedstoragedeletemethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageModifierMethod
+                    	<a href="https://wicg.github.io/shared-storage/#sharedstoragemodifiermethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageSetMethod ➞ SharedStorageSetMethod
+                    	<a href="https://wicg.github.io/shared-storage/#dom-sharedstoragesetmethod-sharedstoragesetmethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageSetMethod
+                    	<a href="https://wicg.github.io/shared-storage/#sharedstoragesetmethod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SharedStorageWorkletGlobalScope ➞ interestGroups
+                    	<a href="https://wicg.github.io/shared-storage/#dom-sharedstorageworkletglobalscope-interestgroups"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>CSS</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/:has-slotted">css ➞ selectors ➞ has-slotted</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/:open">css ➞ selectors ➞ open</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ dynamic-range-limit
+                    	<a href="https://drafts.csswg.org/css-color-hdr/#the-dynamic-range-limit-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ dynamic-range-limit ➞ constrained-high
+                    	<a href="https://drafts.csswg.org/css-color-hdr/#valdef-dynamic-range-limit-constrained-high"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ dynamic-range-limit ➞ high
+                    	<a href="https://drafts.csswg.org/css-color-hdr/#valdef-dynamic-range-limit-high"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ dynamic-range-limit ➞ standard
+                    	<a href="https://drafts.csswg.org/css-color-hdr/#valdef-dynamic-range-limit-standard"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>HTML</h4>
+            <ol>
+                <li>
+                    <span>html ➞ elements ➞ dialog ➞ closedby
+                    	<a href="https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>JAVASCRIPT</h4>
+            <ol>
+                <li>
+                    <span>javascript ➞ statements ➞ using
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>SVG</h4>
+            <ol>
+                <li>
+                    <span>svg ➞ elements ➞ discard
+                    	<a href="https://svgwg.org/specs/animations/#DiscardElement"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                        (⚠️ deprecated)
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 39</h2>
+    <details class="section-background">
+      <summary>Show all 39 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (8)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 31 January 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/finalResponseHeadersStart">api ➞ PerformanceResourceTiming ➞ finalResponseHeadersStart</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/responseStart">api ➞ PerformanceResourceTiming ➞ responseStart</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLElement ➞ popover ➞ hint
+                        <a href="https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/renderTime#cross-origin_image_render_time">api ➞ LargestContentfulPaint ➞ renderTime ➞ cross-origin</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/renderTime#cross-origin_image_render_time">api ➞ PerformanceElementTiming ➞ renderTime ➞ cross-origin</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ at-rules ➞ media ➞ device-posture
+                        <a href="https://w3c.github.io/device-posture/#the-device-posture-media-feature"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTML</h4>
+              <ol>
+                  <li>
+                      <span>html ➞ elements ➞ area ➞ attributionsrc
+                        <a href="https://wicg.github.io/attribution-reporting-api/#element-attrdef-area-attributionsrc"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ global_attributes ➞ popover ➞ hint
+                        <a href="https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (29)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 31 January 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ GPUAdapterInfo ➞ subgroupMaxSize
+              </li>
+              <li>api ➞ GPUAdapterInfo ➞ subgroupMinSize
+              </li>
+              <li>api ➞ HTMLDialogElement ➞ closedBy
+              </li>
+              <li>api ➞ HTMLDialogElement ➞ requestClose
+              </li>
+              <li>api ➞ HTMLElement ➞ popover ➞ hint
+              </li>
+              <li>api ➞ LargestContentfulPaint ➞ renderTime ➞ cross-origin
+              </li>
+              <li>api ➞ OffscreenCanvasRenderingContext2D ➞ getContextAttributes
+              </li>
+              <li>api ➞ PerformanceElementTiming ➞ renderTime ➞ cross-origin
+              </li>
+              <li>api ➞ SVGDiscardElement
+              </li>
+              <li>api ➞ SharedStorage ➞ batchUpdate
+              </li>
+              <li>api ➞ SharedStorageAppendMethod ➞ SharedStorageAppendMethod
+              </li>
+              <li>api ➞ SharedStorageAppendMethod
+              </li>
+              <li>api ➞ SharedStorageClearMethod ➞ SharedStorageClearMethod
+              </li>
+              <li>api ➞ SharedStorageClearMethod
+              </li>
+              <li>api ➞ SharedStorageDeleteMethod ➞ SharedStorageDeleteMethod
+              </li>
+              <li>api ➞ SharedStorageDeleteMethod
+              </li>
+              <li>api ➞ SharedStorageModifierMethod
+              </li>
+              <li>api ➞ SharedStorageSetMethod ➞ SharedStorageSetMethod
+              </li>
+              <li>api ➞ SharedStorageSetMethod
+              </li>
+              <li>api ➞ SharedStorageWorkletGlobalScope ➞ interestGroups
+              </li>
+          </ol>
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ properties ➞ dynamic-range-limit
+              </li>
+              <li>css ➞ properties ➞ dynamic-range-limit ➞ constrained-high
+              </li>
+              <li>css ➞ properties ➞ dynamic-range-limit ➞ high
+              </li>
+              <li>css ➞ properties ➞ dynamic-range-limit ➞ standard
+              </li>
+          </ol>
+            <h4>HTML</h4>
+          <ol>
+              <li>html ➞ elements ➞ area ➞ attributionsrc
+              </li>
+              <li>html ➞ elements ➞ dialog ➞ closedby
+              </li>
+              <li>html ➞ global_attributes ➞ popover ➞ hint
+              </li>
+          </ol>
+            <h4>JAVASCRIPT</h4>
+          <ol>
+              <li>javascript ➞ statements ➞ using
+              </li>
+          </ol>
+            <h4>SVG</h4>
+          <ol>
+              <li>svg ➞ elements ➞ discard
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (2)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Friday, 31 January 2025, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>CSS</h4>
+              <ol>
+                  <li>css ➞ types ➞ text-edge ➞ ideographic
+                  </li>
+                  <li>css ➞ types ➞ text-edge ➞ ideographic-ink
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.35">v5.6.35</a> <small>(Friday, 31 January 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.37">v5.6.37</a> <small>(Friday, 7 February 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Feb 03 2025]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2025-02-03.html</link>
@@ -3905,248 +4487,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.27">v5.6.27</a> <small>(Friday, 3 January 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.29">v5.6.29</a> <small>(Friday, 10 January 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Jan 06 2025]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2025-01-06.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2025-01-06.html</guid>
-            <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <time title="Monday, 30 December 2024">Monday, 30 December 2024</time> through <time title="Monday, 6 January 2025">Monday, 6 January 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-01-06.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +0, -0</h2>
-
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 26</h2>
-    <details class="section-background">
-      <summary>Show all 26 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (12)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 20 December 2024, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-                      <span>api ➞ Navigator ➞ adAuctionComponents
-                        <a href="https://wicg.github.io/fenced-frame/#dom-navigator-adauctioncomponents"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ canLoadAdAuctionFencedFrame
-                        <a href="https://wicg.github.io/turtledove/#dom-navigator-canloadadauctionfencedframe"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ clearOriginJoinedAdInterestGroups
-                        <a href="https://wicg.github.io/turtledove/#dom-navigator-clearoriginjoinedadinterestgroups"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ createAuctionNonce
-                        <a href="https://wicg.github.io/turtledove/#create-auction-nonce"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ deprecatedRunAdAuctionEnforcesKAnonymity
-                        <a href="https://wicg.github.io/turtledove/#dom-navigator-deprecatedrunadauctionenforceskanonymity"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ joinAdInterestGroup
-                        <a href="https://wicg.github.io/turtledove/#dom-navigator-joinadinterestgroup"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ leaveAdInterestGroup
-                        <a href="https://wicg.github.io/turtledove/#dom-navigator-leaveadinterestgroup"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ protectedAudience
-                        <a href="https://wicg.github.io/turtledove/#dom-navigator-protectedaudience"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ runAdAuction
-                        <a href="https://wicg.github.io/turtledove/#dom-navigator-runadauction"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Navigator ➞ updateAdInterestGroups
-                        <a href="https://wicg.github.io/turtledove/#dom-navigator-updateadinterestgroups"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ProtectedAudience
-                        <a href="https://wicg.github.io/turtledove/#protectedaudience"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ProtectedAudience ➞ queryFeatureSupport
-                        <a href="https://wicg.github.io/turtledove/#dom-protectedaudience-queryfeaturesupport"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (13)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 20 December 2024, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ Navigator ➞ adAuctionComponents
-              </li>
-              <li>api ➞ Navigator ➞ canLoadAdAuctionFencedFrame
-              </li>
-              <li>api ➞ Navigator ➞ clearOriginJoinedAdInterestGroups
-              </li>
-              <li>api ➞ Navigator ➞ createAuctionNonce
-              </li>
-              <li>api ➞ Navigator ➞ deprecatedRunAdAuctionEnforcesKAnonymity
-              </li>
-              <li>api ➞ Navigator ➞ joinAdInterestGroup
-              </li>
-              <li>api ➞ Navigator ➞ leaveAdInterestGroup
-              </li>
-              <li>api ➞ Navigator ➞ protectedAudience
-              </li>
-              <li>api ➞ Navigator ➞ runAdAuction
-              </li>
-              <li>api ➞ Navigator ➞ updateAdInterestGroups
-              </li>
-              <li>api ➞ ProtectedAudience
-              </li>
-              <li>api ➞ ProtectedAudience ➞ queryFeatureSupport
-              </li>
-              <li>api ➞ TransformStream ➞ TransformStream ➞ transformer_cancel
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (1)</h3>
-        <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday, 20 December 2024, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-          </p>
-        </div>
-        <section class="removed implementations">
-                <h4>HTTP</h4>
-              <ol>
-                  <li>http ➞ headers ➞ Cache-Control ➞ stale-if-error
-                  </li>
-              </ol>
-          </section>
-    </details>
-  
-  <hr>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.26">v5.6.26</a> <small>(Friday, 20 December 2024)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v5.6.27">v5.6.27</a> <small>(Friday, 3 January 2025)</small>
 			</span>
 		</div>
   </footer>

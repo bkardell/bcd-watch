@@ -64,6 +64,8 @@ function formatSummary(delta, data) {
 		laterReleaseDateTime: delta.__meta[0].newer.releaseDate.toLocaleDateString('en-GB',dtOptions),
 		olderMonday: delta.__meta[0].older.monday.toLocaleDateString('en-GB',dtOptions),
 		laterMonday: delta.__meta[0].newer.monday.toLocaleDateString('en-GB',dtOptions),
+		previousDate: delta.__meta[0].older.monday.toISOString().split('T')[0],
+		previousLink: delta.__meta[0].older.monday.toISOString().split('T')[0] + '.html',
 		olderReleaseVersion: delta.__meta[0].older.version,
 		laterReleaseVersion: delta.__meta[0].newer.version,
 		reportDate: reportDate,

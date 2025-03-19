@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2025-03-17T01:45:49.082Z</updated>
+    <updated>2025-03-19T13:25:21.784Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -24,7 +24,7 @@
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of changes indicating universal implementations from <time title="Monday, 10 March 2025">Monday, 10 March 2025</time> through <time title="Monday, 17 March 2025">Monday, 17 March 2025</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2025-03-17.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href=""><time title="Monday, 10 March 2025">Monday, 10 March 2025</time></a> through <time title="Monday, 17 March 2025">Monday, 17 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-17.html" title="permalink">🔗</a>
     </p>
     <hr>
 
@@ -34,6 +34,9 @@
 
 
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 10 March 2025">Monday, 10 March 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>
@@ -59,7 +62,7 @@
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of changes indicating universal implementations from <time title="Monday, 3 March 2025">Monday, 3 March 2025</time> through <time title="Monday, 10 March 2025">Monday, 10 March 2025</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2025-03-10.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href=""><time title="Monday, 3 March 2025">Monday, 3 March 2025</time></a> through <time title="Monday, 10 March 2025">Monday, 10 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-10.html" title="permalink">🔗</a>
     </p>
     <hr>
 
@@ -372,6 +375,9 @@
           </section>
 
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 3 March 2025">Monday, 3 March 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>
@@ -397,7 +403,7 @@
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of changes indicating universal implementations from <time title="Monday, 24 February 2025">Monday, 24 February 2025</time> through <time title="Monday, 3 March 2025">Monday, 3 March 2025</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2025-03-03.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href=""><time title="Monday, 24 February 2025">Monday, 24 February 2025</time></a> through <time title="Monday, 3 March 2025">Monday, 3 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-03.html" title="permalink">🔗</a>
     </p>
     <hr>
 
@@ -886,6 +892,9 @@
           </section>
 
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 24 February 2025">Monday, 24 February 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>
@@ -911,7 +920,7 @@
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of changes indicating universal implementations from <time title="Monday, 17 February 2025">Monday, 17 February 2025</time> through <time title="Monday, 24 February 2025">Monday, 24 February 2025</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2025-02-24.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href=""><time title="Monday, 17 February 2025">Monday, 17 February 2025</time></a> through <time title="Monday, 24 February 2025">Monday, 24 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-24.html" title="permalink">🔗</a>
     </p>
     <hr>
 
@@ -921,6 +930,9 @@
 
 
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 17 February 2025">Monday, 17 February 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>
@@ -946,7 +958,7 @@
         <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
         <content type="html"><![CDATA[<main>
     <p>
-    Summary of changes indicating universal implementations from <time title="Monday, 10 February 2025">Monday, 10 February 2025</time> through <time title="Monday, 17 February 2025">Monday, 17 February 2025</time></strong>.<a href="https://bcd-watch.igalia.com/weekly-completed/2025-02-17.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href=""><time title="Monday, 10 February 2025">Monday, 10 February 2025</time></a> through <time title="Monday, 17 February 2025">Monday, 17 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-17.html" title="permalink">🔗</a>
     </p>
     <hr>
 
@@ -972,6 +984,9 @@
           </section>
 
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 10 February 2025">Monday, 10 February 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>

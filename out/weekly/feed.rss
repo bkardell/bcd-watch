@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 17 Mar 2025 01:45:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Mar 2025 13:25:21 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -22,7 +22,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 10 March 2025">Monday, 10 March 2025</time> through <time title="Monday, 17 March 2025">Monday, 17 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-17.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href="2025-03-10.html"><time title="Monday, 10 March 2025">Monday, 10 March 2025</time></a> through <time title="Monday, 17 March 2025">Monday, 17 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-17.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +3, -0</h2>
@@ -282,6 +282,9 @@
     </details>
   
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2025-03-10.html"><time title="Monday, 10 March 2025">Monday, 10 March 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>
@@ -308,7 +311,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 3 March 2025">Monday, 3 March 2025</time> through <time title="Monday, 10 March 2025">Monday, 10 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-10.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href="2025-03-03.html"><time title="Monday, 3 March 2025">Monday, 3 March 2025</time></a> through <time title="Monday, 10 March 2025">Monday, 10 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-10.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +51, -0</h2>
@@ -3085,6 +3088,9 @@
     </details>
   
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2025-03-03.html"><time title="Monday, 3 March 2025">Monday, 3 March 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>
@@ -3111,7 +3117,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 24 February 2025">Monday, 24 February 2025</time> through <time title="Monday, 3 March 2025">Monday, 3 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-03.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href="2025-02-24.html"><time title="Monday, 24 February 2025">Monday, 24 February 2025</time></a> through <time title="Monday, 3 March 2025">Monday, 3 March 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-03-03.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +100, -0</h2>
@@ -4543,6 +4549,9 @@
     </details>
   
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2025-02-24.html"><time title="Monday, 24 February 2025">Monday, 24 February 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>
@@ -4569,7 +4578,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 17 February 2025">Monday, 17 February 2025</time> through <time title="Monday, 24 February 2025">Monday, 24 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-24.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href="2025-02-17.html"><time title="Monday, 17 February 2025">Monday, 17 February 2025</time></a> through <time title="Monday, 24 February 2025">Monday, 24 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-24.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +20, -0</h2>
@@ -5025,6 +5034,9 @@
     </details>
   
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2025-02-17.html"><time title="Monday, 17 February 2025">Monday, 17 February 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>
@@ -5051,7 +5063,7 @@
             <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
             <content:encoded><![CDATA[<main>
 	<p>
-	Summary of BCD changes from <time title="Monday, 10 February 2025">Monday, 10 February 2025</time> through <time title="Monday, 17 February 2025">Monday, 17 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-17.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href="2025-02-10.html"><time title="Monday, 10 February 2025">Monday, 10 February 2025</time></a> through <time title="Monday, 17 February 2025">Monday, 17 February 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-02-17.html" title="permalink">🔗</a>
 	</p>
 	<hr>
     <h2 class="report-subtitle">Browser Support Changes: +9, -0</h2>
@@ -5755,6 +5767,9 @@
     </details>
   
   <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2025-02-10.html"><time title="Monday, 10 February 2025">Monday, 10 February 2025</time></a></li>
+  </ul>
   <hr>
   <footer>
   	<p>

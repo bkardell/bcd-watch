@@ -311,6 +311,15 @@ ol.implementations li > span > strong {
 	}
 }
 
+#prev-next {
+	display: grid;
+	grid-template-columns: max-content 1fr max-content;
+	list-style-type: none;
+	padding-inline: 0;
+	margin-inline: 0;
+	transform: translateY(2.5em);
+}
+
 footer {
 	display: flex;
 	flex-wrap: wrap;

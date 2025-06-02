@@ -4,7 +4,7 @@
         <title>BCD-watch: New Baselines Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 26 May 2025 01:56:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jun 2025 01:58:50 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,208 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly-completed/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD New Universal Implementations Report, Mon Jun 02 2025]]></title>
+            <link>https://bcd-watch.igalia.com/weekly-completed/2025-06-02.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly-completed/2025-06-02.html</guid>
+            <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 26 May 2025">Monday, 26 May 2025</time></a> through <time title="Monday, 2 June 2025">Monday, 2 June 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-06-02.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>11 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>API</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/ExtendableCookieChangeEvent/ExtendableCookieChangeEvent">api ➞ ExtendableCookieChangeEvent ➞ ExtendableCookieChangeEvent</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/ExtendableCookieChangeEvent">api ➞ ExtendableCookieChangeEvent</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/ExtendableCookieChangeEvent/changed">api ➞ ExtendableCookieChangeEvent ➞ changed</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/ExtendableCookieChangeEvent/deleted">api ➞ ExtendableCookieChangeEvent ➞ deleted</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ PushSubscriptionChangeEvent ➞ PushSubscriptionChangeEvent
+                      	<a href="https://w3c.github.io/push-api/#dom-pushsubscriptionchangeevent-constructor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ PushSubscriptionChangeEvent
+                      	<a href="https://w3c.github.io/push-api/#pushsubscriptionchangeevent-interface"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ PushSubscriptionChangeEvent ➞ newSubscription
+                      	<a href="https://w3c.github.io/push-api/#dom-pushsubscriptionchangeevent-newsubscription"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ PushSubscriptionChangeEvent ➞ oldSubscription
+                      	<a href="https://w3c.github.io/push-api/#dom-pushsubscriptionchangeevent-oldsubscription"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/pushsubscriptionchange_event">api ➞ ServiceWorkerGlobalScope ➞ pushsubscriptionchange_event</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>CSS</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/abs">css ➞ types ➞ abs</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/waitAsync">javascript ➞ builtins ➞ Atomics ➞ waitAsync</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 26 May 2025">Monday, 26 May 2025</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.17">v6.0.17</a> <small>(Friday, 23 May 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.19">v6.0.19</a> <small>(Friday, 30 May 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD New Universal Implementations Report, Mon May 26 2025]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/2025-05-26.html</link>
@@ -281,75 +483,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.9">v6.0.9</a> <small>(Friday, 25 April 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.11">v6.0.11</a> <small>(Friday, 2 May 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD New Universal Implementations Report, Mon Apr 28 2025]]></title>
-            <link>https://bcd-watch.igalia.com/weekly-completed/2025-04-28.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly-completed/2025-04-28.html</guid>
-            <pubDate>Mon, 28 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 21 April 2025">Monday, 21 April 2025</time></a> through <time title="Monday, 28 April 2025">Monday, 28 April 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-04-28.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-
-          <p class="callout"><strong>2 new universal implementations</strong></p>
-          <section class="added implementations">
-	            <h4>JAVASCRIPT</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import/with">javascript ➞ statements ➞ import ➞ import_attributes</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>javascript ➞ statements ➞ import ➞ import_attributes ➞ type_json
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 21 April 2025">Monday, 21 April 2025</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.7">v6.0.7</a> <small>(Friday, 18 April 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.9">v6.0.9</a> <small>(Friday, 25 April 2025)</small>
 			</span>
 		</div>
   </footer>

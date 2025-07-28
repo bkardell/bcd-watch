@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2025-07-21T02:09:44.772Z</updated>
+    <updated>2025-07-28T02:10:53.649Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,257 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Jul 28 2025]]></title>
+        <id>https://bcd-watch.igalia.com/weekly-completed/2025-07-28.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2025-07-28.html">
+        </link>
+        <updated>2025-07-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 21 July 2025">Monday, 21 July 2025</time></a> through <time title="Monday, 28 July 2025">Monday, 28 July 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2025-07-28.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>15 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>API</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/responsesReceived">api ➞ RTCStatsReport ➞ type_candidate-pair ➞ responsesReceived</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/URLPattern">api ➞ URLPattern ➞ URLPattern</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ URLPattern ➞ URLPattern ➞ ignoreCase_option
+                      	<a href="https://urlpattern.spec.whatwg.org/#dom-urlpatternoptions-ignorecase"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern">api ➞ URLPattern</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/exec">api ➞ URLPattern ➞ exec</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/hasRegExpGroups">api ➞ URLPattern ➞ hasRegExpGroups</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/hash">api ➞ URLPattern ➞ hash</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/hostname">api ➞ URLPattern ➞ hostname</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/password">api ➞ URLPattern ➞ password</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/pathname">api ➞ URLPattern ➞ pathname</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/port">api ➞ URLPattern ➞ port</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/protocol">api ➞ URLPattern ➞ protocol</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/search">api ➞ URLPattern ➞ search</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/test">api ➞ URLPattern ➞ test</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/URLPattern/username">api ➞ URLPattern ➞ username</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 21 July 2025">Monday, 21 July 2025</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.33">v6.0.33</a> <small>(Friday, 18 July 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.35">v6.0.35</a> <small>(Saturday, 26 July 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Jul 21 2025]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2025-07-21.html</id>
@@ -1093,1961 +1344,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.25">v6.0.25</a> <small>(Friday, 20 June 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.27">v6.0.27</a> <small>(Friday, 27 June 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Jun 23 2025]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/2025-06-23.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/2025-06-23.html">
-        </link>
-        <updated>2025-06-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 16 June 2025">Monday, 16 June 2025</time></a> through <time title="Monday, 23 June 2025">Monday, 23 June 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-06-23.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-
-          <p class="callout"><strong>137 new universal implementations</strong></p>
-          <section class="added implementations">
-	            <h4>API</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/AudioData">api ➞ AudioData ➞ AudioData</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData">api ➞ AudioData</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/allocationSize">api ➞ AudioData ➞ allocationSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/clone">api ➞ AudioData ➞ clone</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/close">api ➞ AudioData ➞ close</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/copyTo">api ➞ AudioData ➞ copyTo</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/duration">api ➞ AudioData ➞ duration</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/format">api ➞ AudioData ➞ format</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/numberOfChannels">api ➞ AudioData ➞ numberOfChannels</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/numberOfFrames">api ➞ AudioData ➞ numberOfFrames</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/sampleRate">api ➞ AudioData ➞ sampleRate</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioData/timestamp">api ➞ AudioData ➞ timestamp</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/AudioDecoder">api ➞ AudioDecoder ➞ AudioDecoder</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder">api ➞ AudioDecoder</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/close">api ➞ AudioDecoder ➞ close</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/configure">api ➞ AudioDecoder ➞ configure</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/decode">api ➞ AudioDecoder ➞ decode</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/decodeQueueSize">api ➞ AudioDecoder ➞ decodeQueueSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/dequeue_event">api ➞ AudioDecoder ➞ dequeue_event</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/flush">api ➞ AudioDecoder ➞ flush</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/isConfigSupported_static">api ➞ AudioDecoder ➞ isConfigSupported_static</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/reset">api ➞ AudioDecoder ➞ reset</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioDecoder/state">api ➞ AudioDecoder ➞ state</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/AudioEncoder">api ➞ AudioEncoder ➞ AudioEncoder</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder">api ➞ AudioEncoder</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/close">api ➞ AudioEncoder ➞ close</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/configure">api ➞ AudioEncoder ➞ configure</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ AudioEncoder ➞ configure ➞ bitrateMode
-                      	<a href="https://w3c.github.io/webcodecs/#dom-audioencoderconfig-bitratemode"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ AudioEncoder ➞ configure ➞ opus
-                      	<a href="https://w3c.github.io/webcodecs/opus_codec_registration.html#dom-audioencoderconfig-opus"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/dequeue_event">api ➞ AudioEncoder ➞ dequeue_event</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/encode">api ➞ AudioEncoder ➞ encode</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/encodeQueueSize">api ➞ AudioEncoder ➞ encodeQueueSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/flush">api ➞ AudioEncoder ➞ flush</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/isConfigSupported_static">api ➞ AudioEncoder ➞ isConfigSupported_static</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/reset">api ➞ AudioEncoder ➞ reset</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/AudioEncoder/state">api ➞ AudioEncoder ➞ state</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors">api ➞ CSSPositionTryDescriptors</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ align-self</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ alignSelf</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ block-size</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ blockSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ bottom</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ height</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inline-size</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inlineSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-block</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-block-end</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-block-start</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-inline</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-inline-end</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ inset-inline-start</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetBlock</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetBlockEnd</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetBlockStart</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetInline</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetInlineEnd</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ insetInlineStart</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ justify-self</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ justifySelf</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ left</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-block</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-block-end</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-block-start</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-bottom</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-inline</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-inline-end</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-inline-start</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-left</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-right</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ margin-top</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginBlock</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginBlockEnd</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginBlockStart</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginBottom</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginInline</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginInlineEnd</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginInlineStart</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginLeft</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginRight</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ marginTop</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ max-block-size</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ max-height</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ max-inline-size</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ max-width</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ maxBlockSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ maxHeight</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ maxInlineSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ maxWidth</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ min-block-size</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ min-height</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ min-inline-size</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ min-width</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ minBlockSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ minHeight</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ minInlineSize</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ minWidth</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ place-self</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ placeSelf</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ position-anchor</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ positionAnchor</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ right</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ top</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties">api ➞ CSSPositionTryDescriptors ➞ width</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule">api ➞ CSSPositionTryRule</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/name">api ➞ CSSPositionTryRule ➞ name</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/style">api ➞ CSSPositionTryRule ➞ style</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/EncodedAudioChunk">api ➞ EncodedAudioChunk ➞ EncodedAudioChunk</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk">api ➞ EncodedAudioChunk</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/byteLength">api ➞ EncodedAudioChunk ➞ byteLength</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/copyTo">api ➞ EncodedAudioChunk ➞ copyTo</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/duration">api ➞ EncodedAudioChunk ➞ duration</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/timestamp">api ➞ EncodedAudioChunk ➞ timestamp</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/type">api ➞ EncodedAudioChunk ➞ type</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/FileSystemFileHandle/createWritable">api ➞ FileSystemFileHandle ➞ createWritable</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-	            <h4>CSS</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/animation-timeline">css ➞ properties ➞ animation-timeline</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/animation-timeline/scroll">css ➞ properties ➞ animation-timeline ➞ scroll</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/animation-timeline/view">css ➞ properties ➞ animation-timeline ➞ view</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/overflow-block">css ➞ properties ➞ overflow-block</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/overflow-inline">css ➞ properties ➞ overflow-inline</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/scroll-timeline">css ➞ properties ➞ scroll-timeline</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-axis">css ➞ properties ➞ scroll-timeline-axis</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name">css ➞ properties ➞ scroll-timeline-name</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/view-timeline">css ➞ properties ➞ view-timeline</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/view-timeline-axis">css ➞ properties ➞ view-timeline-axis</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/view-timeline-name">css ➞ properties ➞ view-timeline-name</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-	            <h4>WEBEXTENSIONS</h4>
-              <ol>
-                  <li>
-                      <span>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ excludedInitiatorDomains
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ excludedRequestMethods
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ initiatorDomains
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ api ➞ declarativeNetRequest ➞ RuleCondition ➞ requestMethods
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ api ➞ declarativeNetRequest ➞ getDynamicRules ➞ filter
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ api ➞ declarativeNetRequest ➞ getSessionRules ➞ filter
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ api ➞ scripting ➞ RegisteredContentScript ➞ matchOriginAsFallback
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ api ➞ tabs ➞ executeScript ➞ matchAboutBlank
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ manifest ➞ content_scripts ➞ match_about_blank
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webextensions ➞ manifest ➞ content_scripts ➞ match_origin_as_fallback
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 16 June 2025">Monday, 16 June 2025</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.23">v6.0.23</a> <small>(Friday, 13 June 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.25">v6.0.25</a> <small>(Friday, 20 June 2025)</small>
 			</span>
 		</div>
   </footer>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: Changes Report (weekly)</title>
-    <updated>2025-07-28T02:10:53.631Z</updated>
+    <updated>2025-08-04T02:21:34.035Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,327 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD Changes Report, Mon Aug 04 2025]]></title>
+        <id>https://bcd-watch.igalia.com/weekly/2025-08-04.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly/2025-08-04.html">
+        </link>
+        <updated>2025-08-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <a href="2025-07-28.html"><time title="Monday, 28 July 2025">Monday, 28 July 2025</time></a> through <time title="Monday, 4 August 2025">Monday, 4 August 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-08-04.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +6, -0</h2>
+
+        <h3>Support increases (6)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/Animation/commitStyles">api ➞ Animation ➞ commitStyles ➞ endpoint_inclusive_commitStyles</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>WEBEXTENSIONS</h4>
+            <ol>
+                <li>
+                    <span>webextensions ➞ api ➞ storage ➞ StorageArea ➞ getKeys
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webextensions ➞ api ➞ storage ➞ local ➞ getKeys
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webextensions ➞ api ➞ storage ➞ managed ➞ getKeys
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webextensions ➞ api ➞ storage ➞ session ➞ getKeys
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webextensions ➞ api ➞ storage ➞ sync ➞ getKeys
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 27</h2>
+    <details class="section-background">
+      <summary>Show all 27 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (12)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Saturday, 26 July 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+                      <span>api ➞ Selection ➞ collapse ➞ accepts_nodes_in_shadow_trees
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Selection ➞ extend ➞ accepts_nodes_in_shadow_trees
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Selection ➞ setBaseAndExtent ➞ accepts_nodes_in_shadow_trees
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/anchor-size">css ➞ types ➞ anchor-size</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ anchor-size ➞ inset_margin
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+                      <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ @@asyncDispose
+                        <a href="https://tc39.es/proposal-async-explicit-resource-management/#sec-asyncdisposablestack.prototype-@@asyncDispose"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>javascript ➞ builtins ➞ AsyncIterator ➞ @@asyncDispose
+                        <a href="https://tc39.es/proposal-async-explicit-resource-management/#sec-asyncdisposablestack.prototype-@@asyncDispose"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>javascript ➞ builtins ➞ DisposableStack ➞ @@dispose
+                        <a href="https://tc39.es/proposal-async-explicit-resource-management/#sec-disposablestack.prototype-@@dispose"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>javascript ➞ builtins ➞ Iterator ➞ @@dispose
+                        <a href="https://tc39.es/proposal-async-explicit-resource-management/#sec-%iteratorprototype%-@@dispose"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SuppressedError/error">javascript ➞ builtins ➞ SuppressedError ➞ error</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SuppressedError/suppressed">javascript ➞ builtins ➞ SuppressedError ➞ suppressed</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/await_using">javascript ➞ statements ➞ await_using</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (13)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Saturday, 26 July 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ Animation ➞ commitStyles ➞ endpoint_inclusive_commitStyles
+              </li>
+          </ol>
+            <h4>JAVASCRIPT</h4>
+          <ol>
+              <li>javascript ➞ builtins ➞ AsyncDisposableStack ➞ @@asyncDispose
+              </li>
+              <li>javascript ➞ builtins ➞ AsyncIterator ➞ @@asyncDispose
+              </li>
+              <li>javascript ➞ builtins ➞ DisposableStack ➞ @@dispose
+              </li>
+              <li>javascript ➞ builtins ➞ Iterator ➞ @@dispose
+              </li>
+              <li>javascript ➞ builtins ➞ SuppressedError ➞ error
+              </li>
+              <li>javascript ➞ builtins ➞ SuppressedError ➞ suppressed
+              </li>
+              <li>javascript ➞ statements ➞ await_using
+              </li>
+          </ol>
+            <h4>WEBEXTENSIONS</h4>
+          <ol>
+              <li>webextensions ➞ api ➞ storage ➞ StorageArea ➞ getKeys
+              </li>
+              <li>webextensions ➞ api ➞ storage ➞ local ➞ getKeys
+              </li>
+              <li>webextensions ➞ api ➞ storage ➞ managed ➞ getKeys
+              </li>
+              <li>webextensions ➞ api ➞ storage ➞ session ➞ getKeys
+              </li>
+              <li>webextensions ➞ api ➞ storage ➞ sync ➞ getKeys
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (2)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Saturday, 26 July 2025, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>CSS</h4>
+              <ol>
+                  <li>css ➞ properties ➞ -moz-image-region
+                  </li>
+                  <li>css ➞ selectors ➞ -moz-focus-inner
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2025-07-28.html"><time title="Monday, 28 July 2025">Monday, 28 July 2025</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.35">v6.0.35</a> <small>(Saturday, 26 July 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.37">v6.0.37</a> <small>(Saturday, 2 August 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD Changes Report, Mon Jul 28 2025]]></title>
         <id>https://bcd-watch.igalia.com/weekly/2025-07-28.html</id>
@@ -6699,1253 +7020,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.27">v6.0.27</a> <small>(Friday, 27 June 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.29">v6.0.29</a> <small>(Friday, 4 July 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD Changes Report, Mon Jun 30 2025]]></title>
-        <id>https://bcd-watch.igalia.com/weekly/2025-06-30.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly/2025-06-30.html">
-        </link>
-        <updated>2025-06-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <a href="2025-06-23.html"><time title="Monday, 23 June 2025">Monday, 23 June 2025</time></a> through <time title="Monday, 30 June 2025">Monday, 30 June 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-06-30.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +90, -0</h2>
-
-        <h3>Support increases (90)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPU/wgslLanguageFeatures">api ➞ GPU ➞ wgslLanguageFeatures</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUAdapterInfo ➞ isFallbackAdapter
-                    	<a href="https://gpuweb.github.io/gpuweb/#dom-gpuadapterinfo-isfallbackadapter"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUAdapterInfo/subgroupMaxSize">api ➞ GPUAdapterInfo ➞ subgroupMaxSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUAdapterInfo/subgroupMinSize">api ➞ GPUAdapterInfo ➞ subgroupMinSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUCanvasContext/getConfiguration">api ➞ GPUCanvasContext ➞ getConfiguration</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUError">api ➞ GPUError</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUError/message">api ➞ GPUError ➞ message</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUExternalTexture">api ➞ GPUExternalTexture</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUExternalTexture/label">api ➞ GPUExternalTexture ➞ label</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUInternalError/GPUInternalError">api ➞ GPUInternalError ➞ GPUInternalError</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUInternalError">api ➞ GPUInternalError</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUPipelineError/GPUPipelineError">api ➞ GPUPipelineError ➞ GPUPipelineError</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUPipelineError ➞ GPUPipelineError ➞ message_optional
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUPipelineError">api ➞ GPUPipelineError</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUPipelineError/reason">api ➞ GPUPipelineError ➞ reason</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPURenderBundle">api ➞ GPURenderBundle</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPURenderBundle/label">api ➞ GPURenderBundle ➞ label</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUSupportedFeatures ➞ @@iterator
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpusupportedfeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUSupportedFeatures ➞ entries
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpusupportedfeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUSupportedFeatures ➞ forEach
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpusupportedfeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUSupportedFeatures ➞ has
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpusupportedfeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUSupportedFeatures ➞ keys
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpusupportedfeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUSupportedFeatures ➞ size
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpusupportedfeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ GPUSupportedFeatures ➞ values
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpusupportedfeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxBindGroupsPlusVertexBuffers</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxBufferSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxColorAttachmentBytesPerSample</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxColorAttachments</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxComputeInvocationsPerWorkgroup</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxComputeWorkgroupSizeX</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxComputeWorkgroupSizeY</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxComputeWorkgroupSizeZ</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxComputeWorkgroupStorageSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxComputeWorkgroupsPerDimension</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxDynamicStorageBuffersPerPipelineLayout</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxDynamicUniformBuffersPerPipelineLayout</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxInterStageShaderVariables</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxSampledTexturesPerShaderStage</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxSamplersPerShaderStage</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxStorageBufferBindingSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxStorageBuffersPerShaderStage</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxStorageTexturesPerShaderStage</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxTextureArrayLayers</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxTextureDimension1D</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxTextureDimension2D</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxTextureDimension3D</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxUniformBufferBindingSize</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxUniformBuffersPerShaderStage</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxVertexAttributes</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxVertexBufferArrayStride</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ maxVertexBuffers</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ minStorageBufferOffsetAlignment</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUSupportedLimits#instance_properties">api ➞ GPUSupportedLimits ➞ minUniformBufferOffsetAlignment</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/GPUUncapturedErrorEvent/error">api ➞ GPUUncapturedErrorEvent ➞ error</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ IntersectionObserver ➞ scrollMargin
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/PointerEvent/persistentDeviceId">api ➞ PointerEvent ➞ persistentDeviceId</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ WGSLLanguageFeatures ➞ @@iterator
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/WGSLLanguageFeatures">api ➞ WGSLLanguageFeatures</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ WGSLLanguageFeatures ➞ entries
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ WGSLLanguageFeatures ➞ forEach
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ WGSLLanguageFeatures ➞ has
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ WGSLLanguageFeatures ➞ keys
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ WGSLLanguageFeatures ➞ size
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ WGSLLanguageFeatures ➞ values
-                    	<a href="https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/WorkerNavigator/gpu">api ➞ WorkerNavigator ➞ gpu</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>CSS</h4>
-            <ol>
-                <li>
-                    <span>css ➞ properties ➞ font-variant-emoji ➞ emoji
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-variant-emoji-emoji"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-variant-emoji ➞ normal
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-variant-emoji-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-variant-emoji ➞ text
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-variant-emoji-text"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-variant-emoji ➞ unicode
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-variant-emoji-unicode"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>JAVASCRIPT</h4>
-            <ol>
-                <li>
-                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ AsyncDisposableStack
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ AsyncDisposableStack
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ adopt
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ defer
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ disposeAsync
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ disposed
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ move
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ AsyncDisposableStack ➞ use
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ DisposableStack ➞ DisposableStack
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ DisposableStack
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ DisposableStack ➞ adopt
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ DisposableStack ➞ defer
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ DisposableStack ➞ dispose
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ DisposableStack ➞ disposed
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ DisposableStack ➞ move
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ DisposableStack ➞ use
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ SuppressedError ➞ SuppressedError
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ SuppressedError
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ Symbol ➞ asyncDispose
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ Symbol ➞ dispose
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ statements ➞ using
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 23</h2>
-    <details class="section-background">
-      <summary>Show all 23 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (12)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 20 June 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/Animation/overallProgress">api ➞ Animation ➞ overallProgress</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ hints
-                        <a href="https://w3c.github.io/webauthn/#enum-hints"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ CredentialsContainer ➞ get ➞ publicKey_option ➞ hints
-                        <a href="https://w3c.github.io/webauthn/#enum-hints"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/HTMLSelectedContentElement">api ➞ HTMLSelectedContentElement</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ types ➞ progress
-                        <a href="https://drafts.csswg.org/css-values-5/#progress"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>JAVASCRIPT</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_calendar_types">javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_calendar</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_collation_types">javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_collation</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_currency_identifiers">javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_currency</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_numbering_system_types">javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_numberingSystem</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_time_zone_identifiers">javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_timeZone</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_timeZone ➞ includes_UTC
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_unit_types">javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_unit</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (11)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 20 June 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ CredentialsContainer ➞ create ➞ publicKey_option ➞ hints
-              </li>
-              <li>api ➞ CredentialsContainer ➞ get ➞ publicKey_option ➞ hints
-              </li>
-              <li>api ➞ HTMLSelectedContentElement
-              </li>
-          </ol>
-            <h4>CSS</h4>
-          <ol>
-              <li>css ➞ types ➞ progress
-              </li>
-          </ol>
-            <h4>JAVASCRIPT</h4>
-          <ol>
-              <li>javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_calendar
-              </li>
-              <li>javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_collation
-              </li>
-              <li>javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_currency
-              </li>
-              <li>javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_numberingSystem
-              </li>
-              <li>javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_timeZone
-              </li>
-              <li>javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_timeZone ➞ includes_UTC
-              </li>
-              <li>javascript ➞ builtins ➞ Intl ➞ supportedValuesOf ➞ key_parameter_unit
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (0)</h3>
-        <div class="outline-container">
-          No features were removed from bcd in this time period
-    </details>
-  
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href="2025-06-23.html"><time title="Monday, 23 June 2025">Monday, 23 June 2025</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.25">v6.0.25</a> <small>(Friday, 20 June 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v6.0.27">v6.0.27</a> <small>(Friday, 27 June 2025)</small>
 			</span>
 		</div>
   </footer>

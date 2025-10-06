@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 29 Sep 2025 01:47:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Oct 2025 01:45:30 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,1194 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon Oct 06 2025]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2025-10-06.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2025-10-06.html</guid>
+            <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <a href="2025-09-29.html"><time title="Monday, 29 September 2025">Monday, 29 September 2025</time></a> through <time title="Monday, 6 October 2025">Monday, 6 October 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-10-06.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +35, -0</h2>
+
+        <h3>Support increases (35)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+                    <span>api ➞ SVGAElement ➞ download
+                    	<a href="https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__download"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SVGScriptElement ➞ async
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ CSSStyleRule ➞ style ➞ returns_CSSStyleProperties
+                    	<a href="https://drafts.csswg.org/cssom/#dom-cssstylerule-style"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ Document ➞ activeViewTransition
+                    	<a href="https://drafts.csswg.org/css-view-transitions-2/#dom-document-activeviewtransition"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ HTMLElement ➞ style ➞ returns_CSSStyleProperties
+                    	<a href="https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ MathMLElement ➞ style ➞ returns_CSSStyleProperties
+                    	<a href="https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SVGElement ➞ style ➞ returns_CSSStyleProperties
+                    	<a href="https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ Window ➞ getComputedStyle ➞ returns_CSSStyleProperties
+                    	<a href="https://drafts.csswg.org/cssom/#dom-window-getcomputedstyle"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>CSS</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/@position-try">css ➞ at-rules ➞ position-try</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ interest-delay
+                    	<a href="https://drafts.csswg.org/css-ui-4/#propdef-interest-delay"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ interest-delay ➞ normal
+                    	<a href="https://drafts.csswg.org/css-ui-4/#valdef-interest-delay-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ interest-delay-end
+                    	<a href="https://drafts.csswg.org/css-ui-4/#propdef-interest-delay-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ interest-delay-end ➞ normal
+                    	<a href="https://drafts.csswg.org/css-ui-4/#valdef-interest-delay-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ interest-delay-start
+                    	<a href="https://drafts.csswg.org/css-ui-4/#propdef-interest-delay-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ interest-delay-start ➞ normal
+                    	<a href="https://drafts.csswg.org/css-ui-4/#valdef-interest-delay-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ selectors ➞ interest-source
+                    	<a href="https://drafts.csswg.org/selectors/#selectordef-interest-source"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ selectors ➞ interest-target
+                    	<a href="https://drafts.csswg.org/selectors/#selectordef-interest-target"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ selectors ➞ target-after
+                    	<a href="https://drafts.csswg.org/css-overflow-5/#selectordef-target-after"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ selectors ➞ target-before
+                    	<a href="https://drafts.csswg.org/css-overflow-5/#selectordef-target-before"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>HTML</h4>
+            <ol>
+                <li>
+                    <span>html ➞ elements ➞ iframe ➞ cross-origin-top-navigation-by-user-activation
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>WEBDRIVER</h4>
+            <ol>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadEnd_event
+                    	<a href="https://w3c.github.io/webdriver-bidi/#event-browsingContext-downloadEnd"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadEnd_event ➞ context_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextbasenavigationinfo-context"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadEnd_event ➞ filepath_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextdownloadcompleteparams-filepath"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadEnd_event ➞ navigation_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextbasenavigationinfo-navigation"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadEnd_event ➞ status_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextdownloadendparams"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadEnd_event ➞ timestamp_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextbasenavigationinfo-timestamp"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadEnd_event ➞ url_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextbasenavigationinfo-url"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browser ➞ setDownloadBehavior
+                    	<a href="https://w3c.github.io/webdriver-bidi/#command-browser-setDownloadBehavior"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browser ➞ setDownloadBehavior ➞ downloadBehavior_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetdownloadbehaviorparameters-downloadbehavior"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ browser ➞ setDownloadBehavior ➞ userContexts_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetdownloadbehaviorparameters-usercontexts"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setLocaleOverride ➞ locale_parameter ➞ sets_navigator_language
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setUserAgentOverride
+                    	<a href="https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setUserAgentOverride ➞ contexts_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetuseragentoverrideparameters-contexts"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setUserAgentOverride ➞ userAgent_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetuseragentoverrideparameters-useragent"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setUserAgentOverride ➞ userContexts_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetuseragentoverrideparameters-usercontexts"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox,Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 118</h2>
+    <details class="section-background">
+      <summary>Show all 118 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (48)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 26 September 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Glossary/First_contentful_paint">api ➞ PerformancePaintTiming ➞ first-contentful-paint</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Glossary/First_paint">api ➞ PerformancePaintTiming ➞ first-paint</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Element ➞ scrollIntoView ➞ options_parameter ➞ block_option
+                        <a href="https://drafts.csswg.org/cssom-view/#dom-scrollintoviewoptions-block"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Element ➞ scrollIntoView ➞ options_parameter ➞ container_option
+                        <a href="https://drafts.csswg.org/cssom-view/#dom-scrollintoviewoptions-container"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Element ➞ scrollIntoView ➞ options_parameter ➞ inline_option
+                        <a href="https://drafts.csswg.org/cssom-view/#dom-scrollintoviewoptions-inline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ HTMLCanvasElement ➞ getContext ➞ 2d_context ➞ options_colorType_parameter
+                        <a href="https://html.spec.whatwg.org/multipage/canvas.html#dom-canvasrenderingcontext2dsettings-colortype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ NavigationPrecommitController
+                        <a href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationprecommitcontroller-interface"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ NavigationPrecommitController ➞ redirect
+                        <a href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationprecommitcontroller-redirect"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ NavigationTransition ➞ committed
+                        <a href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationtransition-committed"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ properties ➞ background-repeat-x
+                        <a href="https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ background-repeat-y
+                        <a href="https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ container-type ➞ weak_containment
+                        <a href="https://drafts.csswg.org/css-conditional-5/#container-type:~:text&#x3D;containers%20no%20longer%20apply%20layout%20containment"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ mod ➞ mixed_type_parameters
+                        <a href="https://drafts.csswg.org/css-values/#funcdef-mod"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ rem ➞ mixed_type_parameters
+                        <a href="https://drafts.csswg.org/css-values/#funcdef-rem"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ round ➞ mixed_type_parameters
+                        <a href="https://drafts.csswg.org/css-values/#funcdef-round"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>WEBASSEMBLY</h4>
+              <ol>
+                  <li>
+                      <span>webassembly ➞ api ➞ JSTag_static
+                        <a href="https://webassembly.github.io/spec/js-api/#dom-webassembly-jstag"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>WEBDRIVER</h4>
+              <ol>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth
+                        <a href="https://w3c.github.io/webdriver-bidi/#module-bluetooth"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ disableSimulation
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothdisablesimulation"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ handleRequestDevicePrompt
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothhandlerequestdeviceprompt"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateAdapter
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulateadapter"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateAdvertisement
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulateadvertisement"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateCharacteristic
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulatecharacteristic"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateCharacteristicResponse
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulatecharacteristicresponse"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateDescriptor
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulatedescriptor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateDescriptorResponse
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulatedescriptorresponse"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateGattConnectionResponse
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulategattconnectionresponse"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateGattDisconnection
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulategattdisconnection"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulatePreconnectedPeripheral
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulatepreconnectedperipheral"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webdriver ➞ bidi ➞ bluetooth ➞ simulateService
+                        <a href="https://webbluetoothcg.github.io/web-bluetooth/#cddl-type-bluetoothsimulateservice"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>WEBEXTENSIONS</h4>
+              <ol>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ GetPanelOptions
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ OpenOptions
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ PanelBehavior
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ PanelLayout
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ PanelOpenedInfo
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ PanelOptions
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ Side
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ SidePanel
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ getLayout
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ getOptions
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ getPanelBehavior
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ onOpened
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ open
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ setOptions
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ sidePanel ➞ setPanelBehavior
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ manifest ➞ permissions ➞ sidePanel
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ manifest ➞ side_panel
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ manifest ➞ side_panel ➞ default_path
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (69)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 26 September 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ CSSStyleRule ➞ style ➞ returns_CSSStyleProperties
+              </li>
+              <li>api ➞ Document ➞ activeViewTransition
+              </li>
+              <li>api ➞ Element ➞ scrollIntoView ➞ options_parameter ➞ block_option
+              </li>
+              <li>api ➞ Element ➞ scrollIntoView ➞ options_parameter ➞ container_option
+              </li>
+              <li>api ➞ Element ➞ scrollIntoView ➞ options_parameter ➞ inline_option
+              </li>
+              <li>api ➞ HTMLCanvasElement ➞ getContext ➞ 2d_context ➞ options_colorType_parameter
+              </li>
+              <li>api ➞ HTMLElement ➞ style ➞ returns_CSSStyleProperties
+              </li>
+              <li>api ➞ MathMLElement ➞ style ➞ returns_CSSStyleProperties
+              </li>
+              <li>api ➞ NavigationPrecommitController
+              </li>
+              <li>api ➞ NavigationPrecommitController ➞ redirect
+              </li>
+              <li>api ➞ NavigationTransition ➞ committed
+              </li>
+              <li>api ➞ SVGElement ➞ style ➞ returns_CSSStyleProperties
+              </li>
+              <li>api ➞ Window ➞ getComputedStyle ➞ returns_CSSStyleProperties
+              </li>
+          </ol>
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ properties ➞ container-type ➞ weak_containment
+              </li>
+              <li>css ➞ properties ➞ interest-delay
+              </li>
+              <li>css ➞ properties ➞ interest-delay ➞ normal
+              </li>
+              <li>css ➞ properties ➞ interest-delay-end
+              </li>
+              <li>css ➞ properties ➞ interest-delay-end ➞ normal
+              </li>
+              <li>css ➞ properties ➞ interest-delay-start
+              </li>
+              <li>css ➞ properties ➞ interest-delay-start ➞ normal
+              </li>
+              <li>css ➞ selectors ➞ interest-source
+              </li>
+              <li>css ➞ selectors ➞ interest-target
+              </li>
+              <li>css ➞ selectors ➞ target-after
+              </li>
+              <li>css ➞ selectors ➞ target-before
+              </li>
+              <li>css ➞ types ➞ mod ➞ mixed_type_parameters
+              </li>
+              <li>css ➞ types ➞ rem ➞ mixed_type_parameters
+              </li>
+              <li>css ➞ types ➞ round ➞ mixed_type_parameters
+              </li>
+          </ol>
+            <h4>HTML</h4>
+          <ol>
+              <li>html ➞ elements ➞ iframe ➞ cross-origin-top-navigation-by-user-activation
+              </li>
+          </ol>
+            <h4>WEBASSEMBLY</h4>
+          <ol>
+              <li>webassembly ➞ api ➞ JSTag_static
+              </li>
+          </ol>
+            <h4>WEBDRIVER</h4>
+          <ol>
+              <li>webdriver ➞ bidi ➞ bluetooth
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ disableSimulation
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ handleRequestDevicePrompt
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateAdapter
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateAdvertisement
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateCharacteristic
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateCharacteristicResponse
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateDescriptor
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateDescriptorResponse
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateGattConnectionResponse
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateGattDisconnection
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulatePreconnectedPeripheral
+              </li>
+              <li>webdriver ➞ bidi ➞ bluetooth ➞ simulateService
+              </li>
+              <li>webdriver ➞ bidi ➞ browser ➞ setDownloadBehavior
+              </li>
+              <li>webdriver ➞ bidi ➞ browser ➞ setDownloadBehavior ➞ downloadBehavior_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ browser ➞ setDownloadBehavior ➞ userContexts_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setLocaleOverride ➞ locale_parameter ➞ sets_navigator_language
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setUserAgentOverride
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setUserAgentOverride ➞ contexts_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setUserAgentOverride ➞ userAgent_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setUserAgentOverride ➞ userContexts_parameter
+              </li>
+          </ol>
+            <h4>WEBEXTENSIONS</h4>
+          <ol>
+              <li>webextensions ➞ api ➞ sidePanel ➞ GetPanelOptions
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ OpenOptions
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ PanelBehavior
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ PanelLayout
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ PanelOpenedInfo
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ PanelOptions
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ Side
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ SidePanel
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ getLayout
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ getOptions
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ getPanelBehavior
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ onOpened
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ open
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ setOptions
+              </li>
+              <li>webextensions ➞ api ➞ sidePanel ➞ setPanelBehavior
+              </li>
+              <li>webextensions ➞ manifest ➞ permissions ➞ sidePanel
+              </li>
+              <li>webextensions ➞ manifest ➞ side_panel
+              </li>
+              <li>webextensions ➞ manifest ➞ side_panel ➞ default_path
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (1)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Friday, 26 September 2025, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>API</h4>
+              <ol>
+                  <li>api ➞ Element ➞ scrollIntoView ➞ options_container_parameter
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2025-09-29.html"><time title="Monday, 29 September 2025">Monday, 29 September 2025</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.8">v7.1.8</a> <small>(Friday, 26 September 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.10">v7.1.10</a> <small>(Friday, 3 October 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Sep 29 2025]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2025-09-29.html</link>
@@ -2202,418 +3390,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.1">v7.1.1</a> <small>(Friday, 29 August 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.3">v7.1.3</a> <small>(Friday, 5 September 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Sep 01 2025]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2025-09-01.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2025-09-01.html</guid>
-            <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <a href="2025-08-25.html"><time title="Monday, 25 August 2025">Monday, 25 August 2025</time></a> through <time title="Monday, 1 September 2025">Monday, 1 September 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-09-01.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +6, -0</h2>
-
-        <h3>Support increases (6)</h3>
-        <section class="added implementations">
-            <h4>WEBDRIVER</h4>
-            <ol>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadWillBegin_event
-                    	<a href="https://w3c.github.io/webdriver-bidi/#event-browsingContext-downoadWillBegin"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadWillBegin_event ➞ context_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextbasenavigationinfo-context"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadWillBegin_event ➞ navigation_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextbasenavigationinfo-navigation"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadWillBegin_event ➞ suggestedFilename_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextdownloadwillbeginparams-suggestedfilename"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadWillBegin_event ➞ timestamp_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextbasenavigationinfo-timestamp"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browsingContext ➞ downloadWillBegin_event ➞ url_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsingcontextbasenavigationinfo-url"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 35</h2>
-    <details class="section-background">
-      <summary>Show all 35 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (19)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 22 August 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-                      <span>api ➞ HTMLButtonElement ➞ command ➞ request-close
-                        <a href="https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Document ➞ adoptedStyleSheets ➞ mutable
-                        <a href="https://drafts.csswg.org/cssom/#dom-documentorshadowroot-adoptedstylesheets"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ GPUSupportedFeatures ➞ feature_core-features-and-limits
-                        <a href="https://gpuweb.github.io/gpuweb/#core-features-and-limits"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ImageData ➞ ImageData ➞ settings_parameter ➞ pixelFormat_option
-                        <a href="https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagedatasettings-pixelformat"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_audioLevel
-                        <a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-audiolevel"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace
-                        <a href="https://drafts.csswg.org/css-text-4/#propdef-text-autospace"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>WEBDRIVER</h4>
-              <ol>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browser ➞ removeUserContext ➞ userContext_parameter
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browserremoveusercontextparameters-usercontext"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState
-                        <a href="https://w3c.github.io/webdriver-bidi/#command-browser-setClientWindowState"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ clientWindow_parameter
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetclientwindowstateparameters-clientwindow"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browsingContext ➞ userPromptClosed_event ➞ type_parameter ➞ alert
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextuserprompttype-alert"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browsingContext ➞ userPromptClosed_event ➞ type_parameter ➞ beforeunload
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextuserprompttype-beforeunload"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browsingContext ➞ userPromptClosed_event ➞ type_parameter ➞ confirm
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextuserprompttype-confirm"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browsingContext ➞ userPromptClosed_event ➞ type_parameter ➞ prompt
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextuserprompttype-prompt"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browsingContext ➞ userPromptOpened_event ➞ type_parameter ➞ alert
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextuserprompttype-alert"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browsingContext ➞ userPromptOpened_event ➞ type_parameter ➞ beforeunload
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextuserprompttype-beforeunload"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browsingContext ➞ userPromptOpened_event ➞ type_parameter ➞ confirm
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextuserprompttype-confirm"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ browsingContext ➞ userPromptOpened_event ➞ type_parameter ➞ prompt
-                        <a href="https://w3c.github.io/webdriver-bidi/#cddl-type-browsingcontextuserprompttype-prompt"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>webdriver ➞ bidi ➞ session ➞ new ➞ capabilities_parameter ➞ capability_matching
-                        <a href="https://w3c.github.io/webdriver/#dfn-matching-capabilities"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>HTML</h4>
-              <ol>
-                  <li>
-                      <span>html ➞ elements ➞ button ➞ command ➞ request-close
-                        <a href="https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (16)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 22 August 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ Document ➞ adoptedStyleSheets ➞ mutable
-              </li>
-              <li>api ➞ GPUSupportedFeatures ➞ feature_core-features-and-limits
-              </li>
-              <li>api ➞ ImageData ➞ ImageData ➞ settings_parameter ➞ pixelFormat_option
-              </li>
-              <li>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_audioLevel
-              </li>
-          </ol>
-            <h4>HTML</h4>
-          <ol>
-              <li>html ➞ elements ➞ button ➞ command ➞ request-close
-              </li>
-          </ol>
-            <h4>WEBDRIVER</h4>
-          <ol>
-              <li>webdriver ➞ bidi ➞ browser ➞ setClientWindowState
-              </li>
-              <li>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ clientWindow_parameter
-              </li>
-              <li>webdriver ➞ bidi ➞ browsingContext ➞ userPromptClosed_event ➞ type_parameter ➞ alert
-              </li>
-              <li>webdriver ➞ bidi ➞ browsingContext ➞ userPromptClosed_event ➞ type_parameter ➞ beforeunload
-              </li>
-              <li>webdriver ➞ bidi ➞ browsingContext ➞ userPromptClosed_event ➞ type_parameter ➞ confirm
-              </li>
-              <li>webdriver ➞ bidi ➞ browsingContext ➞ userPromptClosed_event ➞ type_parameter ➞ prompt
-              </li>
-              <li>webdriver ➞ bidi ➞ browsingContext ➞ userPromptOpened_event ➞ type_parameter ➞ alert
-              </li>
-              <li>webdriver ➞ bidi ➞ browsingContext ➞ userPromptOpened_event ➞ type_parameter ➞ beforeunload
-              </li>
-              <li>webdriver ➞ bidi ➞ browsingContext ➞ userPromptOpened_event ➞ type_parameter ➞ confirm
-              </li>
-              <li>webdriver ➞ bidi ➞ browsingContext ➞ userPromptOpened_event ➞ type_parameter ➞ prompt
-              </li>
-              <li>webdriver ➞ bidi ➞ session ➞ new ➞ capabilities_parameter ➞ capability_matching
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (0)</h3>
-        <div class="outline-container">
-          No features were removed from bcd in this time period
-    </details>
-  
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href="2025-08-25.html"><time title="Monday, 25 August 2025">Monday, 25 August 2025</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.0.0">v7.0.0</a> <small>(Friday, 22 August 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.1">v7.1.1</a> <small>(Friday, 29 August 2025)</small>
 			</span>
 		</div>
   </footer>

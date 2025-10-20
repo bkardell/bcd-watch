@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 13 Oct 2025 01:51:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Oct 2025 01:55:05 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,681 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon Oct 20 2025]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2025-10-20.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2025-10-20.html</guid>
+            <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <a href="2025-10-13.html"><time title="Monday, 13 October 2025">Monday, 13 October 2025</time></a> through <time title="Monday, 20 October 2025">Monday, 20 October 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-10-20.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +12, -0</h2>
+
+        <h3>Support increases (12)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+                    <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame
+                    	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame
+                    	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/ToggleEvent/source">api ➞ ToggleEvent ➞ source</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ GPUSupportedFeatures ➞ feature_primitive-index
+                    	<a href="https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-primitive-index"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ GPUSupportedFeatures ➞ feature_texture-formats-tier1
+                    	<a href="https://www.w3.org/TR/webgpu/#texture-formats-tier1"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ GPUSupportedFeatures ➞ feature_texture-formats-tier2
+                    	<a href="https://www.w3.org/TR/webgpu/#texture-formats-tier2"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>WEBDRIVER</h4>
+            <ol>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions
+                    	<a href="https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions ➞ contexts_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetnetworkconditionsparameters-contexts"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions ➞ networkConditions_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetnetworkconditionsparameters-networkconditions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions ➞ networkConditions_parameter ➞ offline
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-value-emulationnetworkconditionsoffline-type-offline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions ➞ userContexts_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetnetworkconditionsparameters-usercontexts"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ permission ➞ setPermission ➞ embeddedOrigin_parameter
+                    	<a href="https://www.w3.org/TR/permissions/#dfn-set-permission-0:~:text&#x3D;embeddedOrigin"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 78</h2>
+    <details class="section-background">
+      <summary>Show all 78 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (34)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Friday, 10 October 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ properties ➞ view-transition-name ➞ match-element
+                        <a href="https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>API</h4>
+              <ol>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createPipelineLayout ➞ descriptor_bindGroupLayouts_parameter_accepts_null_values
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLContext ➞ createConstantTensor
+                        <a href="https://www.w3.org/TR/webnn/#api-mlcontext-createconstanttensor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLContext ➞ lost
+                        <a href="https://www.w3.org/TR/webnn/#context-lost"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLGraphBuilder ➞ gelu
+                        <a href="https://www.w3.org/TR/webnn/#api-mlgraphbuilder-gelu-method"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLGraphBuilder ➞ notEqual
+                        <a href="https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-notequal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLOperand ➞ dataType
+                        <a href="https://www.w3.org/TR/webnn/#dom-mloperanddescriptor-datatype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLOperand ➞ shape
+                        <a href="https://www.w3.org/TR/webnn/#dom-mloperanddescriptor-shape"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLTensor ➞ constant
+                        <a href="https://www.w3.org/TR/webnn/#dom-mltensor-constant"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLTensor ➞ dataType
+                        <a href="https://www.w3.org/TR/webnn/#dom-mltensor-datatype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLTensor ➞ readable
+                        <a href="https://www.w3.org/TR/webnn/#dom-mltensor-readable"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLTensor ➞ shape
+                        <a href="https://www.w3.org/TR/webnn/#dom-mltensor-datatype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MLTensor ➞ writable
+                        <a href="https://www.w3.org/TR/webnn/#dom-mltensor-writable"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MediaDevices ➞ getDisplayMedia ➞ windowAudio_option
+                        <a href="https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-windowaudio"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/aspectRatio">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_aspectRatio</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/autoGainControl">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_autoGainControl</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/channelCount">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_channelCount</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/deviceId">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_deviceId</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/echoCancellation">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_echoCancellation</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/facingMode">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_facingMode</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/frameRate">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_frameRate</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/groupId">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_groupId</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/height">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_height</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/latency">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_latency</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/noiseSuppression">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_noiseSuppression</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints#resizemode">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_resizeMode</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleRate">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_sampleRate</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleSize">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_sampleSize</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/width">api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_width</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints#resizemode">api ➞ MediaDevices ➞ getUserMedia ➞ constraints_resizeMode_parameter</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint ➞ all
+                        <a href="https://w3c.github.io/mediacapture-main/#dom-echocancellationmodeenum-all"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint ➞ remote-only
+                        <a href="https://w3c.github.io/mediacapture-main/#dom-echocancellationmodeenum-remote-only"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ MediaStreamTrack ➞ applyConstraints ➞ restrictOwnAudio_constraint
+                        <a href="https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-restrictownaudio"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ NavigateEvent ➞ intercept ➞ precommitHandler_option
+                        <a href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationinterceptoptions-precommithandler"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (42)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Friday, 10 October 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ GPUDevice ➞ createPipelineLayout ➞ descriptor_bindGroupLayouts_parameter_accepts_null_values
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_primitive-index
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_texture-formats-tier1
+              </li>
+              <li>api ➞ GPUSupportedFeatures ➞ feature_texture-formats-tier2
+              </li>
+              <li>api ➞ MLContext ➞ createConstantTensor
+              </li>
+              <li>api ➞ MLContext ➞ lost
+              </li>
+              <li>api ➞ MLGraphBuilder ➞ gelu
+              </li>
+              <li>api ➞ MLGraphBuilder ➞ notEqual
+              </li>
+              <li>api ➞ MLOperand ➞ dataType
+              </li>
+              <li>api ➞ MLOperand ➞ shape
+              </li>
+              <li>api ➞ MLTensor ➞ constant
+              </li>
+              <li>api ➞ MLTensor ➞ dataType
+              </li>
+              <li>api ➞ MLTensor ➞ readable
+              </li>
+              <li>api ➞ MLTensor ➞ shape
+              </li>
+              <li>api ➞ MLTensor ➞ writable
+              </li>
+              <li>api ➞ MediaDevices ➞ getDisplayMedia ➞ windowAudio_option
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_aspectRatio
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_autoGainControl
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_channelCount
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_deviceId
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_echoCancellation
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_facingMode
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_frameRate
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_groupId
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_height
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_latency
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_noiseSuppression
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_resizeMode
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_sampleRate
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_sampleSize
+              </li>
+              <li>api ➞ MediaDevices ➞ getSupportedConstraints ➞ return_object_property_width
+              </li>
+              <li>api ➞ MediaDevices ➞ getUserMedia ➞ constraints_resizeMode_parameter
+              </li>
+              <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint ➞ all
+              </li>
+              <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ echoCancellation_constraint ➞ remote-only
+              </li>
+              <li>api ➞ MediaStreamTrack ➞ applyConstraints ➞ restrictOwnAudio_constraint
+              </li>
+              <li>api ➞ NavigateEvent ➞ intercept ➞ precommitHandler_option
+              </li>
+          </ol>
+            <h4>WEBDRIVER</h4>
+          <ol>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions ➞ contexts_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions ➞ networkConditions_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions ➞ networkConditions_parameter ➞ offline
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setNetworkConditions ➞ userContexts_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ permission ➞ setPermission ➞ embeddedOrigin_parameter
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (2)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Friday, 10 October 2025, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>HTML</h4>
+              <ol>
+                  <li>html ➞ elements ➞ audio ➞ autoplay
+                  </li>
+              </ol>
+                <h4>WEBEXTENSIONS</h4>
+              <ol>
+                  <li>webextensions ➞ manifest ➞ action ➞ browser_style
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2025-10-13.html"><time title="Monday, 13 October 2025">Monday, 13 October 2025</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.12">v7.1.12</a> <small>(Friday, 10 October 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.14">v7.1.14</a> <small>(Friday, 17 October 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon Oct 13 2025]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2025-10-13.html</link>
@@ -4020,276 +4695,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.5">v7.1.5</a> <small>(Friday, 12 September 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.7">v7.1.7</a> <small>(Friday, 19 September 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Sep 15 2025]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2025-09-15.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2025-09-15.html</guid>
-            <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <a href="2025-09-08.html"><time title="Monday, 8 September 2025">Monday, 8 September 2025</time></a> through <time title="Monday, 15 September 2025">Monday, 15 September 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly/2025-09-15.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +3, -0</h2>
-
-        <h3>Support increases (3)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-                    <span>api ➞ Document ➞ ariaNotify
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Element ➞ ariaNotify
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>HTML</h4>
-            <ol>
-                <li>
-                    <span>html ➞ elements ➞ input ➞ type_color ➞ accepts_css_colors
-                    	<a href="https://html.spec.whatwg.org/multipage/input.html#color-state-(type&#x3D;color)"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 19</h2>
-    <details class="section-background">
-      <summary>Show all 19 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (10)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 5 September 2025, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-                      <span>api ➞ PerformancePaintTiming ➞ toJSON
-                        <a href="https://w3c.github.io/paint-timing/#dom-performancepainttiming-tojson"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace ➞ auto
-                        <a href="https://drafts.csswg.org/css-text-4/#valdef-text-autospace-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace ➞ ideograph-alpha
-                        <a href="https://drafts.csswg.org/css-text-4/#valdef-text-autospace-ideograph-alpha"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace ➞ ideograph-numeric
-                        <a href="https://drafts.csswg.org/css-text-4/#valdef-text-autospace-ideograph-numeric"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace ➞ no-autospace
-                        <a href="https://drafts.csswg.org/css-text-4/#valdef-text-autospace-no-autospace"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace ➞ normal
-                        <a href="https://drafts.csswg.org/css-text-4/#valdef-text-autospace-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace ➞ insert
-                        <a href="https://drafts.csswg.org/css-text-4/#valdef-text-autospace-insert"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace ➞ punctuation
-                        <a href="https://drafts.csswg.org/css-text-4/#valdef-text-autospace-punctuation"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ text-autospace ➞ replace
-                        <a href="https://drafts.csswg.org/css-text-4/#valdef-text-autospace-replace"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>HTTP</h4>
-              <ol>
-                  <li>
-                      <span>http ➞ headers ➞ Supports-Loading-Mode ➞ fenced-frame
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (6)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 5 September 2025, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ Document ➞ ariaNotify
-              </li>
-              <li>api ➞ Element ➞ ariaNotify
-              </li>
-          </ol>
-            <h4>CSS</h4>
-          <ol>
-              <li>css ➞ properties ➞ text-autospace ➞ insert
-              </li>
-              <li>css ➞ properties ➞ text-autospace ➞ punctuation
-              </li>
-              <li>css ➞ properties ➞ text-autospace ➞ replace
-              </li>
-          </ol>
-            <h4>HTTP</h4>
-          <ol>
-              <li>http ➞ headers ➞ Supports-Loading-Mode ➞ fenced-frame
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (3)</h3>
-        <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday, 5 September 2025, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-          </p>
-        </div>
-        <section class="removed implementations">
-                <h4>API</h4>
-              <ol>
-                  <li>api ➞ FederatedCredential ➞ iconURL
-                  </li>
-                  <li>api ➞ FederatedCredential ➞ name
-                  </li>
-              </ol>
-                <h4>HTTP</h4>
-              <ol>
-                  <li>http ➞ headers ➞ Supports-Loading-Mode ➞ fenced-frames
-                  </li>
-              </ol>
-          </section>
-    </details>
-  
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href="2025-09-08.html"><time title="Monday, 8 September 2025">Monday, 8 September 2025</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.3">v7.1.3</a> <small>(Friday, 5 September 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.5">v7.1.5</a> <small>(Friday, 12 September 2025)</small>
 			</span>
 		</div>
   </footer>

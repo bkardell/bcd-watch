@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2025-10-27T01:57:46.132Z</updated>
+    <updated>2025-11-03T01:55:35.590Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,439 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Nov 03 2025]]></title>
+        <id>https://bcd-watch.igalia.com/weekly-completed/2025-11-03.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2025-11-03.html">
+        </link>
+        <updated>2025-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 27 October 2025">Monday, 27 October 2025</time></a> through <time title="Monday, 3 November 2025">Monday, 3 November 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2025-11-03.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>28 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>API</h4>
+              <ol>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_contributingSources_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_payloadType_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_rtpTimestamp_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-rtptimestamp"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_sequenceNumber_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-sequencenumber"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_synchronizationSource_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_contributingSources
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_payloadType
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_rtpTimestamp
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-rtptimestamp"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_sequenceNumber
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-sequencenumber"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_synchronizationSource
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_contributingSources_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_dependencies_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-dependencies"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_frameId_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-frameid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_height_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-height"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_payloadType_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_spatialIndex_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-spatialindex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_synchronizationSource_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_temporalIndex_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-temporalindex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_width_parameter
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-width"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_contributingSources
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_dependencies
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-dependencies"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_frameId
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-frameid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_height
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-height"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_payloadType
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_spatialIndex
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-spatialindex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_synchronizationSource
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_temporalIndex
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-temporalindex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_width
+                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-width"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 27 October 2025">Monday, 27 October 2025</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.16">v7.1.16</a> <small>(Friday, 24 October 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.18">v7.1.18</a> <small>(Friday, 31 October 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Oct 27 2025]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2025-10-27.html</id>
@@ -226,61 +659,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.8">v7.1.8</a> <small>(Friday, 26 September 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.10">v7.1.10</a> <small>(Friday, 3 October 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Sep 29 2025]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/2025-09-29.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/2025-09-29.html">
-        </link>
-        <updated>2025-09-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 22 September 2025">Monday, 22 September 2025</time></a> through <time title="Monday, 29 September 2025">Monday, 29 September 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2025-09-29.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-
-          <p class="callout"><strong>1 new universal implementation</strong></p>
-          <section class="added implementations">
-	            <h4>CSS</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/:active-view-transition">css ➞ selectors ➞ active-view-transition</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 22 September 2025">Monday, 22 September 2025</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.7">v7.1.7</a> <small>(Friday, 19 September 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.8">v7.1.8</a> <small>(Friday, 26 September 2025)</small>
 			</span>
 		</div>
   </footer>

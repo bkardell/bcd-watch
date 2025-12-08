@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2025-12-01T02:12:23.726Z</updated>
+    <updated>2025-12-08T01:57:25.092Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,2411 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Dec 08 2025]]></title>
+        <id>https://bcd-watch.igalia.com/weekly-completed/2025-12-08.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2025-12-08.html">
+        </link>
+        <updated>2025-12-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 1 December 2025">Monday, 1 December 2025</time></a> through <time title="Monday, 8 December 2025">Monday, 8 December 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2025-12-08.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>169 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>API</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Blob/bytes">api ➞ Blob ➞ bytes</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Document/caretPositionFromPoint">api ➞ Document ➞ caretPositionFromPoint</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Element/ariaColIndexText">api ➞ Element ➞ ariaColIndexText</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Element/ariaRowIndexText">api ➞ Element ➞ ariaRowIndexText</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Element/beforematch_event">api ➞ Element ➞ beforematch_event</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ EventCounts ➞ @@iterator
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/EventCounts">api ➞ EventCounts</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ EventCounts ➞ entries
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ EventCounts ➞ forEach
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ EventCounts ➞ get
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ EventCounts ➞ has
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ EventCounts ➞ keys
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ EventCounts ➞ size
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ EventCounts ➞ values
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint">api ➞ LargestContentfulPaint</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/element">api ➞ LargestContentfulPaint ➞ element</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/id">api ➞ LargestContentfulPaint ➞ id</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/loadTime">api ➞ LargestContentfulPaint ➞ loadTime</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/renderTime">api ➞ LargestContentfulPaint ➞ renderTime</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/size">api ➞ LargestContentfulPaint ➞ size</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/toJSON">api ➞ LargestContentfulPaint ➞ toJSON</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/url">api ➞ LargestContentfulPaint ➞ url</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/NavigateEvent">api ➞ NavigateEvent ➞ NavigateEvent</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent">api ➞ NavigateEvent</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/destination">api ➞ NavigateEvent ➞ destination</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/downloadRequest">api ➞ NavigateEvent ➞ downloadRequest</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/formData">api ➞ NavigateEvent ➞ formData</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/hasUAVisualTransition">api ➞ NavigateEvent ➞ hasUAVisualTransition</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/hashChange">api ➞ NavigateEvent ➞ hashChange</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/info">api ➞ NavigateEvent ➞ info</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/navigationType">api ➞ NavigateEvent ➞ navigationType</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/signal">api ➞ NavigateEvent ➞ signal</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/sourceElement">api ➞ NavigateEvent ➞ sourceElement</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigateEvent/userInitiated">api ➞ NavigateEvent ➞ userInitiated</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation">api ➞ Navigation</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/activation">api ➞ Navigation ➞ activation</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/back">api ➞ Navigation ➞ back</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/canGoBack">api ➞ Navigation ➞ canGoBack</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/canGoForward">api ➞ Navigation ➞ canGoForward</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/currentEntry">api ➞ Navigation ➞ currentEntry</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/entries">api ➞ Navigation ➞ entries</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/forward">api ➞ Navigation ➞ forward</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/navigate">api ➞ Navigation ➞ navigate</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/reload">api ➞ Navigation ➞ reload</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/transition">api ➞ Navigation ➞ transition</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/traverseTo">api ➞ Navigation ➞ traverseTo</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigation/updateCurrentEntry">api ➞ Navigation ➞ updateCurrentEntry</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationActivation">api ➞ NavigationActivation</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationActivation/entry">api ➞ NavigationActivation ➞ entry</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationActivation/from">api ➞ NavigationActivation ➞ from</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationActivation/navigationType">api ➞ NavigationActivation ➞ navigationType</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent/NavigationCurrentEntryChangeEvent">api ➞ NavigationCurrentEntryChangeEvent ➞ NavigationCurrentEntryChangeEvent</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent">api ➞ NavigationCurrentEntryChangeEvent</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent/from">api ➞ NavigationCurrentEntryChangeEvent ➞ from</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent/navigationType">api ➞ NavigationCurrentEntryChangeEvent ➞ navigationType</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationDestination">api ➞ NavigationDestination</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationDestination/getState">api ➞ NavigationDestination ➞ getState</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationDestination/id">api ➞ NavigationDestination ➞ id</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationDestination/index">api ➞ NavigationDestination ➞ index</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationDestination/key">api ➞ NavigationDestination ➞ key</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationDestination/sameDocument">api ➞ NavigationDestination ➞ sameDocument</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationDestination/url">api ➞ NavigationDestination ➞ url</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationHistoryEntry">api ➞ NavigationHistoryEntry</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationHistoryEntry/getState">api ➞ NavigationHistoryEntry ➞ getState</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationHistoryEntry/id">api ➞ NavigationHistoryEntry ➞ id</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationHistoryEntry/index">api ➞ NavigationHistoryEntry ➞ index</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationHistoryEntry/key">api ➞ NavigationHistoryEntry ➞ key</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationHistoryEntry/sameDocument">api ➞ NavigationHistoryEntry ➞ sameDocument</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationHistoryEntry/url">api ➞ NavigationHistoryEntry ➞ url</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationTransition">api ➞ NavigationTransition</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationTransition/finished">api ➞ NavigationTransition ➞ finished</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationTransition/from">api ➞ NavigationTransition ➞ from</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/NavigationTransition/navigationType">api ➞ NavigationTransition ➞ navigationType</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Performance/eventCounts">api ➞ Performance ➞ eventCounts</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ Performance ➞ interactionCount
+                      	<a href="https://w3c.github.io/event-timing/#dom-performance-interactioncount"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming">api ➞ PerformanceEventTiming</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/cancelable">api ➞ PerformanceEventTiming ➞ cancelable</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/interactionId">api ➞ PerformanceEventTiming ➞ interactionId</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/processingEnd">api ➞ PerformanceEventTiming ➞ processingEnd</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/processingStart">api ➞ PerformanceEventTiming ➞ processingStart</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/target">api ➞ PerformanceEventTiming ➞ target</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/toJSON">api ➞ PerformanceEventTiming ➞ toJSON</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ Permissions ➞ permission_storage-access
+                      	<a href="https://privacycg.github.io/storage-access/#permissions-integration"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/SVGAElement/hreflang">api ➞ SVGAElement ➞ hreflang</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/SVGAElement/type">api ➞ SVGAElement ➞ type</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ SVGScriptElement ➞ async
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ properties ➞ math-shift ➞ compact
+                      	<a href="https://w3c.github.io/mathml-core/#the-math-shift:~:text&#x3D;math%2Dshift-,Value%3A,normal%20%7C%20compact,-Initial%3A"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ math-shift ➞ normal
+                      	<a href="https://w3c.github.io/mathml-core/#the-math-shift:~:text&#x3D;math%2Dshift-,Value%3A,normal%20%7C%20compact,-Initial%3A"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/position-visibility">css ➞ properties ➞ position-visibility</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-visibility ➞ always
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-always"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-visibility ➞ no-overflow
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-no-overflow"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scrollbar-color">css ➞ properties ➞ scrollbar-color</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ scrollbar-color ➞ auto
+                      	<a href="https://drafts.csswg.org/css-scrollbars/#valdef-scrollbar-color-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ auto
+                      	<a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-thickness-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ currentColor
+                      	<a href="https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ dashed
+                      	<a href="https://drafts.csswg.org/css2/#value-def-dashed"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ dotted
+                      	<a href="https://drafts.csswg.org/css2/#value-def-dotted"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ double
+                      	<a href="https://drafts.csswg.org/css2/#value-def-double"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ from-font
+                      	<a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-thickness-from-font"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ grammar-error
+                      	<a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-grammar-error"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ solid
+                      	<a href="https://drafts.csswg.org/css2/#value-def-solid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ spelling-error
+                      	<a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-spelling-error"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ transparent
+                      	<a href="https://drafts.csswg.org/css-color-4/#valdef-color-transparent"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration ➞ wavy
+                      	<a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-style-wavy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration-line ➞ grammar-error
+                      	<a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-grammar-error"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-decoration-line ➞ spelling-error
+                      	<a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-spelling-error"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toTemporalInstant">javascript ➞ builtins ➞ Date ➞ toTemporalInstant</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>javascript ➞ builtins ➞ FinalizationRegistry ➞ register ➞ symbol_as_target
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/Duration">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ Duration</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration">javascript ➞ builtins ➞ Temporal ➞ Duration</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/abs">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ abs</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/blank">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ blank</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/compare">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ compare</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/days">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ days</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/from">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ from</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/hours">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ hours</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/microseconds">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ microseconds</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/milliseconds">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ milliseconds</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/minutes">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ minutes</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/months">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ months</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/nanoseconds">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ nanoseconds</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/negated">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ negated</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/seconds">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ seconds</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/sign">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ sign</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toJSON">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ toJSON</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toString">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ toString</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/valueOf">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ valueOf</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/weeks">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ weeks</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/with">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ with</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/years">javascript ➞ builtins ➞ Temporal ➞ Duration ➞ years</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant">javascript ➞ builtins ➞ Temporal ➞ Instant</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/add">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ add</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/epochMilliseconds">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ epochMilliseconds</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/epochNanoseconds">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ epochNanoseconds</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/equals">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ equals</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/from">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ from</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/fromEpochMilliseconds">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ fromEpochMilliseconds</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/fromEpochNanoseconds">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ fromEpochNanoseconds</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/round">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ round</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/since">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ since</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/subtract">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ subtract</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toJSON">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ toJSON</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toLocaleString">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ toLocaleString</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toString">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ toString</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/until">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ until</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/valueOf">javascript ➞ builtins ➞ Temporal ➞ Instant ➞ valueOf</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/PlainTime">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ PlainTime</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime">javascript ➞ builtins ➞ Temporal ➞ PlainTime</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/add">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ add</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/compare">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ compare</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/equals">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ equals</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/from">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ from</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/hour">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ hour</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/microsecond">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ microsecond</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/millisecond">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ millisecond</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/minute">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ minute</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/nanosecond">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ nanosecond</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/round">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ round</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/second">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ second</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/since">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ since</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/subtract">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ subtract</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/toJSON">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ toJSON</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/toString">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ toString</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/until">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ until</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/valueOf">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ valueOf</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/with">javascript ➞ builtins ➞ Temporal ➞ PlainTime ➞ with</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal">javascript ➞ builtins ➞ Temporal</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>javascript ➞ builtins ➞ WeakRef ➞ WeakRef ➞ symbol_as_target
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>WEBASSEMBLY</h4>
+              <ol>
+                  <li>
+                      <span>webassembly ➞ jsStringBuiltins
+                      	<a href="https://github.com/WebAssembly/js-string-builtins/blob/main/proposals/js-string-builtins/Overview.md"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 1 December 2025">Monday, 1 December 2025</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.23">v7.1.23</a> <small>(Tuesday, 25 November 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.24">v7.1.24</a> <small>(Friday, 5 December 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Dec 01 2025]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2025-12-01.html</id>
@@ -248,439 +2653,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.18">v7.1.18</a> <small>(Friday, 31 October 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.20">v7.1.20</a> <small>(Friday, 7 November 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Nov 03 2025]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/2025-11-03.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/2025-11-03.html">
-        </link>
-        <updated>2025-11-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 27 October 2025">Monday, 27 October 2025</time></a> through <time title="Monday, 3 November 2025">Monday, 3 November 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2025-11-03.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-
-          <p class="callout"><strong>28 new universal implementations</strong></p>
-          <section class="added implementations">
-	            <h4>API</h4>
-              <ol>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_contributingSources_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_payloadType_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_rtpTimestamp_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-rtptimestamp"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_sequenceNumber_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-sequencenumber"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ RTCEncodedAudioFrame ➞ options_metadata_synchronizationSource_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_contributingSources
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_payloadType
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_rtpTimestamp
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-rtptimestamp"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_sequenceNumber
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-sequencenumber"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedAudioFrame ➞ getMetadata ➞ return_object_property_synchronizationSource
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_contributingSources_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_dependencies_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-dependencies"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_frameId_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-frameid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_height_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-height"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_payloadType_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_spatialIndex_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-spatialindex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_synchronizationSource_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_temporalIndex_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-temporalindex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ RTCEncodedVideoFrame ➞ options_metadata_width_parameter
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-width"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_contributingSources
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_dependencies
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-dependencies"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_frameId
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-frameid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_height
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-height"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_payloadType
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_spatialIndex
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-spatialindex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_synchronizationSource
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_temporalIndex
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-temporalindex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ RTCEncodedVideoFrame ➞ getMetadata ➞ return_object_property_width
-                      	<a href="https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-width"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 27 October 2025">Monday, 27 October 2025</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.16">v7.1.16</a> <small>(Friday, 24 October 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.18">v7.1.18</a> <small>(Friday, 31 October 2025)</small>
 			</span>
 		</div>
   </footer>

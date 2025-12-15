@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2025-12-08T01:57:25.092Z</updated>
+    <updated>2025-12-15T02:03:30.491Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,1651 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Dec 15 2025]]></title>
+        <id>https://bcd-watch.igalia.com/weekly-completed/2025-12-15.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2025-12-15.html">
+        </link>
+        <updated>2025-12-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 8 December 2025">Monday, 8 December 2025</time></a> through <time title="Monday, 15 December 2025">Monday, 15 December 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2025-12-15.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>115 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>API</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Document/activeViewTransition">api ➞ Document ➞ activeViewTransition</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ServiceWorker ➞ ecmascript_modules
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/ViewTransition/types">api ➞ ViewTransition ➞ types</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ @@iterator
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/ViewTransitionTypeSet">api ➞ ViewTransitionTypeSet</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ add
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ clear
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ delete
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ entries
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ forEach
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ has
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ keys
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ size
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ViewTransitionTypeSet ➞ values
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Window/navigation">api ➞ Window ➞ navigation</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ properties ➞ align-items ➞ anchor-center
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ align-self ➞ anchor-center
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ justify-items ➞ anchor-center
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ justify-self ➞ anchor-center
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ block-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ block-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ bottom
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ center
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ flip-block
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-block"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ flip-inline
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-inline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ flip-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ inline-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ inline-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ left
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ none
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ right
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ self-block-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ self-block-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ self-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ self-inline-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ self-inline-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ self-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-all
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-all"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-block-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-block-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-bottom
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-inline-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-inline-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-left
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-right
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-self-block-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-self-block-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-self-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-self-inline-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-self-inline-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-self-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-top
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-x-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-x-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-x-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-x-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-y-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-y-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ span-y-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-y-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ top
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ x-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ x-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ y-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try ➞ y-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ block-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ block-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ bottom
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ center
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ inline-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ inline-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ left
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ right
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ self-block-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ self-block-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ self-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ self-inline-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ self-inline-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ self-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-all
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-all"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-block-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-block-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-bottom
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-inline-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-inline-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-left
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-right
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-self-block-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-block-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-self-block-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-block-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-self-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-self-inline-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-inline-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-self-inline-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-inline-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-self-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-top
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-x-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-x-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-x-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-x-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-y-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-y-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ span-y-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-y-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ top
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ x-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ x-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ y-end
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-try-fallbacks ➞ y-start
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ position-visibility ➞ anchors-visible
+                      	<a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchors-visible"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:active-view-transition-type">css ➞ selectors ➞ active-view-transition-type</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ length ➞ rcap
+                      	<a href="https://drafts.csswg.org/css-values/#rcap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ length ➞ rch
+                      	<a href="https://drafts.csswg.org/css-values/#rch"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ length ➞ rex
+                      	<a href="https://drafts.csswg.org/css-values/#rex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ length ➞ ric
+                      	<a href="https://drafts.csswg.org/css-values/#ric"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Modifier">javascript ➞ regular_expressions ➞ modifier</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>javascript ➞ statements ➞ import ➞ service_worker_support
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 8 December 2025">Monday, 8 December 2025</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.24">v7.1.24</a> <small>(Friday, 5 December 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.2.1">v7.2.1</a> <small>(Friday, 12 December 2025)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Dec 08 2025]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2025-12-08.html</id>
@@ -2599,60 +4244,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.21">v7.1.21</a> <small>(Wednesday, 12 November 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.22">v7.1.22</a> <small>(Monday, 17 November 2025)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Nov 10 2025]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/2025-11-10.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/2025-11-10.html">
-        </link>
-        <updated>2025-11-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 3 November 2025">Monday, 3 November 2025</time></a> through <time title="Monday, 10 November 2025">Monday, 10 November 2025</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2025-11-10.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-
-          <p class="callout"><strong>1 new universal implementation</strong></p>
-          <section class="added implementations">
-	            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ selectors ➞ nesting ➞ at-scope
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Chrome,Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 3 November 2025">Monday, 3 November 2025</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.18">v7.1.18</a> <small>(Friday, 31 October 2025)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.1.20">v7.1.20</a> <small>(Friday, 7 November 2025)</small>
 			</span>
 		</div>
   </footer>

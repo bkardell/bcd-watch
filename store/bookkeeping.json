@@ -1,12 +1,12 @@
 {
   "latest": {
+    "file": "2026-03-13.json",
+    "timestamp": "2026-03-13T20:13:34.637Z",
+    "version": "7.3.7"
+  },
+  "previous": {
     "file": "2026-03-06.json",
     "timestamp": "2026-03-06T12:00:38.217Z",
     "version": "7.3.6"
-  },
-  "previous": {
-    "file": "2026-02-27.json",
-    "timestamp": "2026-02-27T10:48:54.620Z",
-    "version": "7.3.5"
   }
 }

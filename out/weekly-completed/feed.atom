@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2026-03-09T02:35:56.569Z</updated>
+    <updated>2026-03-16T02:50:12.046Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,298 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Mar 16 2026]]></title>
+        <id>https://bcd-watch.igalia.com/weekly-completed/2026-03-16.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2026-03-16.html">
+        </link>
+        <updated>2026-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 9 March 2026">Monday, 9 March 2026</time></a> through <time title="Monday, 16 March 2026">Monday, 16 March 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2026-03-16.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>17 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>API</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/blockedURL">api ➞ CSPViolationReportBody ➞ blockedURL</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/columnNumber">api ➞ CSPViolationReportBody ➞ columnNumber</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/disposition">api ➞ CSPViolationReportBody ➞ disposition</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/documentURL">api ➞ CSPViolationReportBody ➞ documentURL</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/effectiveDirective">api ➞ CSPViolationReportBody ➞ effectiveDirective</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/lineNumber">api ➞ CSPViolationReportBody ➞ lineNumber</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/originalPolicy">api ➞ CSPViolationReportBody ➞ originalPolicy</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/referrer">api ➞ CSPViolationReportBody ➞ referrer</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/sample">api ➞ CSPViolationReportBody ➞ sample</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/sourceFile">api ➞ CSPViolationReportBody ➞ sourceFile</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/statusCode">api ➞ CSPViolationReportBody ➞ statusCode</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/toJSON">api ➞ CSPViolationReportBody ➞ toJSON</a>
+                          (⚠️ deprecated)
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSSNumericValue/to">api ➞ CSSNumericValue ➞ to</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ReportingObserver ➞ ReportingObserver ➞ options_parameter
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>api ➞ ReportingObserver ➞ ReportingObserver ➞ options_parameter ➞ types_property
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody">api ➞ ReportingObserver ➞ ReportingObserver ➞ options_parameter ➞ types_property ➞ csp-violation</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sumPrecise">javascript ➞ builtins ➞ Math ➞ sumPrecise</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 9 March 2026">Monday, 9 March 2026</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.6">v7.3.6</a> <small>(Friday, 6 March 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.7">v7.3.7</a> <small>(Friday, 13 March 2026)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Mar 09 2026]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2026-03-09.html</id>
@@ -755,44 +1047,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.1">v7.3.1</a> <small>(Friday, 6 February 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.2">v7.3.2</a> <small>(Friday, 13 February 2026)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Feb 09 2026]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/2026-02-09.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/2026-02-09.html">
-        </link>
-        <updated>2026-02-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 2 February 2026">Monday, 2 February 2026</time></a> through <time title="Monday, 9 February 2026">Monday, 9 February 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2026-02-09.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-        <p class="callout">
-        	<strong>No new universal implementations to report 🙁</strong>
-        </p>
-
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 2 February 2026">Monday, 2 February 2026</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.0">v7.3.0</a> <small>(Friday, 30 January 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.1">v7.3.1</a> <small>(Friday, 6 February 2026)</small>
 			</span>
 		</div>
   </footer>

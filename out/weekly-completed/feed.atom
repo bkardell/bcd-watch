@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: New Baselines Report (weekly)</title>
-    <updated>2026-03-16T02:50:12.046Z</updated>
+    <updated>2026-03-23T02:41:37.214Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,341 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Mar 23 2026]]></title>
+        <id>https://bcd-watch.igalia.com/weekly-completed/2026-03-23.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly-completed/2026-03-23.html">
+        </link>
+        <updated>2026-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 16 March 2026">Monday, 16 March 2026</time></a> through <time title="Monday, 23 March 2026">Monday, 23 March 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2026-03-23.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>21 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>CSS</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box">css ➞ properties ➞ text-box</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box ➞ auto
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-edge-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box ➞ none
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box ➞ normal
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box ➞ text
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-text"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box ➞ trim-both
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-both"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box ➞ trim-end
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box ➞ trim-start
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-edge">css ➞ properties ➞ text-box-edge</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box-edge ➞ auto
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-edge-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box-edge ➞ text
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-text"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-trim">css ➞ properties ➞ text-box-trim</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box-trim ➞ none
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box-trim ➞ trim-both
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-both"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box-trim ➞ trim-end
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ text-box-trim ➞ trim-start
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/text-edge">css ➞ types ➞ text-edge</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ text-edge ➞ alphabetic
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-alphabetic"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ text-edge ➞ cap
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-cap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ text-edge ➞ ex
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ text-edge ➞ text
+                      	<a href="https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-text"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 16 March 2026">Monday, 16 March 2026</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.7">v7.3.7</a> <small>(Friday, 13 March 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.8">v7.3.8</a> <small>(Friday, 20 March 2026)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Mar 16 2026]]></title>
         <id>https://bcd-watch.igalia.com/weekly-completed/2026-03-16.html</id>
@@ -902,151 +1237,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.2">v7.3.2</a> <small>(Friday, 13 February 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.3">v7.3.3</a> <small>(Friday, 20 February 2026)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD New Universal Implementations Report, Mon Feb 16 2026]]></title>
-        <id>https://bcd-watch.igalia.com/weekly-completed/2026-02-16.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly-completed/2026-02-16.html">
-        </link>
-        <updated>2026-02-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new Baseline items in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 9 February 2026">Monday, 9 February 2026</time></a> through <time title="Monday, 16 February 2026">Monday, 16 February 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2026-02-16.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-
-          <p class="callout"><strong>7 new universal implementations</strong></p>
-          <section class="added implementations">
-	            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ properties ➞ text-indent ➞ each-line
-                      	<a href="https://drafts.csswg.org/css-text/#valdef-text-indent-each-line"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ text-indent ➞ hanging
-                      	<a href="https://drafts.csswg.org/css-text/#valdef-text-indent-hanging"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/shape">css ➞ types ➞ basic-shape ➞ shape</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-	            <h4>HTTP</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Accept-Encoding#zstd">http ➞ headers ➞ Accept-Encoding ➞ zstd</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/Content-Encoding#zstd">http ➞ headers ➞ Content-Encoding ➞ zstd</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-	            <h4>WEBASSEMBLY</h4>
-              <ol>
-                  <li>
-                      <span>webassembly ➞ api ➞ Memory ➞ toFixedLengthBuffer
-                      	<a href="https://webassembly.github.io/spec/js-api/#dom-memory-tofixedlengthbuffer"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>webassembly ➞ api ➞ Memory ➞ toResizableBuffer
-                      	<a href="https://webassembly.github.io/spec/js-api/#dom-memory-toresizablebuffer"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 9 February 2026">Monday, 9 February 2026</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.1">v7.3.1</a> <small>(Friday, 6 February 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.2">v7.3.2</a> <small>(Friday, 13 February 2026)</small>
 			</span>
 		</div>
   </footer>

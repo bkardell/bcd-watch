@@ -4,7 +4,7 @@
         <title>BCD-watch: New Baselines Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 13 Apr 2026 03:25:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Apr 2026 03:25:38 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,149 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly-completed/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD New Universal Implementations Report, Mon Apr 20 2026]]></title>
+            <link>https://bcd-watch.igalia.com/weekly-completed/2026-04-20.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly-completed/2026-04-20.html</guid>
+            <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 13 April 2026">Monday, 13 April 2026</time></a> through <time title="Monday, 20 April 2026">Monday, 20 April 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2026-04-20.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>7 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>CSS</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range">css ➞ properties ➞ animation-range</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ animation-range ➞ normal
+                      	<a href="https://drafts.csswg.org/scroll-animations/#valdef-animation-range-start-normal,https://drafts.csswg.org/scroll-animations/#valdef-animation-range-end-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range-end">css ➞ properties ➞ animation-range-end</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ animation-range-end ➞ normal
+                      	<a href="https://drafts.csswg.org/scroll-animations/#valdef-animation-range-end-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/animation-range-start">css ➞ properties ➞ animation-range-start</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ animation-range-start ➞ normal
+                      	<a href="https://drafts.csswg.org/scroll-animations/#valdef-animation-range-start-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+	            <h4>HTML</h4>
+              <ol>
+                  <li>
+                      <span>html ➞ elements ➞ script ➞ type ➞ importmap ➞ multiple_import_maps
+                      	<a href="https://html.spec.whatwg.org/multipage/webappapis.html#:~:text&#x3D;multiple%20import%20maps"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      </span>
+
+          
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 13 April 2026">Monday, 13 April 2026</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.11">v7.3.11</a> <small>(Friday, 10 April 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.12">v7.3.12</a> <small>(Friday, 17 April 2026)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD New Universal Implementations Report, Mon Apr 13 2026]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/2026-04-13.html</link>
@@ -819,299 +962,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.7">v7.3.7</a> <small>(Friday, 13 March 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.8">v7.3.8</a> <small>(Friday, 20 March 2026)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD New Universal Implementations Report, Mon Mar 16 2026]]></title>
-            <link>https://bcd-watch.igalia.com/weekly-completed/2026-03-16.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly-completed/2026-03-16.html</guid>
-            <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 9 March 2026">Monday, 9 March 2026</time></a> through <time title="Monday, 16 March 2026">Monday, 16 March 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2026-03-16.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-
-          <p class="callout"><strong>17 new universal implementations</strong></p>
-          <section class="added implementations">
-	            <h4>API</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/blockedURL">api ➞ CSPViolationReportBody ➞ blockedURL</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/columnNumber">api ➞ CSPViolationReportBody ➞ columnNumber</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/disposition">api ➞ CSPViolationReportBody ➞ disposition</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/documentURL">api ➞ CSPViolationReportBody ➞ documentURL</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/effectiveDirective">api ➞ CSPViolationReportBody ➞ effectiveDirective</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/lineNumber">api ➞ CSPViolationReportBody ➞ lineNumber</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/originalPolicy">api ➞ CSPViolationReportBody ➞ originalPolicy</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/referrer">api ➞ CSPViolationReportBody ➞ referrer</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/sample">api ➞ CSPViolationReportBody ➞ sample</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/sourceFile">api ➞ CSPViolationReportBody ➞ sourceFile</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/statusCode">api ➞ CSPViolationReportBody ➞ statusCode</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody/toJSON">api ➞ CSPViolationReportBody ➞ toJSON</a>
-                          (⚠️ deprecated)
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSSNumericValue/to">api ➞ CSSNumericValue ➞ to</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ ReportingObserver ➞ ReportingObserver ➞ options_parameter
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-                      <span>api ➞ ReportingObserver ➞ ReportingObserver ➞ options_parameter ➞ types_property
-                      </span>
-
-          
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/CSPViolationReportBody">api ➞ ReportingObserver ➞ ReportingObserver ➞ options_parameter ➞ types_property ➞ csp-violation</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-	            <h4>JAVASCRIPT</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sumPrecise">javascript ➞ builtins ➞ Math ➞ sumPrecise</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 9 March 2026">Monday, 9 March 2026</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.6">v7.3.6</a> <small>(Friday, 6 March 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.7">v7.3.7</a> <small>(Friday, 13 March 2026)</small>
 			</span>
 		</div>
   </footer>

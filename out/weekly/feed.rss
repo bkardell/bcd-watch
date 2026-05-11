@@ -4,7 +4,7 @@
         <title>BCD-watch: Changes Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 04 May 2026 03:38:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2026 03:56:23 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,1982 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD Changes Report, Mon May 11 2026]]></title>
+            <link>https://bcd-watch.igalia.com/weekly/2026-05-11.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly/2026-05-11.html</guid>
+            <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <a href="2026-05-04.html"><time title="Monday, 4 May 2026">Monday, 4 May 2026</time></a> through <time title="Monday, 11 May 2026">Monday, 11 May 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly/2026-05-11.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +127, -0</h2>
+
+        <h3>Support increases (127)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+                    <span>api ➞ Sanitizer ➞ allowProcessingInstruction
+                    	<a href="https://wicg.github.io/sanitizer-api/#dom-sanitizer-allowprocessinginstruction"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ Sanitizer ➞ removeProcessingInstruction
+                    	<a href="https://wicg.github.io/sanitizer-api/#dom-sanitizer-removeprocessinginstruction"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>CSS</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/path">css ➞ properties ➞ shape-outside ➞ path</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/rect">css ➞ properties ➞ shape-outside ➞ rect</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/xywh">css ➞ properties ➞ shape-outside ➞ xywh</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-break
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-break"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-break ➞ intersection
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-intersection"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-break ➞ none
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-break ➞ normal
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset-cap
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-cap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset-cap-end
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-cap-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset-cap-start
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-cap-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset-end
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset-junction
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-junction"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset-junction-end
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-junction-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset-junction-start
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-junction-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-inset-start
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-visibility-items
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-visibility-items"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-visibility-items ➞ all
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-all"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-visibility-items ➞ around
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-around"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-visibility-items ➞ between
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-between"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ column-rule-visibility-items ➞ normal
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ currentColor
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ dashed
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ dotted
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ double
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ groove
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ hidden
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ inset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ medium
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ none
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ outset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ ridge
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ solid
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ thick
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ thin
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule ➞ transparent
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-break
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-break"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-break ➞ intersection
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-intersection"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-break ➞ none
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-break ➞ normal
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-color
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-color"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-color ➞ currentColor
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-color-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-color ➞ transparent
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-color-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-inset"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset-cap
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-inset-cap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset-cap-end
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-inset-cap-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset-cap-start
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-column-rule-inset-cap-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset-end
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-inset-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset-junction
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-inset-junction"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset-junction-end
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-inset-junction-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset-junction-start
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-inset-junction-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-inset-start
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-inset-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-style"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ dashed
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ dotted
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ double
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ groove
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ hidden
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ inset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ none
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ outset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ ridge
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-style ➞ solid
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-visibility-items
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-visibility-items"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-visibility-items ➞ all
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-all"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-visibility-items ➞ around
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-around"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-visibility-items ➞ between
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-between"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-visibility-items ➞ normal
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-width
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-row-rule-width"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-width ➞ medium
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-width-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-width ➞ thick
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-width-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ row-rule-width ➞ thin
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-width-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ currentColor
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ dashed
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ dotted
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ double
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ groove
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ hidden
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ inset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ medium
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ none
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ outset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ ridge
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ solid
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ thick
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ thin
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule ➞ transparent
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-gap-rule"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-break
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-break"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-break ➞ intersection
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-intersection"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-break ➞ none
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-break ➞ normal
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-break-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-color
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-color"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-color ➞ currentColor
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-color-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-color ➞ transparent
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-color-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-inset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-inset"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-inset-cap
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-inset-cap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-inset-end
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-inset-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-inset-junction
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-inset-junction"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-inset-start
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-inset-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-overlap
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-overlap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-overlap ➞ column-over-row
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-rule-overlap-column-over-row"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-overlap ➞ row-over-column
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-rule-overlap-row-over-column"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-style"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ dashed
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ dotted
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ double
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ groove
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ hidden
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ inset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ none
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ outset
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ ridge
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-style ➞ solid
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-style-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-visibility-items
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-visibility-items"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-visibility-items ➞ all
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-all"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-visibility-items ➞ around
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-around"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-visibility-items ➞ between
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-between"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-visibility-items ➞ normal
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#valdef-column-rule-visibility-items-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-width
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#propdef-rule-width"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-width ➞ medium
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-width-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-width ➞ thick
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-width-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ rule-width ➞ thin
+                    	<a href="https://drafts.csswg.org/css-gaps-1/#typedef-line-width-list"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>JAVASCRIPT</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/variants">javascript ➞ builtins ➞ Intl ➞ Locale ➞ variants</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 138</h2>
+    <details class="section-background">
+      <summary>Show all 138 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (8)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Thursday, 30 April 2026, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ at-rules ➞ container ➞ style_queries_for_custom_properties ➞ range_syntax
+                        <a href="https://drafts.csswg.org/css-conditional-5/#typedef-style-range"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>API</h4>
+              <ol>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createTexture ➞ descriptor_usage_parameter
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gputexturedescriptor-usage"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUDevice ➞ createTexture ➞ descriptor_usage_parameter ➞ accept_transient_attachment
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gputextureusage-transient_attachment"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUTexture ➞ createView ➞ descriptor_usage_parameter ➞ transient_attachment
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gputextureusage-transient_attachment"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ GPUTexture ➞ usage ➞ transient_attachment
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gputextureusage-transient_attachment"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ LanguageModel ➞ destroy
+                        <a href="https://webmachinelearning.github.io/writing-assistance-apis/#dom-destroyablemodel-destroy"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>HTTP</h4>
+              <ol>
+                  <li>
+                      <span>http ➞ headers ➞ X-Frame-Options ➞ DENY
+                        <a href="https://html.spec.whatwg.org/multipage/document-lifecycle.html#the-x-frame-options-header"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+                      <span>javascript ➞ builtins ➞ Intl ➞ DateTimeFormat ➞ DateTimeFormat ➞ options_parameter ➞ options_timeZone_parameter ➞ utc_offset
+                        <a href="https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-time-zone-offset-strings"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (130)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Thursday, 30 April 2026, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ GPUDevice ➞ createTexture ➞ descriptor_usage_parameter
+              </li>
+              <li>api ➞ GPUDevice ➞ createTexture ➞ descriptor_usage_parameter ➞ accept_transient_attachment
+              </li>
+              <li>api ➞ GPUTexture ➞ createView ➞ descriptor_usage_parameter ➞ transient_attachment
+              </li>
+              <li>api ➞ GPUTexture ➞ usage ➞ transient_attachment
+              </li>
+              <li>api ➞ LanguageModel ➞ destroy
+              </li>
+              <li>api ➞ Sanitizer ➞ allowProcessingInstruction
+              </li>
+              <li>api ➞ Sanitizer ➞ removeProcessingInstruction
+              </li>
+          </ol>
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ properties ➞ column-rule-break
+              </li>
+              <li>css ➞ properties ➞ column-rule-break ➞ intersection
+              </li>
+              <li>css ➞ properties ➞ column-rule-break ➞ none
+              </li>
+              <li>css ➞ properties ➞ column-rule-break ➞ normal
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-cap
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-cap-end
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-cap-start
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-end
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-junction
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-junction-end
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-junction-start
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-start
+              </li>
+              <li>css ➞ properties ➞ column-rule-visibility-items
+              </li>
+              <li>css ➞ properties ➞ column-rule-visibility-items ➞ all
+              </li>
+              <li>css ➞ properties ➞ column-rule-visibility-items ➞ around
+              </li>
+              <li>css ➞ properties ➞ column-rule-visibility-items ➞ between
+              </li>
+              <li>css ➞ properties ➞ column-rule-visibility-items ➞ normal
+              </li>
+              <li>css ➞ properties ➞ row-rule
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ currentColor
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ dashed
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ dotted
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ double
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ groove
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ hidden
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ inset
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ medium
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ none
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ outset
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ ridge
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ solid
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ thick
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ thin
+              </li>
+              <li>css ➞ properties ➞ row-rule ➞ transparent
+              </li>
+              <li>css ➞ properties ➞ row-rule-break
+              </li>
+              <li>css ➞ properties ➞ row-rule-break ➞ intersection
+              </li>
+              <li>css ➞ properties ➞ row-rule-break ➞ none
+              </li>
+              <li>css ➞ properties ➞ row-rule-break ➞ normal
+              </li>
+              <li>css ➞ properties ➞ row-rule-color
+              </li>
+              <li>css ➞ properties ➞ row-rule-color ➞ currentColor
+              </li>
+              <li>css ➞ properties ➞ row-rule-color ➞ transparent
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-cap
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-cap-end
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-cap-start
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-end
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-junction
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-junction-end
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-junction-start
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-start
+              </li>
+              <li>css ➞ properties ➞ row-rule-style
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ dashed
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ dotted
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ double
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ groove
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ hidden
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ inset
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ none
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ outset
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ ridge
+              </li>
+              <li>css ➞ properties ➞ row-rule-style ➞ solid
+              </li>
+              <li>css ➞ properties ➞ row-rule-visibility-items
+              </li>
+              <li>css ➞ properties ➞ row-rule-visibility-items ➞ all
+              </li>
+              <li>css ➞ properties ➞ row-rule-visibility-items ➞ around
+              </li>
+              <li>css ➞ properties ➞ row-rule-visibility-items ➞ between
+              </li>
+              <li>css ➞ properties ➞ row-rule-visibility-items ➞ normal
+              </li>
+              <li>css ➞ properties ➞ row-rule-width
+              </li>
+              <li>css ➞ properties ➞ row-rule-width ➞ medium
+              </li>
+              <li>css ➞ properties ➞ row-rule-width ➞ thick
+              </li>
+              <li>css ➞ properties ➞ row-rule-width ➞ thin
+              </li>
+              <li>css ➞ properties ➞ rule
+              </li>
+              <li>css ➞ properties ➞ rule ➞ currentColor
+              </li>
+              <li>css ➞ properties ➞ rule ➞ dashed
+              </li>
+              <li>css ➞ properties ➞ rule ➞ dotted
+              </li>
+              <li>css ➞ properties ➞ rule ➞ double
+              </li>
+              <li>css ➞ properties ➞ rule ➞ groove
+              </li>
+              <li>css ➞ properties ➞ rule ➞ hidden
+              </li>
+              <li>css ➞ properties ➞ rule ➞ inset
+              </li>
+              <li>css ➞ properties ➞ rule ➞ medium
+              </li>
+              <li>css ➞ properties ➞ rule ➞ none
+              </li>
+              <li>css ➞ properties ➞ rule ➞ outset
+              </li>
+              <li>css ➞ properties ➞ rule ➞ ridge
+              </li>
+              <li>css ➞ properties ➞ rule ➞ solid
+              </li>
+              <li>css ➞ properties ➞ rule ➞ thick
+              </li>
+              <li>css ➞ properties ➞ rule ➞ thin
+              </li>
+              <li>css ➞ properties ➞ rule ➞ transparent
+              </li>
+              <li>css ➞ properties ➞ rule-break
+              </li>
+              <li>css ➞ properties ➞ rule-break ➞ intersection
+              </li>
+              <li>css ➞ properties ➞ rule-break ➞ none
+              </li>
+              <li>css ➞ properties ➞ rule-break ➞ normal
+              </li>
+              <li>css ➞ properties ➞ rule-color
+              </li>
+              <li>css ➞ properties ➞ rule-color ➞ currentColor
+              </li>
+              <li>css ➞ properties ➞ rule-color ➞ transparent
+              </li>
+              <li>css ➞ properties ➞ rule-inset
+              </li>
+              <li>css ➞ properties ➞ rule-inset-cap
+              </li>
+              <li>css ➞ properties ➞ rule-inset-end
+              </li>
+              <li>css ➞ properties ➞ rule-inset-junction
+              </li>
+              <li>css ➞ properties ➞ rule-inset-start
+              </li>
+              <li>css ➞ properties ➞ rule-overlap
+              </li>
+              <li>css ➞ properties ➞ rule-overlap ➞ column-over-row
+              </li>
+              <li>css ➞ properties ➞ rule-overlap ➞ row-over-column
+              </li>
+              <li>css ➞ properties ➞ rule-style
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ dashed
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ dotted
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ double
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ groove
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ hidden
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ inset
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ none
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ outset
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ ridge
+              </li>
+              <li>css ➞ properties ➞ rule-style ➞ solid
+              </li>
+              <li>css ➞ properties ➞ rule-visibility-items
+              </li>
+              <li>css ➞ properties ➞ rule-visibility-items ➞ all
+              </li>
+              <li>css ➞ properties ➞ rule-visibility-items ➞ around
+              </li>
+              <li>css ➞ properties ➞ rule-visibility-items ➞ between
+              </li>
+              <li>css ➞ properties ➞ rule-visibility-items ➞ normal
+              </li>
+              <li>css ➞ properties ➞ rule-width
+              </li>
+              <li>css ➞ properties ➞ rule-width ➞ medium
+              </li>
+              <li>css ➞ properties ➞ rule-width ➞ thick
+              </li>
+              <li>css ➞ properties ➞ rule-width ➞ thin
+              </li>
+          </ol>
+            <h4>HTTP</h4>
+          <ol>
+              <li>http ➞ headers ➞ X-Frame-Options ➞ DENY
+              </li>
+          </ol>
+            <h4>JAVASCRIPT</h4>
+          <ol>
+              <li>javascript ➞ builtins ➞ Intl ➞ DateTimeFormat ➞ DateTimeFormat ➞ options_parameter ➞ options_timeZone_parameter ➞ utc_offset
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (0)</h3>
+        <div class="outline-container">
+          No features were removed from bcd in this time period
+    </details>
+  
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2026-05-04.html"><time title="Monday, 4 May 2026">Monday, 4 May 2026</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.14">v7.3.14</a> <small>(Thursday, 30 April 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.15">v7.3.15</a> <small>(Friday, 8 May 2026)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD Changes Report, Mon May 04 2026]]></title>
             <link>https://bcd-watch.igalia.com/weekly/2026-05-04.html</link>
@@ -2187,572 +4163,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.10">v7.3.10</a> <small>(Friday, 3 April 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.11">v7.3.11</a> <small>(Friday, 10 April 2026)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD Changes Report, Mon Apr 06 2026]]></title>
-            <link>https://bcd-watch.igalia.com/weekly/2026-04-06.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly/2026-04-06.html</guid>
-            <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new changes in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <a href="2026-03-30.html"><time title="Monday, 30 March 2026">Monday, 30 March 2026</time></a> through <time title="Monday, 6 April 2026">Monday, 6 April 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly/2026-04-06.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +23, -0</h2>
-
-        <h3>Support increases (23)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-                    <span>api ➞ CSSFontFaceRule ➞ style ➞ type_CSSFontFaceDescriptors
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/Document/customElementRegistry">api ➞ Document ➞ customElementRegistry</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/Element/customElementRegistry">api ➞ Element ➞ customElementRegistry</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ HTMLImageElement ➞ sizes ➞ auto
-                    	<a href="https://html.spec.whatwg.org/multipage/images.html#valdef-sizes-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Origin ➞ Origin
-                    	<a href="https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-constructor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Origin
-                    	<a href="https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Origin ➞ from_static
-                    	<a href="https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-from"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Origin ➞ isSameOrigin
-                    	<a href="https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issameorigin"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Origin ➞ isSameSite
-                    	<a href="https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issamesite"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Origin ➞ opaque
-                    	<a href="https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-opaque"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/contentType">api ➞ PerformanceResourceTiming ➞ contentType</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/ShadowRoot/customElementRegistry">api ➞ ShadowRoot ➞ customElementRegistry</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/ToggleEvent/source">api ➞ ToggleEvent ➞ source</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>HTML</h4>
-            <ol>
-                <li>
-                    <span>html ➞ elements ➞ video ➞ loading
-                    	<a href="https://html.spec.whatwg.org/multipage/media.html#attr-media-loading"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>MANIFESTS</h4>
-            <ol>
-                <li>
-                    <span>manifests ➞ webapp ➞ migrate_from
-                    	<a href="https://wicg.github.io/manifest-incubations/#migrate_from-member"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>manifests ➞ webapp ➞ migrate_to
-                    	<a href="https://wicg.github.io/manifest-incubations/#migrate_to-member"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>WEBDRIVER</h4>
-            <ol>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState
-                    	<a href="https://w3c.github.io/webdriver-bidi/#command-browser-setClientWindowState"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ clientWindow_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browsersetclientwindowstateparameters-clientwindow"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ height_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browserclientwindowrectstate-height"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ state_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browserclientwindownamedstate-state"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ width_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browserclientwindowrectstate-width"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ x_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browserclientwindowrectstate-x"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ y_parameter
-                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-browserclientwindowrectstate-y"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 32</h2>
-    <details class="section-background">
-      <summary>Show all 32 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (13)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 27 March 2026, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-                      <span>api ➞ Element ➞ animate ➞ options_iterationComposite_parameter
-                        <a href="https://drafts.csswg.org/web-animations-2/#dom-keyframeeffectoptions-iterationcomposite"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ targetAddressSpace
-                        <a href="https://wicg.github.io/local-network-access/#dom-request-targetaddressspace"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/Element/attachShadow#referencetarget">api ➞ Element ➞ attachShadow ➞ options_referenceTarget_parameter</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ HTMLTemplateElement ➞ shadowRootReferenceTarget
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Permissions ➞ permission_local-network
-                        <a href="https://wicg.github.io/local-network-access/#permissiondef-local-network"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Permissions ➞ permission_local-network-access
-                        <a href="https://wicg.github.io/local-network-access/#permissiondef-local-network-access"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Permissions ➞ permission_loopback-network
-                        <a href="https://wicg.github.io/local-network-access/#permissiondef-loopback-network"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ init_targetAddressSpace_parameter
-                        <a href="https://wicg.github.io/local-network-access/#dom-requestinit-targetaddressspace"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ init_targetAddressSpace_parameter
-                        <a href="https://wicg.github.io/local-network-access/#dom-requestinit-targetaddressspace"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ properties ➞ all ➞ revert-rule
-                        <a href="https://drafts.csswg.org/css-cascade-5/#revert-rule-keyword"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>HTTP</h4>
-              <ol>
-                  <li>
-                      <span>http ➞ headers ➞ Permissions-Policy ➞ local-network
-                        <a href="https://wicg.github.io/local-network-access/#permissiondef-local-network"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>http ➞ headers ➞ Permissions-Policy ➞ local-network-access
-                        <a href="https://wicg.github.io/local-network-access/#permissiondef-local-network-access"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>http ➞ headers ➞ Permissions-Policy ➞ loopback-network
-                        <a href="https://wicg.github.io/local-network-access/#permissiondef-loopback-network"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (18)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 27 March 2026, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ Element ➞ attachShadow ➞ options_referenceTarget_parameter
-              </li>
-              <li>api ➞ HTMLTemplateElement ➞ shadowRootReferenceTarget
-              </li>
-              <li>api ➞ Permissions ➞ permission_local-network
-              </li>
-              <li>api ➞ Permissions ➞ permission_local-network-access
-              </li>
-              <li>api ➞ Permissions ➞ permission_loopback-network
-              </li>
-              <li>api ➞ Request ➞ Request ➞ init_targetAddressSpace_parameter
-              </li>
-              <li>api ➞ fetch ➞ init_targetAddressSpace_parameter
-              </li>
-          </ol>
-            <h4>HTML</h4>
-          <ol>
-              <li>html ➞ elements ➞ video ➞ loading
-              </li>
-          </ol>
-            <h4>HTTP</h4>
-          <ol>
-              <li>http ➞ headers ➞ Permissions-Policy ➞ local-network
-              </li>
-              <li>http ➞ headers ➞ Permissions-Policy ➞ local-network-access
-              </li>
-              <li>http ➞ headers ➞ Permissions-Policy ➞ loopback-network
-              </li>
-          </ol>
-            <h4>MANIFESTS</h4>
-          <ol>
-              <li>manifests ➞ webapp ➞ migrate_from
-              </li>
-              <li>manifests ➞ webapp ➞ migrate_to
-              </li>
-          </ol>
-            <h4>WEBDRIVER</h4>
-          <ol>
-              <li>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ height_parameter
-              </li>
-              <li>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ state_parameter
-              </li>
-              <li>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ width_parameter
-              </li>
-              <li>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ x_parameter
-              </li>
-              <li>webdriver ➞ bidi ➞ browser ➞ setClientWindowState ➞ y_parameter
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (1)</h3>
-        <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday, 27 March 2026, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-          </p>
-        </div>
-        <section class="removed implementations">
-                <h4>HTML</h4>
-              <ol>
-                  <li>html ➞ elements ➞ video ➞ autoplay ➞ loading
-                  </li>
-              </ol>
-          </section>
-    </details>
-  
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href="2026-03-30.html"><time title="Monday, 30 March 2026">Monday, 30 March 2026</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.9">v7.3.9</a> <small>(Friday, 27 March 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.10">v7.3.10</a> <small>(Friday, 3 April 2026)</small>
 			</span>
 		</div>
   </footer>

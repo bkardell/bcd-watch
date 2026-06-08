@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: Changes Report (weekly)</title>
-    <updated>2026-06-01T04:43:28.414Z</updated>
+    <updated>2026-06-08T04:24:36.553Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,948 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD Changes Report, Mon Jun 08 2026]]></title>
+        <id>https://bcd-watch.igalia.com/weekly/2026-06-08.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly/2026-06-08.html">
+        </link>
+        <updated>2026-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <a href="2026-06-01.html"><time title="Monday, 1 June 2026">Monday, 1 June 2026</time></a> through <time title="Monday, 8 June 2026">Monday, 8 June 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly/2026-06-08.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +23, -0</h2>
+
+        <h3>Support increases (23)</h3>
+        <section class="added implementations">
+            <h4>API</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/CSSContainerRule/conditions">api ➞ CSSContainerRule ➞ conditions</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ Request ➞ destination ➞ text
+                    	<a href="https://fetch.spec.whatwg.org/#concept-request-destination"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ Request ➞ isReloadNavigation
+                    	<a href="https://fetch.spec.whatwg.org/#dom-request-isreloadnavigation"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SVGTextPathElement ➞ side
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter ➞ options_quality_parameter
+                    	<a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-quality"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter ➞ options_quality_parameter
+                    	<a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-quality"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>CSS</h4>
+            <ol>
+                <li>
+                    <span>css ➞ properties ➞ background-clip ➞ border-area
+                    	<a href="https://drafts.csswg.org/css-backgrounds-4/#valdef-background-clip-border-area"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ background ➞ border-area
+                    	<a href="https://drafts.csswg.org/css-backgrounds-4/#valdef-background-clip-border-area"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ flex-flow ➞ balance
+                    	<a href="https://drafts.csswg.org/css-flexbox-2/#valdef-flex-wrap-balance"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ flex-line-count
+                    	<a href="https://drafts.csswg.org/css-flexbox-2/#flex-line-count-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ flex-wrap ➞ balance
+                    	<a href="https://drafts.csswg.org/css-flexbox-2/#valdef-flex-wrap-balance"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ overscroll-behavior ➞ chain
+                    	<a href="https://drafts.csswg.org/css-overscroll/#valdef-overscroll-behavior-chain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ overscroll-behavior-block ➞ chain
+                    	<a href="https://drafts.csswg.org/css-overscroll/#valdef-overscroll-behavior-chain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ overscroll-behavior-inline ➞ chain
+                    	<a href="https://drafts.csswg.org/css-overscroll/#valdef-overscroll-behavior-chain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ overscroll-behavior-x ➞ chain
+                    	<a href="https://drafts.csswg.org/css-overscroll/#valdef-overscroll-behavior-chain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ overscroll-behavior-y ➞ chain
+                    	<a href="https://drafts.csswg.org/css-overscroll/#valdef-overscroll-behavior-chain"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-fit
+                    	<a href="https://drafts.csswg.org/css-text-4/#text-fit-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-fit ➞ grow
+                    	<a href="https://drafts.csswg.org/css-text-4/#valdef-text-fit-grow"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-fit ➞ none
+                    	<a href="https://drafts.csswg.org/css-text-4/#valdef-text-fit-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>css ➞ properties ➞ text-fit ➞ shrink
+                    	<a href="https://drafts.csswg.org/css-text-4/#valdef-text-fit-shrink"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>JAVASCRIPT</h4>
+            <ol>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/includes">javascript ➞ builtins ➞ Iterator ➞ includes</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+
+                    <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import/with#text_modules_type_text">javascript ➞ statements ➞ import ➞ import_attributes ➞ type_text</a>
+                    </span>
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>WEBDRIVER</h4>
+            <ol>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setLocaleOverride ➞ dedicated_and_shared_workers
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+        </section>
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 97</h2>
+    <details class="section-background">
+      <summary>Show all 97 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (43)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Saturday, 30 May 2026, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc">api ➞ WEBGL_compressed_texture_etc</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc1">api ➞ WEBGL_compressed_texture_etc1</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter
+                        <a href="https://webaudio.github.io/web-speech-api/#dictdef-speechrecognitionoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter ➞ options_langs_parameter
+                        <a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-langs"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter ➞ options_processLocally_parameter
+                        <a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-processlocally"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter
+                        <a href="https://webaudio.github.io/web-speech-api/#dictdef-speechrecognitionoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter ➞ options_langs_parameter
+                        <a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-langs"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter ➞ options_processLocally_parameter
+                        <a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-processlocally"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>JAVASCRIPT</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getCalendars">javascript ➞ builtins ➞ Intl ➞ Locale ➞ getCalendars</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getCollations">javascript ➞ builtins ➞ Intl ➞ Locale ➞ getCollations</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getHourCycles">javascript ➞ builtins ➞ Intl ➞ Locale ➞ getHourCycles</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getNumberingSystems">javascript ➞ builtins ➞ Intl ➞ Locale ➞ getNumberingSystems</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getTextInfo">javascript ➞ builtins ➞ Intl ➞ Locale ➞ getTextInfo</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getTimeZones">javascript ➞ builtins ➞ Intl ➞ Locale ➞ getTimeZones</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo">javascript ➞ builtins ➞ Intl ➞ Locale ➞ getWeekInfo</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>SVG</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/download">svg ➞ elements ➞ a ➞ download</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>CSS</h4>
+              <ol>
+                  <li>
+                      <span>css ➞ at-rules ➞ supports ➞ at-rule
+                        <a href="https://drafts.csswg.org/css-conditional-5/#typedef-supports-at-rule-fn"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset-cap ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset-cap-end ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset-cap-start ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset-end ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset-junction ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset-junction-end ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset-junction-start ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ column-rule-inset-start ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ container ➞ name-only_queries
+                        <a href="https://drafts.csswg.org/css-conditional-5/#typedef-container-condition"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ container-name ➞ name-only_queries
+                        <a href="https://drafts.csswg.org/css-conditional-5/#typedef-container-condition"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ container-type ➞ name-only_queries
+                        <a href="https://drafts.csswg.org/css-conditional-5/#typedef-container-condition"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset-cap ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset-cap-end ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset-cap-start ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset-end ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset-junction ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset-junction-end ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset-junction-start ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ row-rule-inset-start ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ rule-inset ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ rule-inset-cap ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ rule-inset-end ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ rule-inset-junction ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ rule-inset-start ➞ overlap-join
+                        <a href="https://drafts.csswg.org/css-gaps-1/#valdef-inset-value-overlap-join"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (54)</h3>
+      <div class="outline-container">
+        <p class="info">The entries in this section were not found in BCD on Saturday, 30 May 2026, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        </p>
+      </div>
+      <section class="added implementations">
+            <h4>API</h4>
+          <ol>
+              <li>api ➞ Request ➞ destination ➞ text
+              </li>
+              <li>api ➞ Request ➞ isReloadNavigation
+              </li>
+              <li>api ➞ SVGTextPathElement ➞ side
+              </li>
+              <li>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter
+              </li>
+              <li>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter ➞ options_langs_parameter
+              </li>
+              <li>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter ➞ options_processLocally_parameter
+              </li>
+              <li>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter ➞ options_quality_parameter
+              </li>
+              <li>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter
+              </li>
+              <li>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter ➞ options_langs_parameter
+              </li>
+              <li>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter ➞ options_processLocally_parameter
+              </li>
+              <li>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter ➞ options_quality_parameter
+              </li>
+          </ol>
+            <h4>CSS</h4>
+          <ol>
+              <li>css ➞ at-rules ➞ supports ➞ at-rule
+              </li>
+              <li>css ➞ properties ➞ background ➞ border-area
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-cap ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-cap-end ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-cap-start ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-end ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-junction ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-junction-end ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-junction-start ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ column-rule-inset-start ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ container ➞ name-only_queries
+              </li>
+              <li>css ➞ properties ➞ container-name ➞ name-only_queries
+              </li>
+              <li>css ➞ properties ➞ container-type ➞ name-only_queries
+              </li>
+              <li>css ➞ properties ➞ flex-flow ➞ balance
+              </li>
+              <li>css ➞ properties ➞ flex-line-count
+              </li>
+              <li>css ➞ properties ➞ flex-wrap ➞ balance
+              </li>
+              <li>css ➞ properties ➞ overscroll-behavior ➞ chain
+              </li>
+              <li>css ➞ properties ➞ overscroll-behavior-block ➞ chain
+              </li>
+              <li>css ➞ properties ➞ overscroll-behavior-inline ➞ chain
+              </li>
+              <li>css ➞ properties ➞ overscroll-behavior-x ➞ chain
+              </li>
+              <li>css ➞ properties ➞ overscroll-behavior-y ➞ chain
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-cap ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-cap-end ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-cap-start ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-end ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-junction ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-junction-end ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-junction-start ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ row-rule-inset-start ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ rule-inset ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ rule-inset-cap ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ rule-inset-end ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ rule-inset-junction ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ rule-inset-start ➞ overlap-join
+              </li>
+              <li>css ➞ properties ➞ text-fit
+              </li>
+              <li>css ➞ properties ➞ text-fit ➞ grow
+              </li>
+              <li>css ➞ properties ➞ text-fit ➞ none
+              </li>
+              <li>css ➞ properties ➞ text-fit ➞ shrink
+              </li>
+          </ol>
+            <h4>JAVASCRIPT</h4>
+          <ol>
+              <li>javascript ➞ builtins ➞ Iterator ➞ includes
+              </li>
+              <li>javascript ➞ statements ➞ import ➞ import_attributes ➞ type_text
+              </li>
+          </ol>
+            <h4>WEBDRIVER</h4>
+          <ol>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setLocaleOverride ➞ dedicated_and_shared_workers
+              </li>
+          </ol>
+        </section> 
+      
+
+      <h3>Removed entries (0)</h3>
+        <div class="outline-container">
+          No features were removed from bcd in this time period
+    </details>
+  
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2026-06-01.html"><time title="Monday, 1 June 2026">Monday, 1 June 2026</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.0.1">v8.0.1</a> <small>(Saturday, 30 May 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.0.2">v8.0.2</a> <small>(Friday, 5 June 2026)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD Changes Report, Mon Jun 01 2026]]></title>
         <id>https://bcd-watch.igalia.com/weekly/2026-06-01.html</id>
@@ -2716,608 +3658,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.14">v7.3.14</a> <small>(Thursday, 30 April 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.15">v7.3.15</a> <small>(Friday, 8 May 2026)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD Changes Report, Mon May 04 2026]]></title>
-        <id>https://bcd-watch.igalia.com/weekly/2026-05-04.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly/2026-05-04.html">
-        </link>
-        <updated>2026-05-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <a href="2026-04-27.html"><time title="Monday, 27 April 2026">Monday, 27 April 2026</time></a> through <time title="Monday, 4 May 2026">Monday, 4 May 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly/2026-05-04.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +3, -0</h2>
-
-        <h3>Support increases (3)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-                    <span>api ➞ Element ➞ requestFullscreen ➞ options_parameter
-                    	<a href="https://fullscreen.spec.whatwg.org/#dom-element-requestfullscreen-options-options"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ Element ➞ requestFullscreen ➞ options_parameter ➞ keyboardLock_option
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox,Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ SharedWorker ➞ SharedWorker ➞ options_extendedLifetime_parameter
-                    	<a href="https://html.spec.whatwg.org/multipage/workers.html#dom-sharedworkeroptions-extendedlifetime"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 89</h2>
-    <details class="section-background">
-      <summary>Show all 89 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (33)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Friday, 24 April 2026, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/color_value/contrast-color">css ➞ types ➞ color ➞ contrast-color</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ accent-color ➞ transparent
-                        <a href="https://drafts.csswg.org/css-color-4/#transparent-color"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/rect">css ➞ properties ➞ shape-outside ➞ rect</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ stop-color ➞ transparent
-                        <a href="https://drafts.csswg.org/css-color-4/#transparent-color"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ attr ➞ fallback
-                        <a href="https://drafts.csswg.org/css-values-5/#ref-for-typedef-declaration-value②⑥"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>API</h4>
-              <ol>
-                  <li>
-                      <span>api ➞ Element ➞ requestFullscreen ➞ options_parameter ➞ navigationUI_option
-                        <a href="https://fullscreen.spec.whatwg.org/#dom-fullscreenoptions-navigationui"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Element ➞ requestFullscreen ➞ options_parameter ➞ screen_option
-                        <a href="https://w3c.github.io/window-management/#ref-for-dom-fullscreenoptions-screen"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ GPU ➞ requestAdapter ➞ options_featureLevel
-                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpurequestadapteroptions-featurelevel"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter
-                        <a href="https://fetch.spec.whatwg.org/#requestinit"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ attributionReporting
-                        <a href="https://wicg.github.io/attribution-reporting-api/#dom-requestinit-attributionreporting"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ body
-                        <a href="https://fetch.spec.whatwg.org/#bodyinit-unions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ body ➞ accepts_readablestream
-                        <a href="https://fetch.spec.whatwg.org/#concept-body-stream"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ browsingTopics
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ duplex
-                        <a href="https://fetch.spec.whatwg.org/#dom-requestinit-duplex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ keepalive
-                        <a href="https://fetch.spec.whatwg.org/#dom-requestinit-keepalive"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ priority
-                        <a href="https://fetch.spec.whatwg.org/#dom-requestinit-priority"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ privateToken
-                        <a href="https://wicg.github.io/trust-token-api/#dom-requestinit-privatetoken"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ referrer
-                        <a href="https://fetch.spec.whatwg.org/#dom-requestinit-referrer"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ targetAddressSpace
-                        <a href="https://wicg.github.io/local-network-access/#dom-requestinit-targetaddressspace"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ XRSession ➞ visibilitymaskchange_event
-                        <a href="https://immersive-web.github.io/webxr/#eventdef-xrsession-visibilitymaskchange"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter
-                        <a href="https://fetch.spec.whatwg.org/#requestinit"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ attributionReporting
-                        <a href="https://wicg.github.io/attribution-reporting-api/#dom-requestinit-attributionreporting"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ body
-                        <a href="https://fetch.spec.whatwg.org/#bodyinit-unions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ body ➞ accepts_readablestream
-                        <a href="https://fetch.spec.whatwg.org/#concept-body-stream"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ browsingTopics
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ duplex
-                        <a href="https://fetch.spec.whatwg.org/#dom-requestinit-duplex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ keepalive
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ priority
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ privateToken
-                        <a href="https://wicg.github.io/trust-token-api/#dom-requestinit-privatetoken"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ referrerPolicy
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ signal
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ fetch ➞ options_parameter ➞ targetAddressSpace
-                        <a href="https://wicg.github.io/local-network-access/#dom-requestinit-targetaddressspace"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>HTML</h4>
-              <ol>
-                  <li>
-                      <span>html ➞ elements ➞ audio ➞ autoplay
-                        <a href="https://html.spec.whatwg.org/multipage/media.html#attr-media-autoplay"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (35)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Friday, 24 April 2026, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ Element ➞ requestFullscreen ➞ options_parameter
-              </li>
-              <li>api ➞ Element ➞ requestFullscreen ➞ options_parameter ➞ keyboardLock_option
-              </li>
-              <li>api ➞ Element ➞ requestFullscreen ➞ options_parameter ➞ navigationUI_option
-              </li>
-              <li>api ➞ Element ➞ requestFullscreen ➞ options_parameter ➞ screen_option
-              </li>
-              <li>api ➞ GPU ➞ requestAdapter ➞ options_featureLevel
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ attributionReporting
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ body
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ body ➞ accepts_readablestream
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ browsingTopics
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ duplex
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ keepalive
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ priority
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ privateToken
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ referrer
-              </li>
-              <li>api ➞ Request ➞ Request ➞ options_parameter ➞ targetAddressSpace
-              </li>
-              <li>api ➞ SharedWorker ➞ SharedWorker ➞ options_extendedLifetime_parameter
-              </li>
-              <li>api ➞ XRSession ➞ visibilitymaskchange_event
-              </li>
-              <li>api ➞ fetch ➞ options_parameter
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ attributionReporting
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ body
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ body ➞ accepts_readablestream
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ browsingTopics
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ duplex
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ keepalive
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ priority
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ privateToken
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ referrerPolicy
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ signal
-              </li>
-              <li>api ➞ fetch ➞ options_parameter ➞ targetAddressSpace
-              </li>
-          </ol>
-            <h4>CSS</h4>
-          <ol>
-              <li>css ➞ properties ➞ accent-color ➞ transparent
-              </li>
-              <li>css ➞ properties ➞ shape-outside ➞ rect
-              </li>
-              <li>css ➞ properties ➞ stop-color ➞ transparent
-              </li>
-              <li>css ➞ types ➞ attr ➞ fallback
-              </li>
-          </ol>
-            <h4>HTML</h4>
-          <ol>
-              <li>html ➞ elements ➞ audio ➞ autoplay
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (21)</h3>
-        <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Friday, 24 April 2026, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
-          </p>
-        </div>
-        <section class="removed implementations">
-                <h4>API</h4>
-              <ol>
-                  <li>api ➞ Element ➞ requestFullscreen ➞ options_navigationUI_parameter
-                  </li>
-                  <li>api ➞ Element ➞ requestFullscreen ➞ options_screen_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ init_attributionReporting_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ init_browsingTopics_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ init_duplex_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ init_keepalive_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ init_priority_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ init_privateToken_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ init_referrer_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ init_targetAddressSpace_parameter
-                  </li>
-                  <li>api ➞ Request ➞ Request ➞ request_body_readablestream
-                  </li>
-                  <li>api ➞ fetch ➞ body_readablestream
-                  </li>
-                  <li>api ➞ fetch ➞ init_attributionReporting_parameter
-                  </li>
-                  <li>api ➞ fetch ➞ init_browsingTopics_parameter
-                  </li>
-                  <li>api ➞ fetch ➞ init_duplex_parameter
-                  </li>
-                  <li>api ➞ fetch ➞ init_keepalive_parameter
-                  </li>
-                  <li>api ➞ fetch ➞ init_priority_parameter
-                  </li>
-                  <li>api ➞ fetch ➞ init_privateToken_parameter
-                  </li>
-                  <li>api ➞ fetch ➞ init_referrerPolicy_parameter
-                  </li>
-                  <li>api ➞ fetch ➞ init_signal_parameter
-                  </li>
-                  <li>api ➞ fetch ➞ init_targetAddressSpace_parameter
-                  </li>
-              </ol>
-          </section>
-    </details>
-  
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href="2026-04-27.html"><time title="Monday, 27 April 2026">Monday, 27 April 2026</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.13">v7.3.13</a> <small>(Friday, 24 April 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v7.3.14">v7.3.14</a> <small>(Thursday, 30 April 2026)</small>
 			</span>
 		</div>
   </footer>

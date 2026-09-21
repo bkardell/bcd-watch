@@ -1,12 +1,12 @@
 {
   "latest": {
+    "file": "2026-09-21.json",
+    "timestamp": "2026-09-21T00:02:02.432Z",
+    "version": "8.1.2"
+  },
+  "previous": {
     "file": "2026-09-14.json",
     "timestamp": "2026-09-14T00:02:31.405Z",
     "version": "8.1.1"
-  },
-  "previous": {
-    "file": "2026-09-07.json",
-    "timestamp": "2026-09-07T00:01:55.197Z",
-    "version": "8.1.0"
   }
 }

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bcd-watch.igalia.com</id>
     <title>BCD-watch: Changes Report (weekly)</title>
-    <updated>2026-09-28T04:35:59.118Z</updated>
+    <updated>2026-10-05T04:52:46.738Z</updated>
     <generator>awesome mix</generator>
     <author>
         <name>Igalia</name>
@@ -15,6 +15,177 @@
     <logo>https://bcd-watch.igalia.com/imgs/binoculars.png</logo>
     <icon>https://bcd-watch.igalia.com/imgs/binoculars.png</icon>
     <rights>All rights reserved, Igalia SL</rights>
+    <entry>
+        <title type="html"><![CDATA[BCD Changes Report, Mon Oct 05 2026]]></title>
+        <id>https://bcd-watch.igalia.com/weekly/2026-10-05.html</id>
+        <link href="https://bcd-watch.igalia.com/weekly/2026-10-05.html">
+        </link>
+        <updated>2026-10-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
+        <content type="html"><![CDATA[<main>
+	<p>
+	Summary of BCD changes from <a href="2026-09-28.html"><time title="Monday, 28 September 2026">Monday, 28 September 2026</time></a> through <time title="Monday, 5 October 2026">Monday, 5 October 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly/2026-10-05.html" title="permalink">🔗</a>
+	</p>
+	<hr>
+    <h2 class="report-subtitle">Browser Support Changes: +0, -0</h2>
+
+
+
+    </section>
+
+		<hr>
+
+    <h2 class="report-subtitle">BCD Metadata Changes: 19</h2>
+    <details class="section-background">
+      <summary>Show all 19 changes</summary>
+      <div class="outline-container">
+      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
+        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
+      </p>
+      </div>
+
+        <h3>Backfilled entries (7)</h3>
+        <div class="info-container outline-container">
+          <p class="info">The entries in this section saw support information change since the report on  Monday, 28 September 2026, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+      </p>
+      </div>
+        <section class="backfilled implementations">
+            <h4>API</h4>
+              <ol>
+                  <li>
+                      <span>api ➞ Permissions ➞ permission_local-network
+                        <a href="https://wicg.github.io/local-network-access/#permissiondef-local-network"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Permissions ➞ permission_loopback-network
+                        <a href="https://wicg.github.io/local-network-access/#permissiondef-loopback-network"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>WEBEXTENSIONS</h4>
+              <ol>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/publicSuffix/DomainEncoding">webextensions ➞ api ➞ publicSuffix ➞ DomainEncoding</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/publicSuffix">webextensions ➞ api ➞ publicSuffix</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/publicSuffix/getDomain">webextensions ➞ api ➞ publicSuffix ➞ getDomain</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/publicSuffix/getKnownSuffix">webextensions ➞ api ➞ publicSuffix ➞ getKnownSuffix</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/publicSuffix/isKnownSuffix">webextensions ➞ api ➞ publicSuffix ➞ isKnownSuffix</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+        </section>
+      
+      <h3>New entries (0)</h3>
+      <div class="outline-container">
+          No features were added to BCD in this time period.
+      
+
+      <h3>Removed entries (12)</h3>
+        <div class="outline-container">
+          <p class="info">The entries in this section were found in BCD on Monday, 28 September 2026, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          </p>
+        </div>
+        <section class="removed implementations">
+                <h4>API</h4>
+              <ol>
+                  <li>api ➞ DocumentType ➞ afterHTML
+                  </li>
+                  <li>api ➞ DocumentType ➞ afterHTMLUnsafe
+                  </li>
+                  <li>api ➞ DocumentType ➞ beforeHTML
+                  </li>
+                  <li>api ➞ DocumentType ➞ beforeHTMLUnsafe
+                  </li>
+                  <li>api ➞ DocumentType ➞ replaceWithHTML
+                  </li>
+                  <li>api ➞ DocumentType ➞ replaceWithHTMLUnsafe
+                  </li>
+                  <li>api ➞ DocumentType ➞ streamAfterHTML
+                  </li>
+                  <li>api ➞ DocumentType ➞ streamAfterHTMLUnsafe
+                  </li>
+                  <li>api ➞ DocumentType ➞ streamBeforeHTML
+                  </li>
+                  <li>api ➞ DocumentType ➞ streamBeforeHTMLUnsafe
+                  </li>
+                  <li>api ➞ DocumentType ➞ streamReplaceWithHTML
+                  </li>
+                  <li>api ➞ DocumentType ➞ streamReplaceWithHTMLUnsafe
+                  </li>
+              </ol>
+          </section>
+    </details>
+  
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href="2026-09-28.html"><time title="Monday, 28 September 2026">Monday, 28 September 2026</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.3">v8.1.3</a> <small>(Monday, 28 September 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.4">v8.1.4</a> <small>(Monday, 5 October 2026)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BCD Changes Report, Mon Sep 28 2026]]></title>
         <id>https://bcd-watch.igalia.com/weekly/2026-09-28.html</id>
@@ -9083,1116 +9254,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.0.13">v8.0.13</a> <small>(Monday, 31 August 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.0">v8.1.0</a> <small>(Monday, 7 September 2026)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BCD Changes Report, Mon Aug 31 2026]]></title>
-        <id>https://bcd-watch.igalia.com/weekly/2026-08-31.html</id>
-        <link href="https://bcd-watch.igalia.com/weekly/2026-08-31.html">
-        </link>
-        <updated>2026-08-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Weekly summary of new changes in BCD data]]></summary>
-        <content type="html"><![CDATA[<main>
-	<p>
-	Summary of BCD changes from <a href="2026-08-24.html"><time title="Monday, 24 August 2026">Monday, 24 August 2026</time></a> through <time title="Monday, 31 August 2026">Monday, 31 August 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly/2026-08-31.html" title="permalink">🔗</a>
-	</p>
-	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +37, -0</h2>
-
-        <h3>Support increases (37)</h3>
-        <section class="added implementations">
-            <h4>API</h4>
-            <ol>
-                <li>
-                    <span>api ➞ CSSFontFaceDescriptors ➞ font-width
-                    	<a href="https://drafts.csswg.org/css-fonts/#dom-cssfontfacedescriptors-font-width"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ CSSFontFaceDescriptors ➞ fontWidth
-                    	<a href="https://drafts.csswg.org/css-fonts/#dom-cssfontfacedescriptors-fontwidth"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/Document/ariaNotify">api ➞ Document ➞ ariaNotify</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/Element/ariaNotify">api ➞ Element ➞ ariaNotify</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Safari</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/API/RTCTransportStats/selectedCandidatePairChanges">api ➞ RTCStatsReport ➞ type_transport ➞ selectedCandidatePairChanges</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ HTMLElement ➞ containerTiming
-                    	<a href="https://wicg.github.io/container-timing/#dom-htmlelement-containertiming"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ HTMLElement ➞ containerTimingIgnore
-                    	<a href="https://wicg.github.io/container-timing/#dom-htmlelement-containertimingignore"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming
-                    	<a href="https://wicg.github.io/container-timing/#performance-container-timing"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming ➞ firstRenderTime
-                    	<a href="https://wicg.github.io/container-timing/#dom-performancecontainertiming-firstrendertime"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming ➞ identifier
-                    	<a href="https://wicg.github.io/container-timing/#dom-performancecontainertiming-identifier"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming ➞ intersectionRect
-                    	<a href="https://wicg.github.io/container-timing/#dom-performancecontainertiming-intersectionrect"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming ➞ lastPaintedElement
-                    	<a href="https://wicg.github.io/container-timing/#dom-performancecontainertiming-lastpaintedelement"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming ➞ paintTime
-                    	<a href="https://w3c.github.io/paint-timing/#dom-painttimingmixin-painttime"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming ➞ presentationTime
-                    	<a href="https://w3c.github.io/paint-timing/#dom-painttimingmixin-presentationtime"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming ➞ rootElement
-                    	<a href="https://wicg.github.io/container-timing/#dom-performancecontainertiming-rootelement"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ PerformanceContainerTiming ➞ size
-                    	<a href="https://wicg.github.io/container-timing/#dom-performancecontainertiming-size"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>api ➞ WebTransport ➞ WebTransport ➞ options_protocols_parameter
-                    	<a href="https://w3c.github.io/webtransport/#dom-webtransportoptions-protocols"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>CSS</h4>
-            <ol>
-                <li>
-
-                    <span><a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/font-width">css ➞ properties ➞ font-width</a>
-                    </span>
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ condensed
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-condensed"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ expanded
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-expanded"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ extra-condensed
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-extra-condensed"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ extra-expanded
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-extra-expanded"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ normal
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ percentage
-                    	<a href="https://drafts.csswg.org/css-fonts/#font-width-prop"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ semi-condensed
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-semi-condensed"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ semi-expanded
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-semi-expanded"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ ultra-condensed
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-ultra-condensed"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>css ➞ properties ➞ font-width ➞ ultra-expanded
-                    	<a href="https://drafts.csswg.org/css-fonts/#valdef-font-width-ultra-expanded"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>HTML</h4>
-            <ol>
-                <li>
-                    <span>html ➞ global_attributes ➞ containertiming
-                    	<a href="https://wicg.github.io/container-timing/#dom-htmlelement-containertiming"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>html ➞ global_attributes ➞ containertimingignore
-                    	<a href="https://wicg.github.io/container-timing/#dom-htmlelement-containertimingignore"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>JAVASCRIPT</h4>
-            <ol>
-                <li>
-                    <span>javascript ➞ builtins ➞ Promise ➞ allKeyed
-                    	<a href="https://tc39.es/proposal-await-dictionary/#sec-promise.allkeyed"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>javascript ➞ builtins ➞ Promise ➞ allSettledKeyed
-                    	<a href="https://tc39.es/proposal-await-dictionary/#sec-promise.allsettledkeyed"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-            <h4>WEBASSEMBLY</h4>
-            <ol>
-                <li>
-                    <span>webassembly ➞ definitions ➞ import ➞ compact_imports
-                    	<a href="https://github.com/WebAssembly/compact-import-section/blob/main/proposals/compact-import-section/Overview.md"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webassembly ➞ instructions ➞ add128
-                    	<a href="https://github.com/WebAssembly/wide-arithmetic/blob/main/proposals/wide-arithmetic/Overview.md#:~:text&#x3D;i64%2Eadd128"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webassembly ➞ instructions ➞ mul_wide_s
-                    	<a href="https://github.com/WebAssembly/wide-arithmetic/blob/main/proposals/wide-arithmetic/Overview.md#:~:text&#x3D;i64%2Emul%5Fwide%5Fs"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webassembly ➞ instructions ➞ mul_wide_u
-                    	<a href="https://github.com/WebAssembly/wide-arithmetic/blob/main/proposals/wide-arithmetic/Overview.md#:~:text&#x3D;i64%2Emul%5Fwide%5Fu"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-                <li>
-                    <span>webassembly ➞ instructions ➞ sub128
-                    	<a href="https://github.com/WebAssembly/wide-arithmetic/blob/main/proposals/wide-arithmetic/Overview.md#:~:text&#x3D;i64%2Esub128"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
-
-                  
-                  <b><br></b> 
-                  <span class="browsers">Added to <strong>Firefox</strong></span> 
-                  <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-
-                </li>
-            </ol>
-        </section>
-
-
-    </section>
-
-		<hr>
-
-    <h2 class="report-subtitle">BCD Metadata Changes: 100</h2>
-    <details class="section-background">
-      <summary>Show all 100 changes</summary>
-      <div class="outline-container">
-      <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
-        in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
-      </p>
-      </div>
-
-        <h3>Backfilled entries (42)</h3>
-        <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Monday, 24 August 2026, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
-      </p>
-      </div>
-        <section class="backfilled implementations">
-            <h4>API</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/CustomElementRegistry">api ➞ CustomElementRegistry ➞ CustomElementRegistry</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/initialize">api ➞ CustomElementRegistry ➞ initialize</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Document ➞ createElement ➞ options_parameter ➞ customElementRegistry_option
-                        <a href="https://dom.spec.whatwg.org/#dictdef-elementcreationoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Document ➞ createElementNS ➞ options_parameter ➞ customElementRegistry_option
-                        <a href="https://dom.spec.whatwg.org/#dictdef-elementcreationoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootCustomElementRegistry">api ➞ HTMLTemplateElement ➞ shadowRootCustomElementRegistry</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ HTMLTemplateElement ➞ htmlFor
-                        <a href="https://html.spec.whatwg.org/multipage/scripting.html#dom-template-htmlfor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/InteractionContentfulPaint">api ➞ InteractionContentfulPaint</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/InteractionContentfulPaint/interactionId">api ➞ InteractionContentfulPaint ➞ interactionId</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/InteractionContentfulPaint/largestContentfulPaint">api ➞ InteractionContentfulPaint ➞ largestContentfulPaint</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/InteractionContentfulPaint/paintTime">api ➞ InteractionContentfulPaint ➞ paintTime</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/InteractionContentfulPaint/presentationTime">api ➞ InteractionContentfulPaint ➞ presentationTime</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement
-                        <a href="https://w3c.github.io/mathml-core/#dom-mathmlanchorelement"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ hash
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hash"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ host
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-host"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ hostname
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hostname"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ href
-                        <a href="https://w3c.github.io/mathml-core/#dom-mathmlanchorelement-href"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ hreflang
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-a-hreflang"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ origin
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-origin"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ password
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-password"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ pathname
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-pathname"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ port
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-port"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ protocol
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-protocol"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ search
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-search"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ target
-                        <a href="https://w3c.github.io/mathml-core/#dom-mathmlanchorelement-target"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ type
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-a-type"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MathMLAnchorElement ➞ username
-                        <a href="https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-username"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ MediaStreamTrack ➞ configurationchange_event
-                        <a href="https://w3c.github.io/mediacapture-extensions/#dom-mediastreamtrack-onconfigurationchange"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceSoftNavigation">api ➞ PerformanceSoftNavigation</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceSoftNavigation/getLargestInteractionContentfulPaint">api ➞ PerformanceSoftNavigation ➞ getLargestInteractionContentfulPaint</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceSoftNavigation/interactionId">api ➞ PerformanceSoftNavigation ➞ interactionId</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceSoftNavigation/navigationType">api ➞ PerformanceSoftNavigation ➞ navigationType</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceSoftNavigation/paintTime">api ➞ PerformanceSoftNavigation ➞ paintTime</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/API/PerformanceSoftNavigation/presentationTime">api ➞ PerformanceSoftNavigation ➞ presentationTime</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ ReportingObserver ➞ ReportingObserver ➞ options_parameter ➞ types_property ➞ connection-allowlist
-                        <a href="https://wicg.github.io/connection-allowlists/#reporting"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>HTML</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/template#shadowrootcustomelementregistry">html ➞ elements ➞ template ➞ shadowrootcustomelementregistry</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>html ➞ elements ➞ template ➞ for
-                        <a href="https://html.spec.whatwg.org/multipage/scripting.html#attr-template-for"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>html ➞ global_attributes ➞ elementtiming
-                        <a href="https://w3c.github.io/element-timing/#dom-element-elementtiming"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>CSS</h4>
-              <ol>
-                  <li>
-                      <span>css ➞ types ➞ anchor ➞ is_transitionable
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-resolution"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ anchor-size ➞ is_transitionable
-                        <a href="https://drafts.csswg.org/css-anchor-position-1/#anchor-size-resolution"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>HTTP</h4>
-              <ol>
-                  <li>
-                      <span>http ➞ headers ➞ Connection-Allowlist
-                        <a href="https://wicg.github.io/connection-allowlists/#http-headerdef-connection-allowlist"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>http ➞ headers ➞ Connection-Allowlist-Report-Only
-                        <a href="https://wicg.github.io/connection-allowlists/#http-headerdef-connection-allowlist-report-only"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>WEBASSEMBLY</h4>
-              <ol>
-                  <li>
-                      <span>webassembly ➞ definitions ➞ import
-                        <a href="https://webassembly.github.io/spec/core/bikeshed/#imports%E2%91%A0"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-        </section>
-      
-      <h3>New entries (58)</h3>
-      <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Monday, 24 August 2026, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
-        </p>
-      </div>
-      <section class="added implementations">
-            <h4>API</h4>
-          <ol>
-              <li>api ➞ HTMLBodyElement ➞ orientationchange_event
-              </li>
-              <li>api ➞ HTMLElement ➞ containerTiming
-              </li>
-              <li>api ➞ HTMLElement ➞ containerTimingIgnore
-              </li>
-              <li>api ➞ HTMLTemplateElement ➞ htmlFor
-              </li>
-              <li>api ➞ InteractionContentfulPaint
-              </li>
-              <li>api ➞ InteractionContentfulPaint ➞ interactionId
-              </li>
-              <li>api ➞ InteractionContentfulPaint ➞ largestContentfulPaint
-              </li>
-              <li>api ➞ InteractionContentfulPaint ➞ paintTime
-              </li>
-              <li>api ➞ InteractionContentfulPaint ➞ presentationTime
-              </li>
-              <li>api ➞ MathMLAnchorElement
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ hash
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ host
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ hostname
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ href
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ hreflang
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ origin
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ password
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ pathname
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ port
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ protocol
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ search
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ target
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ type
-              </li>
-              <li>api ➞ MathMLAnchorElement ➞ username
-              </li>
-              <li>api ➞ MediaStreamTrack ➞ configurationchange_event
-              </li>
-              <li>api ➞ PerformanceContainerTiming
-              </li>
-              <li>api ➞ PerformanceContainerTiming ➞ firstRenderTime
-              </li>
-              <li>api ➞ PerformanceContainerTiming ➞ identifier
-              </li>
-              <li>api ➞ PerformanceContainerTiming ➞ intersectionRect
-              </li>
-              <li>api ➞ PerformanceContainerTiming ➞ lastPaintedElement
-              </li>
-              <li>api ➞ PerformanceContainerTiming ➞ paintTime
-              </li>
-              <li>api ➞ PerformanceContainerTiming ➞ presentationTime
-              </li>
-              <li>api ➞ PerformanceContainerTiming ➞ rootElement
-              </li>
-              <li>api ➞ PerformanceContainerTiming ➞ size
-              </li>
-              <li>api ➞ PerformanceSoftNavigation
-              </li>
-              <li>api ➞ PerformanceSoftNavigation ➞ getLargestInteractionContentfulPaint
-              </li>
-              <li>api ➞ PerformanceSoftNavigation ➞ interactionId
-              </li>
-              <li>api ➞ PerformanceSoftNavigation ➞ navigationType
-              </li>
-              <li>api ➞ PerformanceSoftNavigation ➞ paintTime
-              </li>
-              <li>api ➞ PerformanceSoftNavigation ➞ presentationTime
-              </li>
-              <li>api ➞ ReportingObserver ➞ ReportingObserver ➞ options_parameter ➞ types_property ➞ connection-allowlist
-              </li>
-              <li>api ➞ WebTransport ➞ WebTransport ➞ options_protocols_parameter
-              </li>
-          </ol>
-            <h4>CSS</h4>
-          <ol>
-              <li>css ➞ types ➞ anchor ➞ is_transitionable
-              </li>
-              <li>css ➞ types ➞ anchor-size ➞ is_transitionable
-              </li>
-          </ol>
-            <h4>HTML</h4>
-          <ol>
-              <li>html ➞ elements ➞ template ➞ for
-              </li>
-              <li>html ➞ global_attributes ➞ containertiming
-              </li>
-              <li>html ➞ global_attributes ➞ containertimingignore
-              </li>
-              <li>html ➞ global_attributes ➞ elementtiming
-              </li>
-          </ol>
-            <h4>HTTP</h4>
-          <ol>
-              <li>http ➞ headers ➞ Connection-Allowlist
-              </li>
-              <li>http ➞ headers ➞ Connection-Allowlist-Report-Only
-              </li>
-          </ol>
-            <h4>JAVASCRIPT</h4>
-          <ol>
-              <li>javascript ➞ builtins ➞ Promise ➞ allKeyed
-              </li>
-              <li>javascript ➞ builtins ➞ Promise ➞ allSettledKeyed
-              </li>
-          </ol>
-            <h4>WEBASSEMBLY</h4>
-          <ol>
-              <li>webassembly ➞ definitions ➞ import
-              </li>
-              <li>webassembly ➞ definitions ➞ import ➞ compact_imports
-              </li>
-              <li>webassembly ➞ instructions ➞ add128
-              </li>
-              <li>webassembly ➞ instructions ➞ mul_wide_s
-              </li>
-              <li>webassembly ➞ instructions ➞ mul_wide_u
-              </li>
-              <li>webassembly ➞ instructions ➞ sub128
-              </li>
-          </ol>
-        </section> 
-      
-
-      <h3>Removed entries (0)</h3>
-        <div class="outline-container">
-          No features were removed from bcd in this time period
-    </details>
-  
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href="2026-08-24.html"><time title="Monday, 24 August 2026">Monday, 24 August 2026</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.0.12">v8.0.12</a> <small>(Monday, 24 August 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.0.13">v8.0.13</a> <small>(Monday, 31 August 2026)</small>
 			</span>
 		</div>
   </footer>

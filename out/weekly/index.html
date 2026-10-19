@@ -11,7 +11,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
 <link rel="manifest" href="/favicons/site.webmanifest">
 <link type="text/css" href="https://bcd-watch.igalia.com/styles.css" rel="stylesheet">
-<title>BCD Changes Report, Mon Oct 12 2026</title>
+<title>BCD Changes Report, Mon Oct 19 2026</title>
 </head>
 <body>
     <div class="header">
@@ -20,65 +20,154 @@
   <hr>
   <h2>BCD Changes Report
   <br/>
-  <time>Mon Oct 12 2026</time></h2>
+  <time>Mon Oct 19 2026</time></h2>
   <main>
 	<p>
-	Summary of BCD changes from <a href="2026-10-05.html"><time title="Monday, 5 October 2026">Monday, 5 October 2026</time></a> through <time title="Monday, 12 October 2026">Monday, 12 October 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly/2026-10-12.html" title="permalink">🔗</a>
+	Summary of BCD changes from <a href="2026-10-12.html"><time title="Monday, 12 October 2026">Monday, 12 October 2026</time></a> through <time title="Monday, 19 October 2026">Monday, 19 October 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly/2026-10-19.html" title="permalink">🔗</a>
 	</p>
 	<hr>
-    <h2 class="report-subtitle">Browser Support Changes: +4, -0</h2>
+    <h2 class="report-subtitle">Browser Support Changes: +11, -0</h2>
 
-        <h3>Support increases (4)</h3>
+        <h3>Support increases (11)</h3>
         <section class="added implementations">
             <h4>API</h4>
             <ol>
                 <li>
-                    <span>api ➞ GPUSupportedFeatures ➞ feature_float32-blendable
-                    	<a href="https://gpuweb.github.io/gpuweb/#float32-blendable"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                  </span>
 
+                    <span><a href="https://developer.mozilla.org/docs/Web/API/EXT_texture_norm16">api ➞ EXT_texture_norm16</a>
+                    </span>
                   
                   <b><br></b> 
                   <span class="browsers">Added to <strong>Firefox</strong></span> 
                   <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ RTCPeerConnection ➞ cancelDiagnosticLogging_static
+                    	<a href="https://w3c.github.io/webrtc-extensions/#dom-rtcpeerconnection-canceldiagnosticlogging"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ RTCPeerConnection ➞ startDiagnosticLogging_static
+                    	<a href="https://w3c.github.io/webrtc-extensions/#dom-rtcpeerconnection-startdiagnosticlogging"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>api ➞ RTCPeerConnection ➞ stopDiagnosticLogging_static
+                    	<a href="https://w3c.github.io/webrtc-extensions/#dom-rtcpeerconnection-stopdiagnosticlogging"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
                 </li>
             </ol>
             <h4>CSS</h4>
             <ol>
                 <li>
-                    <span>css ➞ types ➞ calc ➞ typed_division_produces_unitless_number
-                    	<a href="https://www.w3.org/TR/css-values-4/#calc-type-checking"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    <span>css ➞ selectors ➞ field-content
+                    	<a href="https://drafts.csswg.org/css-forms-1/#selectordef-field-content"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>HTML</h4>
+            <ol>
+                <li>
+                    <span>html ➞ elements ➞ img ➞ controls
+                    	<a href="https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-controls"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Safari</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+            </ol>
+            <h4>WEBDRIVER</h4>
+            <ol>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride
+                    	<a href="https://w3c.github.io/webdriver-bidi/#command-emulation-setMediaFeaturesOverride"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                   
                   <b><br></b> 
                   <span class="browsers">Added to <strong>Firefox</strong></span> 
                   <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
                 </li>
                 <li>
-                    <span>css ➞ types ➞ sign ➞ typed_division_produces_unitless_number
-                    	<a href="https://www.w3.org/TR/css-values-4/#calc-type-checking"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride ➞ contexts_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetmediafeaturesoverrideparameters-contexts"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                   
                   <b><br></b> 
                   <span class="browsers">Added to <strong>Firefox</strong></span> 
                   <b>&nbsp;➞&nbsp;</b>
-                  <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
                 </li>
                 <li>
-                    <span>css ➞ properties ➞ scroll-snap-type ➞ pair
-                    	<a href="https://drafts.csswg.org/css-scroll-snap/#valdef-scroll-snap-type-pair"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride ➞ features_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetmediafeaturesoverrideparameters-features"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                   </span>
 
                   
                   <b><br></b> 
-                  <span class="browsers">Added to <strong>Chrome</strong></span> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride ➞ features_parameter ➞ prefers-color-scheme
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationmediafeatures-prefers-color-scheme"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
+                  <b>&nbsp;➞&nbsp;</b>
+                  <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+
+                </li>
+                <li>
+                    <span>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride ➞ userContexts_parameter
+                    	<a href="https://w3c.github.io/webdriver-bidi/#cddl-key-emulationsetmediafeaturesoverrideparameters-usercontexts"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                  </span>
+
+                  
+                  <b><br></b> 
+                  <span class="browsers">Added to <strong>Firefox</strong></span> 
                   <b>&nbsp;➞&nbsp;</b>
                   <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
 
@@ -91,110 +180,124 @@
 
 		<hr>
 
-    <h2 class="report-subtitle">BCD Metadata Changes: 255</h2>
+    <h2 class="report-subtitle">BCD Metadata Changes: 130</h2>
     <details class="section-background">
-      <summary>Show all 255 changes</summary>
+      <summary>Show all 130 changes</summary>
       <div class="outline-container">
       <p class="info"><strong>Note:</strong> The following represent changes to BCD metadata keys
         in the reported time period.  Keys are not implementations, and they don't represent commitments toward implementation, etc.  A new key occurring is perhaps a signal that some implementer was serious enough to add the key.  Many of the features that are 'removed' are usually just 'moved' or 'renamed', but we don't have great ways to highlight that.
       </p>
       </div>
 
-        <h3>Backfilled entries (112)</h3>
+        <h3>Backfilled entries (62)</h3>
         <div class="info-container outline-container">
-          <p class="info">The entries in this section saw support information change since the report on  Monday, 5 October 2026, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
+          <p class="info">The entries in this section saw support information change since the report on  Monday, 12 October 2026, but all the supported browser versions given were more than a couple of months old.  Typically, these are cases of support information being updated long after the support actually landed in a browser, but nobody ever updated the BCD entry.
       </p>
       </div>
         <section class="backfilled implementations">
             <h4>API</h4>
               <ol>
                   <li>
+                      <span>api ➞ GPUSupportedFeatures ➞ feature_clip-distances
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-clip-distances"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                      <a href="https://developer.mozilla.org/docs/Web/API/InputEvent/isComposing">api ➞ InputEvent ➞ isComposing</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ PerformanceResourceTiming ➞ deliveryType ➞ navigational-prefetch
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
+                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ body ➞ accepts_readablestream
+                        <a href="https://fetch.spec.whatwg.org/#concept-body-stream"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
 
-                      <a href="https://developer.mozilla.org/docs/Web/API/KeyboardEvent/isComposing">api ➞ KeyboardEvent ➞ isComposing</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ Request ➞ Request ➞ options_parameter ➞ duplex
+                        <a href="https://fetch.spec.whatwg.org/#dom-requestinit-duplex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ WebTransport ➞ responseHeaders
+                        <a href="https://w3c.github.io/webtransport/#dom-webtransport-responseheaders"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ fetch ➞ options_parameter ➞ body ➞ accepts_readablestream
+                        <a href="https://fetch.spec.whatwg.org/#concept-body-stream"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ fetch ➞ options_parameter ➞ duplex
+                        <a href="https://fetch.spec.whatwg.org/#dom-requestinit-duplex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>api ➞ EXT_polygon_offset_clamp
+                        <a href="https://registry.khronos.org/webgl/extensions/EXT_polygon_offset_clamp/"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter
-                        <a href="https://webaudio.github.io/web-speech-api/#dictdef-speechrecognitionoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>api ➞ EXT_polygon_offset_clamp ➞ polygonOffsetClampEXT
+                        <a href="https://registry.khronos.org/webgl/extensions/EXT_polygon_offset_clamp/"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
                     <b><br></b> 
                     <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter ➞ options_langs_parameter
-                        <a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-langs"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ SpeechRecognition ➞ available_static ➞ options_parameter ➞ options_processLocally_parameter
-                        <a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-processlocally"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter
-                        <a href="https://webaudio.github.io/web-speech-api/#dictdef-speechrecognitionoptions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter ➞ options_langs_parameter
-                        <a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-langs"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ SpeechRecognition ➞ install_static ➞ options_parameter ➞ options_processLocally_parameter
-                        <a href="https://webaudio.github.io/web-speech-api/#dom-speechrecognitionoptions-processlocally"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>api ➞ GPUDevice ➞ createPipelineLayout ➞ descriptor_immediateSize_parameter
+                        <a href="https://gpuweb.github.io/gpuweb/#dom-gpupipelinelayoutdescriptor-immediatesize"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
@@ -204,8 +307,8 @@
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ after_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>api ➞ PaymentRequest ➞ show ➞ returns_OperationError
+                        <a href="https://w3c.github.io/web-based-payment-handler/#dfn-payment-app-failure-algorithm"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
@@ -215,8 +318,8 @@
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ backdrop_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>api ➞ PaymentRequestEvent ➞ respondWith ➞ returns_OperationError
+                        <a href="https://w3c.github.io/web-based-payment-handler/#dfn-payment-app-failure-algorithm"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
@@ -226,8 +329,8 @@
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ before_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>api ➞ Permissions ➞ permission_idle-detection
+                        <a href="https://wicg.github.io/idle-detection/#api-permissions"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
@@ -237,8 +340,8 @@
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ marker_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>api ➞ WGSLLanguageFeatures ➞ extension_immediate_address_space
+                        <a href="https://gpuweb.github.io/gpuweb/wgsl/#language_extension-immediate_address_space"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
@@ -248,65 +351,8 @@
                     <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ scroll-marker_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
 
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition-group_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition-image-pair_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition-transition-new_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition-transition-old_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition_pseudo
-                        <a href="https://drafts.csswg.org/css-pseudo-4/#dom-element-pseudo-type-type:~:text&#x3D;Parse%20the%20type%20argument%20as%20a%20%3Cpseudo%2Delement%2Dselector"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
+                      <a href="https://developer.mozilla.org/docs/Web/API/console/context_static">api ➞ console ➞ context_static</a>
                     
                     <b><br></b> 
                     <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
@@ -317,367 +363,46 @@
             <h4>CSS</h4>
               <ol>
                   <li>
-                      <span>css ➞ properties ➞ line-clamp ➞ no-ellipsis
-                        <a href="https://drafts.csswg.org/css-overflow-4/#valdef-block-ellipsis-no-ellipsis"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
 
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/link-parameters">css ➞ properties ➞ link-parameters</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>css ➞ properties ➞ line-clamp ➞ string
-                        <a href="https://drafts.csswg.org/css-values-4/#string-value"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>css ➞ properties ➞ link-parameters ➞ none
+                        <a href="https://drafts.csswg.org/css-link-params/#valdef-none-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
                   </li>
                   <li>
 
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/corner-shape-value">css ➞ types ➞ corner-shape-value</a>
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/symbols">css ➞ properties ➞ list-style ➞ symbols</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ corner-shape-value ➞ bevel
-                        <a href="https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-bevel"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ corner-shape-value ➞ notch
-                        <a href="https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-notch"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ corner-shape-value ➞ round
-                        <a href="https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-round"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ corner-shape-value ➞ scoop
-                        <a href="https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-scoop"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ corner-shape-value ➞ square
-                        <a href="https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-square"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ corner-shape-value ➞ squircle
-                        <a href="https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-squircle"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ corner-shape-value ➞ superellipse
-                        <a href="https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-superellipse-k"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
 
-                      <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/superellipse">css ➞ types ➞ superellipse</a>
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/symbols">css ➞ properties ➞ list-style-type ➞ symbols</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_bottom-center
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_bottom-left
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_bottom-left-corner
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-left-corner"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_bottom-right
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_bottom-right-corner
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-right-corner"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_left-bottom
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-left-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_left-middle
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-left-middle"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_left-top
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-left-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_right-bottom
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-right-bottom"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_right-middle
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-right-middle"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_right-top
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-right-top"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_top-center
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_top-left
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-left"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_top-left-corner
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-left-corner"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_top-right
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-right"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ at_top-right-corner
-                        <a href="https://drafts.csswg.org/css-page-3/#at-ruledef-top-right-corner"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ at-rules ➞ page ➞ page-margin-safety
-                        <a href="https://drafts.csswg.org/css-page-3/#page-margin-safety"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ baseline
-                        <a href="https://drafts.csswg.org/css-align/#typedef-baseline-position"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ center
-                        <a href="https://drafts.csswg.org/css-align/#valdef-self-position-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ context_block
-                        <a href="https://drafts.csswg.org/css-align/#distribution-block"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ context_flex
-                        <a href="https://drafts.csswg.org/css-align/#distribution-flex"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ context_grid
-                        <a href="https://drafts.csswg.org/css-align/#distribution-grid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ context_multicol
-                        <a href="https://drafts.csswg.org/css-align/#distribution-multicol,https://drafts.csswg.org/css-multicol/#the-multi-column-model"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>css ➞ properties ➞ position-visibility ➞ anchor-valid
+                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchor-valid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
@@ -687,568 +412,72 @@
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>css ➞ properties ➞ align-content ➞ end
-                        <a href="https://drafts.csswg.org/css-align/#valdef-self-position-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>css ➞ properties ➞ position-visibility ➞ anchor-visible
+                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchor-visible"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ first_baseline
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-justify-self-first-baseline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ flex-end
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-content-flex-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ flex-start
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-content-flex-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ last_baseline
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-justify-self-last-baseline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>css ➞ properties ➞ align-content ➞ safe
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-overflow-position-safe"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>css ➞ properties ➞ position-visibility ➞ anchors-valid
+                        <a href="https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchor-visible:~:text&#x3D;anchors%2Dvalid"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>css ➞ properties ➞ align-content ➞ space-around
-                        <a href="https://drafts.csswg.org/css-align/#valdef-align-content-space-around"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>css ➞ properties ➞ ruby-overhang ➞ none
+                        <a href="https://drafts.csswg.org/css-ruby/#valdef-ruby-overhang-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ space-between
-                        <a href="https://drafts.csswg.org/css-align/#valdef-align-content-space-between"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ space-evenly
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-align-content-space-evenly"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ start
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-self-position-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ stretch
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-content-stretch"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-content ➞ unsafe
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-overflow-position-unsafe"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ baseline
-                        <a href="https://drafts.csswg.org/css-flexbox-1/#valdef-align-items-baseline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ center
-                        <a href="https://drafts.csswg.org/css-align/#valdef-self-position-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ context_flex
-                        <a href="https://drafts.csswg.org/css-align/#align-items-property,https://drafts.csswg.org/css-flexbox/#align-items-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ context_flex ➞ end_in_flex
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-self-position-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ context_flex ➞ start_in_flex
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-self-position-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ context_grid
-                        <a href="https://drafts.csswg.org/css-align/#align-items-property,https://drafts.csswg.org/css-flexbox/#align-items-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ end
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-self-position-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ first_baseline
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-justify-self-first-baseline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ flex-end
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-items-flex-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ flex-start
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-items-flex-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ last_baseline
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-justify-self-last-baseline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ normal
-                        <a href="https://drafts.csswg.org/css-align-3/#propdef-align-items"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ safe
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-overflow-position-safe"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ self-end
-                        <a href="https://drafts.csswg.org/css-align/#valdef-self-position-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ self-start
-                        <a href="https://drafts.csswg.org/css-align/#valdef-self-position-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ start
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-self-position-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ stretch
-                        <a href="https://drafts.csswg.org/css-align-3/#propdef-align-items"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-items ➞ unsafe
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-overflow-position-unsafe"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ baseline
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-items-baseline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ center
-                        <a href="https://drafts.csswg.org/css-align/#valdef-self-position-center"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ context_flex
-                        <a href="https://drafts.csswg.org/css-align/#align-self-property,https://drafts.csswg.org/css-flexbox/#align-items-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ context_flex ➞ stretch_in_flex
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-items-stretch"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ context_grid
-                        <a href="https://drafts.csswg.org/css-align/#align-self-property,https://drafts.csswg.org/css-flexbox/#align-items-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ context_position_absolute
-                        <a href="https://drafts.csswg.org/css-align/#align-self-property"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ end
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-self-position-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ first_baseline
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-justify-self-first-baseline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ flex-end
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-items-flex-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ flex-start
-                        <a href="https://drafts.csswg.org/css-flexbox/#valdef-align-items-flex-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ last_baseline
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-justify-self-last-baseline"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ safe
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-overflow-position-safe"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ self-end
-                        <a href="https://drafts.csswg.org/css-align/#valdef-self-position-self-end"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ self-start
-                        <a href="https://drafts.csswg.org/css-align/#valdef-self-position-self-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ start
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-self-position-start"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ properties ➞ align-self ➞ unsafe
-                        <a href="https://drafts.csswg.org/css-align-3/#valdef-overflow-position-unsafe"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ attr ➞ raw-string
-                        <a href="https://drafts.csswg.org/css-values-5/#attr-notation"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ color ➞ system-color ➞ accentcolor
-                        <a href="https://drafts.csswg.org/css-color/#valdef-color-accentcolor"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-                  <li>
-                      <span>css ➞ types ➞ color ➞ system-color ➞ accentcolortext
-                        <a href="https://drafts.csswg.org/css-color/#valdef-color-accentcolortext"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
-
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-                  </li>
-              </ol>
-            <h4>JAVASCRIPT</h4>
-              <ol>
-                  <li>
-
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import/defer">javascript ➞ operators ➞ import ➞ defer</a>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
                   </li>
                   <li>
 
-                      <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import/defer">javascript ➞ statements ➞ import ➞ defer</a>
+                      <a href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-inset">css ➞ properties ➞ text-decoration-inset</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>javascript ➞ operators ➞ import ➞ http_errors_not_cached
-                        <a href="https://html.spec.whatwg.org/multipage/webappapis.html#fetch-a-single-module-script"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>css ➞ properties ➞ text-decoration-inset ➞ auto
+                        <a href="https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-inset-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ block-ellipsis ➞ ellipsis
+                        <a href="https://drafts.csswg.org/css-overflow-4/#valdef-block-ellipsis-ellipsis"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ content ➞ content_replacement
+                        <a href="https://drafts.csswg.org/css-content/#valdef-content-content-replacement"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
@@ -1258,8 +487,52 @@
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>javascript ➞ statements ➞ import ➞ http_errors_not_cached
-                        <a href="https://html.spec.whatwg.org/multipage/webappapis.html#fetch-a-single-module-script"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>css ➞ properties ➞ continue ➞ normal
+                        <a href="https://drafts.csswg.org/css-overflow-4/#valdef-continue-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ fit-tolerance
+                        <a href="https://drafts.csswg.org/css-grid-3/#propdef-fit-tolerance"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ fit-tolerance ➞ infinite
+                        <a href="https://drafts.csswg.org/css-grid-3/#valdef-fit-tolerance-infinite"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ fit-tolerance ➞ normal
+                        <a href="https://drafts.csswg.org/css-grid-3/#valdef-fit-tolerance-normal"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ line-clamp ➞ ellipsis
+                        <a href="https://drafts.csswg.org/css-overflow-4/#valdef-block-ellipsis-ellipsis"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
@@ -1267,15 +540,187 @@
                     <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ max-lines ➞ auto
+                        <a href="https://drafts.csswg.org/css-overflow-4/#max-lines-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ max-size
+                        <a href="https://drafts.csswg.org/css-sizing-4/#propdef-max-size"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ max-size ➞ fit-content
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-fit-content"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ max-size ➞ max-content
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-max-content"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ max-size ➞ min-content
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-min-content"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ max-size ➞ none
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-max-width-none"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ max-size ➞ stretch
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-stretch"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ min-size
+                        <a href="https://drafts.csswg.org/css-sizing-4/#propdef-min-size"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ min-size ➞ auto
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-auto"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ min-size ➞ fit-content
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-fit-content"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ min-size ➞ max-content
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-max-content"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ min-size ➞ min-content
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-min-content"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ properties ➞ min-size ➞ stretch
+                        <a href="https://drafts.csswg.org/css-sizing/#valdef-width-stretch"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ color ➞ hsla
+                        <a href="https://drafts.csswg.org/css-color/#funcdef-hsla"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>css ➞ types ➞ random-item
+                        <a href="https://drafts.csswg.org/css-values-5/#funcdef-random-item"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
                   </li>
               </ol>
             <h4>HTML</h4>
               <ol>
                   <li>
-                      <span>html ➞ elements ➞ script ➞ type ➞ module ➞ http_errors_not_cached
-                        <a href="https://html.spec.whatwg.org/multipage/webappapis.html#fetch-a-single-module-script"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
 
+                      <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/script/type/speculationrules">html ➞ elements ➞ script ➞ type ➞ speculationrules</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/script/type/speculationrules#eagerness">html ➞ elements ➞ script ➞ type ➞ speculationrules ➞ eagerness</a>
                     
                     <b><br></b> 
                     <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
@@ -1283,9 +728,8 @@
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>html ➞ elements ➞ textarea ➞ wrap ➞ off
-                    </span>
 
+                      <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/script/type/speculationrules#prefetch">html ➞ elements ➞ script ➞ type ➞ speculationrules ➞ prefetch</a>
                     
                     <b><br></b> 
                     <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
@@ -1293,42 +737,119 @@
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>html ➞ elements ➞ textarea ➞ wrap ➞ soft
-                        <a href="https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-wrap"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
-                    </span>
 
+                      <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/script/type/speculationrules#urls">html ➞ elements ➞ script ➞ type ➞ speculationrules ➞ urls</a>
                     
                     <b><br></b> 
                     <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
                     <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>html ➞ elements ➞ script ➞ type ➞ speculationrules ➞ form_submission
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/script/type/speculationrules#source">html ➞ elements ➞ script ➞ type ➞ speculationrules ➞ source</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
                   </li>
               </ol>
-            <h4>SVG</h4>
+            <h4>WEBASSEMBLY</h4>
               <ol>
                   <li>
 
-                      <a href="https://developer.mozilla.org/docs/Web/SVG/Reference/Attribute/method">svg ➞ elements ➞ textPath ➞ method</a>
+                      <a href="https://developer.mozilla.org/docs/WebAssembly/Reference/Numeric/add128">webassembly ➞ instructions ➞ add128</a>
                     
                     <b><br></b> 
-                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>svg ➞ elements ➞ textPath ➞ method ➞ align
-                        <a href="https://w3c.github.io/svgwg/svg2-draft/text.html#TextPathElementMethodAttribute"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+
+                      <a href="https://developer.mozilla.org/docs/WebAssembly/Reference/Numeric/mul_wide_s">webassembly ➞ instructions ➞ mul_wide_s</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/WebAssembly/Reference/Numeric/mul_wide_u">webassembly ➞ instructions ➞ mul_wide_u</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+
+                      <a href="https://developer.mozilla.org/docs/WebAssembly/Reference/Numeric/sub128">webassembly ➞ instructions ➞ sub128</a>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Safari</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webassembly ➞ type-reflection
+                        <a href="https://webassembly.github.io/js-types/js-api/#dictdef-externtype"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
                     </span>
 
                     
                     <b><br></b> 
                     <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
                     <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
                   </li>
                   <li>
-                      <span>svg ➞ elements ➞ textPath ➞ method ➞ stretch
-                        <a href="https://w3c.github.io/svgwg/svg2-draft/text.html#TextPathElementMethodAttribute"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                      <span>webassembly ➞ wideArithmetic
+                        <a href="https://github.com/WebAssembly/wide-arithmetic/blob/main/proposals/wide-arithmetic/Overview.md"><img src="https://bcd-watch.igalia.com/imgs/spec2.svg" alt="Spec link"></a>
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni2 engines"><strong>2 of 3</strong> engines</span>
+                  </li>
+              </ol>
+            <h4>WEBEXTENSIONS</h4>
+              <ol>
+                  <li>
+                      <span>webextensions ➞ api ➞ menus ➞ update ➞ icons
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ menus ➞ update ➞ viewTypes
+                    </span>
+
+                    
+                    <b><br></b> 
+                    <span class="browsers">Backfilled for <strong>Firefox</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni1 engines"><strong>1 of 3</strong> engines</span>
+                  </li>
+                  <li>
+                      <span>webextensions ➞ api ➞ menus ➞ update ➞ visible
                     </span>
 
                     
@@ -1340,326 +861,182 @@
               </ol>
         </section>
       
-      <h3>New entries (97)</h3>
+      <h3>New entries (47)</h3>
       <div class="outline-container">
-        <p class="info">The entries in this section were not found in BCD on Monday, 5 October 2026, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
+        <p class="info">The entries in this section were not found in BCD on Monday, 12 October 2026, but are now present. These usually do not have any support information attached to them, and often have no corresponding MDN page. Sometimes, entries that appear here also appear in the next section (“Removed BCD entries”) because of a Working Group deciding on a rename.
         </p>
       </div>
       <section class="added implementations">
             <h4>API</h4>
           <ol>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter
+              <li>api ➞ EXT_polygon_offset_clamp
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ after_pseudo
+              <li>api ➞ EXT_polygon_offset_clamp ➞ polygonOffsetClampEXT
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ backdrop_pseudo
+              <li>api ➞ GPUDevice ➞ createPipelineLayout ➞ descriptor_immediateSize_parameter
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ before_pseudo
+              <li>api ➞ PaymentRequest ➞ show ➞ returns_OperationError
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ marker_pseudo
+              <li>api ➞ PaymentRequestEvent ➞ respondWith ➞ returns_OperationError
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ scroll-marker_pseudo
+              <li>api ➞ Permissions ➞ permission_idle-detection
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition-group_pseudo
+              <li>api ➞ RTCPeerConnection ➞ cancelDiagnosticLogging_static
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition-image-pair_pseudo
+              <li>api ➞ RTCPeerConnection ➞ startDiagnosticLogging_static
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition-transition-new_pseudo
+              <li>api ➞ RTCPeerConnection ➞ stopDiagnosticLogging_static
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition-transition-old_pseudo
+              <li>api ➞ WGSLLanguageFeatures ➞ extension_immediate_address_space
               </li>
-              <li>api ➞ Element ➞ pseudo ➞ type_parameter ➞ view-transition_pseudo
-              </li>
-              <li>api ➞ GPUDevice ➞ createRenderPipeline ➞ vertex_1-component
-              </li>
-              <li>api ➞ GPUDevice ➞ createRenderPipeline ➞ vertex_unorm8x4-bgra
-              </li>
-              <li>api ➞ GPUDevice ➞ createRenderPipelineAsync ➞ vertex_1-component
-              </li>
-              <li>api ➞ GPUDevice ➞ createRenderPipelineAsync ➞ vertex_unorm8x4-bgra
-              </li>
-              <li>api ➞ VRStageParameters ➞ sizeZ
+              <li>api ➞ console ➞ context_static
               </li>
           </ol>
             <h4>CSS</h4>
           <ol>
-              <li>css ➞ at-rules ➞ page ➞ at_bottom-center
+              <li>css ➞ properties ➞ block-ellipsis ➞ ellipsis
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_bottom-left
+              <li>css ➞ properties ➞ content ➞ content_replacement
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_bottom-left-corner
+              <li>css ➞ properties ➞ continue ➞ normal
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_bottom-right
+              <li>css ➞ properties ➞ fit-tolerance
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_bottom-right-corner
+              <li>css ➞ properties ➞ fit-tolerance ➞ infinite
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_left-bottom
+              <li>css ➞ properties ➞ fit-tolerance ➞ normal
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_left-middle
+              <li>css ➞ properties ➞ line-clamp ➞ ellipsis
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_left-top
+              <li>css ➞ properties ➞ max-lines ➞ auto
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_right-bottom
+              <li>css ➞ properties ➞ max-size
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_right-middle
+              <li>css ➞ properties ➞ max-size ➞ fit-content
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_right-top
+              <li>css ➞ properties ➞ max-size ➞ max-content
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_top-center
+              <li>css ➞ properties ➞ max-size ➞ min-content
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_top-left
+              <li>css ➞ properties ➞ max-size ➞ none
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_top-left-corner
+              <li>css ➞ properties ➞ max-size ➞ stretch
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_top-right
+              <li>css ➞ properties ➞ min-size
               </li>
-              <li>css ➞ at-rules ➞ page ➞ at_top-right-corner
+              <li>css ➞ properties ➞ min-size ➞ auto
               </li>
-              <li>css ➞ at-rules ➞ page ➞ page-margin-safety
+              <li>css ➞ properties ➞ min-size ➞ fit-content
               </li>
-              <li>css ➞ properties ➞ align-content ➞ baseline
+              <li>css ➞ properties ➞ min-size ➞ max-content
               </li>
-              <li>css ➞ properties ➞ align-content ➞ center
+              <li>css ➞ properties ➞ min-size ➞ min-content
               </li>
-              <li>css ➞ properties ➞ align-content ➞ context_block
+              <li>css ➞ properties ➞ min-size ➞ stretch
               </li>
-              <li>css ➞ properties ➞ align-content ➞ context_flex
+              <li>css ➞ selectors ➞ field-content
               </li>
-              <li>css ➞ properties ➞ align-content ➞ context_grid
+              <li>css ➞ types ➞ color ➞ hsla
               </li>
-              <li>css ➞ properties ➞ align-content ➞ context_multicol
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ end
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ first_baseline
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ flex-end
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ flex-start
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ last_baseline
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ safe
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ space-around
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ space-between
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ space-evenly
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ start
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ stretch
-              </li>
-              <li>css ➞ properties ➞ align-content ➞ unsafe
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ baseline
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ center
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ context_flex
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ context_flex ➞ end_in_flex
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ context_flex ➞ start_in_flex
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ context_grid
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ end
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ first_baseline
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ flex-end
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ flex-start
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ last_baseline
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ normal
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ safe
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ self-end
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ self-start
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ start
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ stretch
-              </li>
-              <li>css ➞ properties ➞ align-items ➞ unsafe
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ baseline
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ center
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ context_flex
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ context_flex ➞ stretch_in_flex
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ context_grid
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ context_position_absolute
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ end
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ first_baseline
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ flex-end
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ flex-start
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ last_baseline
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ safe
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ self-end
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ self-start
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ start
-              </li>
-              <li>css ➞ properties ➞ align-self ➞ unsafe
-              </li>
-              <li>css ➞ properties ➞ scroll-snap-type ➞ pair
-              </li>
-              <li>css ➞ types ➞ attr ➞ raw-string
-              </li>
-              <li>css ➞ types ➞ color ➞ system-color ➞ accentcolor
-              </li>
-              <li>css ➞ types ➞ color ➞ system-color ➞ accentcolortext
+              <li>css ➞ types ➞ random-item
               </li>
           </ol>
             <h4>HTML</h4>
           <ol>
-              <li>html ➞ elements ➞ script ➞ type ➞ module ➞ http_errors_not_cached
+              <li>html ➞ elements ➞ img ➞ controls
               </li>
-              <li>html ➞ elements ➞ textarea ➞ wrap ➞ off
+              <li>html ➞ elements ➞ script ➞ type ➞ speculationrules ➞ form_submission
               </li>
-              <li>html ➞ elements ➞ textarea ➞ wrap ➞ soft
-              </li>
-          </ol>
-            <h4>JAVASCRIPT</h4>
-          <ol>
-              <li>javascript ➞ operators ➞ import ➞ http_errors_not_cached
-              </li>
-              <li>javascript ➞ statements ➞ import ➞ http_errors_not_cached
+              <li>html ➞ elements ➞ script ➞ type ➞ speculationrules ➞ source
               </li>
           </ol>
-            <h4>SVG</h4>
+            <h4>WEBASSEMBLY</h4>
           <ol>
-              <li>svg ➞ elements ➞ textPath ➞ method
+              <li>webassembly ➞ type-reflection
               </li>
-              <li>svg ➞ elements ➞ textPath ➞ method ➞ align
+              <li>webassembly ➞ wideArithmetic
               </li>
-              <li>svg ➞ elements ➞ textPath ➞ method ➞ stretch
+          </ol>
+            <h4>WEBDRIVER</h4>
+          <ol>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride ➞ contexts_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride ➞ features_parameter
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride ➞ features_parameter ➞ prefers-color-scheme
+              </li>
+              <li>webdriver ➞ bidi ➞ emulation ➞ setMediaFeaturesOverride ➞ userContexts_parameter
+              </li>
+          </ol>
+            <h4>WEBEXTENSIONS</h4>
+          <ol>
+              <li>webextensions ➞ api ➞ menus ➞ update ➞ icons
+              </li>
+              <li>webextensions ➞ api ➞ menus ➞ update ➞ viewTypes
+              </li>
+              <li>webextensions ➞ api ➞ menus ➞ update ➞ visible
               </li>
           </ol>
         </section> 
       
 
-      <h3>Removed entries (46)</h3>
+      <h3>Removed entries (21)</h3>
         <div class="outline-container">
-          <p class="info">The entries in this section were found in BCD on Monday, 5 October 2026, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
+          <p class="info">The entries in this section were found in BCD on Monday, 12 October 2026, but are no longer present. The reasons for this removal can be anything from an experimental proposal that was never supported to a property or value being renamed to something else.
           </p>
         </div>
         <section class="removed implementations">
                 <h4>API</h4>
               <ol>
-                  <li>api ➞ VRStageParameters ➞ sizeY
+                  <li>api ➞ ShadowRoot ➞ afterHTML
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ afterHTMLUnsafe
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ beforeHTML
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ beforeHTMLUnsafe
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ replaceWithHTML
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ replaceWithHTMLUnsafe
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ streamAfterHTML
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ streamAfterHTMLUnsafe
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ streamBeforeHTML
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ streamBeforeHTMLUnsafe
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ streamReplaceWithHTML
+                  </li>
+                  <li>api ➞ ShadowRoot ➞ streamReplaceWithHTMLUnsafe
                   </li>
               </ol>
                 <h4>CSS</h4>
               <ol>
-                  <li>css ➞ at-rules ➞ page ➞ bottom-center
+                  <li>css ➞ properties ➞ block-ellipsis ➞ auto
                   </li>
-                  <li>css ➞ at-rules ➞ page ➞ bottom-left
+                  <li>css ➞ properties ➞ content ➞ element_replacement
                   </li>
-                  <li>css ➞ at-rules ➞ page ➞ bottom-left-corner
+                  <li>css ➞ properties ➞ continue ➞ auto
                   </li>
-                  <li>css ➞ at-rules ➞ page ➞ bottom-right
+                  <li>css ➞ properties ➞ flow-tolerance
                   </li>
-                  <li>css ➞ at-rules ➞ page ➞ bottom-right-corner
+                  <li>css ➞ properties ➞ flow-tolerance ➞ infinite
                   </li>
-                  <li>css ➞ at-rules ➞ page ➞ left-bottom
+                  <li>css ➞ properties ➞ flow-tolerance ➞ normal
                   </li>
-                  <li>css ➞ at-rules ➞ page ➞ left-middle
+                  <li>css ➞ properties ➞ line-clamp ➞ auto
                   </li>
-                  <li>css ➞ at-rules ➞ page ➞ left-top
+                  <li>css ➞ properties ➞ max-lines ➞ none
                   </li>
-                  <li>css ➞ at-rules ➞ page ➞ right-bottom
-                  </li>
-                  <li>css ➞ at-rules ➞ page ➞ right-middle
-                  </li>
-                  <li>css ➞ at-rules ➞ page ➞ right-top
-                  </li>
-                  <li>css ➞ at-rules ➞ page ➞ top-center
-                  </li>
-                  <li>css ➞ at-rules ➞ page ➞ top-left
-                  </li>
-                  <li>css ➞ at-rules ➞ page ➞ top-left-corner
-                  </li>
-                  <li>css ➞ at-rules ➞ page ➞ top-right
-                  </li>
-                  <li>css ➞ at-rules ➞ page ➞ top-right-corner
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ block_context
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ flex_context
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ flex_context ➞ baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ flex_context ➞ first_baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ flex_context ➞ last_baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ flex_context ➞ safe_unsafe
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ flex_context ➞ space-evenly
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ flex_context ➞ start_end
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ flex_context ➞ stretch
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ grid_context
-                  </li>
-                  <li>css ➞ properties ➞ align-content ➞ multicol_context
-                  </li>
-                  <li>css ➞ properties ➞ align-items ➞ flex_context
-                  </li>
-                  <li>css ➞ properties ➞ align-items ➞ flex_context ➞ baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-items ➞ flex_context ➞ first_baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-items ➞ flex_context ➞ last_baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-items ➞ flex_context ➞ safe_unsafe
-                  </li>
-                  <li>css ➞ properties ➞ align-items ➞ flex_context ➞ start_end
-                  </li>
-                  <li>css ➞ properties ➞ align-items ➞ grid_context
-                  </li>
-                  <li>css ➞ properties ➞ align-items ➞ grid_context ➞ start_end
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ flex_context
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ flex_context ➞ baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ flex_context ➞ first_baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ flex_context ➞ last_baseline
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ flex_context ➞ safe_unsafe
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ flex_context ➞ start_end
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ flex_context ➞ stretch
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ grid_context
-                  </li>
-                  <li>css ➞ properties ➞ align-self ➞ position_absolute_context
-                  </li>
-                  <li>css ➞ types ➞ color ➞ system-color ➞ accentcolor_accentcolortext
+              </ol>
+                <h4>HTML</h4>
+              <ol>
+                  <li>html ➞ elements ➞ script ➞ type ➞ speculationrules ➞ source_optional
                   </li>
               </ol>
           </section>
@@ -1667,7 +1044,7 @@
   
   <hr>
   <ul id="prev-next">
-  	<li>Previous report: <a href="2026-10-05.html"><time title="Monday, 5 October 2026">Monday, 5 October 2026</time></a></li>
+  	<li>Previous report: <a href="2026-10-12.html"><time title="Monday, 12 October 2026">Monday, 12 October 2026</time></a></li>
   </ul>
   <hr>
   <footer>
@@ -1679,7 +1056,7 @@
   	</p>
 		<div class="subfooter">
 			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.4">v8.1.4</a> <small>(Monday, 5 October 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.5">v8.1.5</a> <small>(Monday, 12 October 2026)</small>
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.5">v8.1.5</a> <small>(Monday, 12 October 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.6">v8.1.6</a> <small>(Monday, 19 October 2026)</small>
 			</span>
 		</div>
   </footer>

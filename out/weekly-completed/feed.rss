@@ -4,7 +4,7 @@
         <title>BCD-watch: New Baselines Report (weekly)</title>
         <link>https://bcd-watch.igalia.com</link>
         <description>A feed that summarizes changes to BCD weekly</description>
-        <lastBuildDate>Mon, 16 Nov 2026 05:40:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Nov 2026 00:39:03 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>awesome mix</generator>
         <image>
@@ -14,6 +14,258 @@
         </image>
         <copyright>All rights reserved, Igalia SL</copyright>
         <atom:link href="https://bcd-watch.igalia.com/weekly-completed/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[BCD New Universal Implementations Report, Mon Nov 23 2026]]></title>
+            <link>https://bcd-watch.igalia.com/weekly-completed/2026-11-23.html</link>
+            <guid>https://bcd-watch.igalia.com/weekly-completed/2026-11-23.html</guid>
+            <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
+            <content:encoded><![CDATA[<main>
+    <p>
+	Summary of BCD changes from <a href=""><time title="Monday, 16 November 2026">Monday, 16 November 2026</time></a> through <time title="Monday, 23 November 2026">Monday, 23 November 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2026-11-23.html" title="permalink">🔗</a>
+    </p>
+    <hr>
+
+
+          <p class="callout"><strong>15 new universal implementations</strong></p>
+          <section class="added implementations">
+	            <h4>API</h4>
+              <ol>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/Navigator/globalPrivacyControl">api ➞ Navigator ➞ globalPrivacyControl</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransport/congestionControl">api ➞ WebTransport ➞ congestionControl</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransport/createSendGroup">api ➞ WebTransport ➞ createSendGroup</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransport/exportKeyingMaterial">api ➞ WebTransport ➞ exportKeyingMaterial</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportDatagramDuplexStream/createWritable">api ➞ WebTransportDatagramDuplexStream ➞ createWritable</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportDatagramsWritable">api ➞ WebTransportDatagramsWritable</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportDatagramsWritable/sendGroup">api ➞ WebTransportDatagramsWritable ➞ sendGroup</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportDatagramsWritable/sendOrder">api ➞ WebTransportDatagramsWritable ➞ sendOrder</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportReceiveStream">api ➞ WebTransportReceiveStream</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportSendGroup">api ➞ WebTransportSendGroup</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportSendStream">api ➞ WebTransportSendStream</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportSendStream/getWriter">api ➞ WebTransportSendStream ➞ getWriter</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportSendStream/sendGroup">api ➞ WebTransportSendStream ➞ sendGroup</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WebTransportSendStream/sendOrder">api ➞ WebTransportSendStream ➞ sendOrder</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+                  <li>
+
+          
+
+                      <span>
+                        <a href="https://developer.mozilla.org/docs/Web/API/WorkerNavigator/globalPrivacyControl">api ➞ WorkerNavigator ➞ globalPrivacyControl</a>
+                      </span>
+                    
+                    <b><br></b> 
+                    <span class="browsers">Added to <strong>Chrome</strong></span> 
+                    <b>&nbsp;➞&nbsp;</b>
+                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
+
+                  </li>
+              </ol>
+          </section>
+
+  <hr>
+  <ul id="prev-next">
+  	<li>Previous report: <a href=""><time title="Monday, 16 November 2026">Monday, 16 November 2026</time></a></li>
+  </ul>
+  <hr>
+  <footer>
+  	<p>
+  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
+  	</p>
+  	<p>
+  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
+  	</p>
+		<div class="subfooter">
+			<span class="details">
+			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.9">v8.1.9</a> <small>(Monday, 16 November 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.10">v8.1.10</a> <small>(Monday, 23 November 2026)</small>
+			</span>
+		</div>
+  </footer>
+  </main>]]></content:encoded>
+            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[BCD New Universal Implementations Report, Mon Nov 16 2026]]></title>
             <link>https://bcd-watch.igalia.com/weekly-completed/2026-11-16.html</link>
@@ -410,62 +662,6 @@
 		<div class="subfooter">
 			<span class="details">
 			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.6">v8.1.6</a> <small>(Monday, 19 October 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.7">v8.1.7</a> <small>(Monday, 26 October 2026)</small>
-			</span>
-		</div>
-  </footer>
-  </main>]]></content:encoded>
-            <enclosure url="https://bcd-watch.igalia.com/imgs/binoculars.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[BCD New Universal Implementations Report, Mon Oct 19 2026]]></title>
-            <link>https://bcd-watch.igalia.com/weekly-completed/2026-10-19.html</link>
-            <guid>https://bcd-watch.igalia.com/weekly-completed/2026-10-19.html</guid>
-            <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Weekly summary of new Baseline items in BCD data]]></description>
-            <content:encoded><![CDATA[<main>
-    <p>
-	Summary of BCD changes from <a href=""><time title="Monday, 12 October 2026">Monday, 12 October 2026</time></a> through <time title="Monday, 19 October 2026">Monday, 19 October 2026</time></strong><a href="https://bcd-watch.igalia.com/weekly-completed/2026-10-19.html" title="permalink">🔗</a>
-    </p>
-    <hr>
-
-
-          <p class="callout"><strong>1 new universal implementation</strong></p>
-          <section class="added implementations">
-	            <h4>API</h4>
-              <ol>
-                  <li>
-
-          
-
-                      <span>
-                        <a href="https://developer.mozilla.org/docs/Web/API/EXT_texture_norm16">api ➞ EXT_texture_norm16</a>
-                      </span>
-                    
-                    <b><br></b> 
-                    <span class="browsers">Added to <strong>Firefox</strong></span> 
-                    <b>&nbsp;➞&nbsp;</b>
-                    <span class="ni3 engines"><strong>3 of 3</strong> engines</span>
-
-                  </li>
-              </ol>
-          </section>
-
-  <hr>
-  <ul id="prev-next">
-  	<li>Previous report: <a href=""><time title="Monday, 12 October 2026">Monday, 12 October 2026</time></a></li>
-  </ul>
-  <hr>
-  <footer>
-  	<p>
-  	<a href="https://bcd-watch.igalia.com/">BCD Watch</a>: A service of <a href="https://igalia.com"><img src="https://bcd-watch.igalia.com/imgs/igalia-logo.png" alt="Igalia"></a>
-  	</p>
-  	<p>
-  	Subscribe: <a href="feed.rss">RSS</a> • <a href="feed.atom">Atom</a> • <a href="feed.json">JSON</a>
-  	</p>
-		<div class="subfooter">
-			<span class="details">
-			This report was generated by diffing <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.5">v8.1.5</a> <small>(Monday, 12 October 2026)</small> and <a href="https://github.com/mdn/browser-compat-data/releases/tag/v8.1.6">v8.1.6</a> <small>(Monday, 19 October 2026)</small>
 			</span>
 		</div>
   </footer>
